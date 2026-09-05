@@ -1,0 +1,29 @@
+name: Daily Latin Vocabulary
+
+on:
+  schedule:
+    # เวลานี้เป็น UTC — ตัวอย่างนี้คือ 07:00 UTC = 14:00 น. เวลาไทย (ปรับได้ตามต้องการ)
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}  # ให้กดรันเองได้จากหน้า Actions เพื่อทดสอบ
+
+permissions:
+  contents: write
+
+jobs:
+  send-words:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send today's words
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 send_daily.py
+
+      - name: Commit updated progress
+        run: |
+          git config user.name "latin-bot"
+          git config user.email "latin-bot@users.noreply.github.com"
+          git add progress.json
+          git diff --cached --quiet || git commit -m "update progress"
+          git push
