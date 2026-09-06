@@ -3,8 +3,8 @@ import os
 import sys
 import urllib.request
 
-NAMING_PER_DAY = 3
-OE_PER_DAY = 5
+NAMING_PER_DAY = int(os.environ.get("NAMING_PER_DAY", "2"))
+OE_PER_DAY = int(os.environ.get("OE_PER_DAY", "4"))
 NAMING_FILE = "naming_roots.json"
 OE_FILE = "old_english_vocab.json"
 PROGRESS_FILE = "progress.json"
