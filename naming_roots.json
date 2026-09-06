@@ -125,5 +125,95 @@
     ],
     "old_english": "ไม่มี",
     "source": "Carian.txt"
+  },
+  {
+    "latin": "festum, festi",
+    "pos": "noun, neuter",
+    "root": "fest-",
+    "thai": "เทศกาล, งานฉลอง",
+    "naming_examples": [
+      "Festival (เทศกาลต่างๆ)",
+      "Festa (ชื่อเทศกาลในเกม Elden Ring)",
+      "Festina lente (สำนวนลาติน 'รีบช้า')"
+    ],
+    "old_english": "feast (เลี้ยงอาหาร, การเฉลิมฉลอง)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "bellum, belli",
+    "pos": "noun, neuter",
+    "root": "bell-",
+    "thai": "สงคราม, การรบ",
+    "naming_examples": [
+      "Bellona (เทพีแห่งสงคราม)",
+      "Bellatrix (ชื่อหญิงสาวจากฮารี่ พอตเตอร์ หมายถึง 'หญิงสงครามม)",
+      "Rebellion (การก่อกบฏ)"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "gloria, gloriae",
+    "pos": "noun, feminine",
+    "root": "glor-",
+    "thai": "glory, ความรุ่งโรจน์",
+    "naming_examples": [
+      "Gloria (ชื่อหญิงสาว)",
+      "Glorious (คำคุณศัพท์)",
+      "Gloria in excelsis (ท่วงท่าเพลงคริสตจักร)"
+    ],
+    "old_english": "glory (ความรุ่งโรจน์, สง่าราศี)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "pugna, pugnae",
+    "pos": "noun, feminine",
+    "root": "pugn-",
+    "thai": "การต่อสู้, การเคลื่อนไหว",
+    "naming_examples": [
+      "Pugnacious (คำคุณศัพท์ หมายถึง 'ชอบทะเลาะ')",
+      "Pugilist (นักมวย)"
+    ],
+    "old_english": "fight (การต่อสู้)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "corpus, corporis",
+    "pos": "noun, neuter",
+    "root": "corp-",
+    "thai": "ศพ, ร่างกาย",
+    "naming_examples": [
+      "Corpse (ศพ)",
+      "Corporate (บรรษัท)",
+      "Corpus Christi (เทศกาลคริสตศาสนา)"
+    ],
+    "old_english": "corpse (ศพ, สิ่งที่ตาย)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "furor, furoris",
+    "pos": "noun, masculine",
+    "root": "fur-",
+    "thai": "ความโกรธ, ความเดือดดาล",
+    "naming_examples": [
+      "Fury (ความโกรธ)",
+      "Furious (โกรธแค้น)",
+      "The Furies (เทพธิดาแห่งการแค้น)"
+    ],
+    "old_english": "fury (ความโกรธจัด, ความกริ่ม)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "honor, honoris",
+    "pos": "noun, masculine",
+    "root": "hon-",
+    "thai": "เกียรติ, ชื่อเสียง",
+    "naming_examples": [
+      "Honor (เกียรติยศ)",
+      "Honorable (มีเกียรติ)",
+      "Honoria (ชื่อหญิงสาวจากประวัติศาสตร์โรมัน)"
+    ],
+    "old_english": "honour (เกียรติ, ชื่อเสียง)",
+    "source": "Carian.txt"
   }
 ]
