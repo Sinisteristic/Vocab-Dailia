@@ -306,5 +306,44 @@
     ],
     "old_english": "ไม่มี",
     "source": "Carian.txt"
+  },
+  {
+    "latin": "potentia, potentiae",
+    "pos": "noun",
+    "root": "potent-",
+    "thai": "อำนาจ, พลัง, ความสามารถ",
+    "naming_examples": [
+      "Potentate (ผู้มีอำนาจ) - ชื่อตำแหน่งของ Diallos ในข้อความ",
+      "Potential (ศักยภาพ)",
+      "Potent (มีพลังอำนาจ)"
+    ],
+    "old_english": "potent (มีอำนาจ, มีประสิทธิ์)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "campus, campi",
+    "pos": "noun",
+    "root": "camp-",
+    "thai": "สนาม, ที่ราบ, พื้นที่",
+    "naming_examples": [
+      "Champion (ผู้ชนะ, นักรบที่เก่งที่สุด) - อ้างถึง Uncle Alexander",
+      "Campus (มหาวิทยาลัย)",
+      "Camp (ค่ายทหาร)"
+    ],
+    "old_english": "champ (อาจเกี่ยวข้องกับ campus ผ่านทางเก่า)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "domus, domus",
+    "pos": "noun",
+    "root": "dom-",
+    "thai": "บ้าน, ที่อยู่อาศัย, สถานที่เกิด",
+    "naming_examples": [
+      "House Hoslow (ครอบครัว/บ้าน) - อ้างถึงใน Section 61",
+      "Domestic (เกี่ยวกับบ้าน)",
+      "Domicile (ที่อยู่อาศัย)"
+    ],
+    "old_english": "dom หรือ home (ที่อยู่อาศัย)",
+    "source": "Carian.txt"
   }
 ]
