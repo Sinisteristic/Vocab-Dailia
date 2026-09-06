@@ -345,5 +345,44 @@
     ],
     "old_english": "dom หรือ home (ที่อยู่อาศัย)",
     "source": "Carian.txt"
+  },
+  {
+    "latin": "umbra, umbrae",
+    "pos": "noun",
+    "root": "umbr-",
+    "thai": "เงา, ร่ม",
+    "naming_examples": [
+      "Baleful Shadows (จากข้อความ) - เงาร้ายแรงในเกม Elden Ring",
+      "Umbraco - แพลตฟอร์ม CMS ที่ใช้คำนี้เป็นชื่อ",
+      "Umbreon - โปเกมอนที่มีชื่อเกี่ยวกับเงา"
+    ],
+    "old_english": "umber - สีเข้มเหมือนเงา หรือ 'ไม่มี' อย่างชัดเจน",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "nox, noctis",
+    "pos": "noun",
+    "root": "noct-",
+    "thai": "คืน, ความมืด",
+    "naming_examples": [
+      "'night sky' (จากข้อความ Section 40 - ท้องฟ้ากลางคืน)",
+      "Noctis Lucis Caelum - ตัวละครจาก Final Fantasy XV",
+      "Noctua - แบรนด์อุปกรณ์คอมพิวเตอร์"
+    ],
+    "old_english": "night - แปลว่าคืน มีรากมาจากภาษาโปรโตอินโดยูโรเปียน",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "anima, animae",
+    "pos": "noun",
+    "root": "anim-",
+    "thai": "วิญญาณ, จิตใจ, ชีวิต",
+    "naming_examples": [
+      "'souls' (จากข้อความ Section 50 - เรื่องวิญญาณ)",
+      "Anima - แนวคิดในปรัชญา เครื่องหมายของชีวิต",
+      "Animus - ส่วนเสริมของ Anima ใช้ในเกม Assassin's Creed"
+    ],
+    "old_english": "animate - ให้ชีวิต, animal - สัตว์มีชีวิต",
+    "source": "Carian.txt"
   }
 ]
