@@ -23,6 +23,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: generate-vocab
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
