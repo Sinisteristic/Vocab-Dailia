@@ -2,8 +2,10 @@ name: Daily Latin Vocabulary
 
 on:
   schedule:
-    # เวลานี้เป็น UTC — ตัวอย่างนี้คือ 07:00 UTC = 14:00 น. เวลาไทย (ปรับได้ตามต้องการ)
-    - cron: "0 7 * * *"
+    # จันทร์-ศุกร์ 12:00 น. เวลาไทย = 05:00 UTC
+    - cron: "0 5 * * 1-5"
+    # เสาร์-อาทิตย์ 17:00 น. เวลาไทย = 10:00 UTC
+    - cron: "0 10 * * 0,6"
   workflow_dispatch: {}  # ให้กดรันเองได้จากหน้า Actions เพื่อทดสอบ
 
 permissions:
@@ -18,6 +20,9 @@ jobs:
       - name: Send today's words
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          # จันทร์-ศุกร์ (หรือกดรันเอง) = 2+4 / เสาร์-อาทิตย์ = 1+2
+          NAMING_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '1' || '2' }}
+          OE_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '2' || '4' }}
         run: python3 send_daily.py
 
       - name: Commit updated progress
