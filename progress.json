@@ -1,6 +1,6 @@
 {
-  "naming_index": 9,
-  "naming_round": 3,
-  "oe_index": 5,
-  "oe_round": 5
+  "naming_cursor": 12,
+  "naming_priority_cursor": 45,
+  "oe_cursor": 10,
+  "oe_priority_cursor": 8
 }
