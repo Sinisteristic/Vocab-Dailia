@@ -446,5 +446,44 @@
     ],
     "old_english": "medicine",
     "source": "Carian.txt"
+  },
+  {
+    "latin": "chaos, chaotis",
+    "pos": "noun",
+    "root": "chaos",
+    "thai": "ความวุ่นวาย ความสับสน",
+    "naming_examples": [
+      "Chaos (Greek mythology)",
+      "Chaos Engine (video game)",
+      "Chaos Theory"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "flamma, flammae",
+    "pos": "noun",
+    "root": "flamma",
+    "thai": "เพลิง ไฟ",
+    "naming_examples": [
+      "Flammable",
+      "Inflammable",
+      "Flammifer"
+    ],
+    "old_english": "flame",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "digitus, digiti",
+    "pos": "noun",
+    "root": "digitus",
+    "thai": "นิ้ว",
+    "naming_examples": [
+      "Digit",
+      "Digital",
+      "Digitalis"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
   }
 ]
