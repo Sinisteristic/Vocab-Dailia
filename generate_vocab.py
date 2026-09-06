@@ -9,26 +9,26 @@ ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_VERSION = "2023-06-01"
 SOURCES_DIR = "sources"
-CHUNK_CHARS = 4000  # ขนาดช่วงข้อความที่สุ่มตัดมาต่อครั้ง (ตัวอักษร)
+CHUNK_CHARS = 4000
+PENDING_FILE = "pending_new_items.json"  # ไฟล์ชั่วคราว เก็บเฉพาะคำใหม่ที่เพิ่งได้จาก Claude
 
 PROMPTS = {
     "naming_roots": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ช่วยดึงคำ/รากศัพท์ภาษาลาติน {count} คำที่น่าสนใจ
-(ควรเป็นรากที่ถูกนำไปใช้ตั้งชื่อคน/สถานที่/ตัวละคร/แบรนด์ในโลกจริงหรือในสื่อต่างๆ — ถ้าชื่อตัวละครหรือสถานที่ในข้อความนี้เองมีรากลาติน ให้ยกมาเป็นตัวอย่างด้วย)
+(ควรเป็นรากที่ถูกนำไปใช้ตั้งชื่อคน/สถานที่/ตัวละคร/แบรนด์ในโลกจริงหรือในสื่อต่างๆ)
 ห้ามเลือกคำที่ซ้ำกับรายการนี้: {existing}
 
 ตอบเป็น JSON array เท่านั้น ไม่ต้องมีคำอธิบายอื่น ไม่ต้องมี ```json ครอบ ตามฟอร์แมตนี้เป๊ะๆ:
-[{{"latin": "คำ+รูปพจนานุกรม", "pos": "ชนิดคำ", "root": "ราก", "thai": "คำแปลไทย", "naming_examples": ["ตัวอย่าง 1 พร้อมอธิบายสั้นๆ", "ตัวอย่าง 2"], "old_english": "คำอังกฤษโบราณที่เกี่ยวข้องพร้อมอธิบาย หรือ 'ไม่มี' ถ้าไม่เกี่ยวข้องจริงๆ", "source": "{filename}"}}]
+[{{"latin": "คำ+รูปพจนานุกรม", "pos": "ชนิดคำ", "root": "ราก", "thai": "คำแปลไทย", "naming_examples": ["ตัวอย่าง 1", "ตัวอย่าง 2"], "old_english": "คำอังกฤษโบราณที่เกี่ยวข้อง หรือ 'ไม่มี'", "source": "{filename}"}}]
 
 ข้อความอ้างอิง:
 ---
 {source}
 ---""",
-    "old_english": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ถ้ามีคำ/โทนที่ชวนให้นึกถึงภาษาอังกฤษโบราณ (เช่น ธีมยุคกลาง, ตำนาน, มหากาพย์) ให้ใช้ธีมนั้นเป็นแรงบันดาลใจ
-ช่วยสร้างคำศัพท์ภาษาอังกฤษโบราณ (Old English) {count} คำ ที่เข้ากับโทนของเนื้อหานี้
+    "old_english": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ช่วยสร้างคำศัพท์ภาษาอังกฤษโบราณ (Old English) {count} คำ ที่เข้ากับโทนของเนื้อหานี้
 ห้ามเลือกคำที่ซ้ำกับรายการนี้: {existing}
 
 ตอบเป็น JSON array เท่านั้น ไม่ต้องมีคำอธิบายอื่น ไม่ต้องมี ```json ครอบ ตามฟอร์แมตนี้เป๊ะๆ:
-[{{"old_english": "คำ", "pos": "ชนิดคำ", "thai": "คำแปลไทย", "modern_descendant": "คำอังกฤษปัจจุบันที่สืบทอดมา พร้อมอธิบายสั้นๆ", "example": "ประโยคภาษาอังกฤษโบราณ", "example_thai": "คำแปลประโยคนั้น", "source": "{filename}"}}]
+[{{"old_english": "คำ", "pos": "ชนิดคำ", "thai": "คำแปลไทย", "modern_descendant": "คำอังกฤษปัจจุบันที่สืบทอดมา", "example": "ประโยคภาษาอังกฤษโบราณ", "example_thai": "คำแปลประโยคนั้น", "source": "{filename}"}}]
 
 ข้อความอ้างอิง:
 ---
@@ -56,22 +56,18 @@ def pick_source_text(requested_file):
     if not os.path.isdir(SOURCES_DIR):
         print(f"ERROR: ไม่พบโฟลเดอร์ {SOURCES_DIR}/", file=sys.stderr)
         sys.exit(1)
-
     txt_files = [f for f in os.listdir(SOURCES_DIR) if f.endswith(".txt")]
     if not txt_files:
         print(f"ERROR: ไม่พบไฟล์ .txt ใน {SOURCES_DIR}/", file=sys.stderr)
         sys.exit(1)
-
     filename = requested_file if requested_file in txt_files else random.choice(txt_files)
     with open(os.path.join(SOURCES_DIR, filename), "r", encoding="utf-8") as f:
         content = f.read()
-
     if len(content) <= CHUNK_CHARS:
         chunk = content
     else:
         start = random.randint(0, len(content) - CHUNK_CHARS)
         chunk = content[start:start + CHUNK_CHARS]
-
     return filename, chunk
 
 
@@ -124,14 +120,10 @@ def main():
     print(f"กำลังขอคำศัพท์ {count} คำ ({target}) จาก Claude...")
     new_items = call_claude(api_key, prompt)
 
-    added = 0
-    for item in new_items:
-        if item.get(key_field) not in {e[key_field] for e in existing}:
-            existing.append(item)
-            added += 1
-
-    save_json(path, existing)
-    print(f"เพิ่มคำศัพท์ใหม่ {added} รายการ (รวมทั้งหมด {len(existing)} รายการ) ในไฟล์ {path}")
+    # เขียนแค่ "คำใหม่ที่ได้" ลงไฟล์ชั่วคราว ไม่แตะไฟล์หลัก
+    # ให้ขั้นตอน merge (ใน workflow) เป็นคนรวมเข้าไฟล์หลักอย่างปลอดภัยทีหลัง
+    save_json(PENDING_FILE, {"target": target, "items": new_items})
+    print(f"ได้คำใหม่ {len(new_items)} คำ บันทึกไว้ที่ {PENDING_FILE} รอ merge")
 
 
 if __name__ == "__main__":
