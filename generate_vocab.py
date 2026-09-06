@@ -1,5 +1,6 @@
 import json
 import os
+import random
 import re
 import sys
 import urllib.request
@@ -7,25 +8,27 @@ import urllib.request
 ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_VERSION = "2023-06-01"
+SOURCES_DIR = "sources"
+CHUNK_CHARS = 4000  # ขนาดช่วงข้อความที่สุ่มตัดมาต่อครั้ง (ตัวอักษร)
 
 PROMPTS = {
-    "naming_roots": """จากข้อความอ้างอิงด้านล่างนี้ ช่วยดึงคำ/รากศัพท์ภาษาลาติน {count} คำที่น่าสนใจ
-(ควรเป็นรากที่ถูกนำไปใช้ตั้งชื่อคน/สถานที่/ตัวละคร/แบรนด์ในโลกจริงหรือในสื่อต่างๆ)
+    "naming_roots": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ช่วยดึงคำ/รากศัพท์ภาษาลาติน {count} คำที่น่าสนใจ
+(ควรเป็นรากที่ถูกนำไปใช้ตั้งชื่อคน/สถานที่/ตัวละคร/แบรนด์ในโลกจริงหรือในสื่อต่างๆ — ถ้าชื่อตัวละครหรือสถานที่ในข้อความนี้เองมีรากลาติน ให้ยกมาเป็นตัวอย่างด้วย)
 ห้ามเลือกคำที่ซ้ำกับรายการนี้: {existing}
 
 ตอบเป็น JSON array เท่านั้น ไม่ต้องมีคำอธิบายอื่น ไม่ต้องมี ```json ครอบ ตามฟอร์แมตนี้เป๊ะๆ:
-[{{"latin": "คำ+รูปพจนานุกรม", "pos": "ชนิดคำ", "root": "ราก", "thai": "คำแปลไทย", "naming_examples": ["ตัวอย่าง 1 พร้อมอธิบายสั้นๆ", "ตัวอย่าง 2"], "old_english": "คำอังกฤษโบราณที่เกี่ยวข้องพร้อมอธิบาย หรือ 'ไม่มี' ถ้าไม่เกี่ยวข้องจริงๆ"}}]
+[{{"latin": "คำ+รูปพจนานุกรม", "pos": "ชนิดคำ", "root": "ราก", "thai": "คำแปลไทย", "naming_examples": ["ตัวอย่าง 1 พร้อมอธิบายสั้นๆ", "ตัวอย่าง 2"], "old_english": "คำอังกฤษโบราณที่เกี่ยวข้องพร้อมอธิบาย หรือ 'ไม่มี' ถ้าไม่เกี่ยวข้องจริงๆ", "source": "{filename}"}}]
 
 ข้อความอ้างอิง:
 ---
 {source}
 ---""",
-    "old_english": """จากข้อความอ้างอิงด้านล่างนี้ (หรือถ้าไม่มีคำอังกฤษโบราณปรากฏตรงๆ ให้แต่งคำ/ประโยคอังกฤษโบราณที่เกี่ยวข้องกับธีมของข้อความ)
-ช่วยสร้างคำศัพท์ภาษาอังกฤษโบราณ (Old English) {count} คำ
+    "old_english": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ถ้ามีคำ/โทนที่ชวนให้นึกถึงภาษาอังกฤษโบราณ (เช่น ธีมยุคกลาง, ตำนาน, มหากาพย์) ให้ใช้ธีมนั้นเป็นแรงบันดาลใจ
+ช่วยสร้างคำศัพท์ภาษาอังกฤษโบราณ (Old English) {count} คำ ที่เข้ากับโทนของเนื้อหานี้
 ห้ามเลือกคำที่ซ้ำกับรายการนี้: {existing}
 
 ตอบเป็น JSON array เท่านั้น ไม่ต้องมีคำอธิบายอื่น ไม่ต้องมี ```json ครอบ ตามฟอร์แมตนี้เป๊ะๆ:
-[{{"old_english": "คำ", "pos": "ชนิดคำ", "thai": "คำแปลไทย", "modern_descendant": "คำอังกฤษปัจจุบันที่สืบทอดมา พร้อมอธิบายสั้นๆ", "example": "ประโยคภาษาอังกฤษโบราณ", "example_thai": "คำแปลประโยคนั้น"}}]
+[{{"old_english": "คำ", "pos": "ชนิดคำ", "thai": "คำแปลไทย", "modern_descendant": "คำอังกฤษปัจจุบันที่สืบทอดมา พร้อมอธิบายสั้นๆ", "example": "ประโยคภาษาอังกฤษโบราณ", "example_thai": "คำแปลประโยคนั้น", "source": "{filename}"}}]
 
 ข้อความอ้างอิง:
 ---
@@ -33,15 +36,8 @@ PROMPTS = {
 ---""",
 }
 
-FILES = {
-    "naming_roots": "naming_roots.json",
-    "old_english": "old_english_vocab.json",
-}
-
-KEY_FIELD = {
-    "naming_roots": "latin",
-    "old_english": "old_english",
-}
+FILES = {"naming_roots": "naming_roots.json", "old_english": "old_english_vocab.json"}
+KEY_FIELD = {"naming_roots": "latin", "old_english": "old_english"}
 
 
 def load_json(path, default):
@@ -54,6 +50,29 @@ def load_json(path, default):
 def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def pick_source_text(requested_file):
+    if not os.path.isdir(SOURCES_DIR):
+        print(f"ERROR: ไม่พบโฟลเดอร์ {SOURCES_DIR}/", file=sys.stderr)
+        sys.exit(1)
+
+    txt_files = [f for f in os.listdir(SOURCES_DIR) if f.endswith(".txt")]
+    if not txt_files:
+        print(f"ERROR: ไม่พบไฟล์ .txt ใน {SOURCES_DIR}/", file=sys.stderr)
+        sys.exit(1)
+
+    filename = requested_file if requested_file in txt_files else random.choice(txt_files)
+    with open(os.path.join(SOURCES_DIR, filename), "r", encoding="utf-8") as f:
+        content = f.read()
+
+    if len(content) <= CHUNK_CHARS:
+        chunk = content
+    else:
+        start = random.randint(0, len(content) - CHUNK_CHARS)
+        chunk = content[start:start + CHUNK_CHARS]
+
+    return filename, chunk
 
 
 def call_claude(api_key, prompt):
@@ -75,7 +94,6 @@ def call_claude(api_key, prompt):
     with urllib.request.urlopen(req) as resp:
         data = json.loads(resp.read().decode("utf-8"))
     text = data["content"][0]["text"]
-    # กันเผื่อ Claude ตอบมาพร้อม ```json ครอบ
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
     return json.loads(text)
 
@@ -83,7 +101,7 @@ def call_claude(api_key, prompt):
 def main():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     target = os.environ.get("TARGET", "naming_roots")
-    source = os.environ.get("SOURCE_TEXT", "")
+    requested_file = os.environ.get("SOURCE_FILE", "").strip()
     count = os.environ.get("COUNT", "3" if target == "naming_roots" else "5")
 
     if not api_key:
@@ -92,16 +110,16 @@ def main():
     if target not in FILES:
         print("ERROR: target ต้องเป็น naming_roots หรือ old_english", file=sys.stderr)
         sys.exit(1)
-    if not source.strip():
-        print("ERROR: ไม่ได้ใส่ SOURCE_TEXT", file=sys.stderr)
-        sys.exit(1)
+
+    filename, chunk = pick_source_text(requested_file)
+    print(f"ใช้ไฟล์: {filename} (สุ่มตัดข้อความยาว {len(chunk)} ตัวอักษร)")
 
     path = FILES[target]
     key_field = KEY_FIELD[target]
     existing = load_json(path, [])
     existing_keys = ", ".join(item[key_field] for item in existing) or "(ยังไม่มี)"
 
-    prompt = PROMPTS[target].format(count=count, existing=existing_keys, source=source)
+    prompt = PROMPTS[target].format(count=count, existing=existing_keys, source=chunk, filename=filename)
 
     print(f"กำลังขอคำศัพท์ {count} คำ ({target}) จาก Claude...")
     new_items = call_claude(api_key, prompt)
