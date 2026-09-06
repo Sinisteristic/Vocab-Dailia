@@ -53933,8 +53933,8 @@ Godwyn the Golden
 Malenia, Blade of Miquella
 Maliketh, the Black Blade
 Margit, the Fell Omen
-Messmer the Impaler Elden Ring: Shadow of the Erdtree
-Miquella the Kind Elden Ring: Shadow of the Erdtree
+Messmer the Impaler 
+Miquella the Kind 
 Mohg, Lord of Blood
 Morgott, the Omen King
 Ranni the Witch
@@ -54267,22 +54267,22 @@ Thiollier
 List of unseen characters
 Unseen characters are mentioned or implied, but don't fully appear in the game.
 
-Ancient Dragon Knight Elden Ring: Shadow of the Erdtree
+Ancient Dragon Knight 
 Ancient Dynasty God
-Base Serpent Elden Ring: Shadow of the Erdtree
+Base Serpent 
 Bernahl's Finger Maiden
 Birac
 Blind Swordsman
 Blue Dancer
 Boc's Mother
 Bone Peddler
-Charo Elden Ring: Shadow of the Erdtree
+Charo 
 Chelona
 Colossal Remains
 Crepus
 Daedicar
-Divine Beast Elden Ring: Shadow of the Erdtree
-Divine Bird Elden Ring: Shadow of the Erdtree
+Divine Beast 
+Divine Bird 
 Eiglay
 Elleh
 Ensha
@@ -54290,17 +54290,17 @@ Fell God
 Fevor
 Cut content Firefly
 Formless Mother
-Gaea Elden Ring: Shadow of the Erdtree
+Gaea 
 Ghost-Glovewort Picker
 Gloam-Eyed Queen
 Glovewort Picker
 Cut content Gnarrl
-Grandmother Elden Ring: Shadow of the Erdtree
+Grandmother 
 Gravity Stone Peddler
-Greasemonger Elden Ring: Shadow of the Erdtree
+Greasemonger 
 Greater Will
 Herbalist
-Horned Hero Elden Ring: Shadow of the Erdtree
+Horned Hero 
 Irith
 Laborer
 Lacrima
@@ -54309,13 +54309,13 @@ Meat Peddler
 Medicine Peddler
 Milos
 Cut content Miranda
-Moldmonger Elden Ring: Shadow of the Erdtree
-Mushroom-Seller Elden Ring: Shadow of the Erdtree
+Moldmonger 
+Mushroom-Seller 
 One Great
 Oridys
 Outer God of Death
 Outer God of Rot
-Rauh Goddess Elden Ring: Shadow of the Erdtree
+Rauh Goddess 
 Renna
 Revenger
 Serpent God
@@ -54323,12 +54323,12 @@ Sir Neidhardt
 Smithing-Stone Miner
 Snow Witch
 Somberstone Miner
-Spellmachinist Rabbath Elden Ring: Shadow of the Erdtree
+Spellmachinist Rabbath 
 Storm Lord
 Stormhawk King
 Traveling Perfumer
-String-Seller Elden Ring: Shadow of the Erdtree
+String-Seller 
 Testu
 Twinbird
 Usher of Death, Rosus
-Yuri Elden Ring: Shadow of the Erdtree
+Yuri 
