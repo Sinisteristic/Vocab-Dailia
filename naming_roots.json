@@ -549,5 +549,29 @@
     ],
     "old_english": "unholsome",
     "source": "Carian.txt (บริบท: เงาที่มีปัญญาเรียกว่า Baleful Shadows, ธีมของความชั่วร้าย)"
+  },
+  {
+    "latin": "ira, irae",
+    "pos": "noun",
+    "root": "ira",
+    "thai": "ความโกรธ ความขุ่นเคือง",
+    "naming_examples": [
+      "Rykard's Rancor",
+      "Rancorcall"
+    ],
+    "old_english": "irre",
+    "source": "Carian.txt (เชื่อมโยงจากธีม rancor และ fury ของ Rykard และเวทมนตร์ที่เกี่ยวข้อง)"
+  },
+  {
+    "latin": "culpa, culpae",
+    "pos": "noun",
+    "root": "culpa",
+    "thai": "ความผิด ความบาป ความรับผิด",
+    "naming_examples": [
+      "Briars of Sin and Punishment",
+      "guilty"
+    ],
+    "old_english": "scyld",
+    "source": "Carian.txt (เชื่อมโยงจากธีม sin guilt และ punishment ของ exiled criminals)"
   }
 ]
