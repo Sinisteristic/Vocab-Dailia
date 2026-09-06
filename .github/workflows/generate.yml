@@ -20,8 +20,8 @@ on:
         required: false
         default: "3"
   schedule:
-    # ทุกวันอาทิตย์ 06:00 UTC = 13:00 น. เวลาไทย — เติมคำใหม่ทั้ง 2 คลังอัตโนมัติทุกสัปดาห์
-    - cron: "0 6 * * 0"
+    # ทุกวันศุกร์ 23:23 น. เวลาไทย = 16:23 UTC — เติมคำใหม่ naming_roots 14 คำ + old_english 28 คำ
+    - cron: "23 16 * * 5"
 
 permissions:
   contents: write
@@ -41,7 +41,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             # รันอัตโนมัติ: ทำทั้ง 2 คลังในตาเดียว จำนวนคำตามค่ามาตรฐานของแต่ละคลัง
-            echo "targets=naming_roots:3 old_english:5" >> "$GITHUB_OUTPUT"
+            echo "targets=naming_roots:12 old_english:24" >> "$GITHUB_OUTPUT"
             echo "source_file=" >> "$GITHUB_OUTPUT"
           else
             # กดรันเอง: ทำแค่ target เดียวตามที่เลือกในฟอร์ม
