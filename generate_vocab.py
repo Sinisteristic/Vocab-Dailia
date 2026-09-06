@@ -13,21 +13,25 @@ CHUNK_CHARS = 4000
 PENDING_FILE = "pending_new_items.json"  # ไฟล์ชั่วคราว เก็บเฉพาะคำใหม่ที่เพิ่งได้จาก Claude
 
 PROMPTS = {
-    "naming_roots": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ช่วยดึงคำ/รากศัพท์ภาษาลาติน {count} คำที่น่าสนใจ
+    "naming_roots": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ช่วยดึงคำ/รากศัพท์ภาษาลาติน สูงสุด {count} คำที่น่าสนใจ
 (ควรเป็นรากที่ถูกนำไปใช้ตั้งชื่อคน/สถานที่/ตัวละคร/แบรนด์ในโลกจริงหรือในสื่อต่างๆ)
 ห้ามเลือกคำที่ซ้ำกับรายการนี้: {existing}
 
-ตอบเป็น JSON array เท่านั้น ไม่ต้องมีคำอธิบายอื่น ไม่ต้องมี ```json ครอบ ตามฟอร์แมตนี้เป๊ะๆ:
+ถ้าข้อความนี้ไม่มีรากศัพท์ลาตินที่น่าสนใจเลย ให้ตอบเป็น [] เฉยๆ
+
+กติกาการตอบที่สำคัญที่สุด: ตอบเป็น JSON array เพียวๆ เท่านั้น ห้ามมีข้อความอธิบาย คำนำ หรือสรุปใดๆ ทั้งก่อนและหลัง JSON แม้แต่ประโยคเดียว ไม่ต้องมี ```json ครอบ คำตอบทั้งหมดต้องเริ่มด้วย [ และจบด้วย ] เท่านั้น ตามฟอร์แมตนี้เป๊ะๆ:
 [{{"latin": "คำ+รูปพจนานุกรม", "pos": "ชนิดคำ", "root": "ราก", "thai": "คำแปลไทย", "naming_examples": ["ตัวอย่าง 1", "ตัวอย่าง 2"], "old_english": "คำอังกฤษโบราณที่เกี่ยวข้อง หรือ 'ไม่มี'", "source": "{filename}"}}]
 
 ข้อความอ้างอิง:
 ---
 {source}
 ---""",
-    "old_english": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ช่วยสร้างคำศัพท์ภาษาอังกฤษโบราณ (Old English) {count} คำ ที่เข้ากับโทนของเนื้อหานี้
+    "old_english": """จากข้อความอ้างอิงด้านล่างนี้ (มาจากไฟล์ "{filename}") ช่วยสร้างคำศัพท์ภาษาอังกฤษโบราณ (Old English) สูงสุด {count} คำ ที่เข้ากับโทนของเนื้อหานี้
 ห้ามเลือกคำที่ซ้ำกับรายการนี้: {existing}
 
-ตอบเป็น JSON array เท่านั้น ไม่ต้องมีคำอธิบายอื่น ไม่ต้องมี ```json ครอบ ตามฟอร์แมตนี้เป๊ะๆ:
+ถ้าข้อความนี้ไม่มีธีมที่เหมาะจะสร้างคำอังกฤษโบราณเลย ให้ตอบเป็น [] เฉยๆ
+
+กติกาการตอบที่สำคัญที่สุด: ตอบเป็น JSON array เพียวๆ เท่านั้น ห้ามมีข้อความอธิบาย คำนำ หรือสรุปใดๆ ทั้งก่อนและหลัง JSON แม้แต่ประโยคเดียว ไม่ต้องมี ```json ครอบ คำตอบทั้งหมดต้องเริ่มด้วย [ และจบด้วย ] เท่านั้น ตามฟอร์แมตนี้เป๊ะๆ:
 [{{"old_english": "คำ", "pos": "ชนิดคำ", "thai": "คำแปลไทย", "modern_descendant": "คำอังกฤษปัจจุบันที่สืบทอดมา", "example": "ประโยคภาษาอังกฤษโบราณ", "example_thai": "คำแปลประโยคนั้น", "source": "{filename}"}}]
 
 ข้อความอ้างอิง:
@@ -109,12 +113,25 @@ def call_claude(api_key, prompt, attempt=1, max_attempts=3):
     try:
         return json.loads(cleaned)
     except json.JSONDecodeError:
-        print(f"[attempt {attempt}] parse JSON ไม่สำเร็จ ข้อความที่ได้จริง:", file=sys.stderr)
-        print(text[:1500], file=sys.stderr)
-        if attempt < max_attempts:
-            print("ลองขอใหม่อีกครั้ง...", file=sys.stderr)
-            return call_claude(api_key, prompt, attempt + 1, max_attempts)
-        raise
+        pass
+
+    # กันเผื่อ Claude แทรกข้อความอธิบายก่อน/หลัง JSON ทั้งที่สั่งห้ามแล้ว —
+    # ดึงเฉพาะช่วงตั้งแต่ [ ตัวแรกถึง ] ตัวสุดท้ายมาลองแปลงใหม่
+    match = re.search(r"\[.*\]", cleaned, re.DOTALL)
+    if match:
+        try:
+            result = json.loads(match.group(0))
+            print(f"[attempt {attempt}] ต้องดึง JSON ออกจากข้อความที่มีคำอธิบายแทรก (แก้ไขอัตโนมัติสำเร็จ)", file=sys.stderr)
+            return result
+        except json.JSONDecodeError:
+            pass
+
+    print(f"[attempt {attempt}] parse JSON ไม่สำเร็จ ข้อความที่ได้จริง:", file=sys.stderr)
+    print(text[:1500], file=sys.stderr)
+    if attempt < max_attempts:
+        print("ลองขอใหม่อีกครั้ง...", file=sys.stderr)
+        return call_claude(api_key, prompt, attempt + 1, max_attempts)
+    raise RuntimeError("parse JSON จากคำตอบ Claude ไม่สำเร็จหลังจากลองหลายครั้ง")
 
 
 def main():
