@@ -34,5 +34,96 @@
       "Sonata? ไม่ใช่ — Solaris (ชื่อภาพยนตร์/นิยาย, เทพสุริยะโรมัน)"
     ],
     "old_english": "sunne — คำอังกฤษโบราณที่แปลว่าดวงอาทิตย์ (กลายมาเป็น 'sun') เป็นคำเจอร์แมนิกแท้ๆ ไม่เกี่ยวกับรากละติน sol เลย น่าสนใจตรงที่ 'sun' ในภาษาอังกฤษปัจจุบันไม่ได้มาจากละตินแบบคำว่า 'solar' ที่ยืมเข้ามาทีหลัง — ทำให้ภาษาอังกฤษมีคำคู่ (doublet) สำหรับความหมายเดียวกันจากสองสายภาษา"
+  },
+  {
+    "latin": "ordo, ordinis",
+    "pos": "noun",
+    "root": "ord-",
+    "thai": "ลำดับ, คำสั่ง",
+    "naming_examples": [
+      "Order (จากข้อความ [12240007]) - แนวคิดเรื่องระเบียบในเกม",
+      "Ordinator - ยามรักษาการในเกม The Elder Scrolls",
+      "Ordre - องค์กรต่างๆในสื่อลึกลับ"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "vitae, vita",
+    "pos": "noun",
+    "root": "vit-",
+    "thai": "ชีวิต",
+    "naming_examples": [
+      "vita - คำหมายถึงชีวิตและประสบการณ์",
+      "Vita - แบรนด์อาหารสุขภาพ",
+      "Vital - ธาตุสำคัญต่อการมีชีวิต"
+    ],
+    "old_english": "life - ชีวิต",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "mors, mortis",
+    "pos": "noun",
+    "root": "mort-",
+    "thai": "ความตาย",
+    "naming_examples": [
+      "Death (จากข้อความ [12240002]) - แนวคิดเรื่องความตายในเกม",
+      "Mortal - สิ่งที่อาจตาย",
+      "Mortician - ผู้ดำเนินการศพ"
+    ],
+    "old_english": "death - ความตาย",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "stella, stellae",
+    "pos": "noun",
+    "root": "stell-",
+    "thai": "ดาว",
+    "naming_examples": [
+      "stars (จากข้อความ [12240005]) - ดาวในท้องฟ้า",
+      "Stella - ชื่อบุคคล/ตัวละคร",
+      "Constellation - กลุ่มดาว"
+    ],
+    "old_english": "steorra - ดาว",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "amicitia, amicitiae",
+    "pos": "noun",
+    "root": "amic-",
+    "thai": "มิตรภาพ",
+    "naming_examples": [
+      "friendship (จากข้อความ [12240032]) - ความเป็นมิตร",
+      "Amicus - เพื่อน/กูรู",
+      "Amicable - เป็นมิตร"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "amor, amoris",
+    "pos": "noun",
+    "root": "amor-",
+    "thai": "ความรัก",
+    "naming_examples": [
+      "love (จากข้อความ [12240033]) - ความรักในเกม",
+      "Amore - คำอิตาลีที่หมายถึงรักที่สุด",
+      "Amadeus - ที่รักของพระเจ้า"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "victoria, victoriae",
+    "pos": "noun",
+    "root": "vict-",
+    "thai": "ชัยชนะ",
+    "naming_examples": [
+      "victory (จากข้อความ [12240020]) - ชัยชนะในการสู้รบ",
+      "Victoria - ชื่อราชินี/เมือง",
+      "Victor - ผู้ชนะ"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
   }
 ]
