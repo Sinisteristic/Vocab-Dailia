@@ -485,5 +485,44 @@
     ],
     "old_english": "ไม่มี",
     "source": "Carian.txt"
+  },
+  {
+    "latin": "scientia, scientiae",
+    "pos": "noun",
+    "root": "sci-",
+    "thai": "วิทยาศาสตร์/ความรู้",
+    "naming_examples": [
+      "Scientific inquiry",
+      "Scientology"
+    ],
+    "old_english": "science",
+    "source": "Carian.txt (primeval current described as 'path of scientific inquiry' - theme of forbidden knowledge and magical study)"
+  },
+  {
+    "latin": "flosculus, flosculí",
+    "pos": "noun",
+    "root": "flos-",
+    "thai": "ดอกไม้",
+    "naming_examples": [
+      "Flora",
+      "Flossie",
+      "Florian"
+    ],
+    "old_english": "flower",
+    "source": "Carian.txt (repeated references to flowers, blossoms, gardens, and perfume - 'scarlet blossoms', 'flowers blossom in secret')"
+  },
+  {
+    "latin": "regalis, regale",
+    "pos": "adjective",
+    "root": "rex, regis",
+    "thai": "ราชกิจ/เกี่ยวกับกษัตริย์",
+    "naming_examples": [
+      "Radagon",
+      "Rennala",
+      "Marika",
+      "Godfrey"
+    ],
+    "old_english": "royal/kingly",
+    "source": "Carian.txt (multiple Elden Lords and queens named: Radagon, Rennala of Caria, Queen Marika, Godfrey - ancient royal city Farum Azula)"
   }
 ]
