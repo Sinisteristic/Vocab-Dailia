@@ -1,1 +1,127 @@
-[]
+[
+  {
+    "latin": "mors, mortis",
+    "pos": "noun",
+    "root": "mort-",
+    "thai": "ความตาย",
+    "naming_examples": [
+      "Morticia",
+      "Mortem",
+      "Mortensen"
+    ],
+    "old_english": "death",
+    "source": "Carian.txt (death's embrace, dead's last moments, Prince of Death)"
+  },
+  {
+    "latin": "anima, animae",
+    "pos": "noun",
+    "root": "anim-",
+    "thai": "จิตใจ,灵魂",
+    "naming_examples": [
+      "Anima",
+      "Animancer",
+      "Animator"
+    ],
+    "old_english": "soul, spirit",
+    "source": "Carian.txt (soul of the painter, vestiges)"
+  },
+  {
+    "latin": "tempestas, -atis",
+    "pos": "noun",
+    "root": "tempest-",
+    "thai": "พายุ, ธรรมชาติ",
+    "naming_examples": [
+      "Tempest",
+      "Stormveil"
+    ],
+    "old_english": "storm, weather",
+    "source": "Carian.txt (Stormveil, ever-clouded skies)"
+  },
+  {
+    "latin": "rex, regis",
+    "pos": "noun",
+    "root": "reg-",
+    "thai": "พระราชา",
+    "naming_examples": [
+      "Regal",
+      "Regius",
+      "Royal"
+    ],
+    "old_english": "king",
+    "source": "Carian.txt (Carian royalty, Royal Capital)"
+  },
+  {
+    "latin": "arbor, arboris",
+    "pos": "noun",
+    "root": "arbor-",
+    "thai": "ต้นไม้",
+    "naming_examples": [
+      "Arborwood",
+      "Arbor"
+    ],
+    "old_english": "tree",
+    "source": "Carian.txt (Erdtree, vast forests)"
+  },
+  {
+    "latin": "mons, montis",
+    "pos": "noun",
+    "root": "mont-",
+    "thai": "ภูเขา",
+    "naming_examples": [
+      "Mont Blanc",
+      "Montana",
+      "Montserrat",
+      "Mt. Gelmir"
+    ],
+    "old_english": "mountain",
+    "source": "Carian.txt (Mt. Gelmir, Volcano Manor)"
+  },
+  {
+    "latin": "urbs, urbis",
+    "pos": "noun",
+    "root": "urb-",
+    "thai": "เมือง",
+    "naming_examples": [
+      "Urban",
+      "Urbana",
+      "Leyndell"
+    ],
+    "old_english": "city",
+    "source": "Carian.txt (metropolis, Royal Capital of Leyndell)"
+  },
+  {
+    "latin": "lumen, luminis",
+    "pos": "noun",
+    "root": "lumin-",
+    "thai": "แสง",
+    "naming_examples": [
+      "Lumina",
+      "Luminescence"
+    ],
+    "old_english": "light",
+    "source": "Carian.txt (grace, Eternal City, light imagery in paintings)"
+  },
+  {
+    "latin": "viaticus, -a, -um",
+    "pos": "adj",
+    "root": "viat-",
+    "thai": "ทางเดิน, การเดินทาง",
+    "naming_examples": [
+      "Viaticum"
+    ],
+    "old_english": "journey, travel",
+    "source": "Carian.txt (set out on a journey, path trod by many a soldier)"
+  },
+  {
+    "latin": "bellum, belli",
+    "pos": "noun",
+    "root": "bell-",
+    "thai": "สงคราม, การต่อสู้",
+    "naming_examples": [
+      "Bellator",
+      "Bella"
+    ],
+    "old_english": "war, battle",
+    "source": "Carian.txt (battle arts, warrior jar Alexander, means to fight)"
+  }
+]
