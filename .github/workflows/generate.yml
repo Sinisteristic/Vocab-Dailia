@@ -10,10 +10,11 @@ on:
         options:
           - naming_roots
           - old_english
-      source_text:
-        description: "วางข้อความอ้างอิง (จากหนังสือ/เกม) ที่นี่"
-        required: true
+      source_file:
+        description: "ชื่อไฟล์ในโฟลเดอร์ sources/ เช่น novel1.txt (เว้นว่างไว้ = สุ่มไฟล์เอง)"
+        required: false
         type: string
+        default: ""
       count:
         description: "จำนวนคำที่ต้องการ"
         required: false
@@ -32,7 +33,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TARGET: ${{ inputs.target }}
-          SOURCE_TEXT: ${{ inputs.source_text }}
+          SOURCE_FILE: ${{ inputs.source_file }}
           COUNT: ${{ inputs.count }}
         run: python3 generate_vocab.py
 
@@ -41,5 +42,5 @@ jobs:
           git config user.name "latin-bot"
           git config user.email "latin-bot@users.noreply.github.com"
           git add naming_roots.json old_english_vocab.json
-          git diff --cached --quiet || git commit -m "Add vocab via Claude (${{ inputs.target }})"
+          git diff --cached --quiet || git commit -m "Add vocab via Claude (${{ inputs.target }} from ${{ inputs.source_file }})"
           git push
