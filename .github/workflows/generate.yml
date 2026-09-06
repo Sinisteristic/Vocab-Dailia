@@ -1,0 +1,45 @@
+name: Generate Vocab via Claude
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "จะเพิ่มเข้าคลังไหน"
+        required: true
+        type: choice
+        options:
+          - naming_roots
+          - old_english
+      source_text:
+        description: "วางข้อความอ้างอิง (จากหนังสือ/เกม) ที่นี่"
+        required: true
+        type: string
+      count:
+        description: "จำนวนคำที่ต้องการ"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate new vocab entries
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TARGET: ${{ inputs.target }}
+          SOURCE_TEXT: ${{ inputs.source_text }}
+          COUNT: ${{ inputs.count }}
+        run: python3 generate_vocab.py
+
+      - name: Commit updated vocab file
+        run: |
+          git config user.name "latin-bot"
+          git config user.email "latin-bot@users.noreply.github.com"
+          git add naming_roots.json old_english_vocab.json
+          git diff --cached --quiet || git commit -m "Add vocab via Claude (${{ inputs.target }})"
+          git push
