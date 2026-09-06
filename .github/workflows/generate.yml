@@ -43,4 +43,5 @@ jobs:
           git config user.email "latin-bot@users.noreply.github.com"
           git add naming_roots.json old_english_vocab.json
           git diff --cached --quiet || git commit -m "Add vocab via Claude (${{ inputs.target }} from ${{ inputs.source_file }})"
+          git pull --rebase origin main
           git push
