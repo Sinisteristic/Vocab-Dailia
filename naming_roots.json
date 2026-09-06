@@ -384,5 +384,43 @@
     ],
     "old_english": "animate - ให้ชีวิต, animal - สัตว์มีชีวิต",
     "source": "Carian.txt"
+  },
+  {
+    "latin": "sigillum, sigilli",
+    "pos": "noun",
+    "root": "sigil",
+    "thai": "ตราประทับ, ลายประทับ",
+    "naming_examples": [
+      "Sigil (ตราประทับมายากล)",
+      "The Sigillum (ตราประทับของจักรพรรดิ์)"
+    ],
+    "old_english": "sigel (ราศี)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "astra, astrae",
+    "pos": "noun",
+    "root": "astr",
+    "thai": "ดาว, ดวงดาว",
+    "naming_examples": [
+      "Astraea (อัสตราเอ เทพธิดายุติธรรม)",
+      "Astrology (โหราศาสตร์)",
+      "Astrum (ชื่อแบรนด์)"
+    ],
+    "old_english": "steorra (ดาว)",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "primus, prima, primum",
+    "pos": "adjective",
+    "root": "prim",
+    "thai": "ที่หนึ่ง, แรก, โบราณ",
+    "naming_examples": [
+      "Primeval (โบราณ)",
+      "Primer (หนังสือเบื้องต้น)",
+      "Prime Video (บริการสตรีมมิ่ง)"
+    ],
+    "old_english": "prim (แรก)",
+    "source": "Carian.txt"
   }
 ]
