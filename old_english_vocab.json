@@ -38,5 +38,32 @@
     "modern_descendant": "earl — ยศขุนนางอังกฤษปัจจุบัน เดิมทีไม่ได้หมายถึงยศแต่หมายถึง 'นักรบผู้กล้าหาญ' โดยทั่วไป ความหมายค่อยๆ แคบลงเป็นตำแหน่งขุนนางในยุคหลัง",
     "example": "Se eorl feohteþ.",
     "example_thai": "นักรบผู้นั้นต่อสู้"
+  },
+  {
+    "old_english": "gife",
+    "pos": "noun",
+    "thai": "ของขวัญ, สิ่งที่ให้มา",
+    "modern_descendant": "gift",
+    "example": "Þæs cyninges gife wæs gold and ædelstan.",
+    "example_thai": "ของขวัญของกษัตริย์คือทองคำและหินมีค่า",
+    "source": "Carian.txt (แต่งจากธีมสมบัติและไอเทม)"
+  },
+  {
+    "old_english": "strif",
+    "pos": "noun",
+    "thai": "การต่อสู้, การรบ",
+    "modern_descendant": "strife",
+    "example": "Þær wæs micel strif on þæm beorge.",
+    "example_thai": "มีการต่อสู้ครั้งใหญ่บนเขาแห่งนั้น",
+    "source": "Carian.txt (แต่งจากธีมการรบและสงคราม)"
+  },
+  {
+    "old_english": "wægn",
+    "pos": "noun",
+    "thai": "อาวุธ, เครื่องมือสงคราม",
+    "modern_descendant": "wain",
+    "example": "Se cempa bar his wægn to þæm gefeoht.",
+    "example_thai": "นักรบคนนั้นนำอาวุธของเขาไปยังการสู้รบ",
+    "source": "Carian.txt (แต่งจากธีมอาวุธและกวนการต่อสู้)"
   }
 ]
