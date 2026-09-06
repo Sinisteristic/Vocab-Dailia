@@ -524,5 +524,30 @@
     ],
     "old_english": "royal/kingly",
     "source": "Carian.txt (multiple Elden Lords and queens named: Radagon, Rennala of Caria, Queen Marika, Godfrey - ancient royal city Farum Azula)"
+  },
+  {
+    "latin": "deus, dei",
+    "pos": "noun",
+    "root": "deu-",
+    "thai": "พระเจ้า, เทพเจ้า",
+    "naming_examples": [
+      "Godrick",
+      "Marika",
+      "Empyrean"
+    ],
+    "old_english": "god",
+    "source": "Carian.txt (ธีมการกลายเป็นพระเจ้าและการสืบทอดสมบัติทำให้เกิดเทพเจ้า)"
+  },
+  {
+    "latin": "malefica, maleficum",
+    "pos": "adjective",
+    "root": "male-",
+    "thai": "ร้าย, ชั่ว",
+    "naming_examples": [
+      "Malenia",
+      "Baleful Shadows"
+    ],
+    "old_english": "unholsome",
+    "source": "Carian.txt (บริบท: เงาที่มีปัญญาเรียกว่า Baleful Shadows, ธีมของความชั่วร้าย)"
   }
 ]
