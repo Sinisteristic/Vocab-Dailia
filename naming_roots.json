@@ -215,5 +215,96 @@
     ],
     "old_english": "honour (เกียรติ, ชื่อเสียง)",
     "source": "Carian.txt"
+  },
+  {
+    "latin": "caos, caotis",
+    "pos": "noun",
+    "root": "chaos",
+    "thai": "ความวุ่นวาย ความอลวน",
+    "naming_examples": [
+      "Chaos (มิথอลยีกรีก) - เทพีเนื้อแม่ของความวุ่นวาย",
+      "Chaos Theory - ทฤษฎีทางวิทยาศาสตร์",
+      "Khorne's Chaos (Warhammer) - โลกแห่งความโกลาหล"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "lumen, luminis",
+    "pos": "noun",
+    "root": "lux",
+    "thai": "แสง สว่าง",
+    "naming_examples": [
+      "Lumina - ชื่อตัวละครหญิงในเกมต่างๆ หมายถึงแสง",
+      "Lumen Gentium - เอกสารสำคัญของจักรพยาธิคริสต์",
+      "Luminary - ผู้นำ ผู้ฉายแสง"
+    ],
+    "old_english": "lumen (Latin) - ไม่เกี่ยวกับ Old English โดยตรง",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "timor, timoris",
+    "pos": "noun",
+    "root": "timeo",
+    "thai": "ความกลัว เกรงกลัว",
+    "naming_examples": [
+      "Timor Mortis - บทกวีที่มีชื่อว่า 'The Dread of Death'",
+      "Timor Dei - ความเกรงกลัวพระเจ้า (ศาสนา)",
+      "Timor (สาธารณรัฐ) - ประเทศตะวันออก"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "fortitudo, fortitudinis",
+    "pos": "noun",
+    "root": "fortis",
+    "thai": "ความกล้าหาญ ความแข็งแกร่ง",
+    "naming_examples": [
+      "Fortitude - ความแข็งแกร่งใจ (ค่าสถิติในเกม RPG)",
+      "Fortis (ชื่อแบรนด์) - แสดงความแข็งแกร่ง",
+      "Fortinbras - ตัวละครในเรื่องแฮมเล็ต (ชื่อแปลว่า 'แขนแข็ง')"
+    ],
+    "old_english": "fort < fortis (Latin) - ปราการ สิ่งป้องกัน",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "sacrificium, sacrificii",
+    "pos": "noun",
+    "root": "sacrum + facio",
+    "thai": "การเสียสละ การบูชา",
+    "naming_examples": [
+      "Sacrifice - สิ่งที่ต้องสละเพื่อได้สิ่งใหม่ (ธีมในเกม)",
+      "The Sacrifice (Dragon Age) - ตัวละคร/เรื่องราว",
+      "Sacrificial Lamb - นิทานสัญลักษณ์"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "perditio, perditionis",
+    "pos": "noun",
+    "root": "perdo",
+    "thai": "การสูญเสีย ความพินาศ การทำลาย",
+    "naming_examples": [
+      "Perdition - นรก ความพินาศ (ศาสตร์ศาสนา)",
+      "Perdition's Flame - ชื่อไอเทมในเกม",
+      "Perditionist - คนที่เชื่อในการสูญหายชั่วนิรันดร์"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "spes, spei",
+    "pos": "noun",
+    "root": "spes",
+    "thai": "ความหวัง ความคาดหวัง",
+    "naming_examples": [
+      "Esperanza - ชื่อหญิง (สเปน) แปลว่า 'hope'",
+      "Spes Romana - ความหวังของโรมัน (เหรียญโบราณ)",
+      "Despair (de + spes) - การสูญเสียความหวัง"
+    ],
+    "old_english": "ไม่มี",
+    "source": "Carian.txt"
   }
 ]
