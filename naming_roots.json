@@ -422,5 +422,29 @@
     ],
     "old_english": "prim (แรก)",
     "source": "Carian.txt"
+  },
+  {
+    "latin": "auxilium, auxilii",
+    "pos": "noun (n)",
+    "root": "augere",
+    "thai": "ความช่วยเหลือ/การช่วย",
+    "naming_examples": [
+      "Lord's Aid",
+      "Blessing's Boon"
+    ],
+    "old_english": "aid",
+    "source": "Carian.txt"
+  },
+  {
+    "latin": "medicina, medicinae",
+    "pos": "noun (f)",
+    "root": "mederi",
+    "thai": "ยา/การรักษา",
+    "naming_examples": [
+      "Cure Poison",
+      "Lord's Aid"
+    ],
+    "old_english": "medicine",
+    "source": "Carian.txt"
   }
 ]
