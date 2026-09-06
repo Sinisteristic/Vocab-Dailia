@@ -71,10 +71,10 @@ def pick_source_text(requested_file):
     return filename, chunk
 
 
-def call_claude(api_key, prompt):
+def call_claude(api_key, prompt, attempt=1, max_attempts=3):
     body = json.dumps({
         "model": ANTHROPIC_MODEL,
-        "max_tokens": 2000,
+        "max_tokens": 4000,
         "messages": [{"role": "user", "content": prompt}],
     }).encode("utf-8")
     req = urllib.request.Request(
@@ -89,9 +89,32 @@ def call_claude(api_key, prompt):
     )
     with urllib.request.urlopen(req) as resp:
         data = json.loads(resp.read().decode("utf-8"))
-    text = data["content"][0]["text"]
-    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
-    return json.loads(text)
+
+    stop_reason = data.get("stop_reason", "?")
+    content_blocks = data.get("content", [])
+    text = ""
+    for block in content_blocks:
+        if block.get("type") == "text":
+            text += block.get("text", "")
+
+    if not text.strip():
+        print(f"[attempt {attempt}] Claude ตอบว่างเปล่า (stop_reason={stop_reason})", file=sys.stderr)
+        print(f"raw response: {json.dumps(data, ensure_ascii=False)[:1500]}", file=sys.stderr)
+        if attempt < max_attempts:
+            print("ลองขอใหม่อีกครั้ง...", file=sys.stderr)
+            return call_claude(api_key, prompt, attempt + 1, max_attempts)
+        raise RuntimeError("Claude ตอบว่างเปล่าซ้ำหลายครั้ง ดู raw response ด้านบนเพื่อวินิจฉัย")
+
+    cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        print(f"[attempt {attempt}] parse JSON ไม่สำเร็จ ข้อความที่ได้จริง:", file=sys.stderr)
+        print(text[:1500], file=sys.stderr)
+        if attempt < max_attempts:
+            print("ลองขอใหม่อีกครั้ง...", file=sys.stderr)
+            return call_claude(api_key, prompt, attempt + 1, max_attempts)
+        raise
 
 
 def main():
