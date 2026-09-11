@@ -178,5 +178,212 @@
     "example": "The sceadu-þegn moves unseen through darkness",
     "example_thai": "เจ้านายแห่งเงาเคลื่อนไหวโดยไม่เห็นผ่านความมืด",
     "source": "Carian.txt (แต่งจากธีมความมืดและการลับตัว)"
+  },
+  {
+    "old_english": "bealdlīc",
+    "pos": "adjective",
+    "thai": "กล้าหาญ, ชาญฉลาด",
+    "modern_descendant": "bold",
+    "example": "Bealdlīc cempa stand!",
+    "example_thai": "นักรบกล้าหาญยืนขึ้น!",
+    "source": "Carian.txt (แต่งจากธีมการรบ)"
+  },
+  {
+    "old_english": "fynd-scipe",
+    "pos": "noun",
+    "thai": "ศัตรู, ฝ่ายตรงข้าม",
+    "modern_descendant": "find, fiend",
+    "example": "Fynd-scipe cumeth!",
+    "example_thai": "ศัตรูมาแล้ว!",
+    "source": "Carian.txt (แต่งจากธีมการรบ)"
+  },
+  {
+    "old_english": "wyrm-spell",
+    "pos": "noun",
+    "thai": "เวทมนตร์มังกร, มนตร์เข้มแข็ง",
+    "modern_descendant": "spell",
+    "example": "Wyrm-spell of power!",
+    "example_thai": "เวทมนตร์มังกรแห่งอำนาจ!",
+    "source": "Carian.txt (แต่งจากธีมมังกร)"
+  },
+  {
+    "old_english": "sweord-man",
+    "pos": "noun",
+    "thai": "นักเดือย剑, มนุษย์ดาบ",
+    "modern_descendant": "swordsman",
+    "example": "Sweord-man, draw thy blade!",
+    "example_thai": "นักเดือย剑, โปรยดาบของเจ้า!",
+    "source": "Carian.txt (แต่งจากธีมการรบ)"
+  },
+  {
+    "old_english": "grim-nēah",
+    "pos": "adjective",
+    "thai": "น่ากลัว, เข้มข้น",
+    "modern_descendant": "grim",
+    "example": "Grim-nēah foe approacheth!",
+    "example_thai": "ศัตรูน่ากลัวเข้ามาแล้ว!",
+    "source": "Carian.txt (แต่งจากธีมอันธรรม)"
+  },
+  {
+    "old_english": "gold-hord",
+    "pos": "noun",
+    "thai": "สมบัติ, คลังทอง",
+    "modern_descendant": "hoard",
+    "example": "Gold-hord awaits thee!",
+    "example_thai": "คลังทองรอการโดยเจ้า!",
+    "source": "Carian.txt (แต่งจากธีมบุญสิทธิ)"
+  },
+  {
+    "old_english": "wæl-stōw",
+    "pos": "noun",
+    "thai": "สนามรบ, สนามสังคราม",
+    "modern_descendant": "well-stow",
+    "example": "On wæl-stōw we gather!",
+    "example_thai": "บนสนามรบเรารวมตัว!",
+    "source": "Carian.txt (แต่งจากธีมสงคราม)"
+  },
+  {
+    "old_english": "scyld-þegn",
+    "pos": "noun",
+    "thai": "ทหารโล่, รักษาการ",
+    "modern_descendant": "shield-thane",
+    "example": "Scyld-þegn, guard the gate!",
+    "example_thai": "ทหารโล่, รักษาประตู!",
+    "source": "Carian.txt (แต่งจากธีมการป้องกัน)"
+  },
+  {
+    "old_english": "þurh-sēon",
+    "pos": "verb",
+    "thai": "มองผ่าน, เฝ้าดู",
+    "modern_descendant": "through-see",
+    "example": "Þurh-sēon all deceits!",
+    "example_thai": "มองผ่านกลโกงทั้งหมด!",
+    "source": "Carian.txt (แต่งจากธีมการค้นหา)"
+  },
+  {
+    "old_english": "hēah-cyning",
+    "pos": "noun",
+    "thai": "กษัตริย์สูง, ผู้ครองราชย์",
+    "modern_descendant": "high-king",
+    "example": "Hēah-cyning hath spoken!",
+    "example_thai": "กษัตริย์สูงได้ประกาศแล้ว!",
+    "source": "Carian.txt (แต่งจากธีมอำนาจ)"
+  },
+  {
+    "old_english": "lyft-boga",
+    "pos": "noun",
+    "thai": "คนธนู, นักธนูบิน",
+    "modern_descendant": "loft-bow",
+    "example": "Lyft-boga strikes from above!",
+    "example_thai": "นักธนูบินโจมตีจากด้านบน!",
+    "source": "Carian.txt (แต่งจากธีมอาวุธ)"
+  },
+  {
+    "old_english": "deaþ-scēaw",
+    "pos": "noun",
+    "thai": "เงา/ความตาย, ผีเดือด",
+    "modern_descendant": "death-shade",
+    "example": "Deaþ-scēaw rīseth!",
+    "example_thai": "ผีเดือดลุกขึ้น!",
+    "source": "Carian.txt (แต่งจากธีมอสูร)"
+  },
+  {
+    "old_english": "bān-stān",
+    "pos": "noun",
+    "thai": "กระดูก, หินกระดูก",
+    "modern_descendant": "bone-stone",
+    "example": "Bān-stān warrior marches!",
+    "example_thai": "นักรบกระดูกเดินมา!",
+    "source": "Carian.txt (แต่งจากธีมอสูร)"
+  },
+  {
+    "old_english": "gær-scip",
+    "pos": "noun",
+    "thai": "เรือ, เรือทำให้",
+    "modern_descendant": "gear-ship",
+    "example": "Gær-scip readied for war!",
+    "example_thai": "เรือเตรียมพร้อมสำหรับสงคราม!",
+    "source": "Carian.txt (แต่งจากธีมการเดินทาง)"
+  },
+  {
+    "old_english": "beorn-wyrð",
+    "pos": "noun",
+    "thai": "ชีวิตของนักรบ, ชะตากรรมของยอดนักรบ",
+    "modern_descendant": "born-weird",
+    "example": "Beorn-wyrð is sealed!",
+    "example_thai": "ชะตากรรมของนักรบถูกปิดผนึก!",
+    "source": "Carian.txt (แต่งจากธีมชะตากรรม)"
+  },
+  {
+    "old_english": "sige-beorn",
+    "pos": "noun",
+    "thai": "ผู้ชนะ, นักรบชัยชนะ",
+    "modern_descendant": "victory-born",
+    "example": "Sige-beorn shall prevail!",
+    "example_thai": "ผู้ชนะจะครองชัย!",
+    "source": "Carian.txt (แต่งจากธีมชัยชนะ)"
+  },
+  {
+    "old_english": "æþel-man",
+    "pos": "noun",
+    "thai": "มนุษย์สูงส่วน, ชนชั้นสูง",
+    "modern_descendant": "atheling-man",
+    "example": "Æþel-man doth command!",
+    "example_thai": "มนุษย์สูงส่วนสั่งการ!",
+    "source": "Carian.txt (แต่งจากธีมอำนาจ)"
+  },
+  {
+    "old_english": "wyrm-bān",
+    "pos": "noun",
+    "thai": "กระดูกมังกร, กระดูกสัตว์ร้าย",
+    "modern_descendant": "worm-bone",
+    "example": "Wyrm-bān lies scattered!",
+    "example_thai": "กระดูกมังกรกระจัดกระจาย!",
+    "source": "Carian.txt (แต่งจากธีมมังกร)"
+  },
+  {
+    "old_english": "here-werod",
+    "pos": "noun",
+    "thai": "กลุ่มทหาร, หมู่กำลัง",
+    "modern_descendant": "here-wered",
+    "example": "Here-werod marcheth forth!",
+    "example_thai": "กลุ่มทหารเดินไปข้างหน้า!",
+    "source": "Carian.txt (แต่งจากธีมสงคราม)"
+  },
+  {
+    "old_english": "mægen-craft",
+    "pos": "noun",
+    "thai": "ศักยภาพ, พลังกล้าหาญ",
+    "modern_descendant": "might-craft",
+    "example": "Mægen-craft unknown!",
+    "example_thai": "พลังกล้าหาญที่ไม่รู้จัก!",
+    "source": "Carian.txt (แต่งจากธีมพลัง)"
+  },
+  {
+    "old_english": "unhold-nes",
+    "pos": "noun",
+    "thai": "ความชั่ว, ความเป็นอสูร",
+    "modern_descendant": "unholy-ness",
+    "example": "Unhold-nes grows strong!",
+    "example_thai": "ความชั่วร้ายเพิ่มมากขึ้น!",
+    "source": "Carian.txt (แต่งจากธีมอสูร)"
+  },
+  {
+    "old_english": "ealdor-fruma",
+    "pos": "noun",
+    "thai": "บรรพบุรุษ, ผู้ริเริ่มสยาม",
+    "modern_descendant": "elder-from",
+    "example": "Ealdor-fruma watcheth all!",
+    "example_thai": "บรรพบุรุษเฝ้าดูทั้งหมด!",
+    "source": "Carian.txt (แต่งจากธีมตำนาน)"
+  },
+  {
+    "old_english": "dol-gār",
+    "pos": "noun",
+    "thai": "หลาก/กำ, หลากหลายอาวุธ",
+    "modern_descendant": "dole-gear",
+    "example": "Dol-gār sharpened!",
+    "example_thai": "หลากหลายอาวุธถูกลับแล้ว!",
+    "source": "Carian.txt (แต่งจากธีมอาวุธ)"
   }
 ]
