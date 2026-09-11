@@ -123,5 +123,160 @@
     ],
     "old_english": "war, battle",
     "source": "Carian.txt (battle arts, warrior jar Alexander, means to fight)"
+  },
+  {
+    "latin": "gratia, -ae",
+    "pos": "noun",
+    "root": "grat-",
+    "thai": "พระคุณ, ความโปรดปราน",
+    "naming_examples": [
+      "Grace (Sites of Grace)",
+      "Gracious",
+      "Gratia"
+    ],
+    "old_english": "grace",
+    "source": "Carian.txt (Sites of Grace, Guidance of Grace - แนวคิดหลัก)"
+  },
+  {
+    "latin": "stella, -ae",
+    "pos": "noun",
+    "root": "stell-",
+    "thai": "ดาว, ดวงดาว",
+    "naming_examples": [
+      "Estelle",
+      "Stella",
+      "Stellaris"
+    ],
+    "old_english": "star",
+    "source": "Carian.txt (light, guidance, beacons - ธีมแสงและการนำทาง)"
+  },
+  {
+    "latin": "flamma, -ae",
+    "pos": "noun",
+    "root": "flamm-",
+    "thai": "เพลิง, ไฟ",
+    "naming_examples": [
+      "Flamel",
+      "Flammia",
+      "Prometheus"
+    ],
+    "old_english": "flame",
+    "source": "Carian.txt (Light three flames atop the candle towers)"
+  },
+  {
+    "latin": "oculus, -i",
+    "pos": "noun",
+    "root": "ocul-",
+    "thai": "ตา, สายตา",
+    "naming_examples": [
+      "Oculon",
+      "Oculus",
+      "Binocular"
+    ],
+    "old_english": "eye",
+    "source": "Carian.txt (Beast Eye - claw-marked stone eye)"
+  },
+  {
+    "latin": "serpens, -entis",
+    "pos": "noun",
+    "root": "serp-",
+    "thai": "งู, สิ่งที่คดเคี่ยว",
+    "naming_examples": [
+      "Serpenski",
+      "Serpentine",
+      "Nagini"
+    ],
+    "old_english": "serpent",
+    "source": "Carian.txt (iris writhes as if alive - ธีมการเคลื่อนไหวคดเคี่ยว)"
+  },
+  {
+    "latin": "mappa, -ae",
+    "pos": "noun",
+    "root": "mapp-",
+    "thai": "แผนที่, แผ่นผ้า",
+    "naming_examples": [
+      "Map",
+      "Mapper",
+      "Mappasaurus"
+    ],
+    "old_english": "map",
+    "source": "Carian.txt (About the Map section)"
+  },
+  {
+    "latin": "arcus, -i",
+    "pos": "noun",
+    "root": "arc-",
+    "thai": "ธนู, ส่วนโค้ง",
+    "naming_examples": [
+      "Archer",
+      "Arcus",
+      "Arcanist"
+    ],
+    "old_english": "arc/bow",
+    "source": "Carian.txt (About Bows - Equip a bow to fire arrows)"
+  },
+  {
+    "latin": "sagitta, -ae",
+    "pos": "noun",
+    "root": "sagitt-",
+    "thai": "ลูกศร, นักธนู",
+    "naming_examples": [
+      "Sagittarius",
+      "Sagittaria",
+      "Sagitta"
+    ],
+    "old_english": "arrow",
+    "source": "Carian.txt (fire arrows - fire arrow type)"
+  },
+  {
+    "latin": "liber, -a, -um",
+    "pos": "adjective",
+    "root": "liber-",
+    "thai": "เสรี, อิสระ",
+    "naming_examples": [
+      "Liberty",
+      "Libertad",
+      "Liberius"
+    ],
+    "old_english": "free/liberty",
+    "source": "Carian.txt (freely place beacons - freedom of exploration)"
+  },
+  {
+    "latin": "pons, pontis",
+    "pos": "noun",
+    "root": "pont-",
+    "thai": "สะพาน, เชื่อมโยง",
+    "naming_examples": [
+      "Pontius",
+      "Ponte",
+      "Pons Augustus"
+    ],
+    "old_english": "bridge",
+    "source": "Carian.txt (guidance leading along path - ธีมเส้นทาง)"
+  },
+  {
+    "latin": "calceus, -i",
+    "pos": "noun",
+    "root": "calc-",
+    "thai": "รองเท้า, ย่างกร้าว",
+    "naming_examples": [
+      "Calceus",
+      "Calcedon"
+    ],
+    "old_english": "shoe/tread",
+    "source": "Carian.txt (crouching, tall grass - movement and stealth)"
+  },
+  {
+    "latin": "signum, -i",
+    "pos": "noun",
+    "root": "sign-",
+    "thai": "สัญญาณ, เครื่องหมาย",
+    "naming_examples": [
+      "Signet",
+      "Signal",
+      "Sigmion"
+    ],
+    "old_english": "sign",
+    "source": "Carian.txt (golden rays as guide, beacons, compass - symbols and signals)"
   }
 ]
