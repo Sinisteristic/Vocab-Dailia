@@ -8,8 +8,8 @@ on:
         required: true
         type: choice
         options:
-          - naming_roots
-          - old_english
+          - roots_voc
+          - archaic_voc
       source_file:
         description: "ชื่อไฟล์ในโฟลเดอร์ sources/ เช่น novel1.txt (เว้นว่างไว้ = สุ่มไฟล์เอง)"
         required: false
@@ -20,7 +20,7 @@ on:
         required: false
         default: "3"
   schedule:
-    # ทุกวันศุกร์ 23:23 น. เวลาไทย = 16:23 UTC — เติมคำใหม่ naming_roots 14 คำ + old_english 28 คำ
+    # ทุกวันศุกร์ 23:23 น. เวลาไทย = 16:23 UTC — เติมคำใหม่ roots_voc 12 คำ + archaic_voc 24 คำ
     - cron: "23 16 * * 5"
 
 permissions:
@@ -40,11 +40,9 @@ jobs:
         id: plan
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            # รันอัตโนมัติ: ทำทั้ง 2 คลังในตาเดียว จำนวนคำตามค่ามาตรฐานของแต่ละคลัง
-            echo "targets=naming_roots:12 old_english:24" >> "$GITHUB_OUTPUT"
+            echo "targets=roots_voc:12 archaic_voc:24" >> "$GITHUB_OUTPUT"
             echo "source_file=" >> "$GITHUB_OUTPUT"
           else
-            # กดรันเอง: ทำแค่ target เดียวตามที่เลือกในฟอร์ม
             echo "targets=${{ inputs.target }}:${{ inputs.count }}" >> "$GITHUB_OUTPUT"
             echo "source_file=${{ inputs.source_file }}" >> "$GITHUB_OUTPUT"
           fi
@@ -71,7 +69,7 @@ jobs:
 
               python3 merge_vocab.py
 
-              git add naming_roots.json old_english_vocab.json
+              git add roots_voc.json archaic_voc.json
               if git diff --cached --quiet; then
                 echo "ไม่มีอะไรต้อง commit สำหรับ $TARGET"
                 break
