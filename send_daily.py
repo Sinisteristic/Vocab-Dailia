@@ -3,10 +3,10 @@ import os
 import sys
 import urllib.request
 
-NAMING_PER_DAY = int(os.environ.get("NAMING_PER_DAY", "2"))
-OE_PER_DAY = int(os.environ.get("OE_PER_DAY", "4"))
-NAMING_FILE = "naming_roots.json"
-OE_FILE = "old_english_vocab.json"
+ROOTS_PER_DAY = int(os.environ.get("ROOTS_PER_DAY", os.environ.get("NAMING_PER_DAY", "2")))
+ARCHAIC_PER_DAY = int(os.environ.get("ARCHAIC_PER_DAY", os.environ.get("OE_PER_DAY", "4")))
+ROOTS_FILE = "roots_voc.json"
+ARCHAIC_FILE = "archaic_voc.json"
 PROGRESS_FILE = "progress.json"
 
 
@@ -25,11 +25,7 @@ def save_json(path, data):
 def pick_words(vocab, key_field, cursor, priority_cursor, per_day):
     """
     เลือกคำของวันนี้ โดยให้สิทธิ์ "คำใหม่ที่ยังไม่เคยถูกส่งเลยสักครั้ง" ก่อนเสมอ
-    (priority_cursor ชี้ตำแหน่งคำถัดไปที่ยังไม่เคยถูกจัดลำดับความสำคัญ)
     ถ้าคำใหม่ไม่พอเติมโควต้าต่อวัน จะเติมส่วนที่เหลือด้วยการวนคิวปกติ (round-robin)
-    จากคำทั้งหมดในคลัง (รวมคำเก่าที่เคยส่งไปแล้ว)
-
-    คืนค่า: (คำที่เลือกวันนี้, cursor ใหม่, priority_cursor ใหม่, เลขรอบสำหรับแสดงผล)
     """
     total = len(vocab)
     if total == 0:
@@ -38,7 +34,6 @@ def pick_words(vocab, key_field, cursor, priority_cursor, per_day):
     picked = []
     picked_keys = set()
 
-    # 1) คำใหม่ก่อนเสมอ
     new_available = max(0, total - priority_cursor)
     take_new = min(new_available, per_day)
     for i in range(take_new):
@@ -47,7 +42,6 @@ def pick_words(vocab, key_field, cursor, priority_cursor, per_day):
         picked_keys.add(item[key_field])
     priority_cursor += take_new
 
-    # 2) เติมที่เหลือด้วยคิวปกติ ข้ามคำที่เพิ่งถูกเลือกไปแล้วในข้อ 1 (กันคำซ้ำในแจ้งเตือนเดียวกัน)
     remaining = per_day - take_new
     attempts = 0
     while remaining > 0 and attempts < total * 2:
@@ -64,29 +58,51 @@ def pick_words(vocab, key_field, cursor, priority_cursor, per_day):
     return picked, cursor, priority_cursor, round_number
 
 
-def format_naming(w):
-    lines = [f"🔸 {w['latin']} ({w['pos']}) — {w['thai']}"]
-    if w.get("root"):
-        lines.append(f"   ราก: {w['root']}")
-    if w.get("naming_examples"):
-        lines.append("   ตั้งชื่อ/พบใน:")
-        for ex in w["naming_examples"]:
-            lines.append(f"     • {ex}")
-    if w.get("old_english"):
-        lines.append(f"   อังกฤษโบราณ: {w['old_english']}")
-    return "\n".join(lines)
+def format_roots(w):
+    # รองรับ schema ใหม่ (name/components/explanation_thai) เป็นหลัก
+    # และยังรองรับ schema เก่าที่สุด (latin/root/naming_examples) เผื่อมีของเดิมหลงเหลืออยู่
+    if "name" in w:
+        lines = [f"🔸 {w['name']} — {w.get('thai_meaning', '')}"]
+        for comp in w.get("components", []):
+            lines.append(f"   • {comp.get('part', '')} ({comp.get('language', '')}) = {comp.get('meaning_thai', '')}")
+        if w.get("explanation_thai"):
+            lines.append(f"   💡 {w['explanation_thai']}")
+        return "\n".join(lines)
+    else:
+        lines = [f"🔸 {w.get('latin', '')} ({w.get('pos', '')}) — {w.get('thai', '')}"]
+        if w.get("root"):
+            lines.append(f"   ราก: {w['root']}")
+        if w.get("naming_examples"):
+            lines.append("   ตั้งชื่อ/พบใน:")
+            for ex in w["naming_examples"]:
+                lines.append(f"     • {ex}")
+        return "\n".join(lines)
 
 
-def format_oe(w):
-    lines = [f"🔹 {w['old_english']} ({w['pos']}) — {w['thai']}"]
-    if w.get("modern_descendant"):
-        lines.append(f"   ลูกหลานในปัจจุบัน: {w['modern_descendant']}")
-    if w.get("example"):
-        ex_line = f"   📖 {w['example']}"
-        if w.get("example_thai"):
-            ex_line += f" ({w['example_thai']})"
-        lines.append(ex_line)
-    return "\n".join(lines)
+def format_archaic(w):
+    # รองรับ schema ใหม่ (word/is_from_source/modern_replacement) เป็นหลัก
+    # และยังรองรับ schema เก่า (old_english/modern_descendant) เผื่อมีของเดิมหลงเหลืออยู่
+    if "word" in w:
+        tag = "📖 พบในเนื้อหาจริง" if w.get("is_from_source") else "✍️ อังกฤษโบราณ (สำรอง)"
+        lines = [f"🔹 {w['word']} ({w.get('pos', '')}) — {w.get('thai', '')}  [{tag}]"]
+        if w.get("modern_replacement"):
+            lines.append(f"   ใช้แทนปัจจุบันด้วย: {w['modern_replacement']}")
+        if w.get("example"):
+            ex_line = f"   {w['example']}"
+            if w.get("example_thai"):
+                ex_line += f" ({w['example_thai']})"
+            lines.append(ex_line)
+        return "\n".join(lines)
+    else:
+        lines = [f"🔹 {w.get('old_english', '')} ({w.get('pos', '')}) — {w.get('thai', '')}"]
+        if w.get("modern_descendant"):
+            lines.append(f"   ลูกหลานในปัจจุบัน: {w['modern_descendant']}")
+        if w.get("example"):
+            ex_line = f"   {w['example']}"
+            if w.get("example_thai"):
+                ex_line += f" ({w['example_thai']})"
+            lines.append(ex_line)
+        return "\n".join(lines)
 
 
 def main():
@@ -95,43 +111,50 @@ def main():
         print("ERROR: ไม่พบ NTFY_TOPIC ใน environment variable", file=sys.stderr)
         sys.exit(1)
 
-    naming_vocab = load_json(NAMING_FILE, [])
-    oe_vocab = load_json(OE_FILE, [])
-    if not naming_vocab or not oe_vocab:
-        print("ERROR: ไม่พบคำศัพท์ในไฟล์ naming_roots.json หรือ old_english_vocab.json", file=sys.stderr)
+    roots_vocab = load_json(ROOTS_FILE, [])
+    archaic_vocab = load_json(ARCHAIC_FILE, [])
+    if not roots_vocab or not archaic_vocab:
+        print("ERROR: ไม่พบคำศัพท์ในไฟล์ roots_voc.json หรือ archaic_voc.json", file=sys.stderr)
         sys.exit(1)
 
     progress = load_json(PROGRESS_FILE, {})
 
-    # โครงสร้างใหม่: cursor (วนคิวปกติ) + priority_cursor (ชี้คำใหม่ที่ยังไม่เคยถูกจัดสรร)
-    # รองรับการอัปเกรดจากไฟล์ progress.json แบบเก่า (naming_index/oe_index) ให้อัตโนมัติ
-    naming_cursor = progress.get("naming_cursor", progress.get("naming_index", 0))
-    naming_priority_cursor = progress.get("naming_priority_cursor", len(naming_vocab))
-    oe_cursor = progress.get("oe_cursor", progress.get("oe_index", 0))
-    oe_priority_cursor = progress.get("oe_priority_cursor", len(oe_vocab))
-
-    naming_today, naming_cursor, naming_priority_cursor, naming_round = pick_words(
-        naming_vocab, "latin", naming_cursor, naming_priority_cursor, NAMING_PER_DAY
+    # รองรับการอัปเกรดจาก progress.json รูปแบบเก่า (naming_*/oe_*) ให้อัตโนมัติ
+    roots_cursor = progress.get("roots_cursor", progress.get("naming_cursor", progress.get("naming_index", 0)))
+    roots_priority_cursor = progress.get(
+        "roots_priority_cursor", progress.get("naming_priority_cursor", len(roots_vocab))
     )
-    oe_today, oe_cursor, oe_priority_cursor, oe_round = pick_words(
-        oe_vocab, "old_english", oe_cursor, oe_priority_cursor, OE_PER_DAY
+    archaic_cursor = progress.get("archaic_cursor", progress.get("oe_cursor", progress.get("oe_index", 0)))
+    archaic_priority_cursor = progress.get(
+        "archaic_priority_cursor", progress.get("oe_priority_cursor", len(archaic_vocab))
+    )
+
+    # key field ของคำแต่ละรายการ: schema ใหม่ใช้ "name"/"word", เผื่อของเก่าหลงเหลือใช้ "latin"/"old_english"
+    roots_key = "name" if (roots_vocab and "name" in roots_vocab[0]) else "latin"
+    archaic_key = "word" if (archaic_vocab and "word" in archaic_vocab[0]) else "old_english"
+
+    roots_today, roots_cursor, roots_priority_cursor, roots_round = pick_words(
+        roots_vocab, roots_key, roots_cursor, roots_priority_cursor, ROOTS_PER_DAY
+    )
+    archaic_today, archaic_cursor, archaic_priority_cursor, archaic_round = pick_words(
+        archaic_vocab, archaic_key, archaic_cursor, archaic_priority_cursor, ARCHAIC_PER_DAY
     )
 
     new_progress = {
-        "naming_cursor": naming_cursor,
-        "naming_priority_cursor": naming_priority_cursor,
-        "oe_cursor": oe_cursor,
-        "oe_priority_cursor": oe_priority_cursor,
+        "roots_cursor": roots_cursor,
+        "roots_priority_cursor": roots_priority_cursor,
+        "archaic_cursor": archaic_cursor,
+        "archaic_priority_cursor": archaic_priority_cursor,
     }
 
-    naming_section = "📛 รากศัพท์ลาตินในการตั้งชื่อ\n\n" + "\n\n".join(
-        format_naming(w) for w in naming_today
+    roots_section = "📛 ที่มาของชื่อ (นิรุกติศาสตร์)\n\n" + "\n\n".join(
+        format_roots(w) for w in roots_today
     )
-    oe_section = "📜 คำอังกฤษโบราณ (Old English)\n\n" + "\n\n".join(
-        format_oe(w) for w in oe_today
+    archaic_section = "📜 คำโบราณ (Archaic Words)\n\n" + "\n\n".join(
+        format_archaic(w) for w in archaic_today
     )
-    message = naming_section + "\n\n" + ("─" * 20) + "\n\n" + oe_section
-    title = f"ลาติน x อังกฤษโบราณ (รอบ {naming_round}/{oe_round})"
+    message = roots_section + "\n\n" + ("─" * 20) + "\n\n" + archaic_section
+    title = f"ที่มาชื่อ x คำโบราณ (รอบ {roots_round}/{archaic_round})"
 
     url = f"https://ntfy.sh/{ntfy_topic}"
     req = urllib.request.Request(
