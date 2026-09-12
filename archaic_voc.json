@@ -130,5 +130,137 @@
     "example_thai": "การชนทองคำ: วิทยาของอวตารผู้พิทักษ์เอิร์ดทรีย่อย",
     "source": "Carian.txt",
     "date_added": "2026-09-12"
+  },
+  {
+    "word": "sheaves",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "มัดข้าว",
+    "modern_replacement": "bundles",
+    "example": "white cloths and sheaves of wheat often found hung from these headbands are prayers of farewell",
+    "example_thai": "ผ้าขาวและมัดข้าวที่พบแขวนจากแถบศีรษะเหล่านี้เป็น祈祷ลาจากประชาชนแห่งบ้านเกิด",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "meager",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "น้อยนิด",
+    "modern_replacement": "minimal, scant",
+    "example": "this small act offers only meager relief",
+    "example_thai": "การกระทำเล็กน้อยนี้มอบความสงบสุขเพียงเล็กน้อยเท่านั้น",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "beseeches",
+    "pos": "verb",
+    "is_from_source": true,
+    "thai": "ร้องขอ",
+    "modern_replacement": "pleads for, entreats",
+    "example": "this ceremonial garb beseeches the favor of the Warrior King",
+    "example_thai": "เครื่องแต่งกายพิธีนี้ร้องขอพระคุณของกษัตริย์นักรบ",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "recusant",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "ผู้สละ",
+    "modern_replacement": "dissenter, one who refuses",
+    "example": "Worn by Bernahl the Recusant",
+    "example_thai": "สวมใส่โดยเบอร์นาห์ผู้สละ",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "maiden",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "เยาวมาลย์",
+    "modern_replacement": "young woman, beloved",
+    "example": "Until his maiden threw herself into the fire",
+    "example_thai": "จนกว่าเยาวมาลย์ของเขาจะเหวี่ยงตัวเข้าไปในไฟ",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "shun",
+    "pos": "verb",
+    "is_from_source": true,
+    "thai": "หลีกเลี่ยง",
+    "modern_replacement": "avoid, reject",
+    "example": "the brave warriors of the badlands shun excess adornment",
+    "example_thai": "นักรบผู้กล้าของถิ่นหาร้างหลีกเลี่ยงการประดับตัวมากเกินไป",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "expatriated",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ถูกลอบออกนอกเมือง",
+    "modern_replacement": "exiled, banished",
+    "example": "Worn by expatriated royalty",
+    "example_thai": "สวมใส่โดยราชวงศ์ที่ถูกลอบออกนอกเมือง",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "illustrious",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "มหิมา",
+    "modern_replacement": "distinguished, renowned",
+    "example": "a royal wouldn't disgrace their illustrious heritage",
+    "example_thai": "คนหนึ่งแต่งงานจะไม่ทำให้เสื่อมเสียมหิมาของตระกูลเก่าแก่",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "splendid",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "อลังการ",
+    "modern_replacement": "magnificent, grand",
+    "example": "while wearing such splendid raiment",
+    "example_thai": "ขณะที่สวมใส่เสื่อผ้าอลังการเช่นนั้น",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "raiment",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "เสื่อผ้า",
+    "modern_replacement": "clothing, garments",
+    "example": "while wearing such splendid raiment",
+    "example_thai": "ขณะที่สวมใส่เสื่อผ้าอลังการเช่นนั้น",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "ditch",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "หนองน้ำ",
+    "modern_replacement": "trench, gully",
+    "example": "if found dead, in a ditch, in the middle of nowhere",
+    "example_thai": "หากพบศพในหนองน้ำท่ามกลางความว่างเปล่า",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "plush",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "นุ่มสำแล",
+    "modern_replacement": "soft, luxurious",
+    "example": "Gloves of plush leather",
+    "example_thai": "ถุงมือหนังนุ่มสำแล",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
   }
 ]
