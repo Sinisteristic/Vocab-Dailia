@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "word": "Through and Through",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "ทะลุสะทะลุ",
+    "modern_replacement": "completely, entirely",
+    "example": "Through and Through: Powerful archery skill using a greatbow held in an oblique stance.",
+    "example_thai": "ทะลุสะทะลุ: วิทยาธนูที่มีพลังใหญ่หลวง โดยใช้ธนูใหญ่หลวงในท่าเอียง",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Barrage",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "ฝนถมเถมกระสุน",
+    "modern_replacement": "rapid succession of shots",
+    "example": "Barrage: Archery skill using a bow held horizontally.",
+    "example_thai": "ฝนถมเถมกระสุน: วิทยาธนูโดยถืองานธนูแนวนอน",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Mighty Shot",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "นัยธนูมหาเวทย์",
+    "modern_replacement": "powerful shot",
+    "example": "Mighty Shot: Archery skill performed from an oblique stance.",
+    "example_thai": "นัยธนูมหาเวทย์: วิทยาธนูที่กระทำในท่าเอียง",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Enchanted Shot",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "นัยธนูลึกลับ",
+    "modern_replacement": "magical shot",
+    "example": "Enchanted Shot: Archery skill that enlivens the arrow with spiritual essence.",
+    "example_thai": "นัยธนูลึกลับ: วิทยาธนูที่ทำให้ลูกศรมีชีวิตด้วยแก่นจิตร",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Sky Shot",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "นัยธนูสวรรค์",
+    "modern_replacement": "aerial shot",
+    "example": "Sky Shot: Archery skill performed from a low stance.",
+    "example_thai": "นัยธนูสวรรค์: วิทยาธนูที่กระทำในท่าต่ำ",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Rain of Arrows",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "ฝนลูกศรพากย์เพ",
+    "modern_replacement": "shower of arrows",
+    "example": "Rain of Arrows: Archery skill performed from a low stance.",
+    "example_thai": "ฝนลูกศรพากย์เพ: วิทยาธนูที่กระทำในท่าต่ำ",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Invisible Arrow",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "ลูกศรลึกลับ",
+    "modern_replacement": "unseen arrow",
+    "example": "Ashes of War: Invisible Arrow [40700]",
+    "example_thai": "เถ้าแพทย์: ลูกศรลึกลับ",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Hoarfrost Stomp",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "การย่ำหิมะนวล",
+    "modern_replacement": "icy stomp",
+    "example": "Hoarfrost Stomp: Stomp hard to spread a trail of freezing mist on the ground.",
+    "example_thai": "การย่ำหิมะนวล: ย่ำแรงเพื่อแผ่ความหมอกเยือกแข็งไปยังพื้น",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Storm Stomp",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "การย่ำพายุ",
+    "modern_replacement": "tempest stomp",
+    "example": "Storm Stomp: One of the skills that channel the tempests of Stormveil.",
+    "example_thai": "การย่ำพายุ: หนึ่งในวิทยาที่ตรวจสอบพายุแห่งสตอร์มเวล",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Lightning Ram",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "แกะฟ้าผ่า",
+    "modern_replacement": "electrified charge",
+    "example": "Lightning Ram: Skill inspired by tumbling rams.",
+    "example_thai": "แกะฟ้าผ่า: วิทยาบ่มเพาะจากแกะที่วิ่งฟ้าผ่า",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Flame of the Redmanes",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "เพลิงแห่งมเหศวร",
+    "modern_replacement": "warriors' flame",
+    "example": "Flame of the Redmanes: Skill of the Redmanes, who fought alongside General Radahn.",
+    "example_thai": "เพลิงแห่งมเหศวร: วิทยาของมเหศวรผู้สู้ข้างจ่าโยธินราดาห์น",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "word": "Golden Slam",
+    "pos": "noun phrase",
+    "is_from_source": true,
+    "thai": "การชนทองคำ",
+    "modern_replacement": "sacred crash",
+    "example": "Golden Slam: Skill of the avatars who protect Minor Erdtrees.",
+    "example_thai": "การชนทองคำ: วิทยาของอวตารผู้พิทักษ์เอิร์ดทรีย่อย",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  }
+]
