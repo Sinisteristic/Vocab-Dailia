@@ -21,8 +21,8 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           # จันทร์-ศุกร์ (หรือกดรันเอง) = 2+4 / เสาร์-อาทิตย์ = 1+2
-          NAMING_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '1' || '2' }}
-          OE_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '2' || '4' }}
+          ROOTS_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '1' || '2' }}
+          ARCHAIC_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '2' || '4' }}
         run: python3 send_daily.py
 
       - name: Commit updated progress
