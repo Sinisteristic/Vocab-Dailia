@@ -1,1 +1,159 @@
-[]
+[
+  {
+    "name": "Lusat",
+    "thai_meaning": "ลูซัต (ไม่มีความหมายที่ชัดเจน อาจเป็นชื่อสมมติ)",
+    "components": [],
+    "explanation_thai": "ชื่อนี้ไม่มีการสลายตัวทางภาษาศาสตร์ที่วิเคราะห์ได้ เป็นชื่อประดิษฐ์สำหรับตัวละครในเกม",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Rogier",
+    "thai_meaning": "โรเจียร์ (ผู้ที่มีชื่อเสียง/โรงแรม)",
+    "components": [
+      {
+        "part": "Rogier",
+        "language": "ฝรั่งเศสโบราณ/เจอร์แมนิก",
+        "meaning_thai": "มาจากรากศัพท์ hrod (เกียรติยศ) + gar (หอก) หรือ roger (ผู้โหรว่าง)"
+      }
+    ],
+    "explanation_thai": "ชื่อเจอร์แมนิกโบราณที่บ่งบอกถึงการมีชื่อเสียงหรือกำลัง อาจสะท้อนบทบาทของตัวละครที่เป็นจอมเวทย์ชาญฉลาด",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Deathroot",
+    "thai_meaning": "รากสาระแห่งมรณา",
+    "components": [
+      {
+        "part": "Death",
+        "language": "อังกฤษโบราณ",
+        "meaning_thai": "ความตาย"
+      },
+      {
+        "part": "root",
+        "language": "อังกฤษโบราณ",
+        "meaning_thai": "รากฐาน/รากของพืช"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้ประกอบด้วยคำว่า 'death' (มรณา) และ 'root' (ราก) บ่งบอกถึงสารมหัศจรรย์ที่เกี่ยวข้องกับความตายและเวทมนตร์มืด",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Hewg",
+    "thai_meaning": "เฮวก์ (ไม่มีความหมายที่ชัดเจน อาจเป็นชื่อสมมติ)",
+    "components": [],
+    "explanation_thai": "ชื่อนี้ไม่มีการสลายตัวทางภาษาศาสตร์ที่วิเคราะห์ได้ เป็นชื่อประดิษฐ์สำหรับตัวละครช่างตีเหล็ก",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Chrysalids' Memento",
+    "thai_meaning": "สิ่งระลึกของดักแด้/ธูปชูมพร",
+    "components": [
+      {
+        "part": "Chrysalids",
+        "language": "กรีกโบราณ",
+        "meaning_thai": "ดักแด้/อุ้งเหม้า (chrysalis - กลุ่มเมตามอร์โฟซิส)"
+      },
+      {
+        "part": "Memento",
+        "language": "ละติน",
+        "meaning_thai": "สิ่งระลึก/เครื่องหนึ่งที่ระลึก"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้รวม chrysalid (ดักแด้) จากกรีกโบราณ กับ memento (สิ่งระลึก) จากละติน บ่งบอกถึงวัตถุที่เป็นเครื่องหนึ่งระลึกการเปลี่ยนแปลง",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Ranni",
+    "thai_meaning": "รันนี (ไม่มีความหมายที่ชัดเจน อาจเป็นชื่อสมมติ)",
+    "components": [],
+    "explanation_thai": "ชื่อนี้ไม่มีการสลายตัวทางภาษาศาสตร์ที่ชัดเจน เป็นชื่อประดิษฐ์สำหรับตัวละครจอมเวทย์",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Godrick",
+    "thai_meaning": "เทพผู้มีสิทธิศักดิ์",
+    "components": [
+      {
+        "part": "God",
+        "language": "อังกฤษโบราณ/เจอร์แมนิก",
+        "meaning_thai": "เทพ/ผู้บัญชา"
+      },
+      {
+        "part": "rick",
+        "language": "อังกฤษโบราณ/เจอร์แมนิก",
+        "meaning_thai": "ผู้ครอบครอง/อาณาเขต"
+      }
+    ],
+    "explanation_thai": "ชื่อเจอร์แมนิกที่ประกอบด้วย 'God' (เทพ) และ 'rick' (ครอบครอง) เหมาะสำหรับตัวละครราชาผู้มีพลังสูงและทะเยอทะยาน",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Radahn",
+    "thai_meaning": "ราดาห์น (ไม่มีความหมายที่ชัดเจน อาจเป็นชื่อสมมติ)",
+    "components": [],
+    "explanation_thai": "ชื่อนี้ไม่มีการสลายตัวทางภาษาศาสตร์ที่ชัดเจน เป็นชื่อประดิษฐ์สำหรับตัวละคร",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Morgott",
+    "thai_meaning": "มอร์กอตต์ (ไม่มีความหมายที่ชัดเจน อาจเป็นชื่อสมมติ)",
+    "components": [],
+    "explanation_thai": "ชื่อนี้ไม่มีการสลายตัวทางภาษาศาสตร์ที่ชัดเจน เป็นชื่อประดิษฐ์สำหรับตัวละคร",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Celestial Dew",
+    "thai_meaning": "น้ำค่ำแน่นวิหารชั้นสูง",
+    "components": [
+      {
+        "part": "Celestial",
+        "language": "ละติน",
+        "meaning_thai": "ชั้นสูง/สวรรค์/หล่อมฟ้า"
+      },
+      {
+        "part": "Dew",
+        "language": "อังกฤษโบราณ",
+        "meaning_thai": "น้ำค่ำแน่น"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้รวม celestial (จากละติน caelestis - หล่อมฟ้า) กับ dew (จากอังกฤษโบราณ - น้ำค่ำแน่น) บ่งบอกถึงวัตถุศักดิ์สิทธิ์ที่บริสุทธิ์",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Radagon",
+    "thai_meaning": "ราดากอน (ไม่มีความหมายที่ชัดเจน อาจเป็นชื่อสมมติ)",
+    "components": [],
+    "explanation_thai": "ชื่อนี้ไม่มีการสลายตัวทางภาษาศาสตร์ที่ชัดเจน เป็นชื่อประดิษฐ์สำหรับตัวละคร",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  },
+  {
+    "name": "Dung Eater",
+    "thai_meaning": "ผู้ยืมกินสิ่งโสโครย",
+    "components": [
+      {
+        "part": "Dung",
+        "language": "อังกฤษโบราณ",
+        "meaning_thai": "สิ่งโสโครย/มูลสัตว์"
+      },
+      {
+        "part": "Eater",
+        "language": "อังกฤษโบราณ",
+        "meaning_thai": "ผู้กิน"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้ประกอบด้วย dung (สิ่งโสโครย) และ eater (ผู้กิน) บ่งบอกถึงตัวละครที่มีพฤติกรรมชั่วช้าและสกปรก",
+    "source": "Carian.txt",
+    "date_added": "2026-09-12"
+  }
+]
