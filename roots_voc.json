@@ -155,5 +155,187 @@
     "explanation_thai": "ชื่อนี้ประกอบด้วย dung (สิ่งโสโครย) และ eater (ผู้กิน) บ่งบอกถึงตัวละครที่มีพฤติกรรมชั่วช้าและสกปรก",
     "source": "Carian.txt",
     "date_added": "2026-09-12"
+  },
+  {
+    "name": "Vigor",
+    "thai_meaning": "พลังชีวิต",
+    "components": [
+      {
+        "part": "Vigor",
+        "language": "อังกฤษ",
+        "meaning_thai": "ความแข็งแกร่ง ความมีชีวิตชีวา"
+      }
+    ],
+    "explanation_thai": "Vigor เป็นคำอังกฤษที่มาจากเจอร์แมนิก หมายถึง 'ความแข็งแรง ความสดชื่น' ถูกใช้เป็นชื่อสถิติในเกมเพื่อแทนความแข็งแรงของร่างกายและความต้านทานต่อไฟ ที่ควบคุมค่า HP และความอยู่รอด",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Endurance",
+    "thai_meaning": "ความทนทาน",
+    "components": [
+      {
+        "part": "Endurance",
+        "language": "อังกฤษ (จาก Old French endurer)",
+        "meaning_thai": "ความสามารถทำให้ทนต่อเวลา ความไม่หมดไป"
+      }
+    ],
+    "explanation_thai": "Endurance มีรากศัพท์จากภาษาฝรั่งเศสโบราณ endurer แปลว่า 'ทนต่อ' ถูกใช้แทนค่า stamina ในเกม แสดงถึงความสามารถในการทำกิจกรรมแบบต่อเนื่องโดยไม่หมดความอยู่รอด",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Mind",
+    "thai_meaning": "ปัญญา จิต",
+    "components": [
+      {
+        "part": "Mind",
+        "language": "อังกฤษโบราณ (Germanic)",
+        "meaning_thai": "จิตใจ ความคิด สติ"
+      }
+    ],
+    "explanation_thai": "Mind มาจากอังกฤษโบราณ minne หมายถึง 'ความคิด ความจำ' ในเกมใช้แทนสถิติที่ควบคุม FP (จำนวนพลังศูนย์) สำหรับการใช้เวทมนตร์และทักษะ",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Strength",
+    "thai_meaning": "กำลัง",
+    "components": [
+      {
+        "part": "Strength",
+        "language": "อังกฤษ (จาก Old English strengu)",
+        "meaning_thai": "กำลังแข็งแกร่ง ความเข้มแข็ง"
+      }
+    ],
+    "explanation_thai": "Strength มาจากภาษาอังกฤษโบราณ strengu ซึ่งแสดงถึง 'ความแข็งแกร่ง กำลังหนัก' ในเกมคือสถิติที่ควบคุมความสามารถในการใช้อาวุธหนักและความแข็งแกร่งของการเสียดสีทางกายภาพ",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Dexterity",
+    "thai_meaning": "ความเชี่ยวชาญ ความแม่นยำ",
+    "components": [
+      {
+        "part": "Dexterity",
+        "language": "ละติน (dari dextralis, dextrum = ขวา)",
+        "meaning_thai": "ความชำนาญมือขวา ความเคล่ือนไหวลงตัว"
+      }
+    ],
+    "explanation_thai": "Dexterity มาจากละติน dextrum (ขวา) เดิมหมายถึงความเชี่ยวชาญด้านมือขวา ต่อมาขยายความหมายไปถึง 'ความแม่นยำ ความชำนาญ' ในเกมควบคุมการใช้อาวุธ ความเร็วการยิงอาวุธ และการหลีกเลี่ยง",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Intelligence",
+    "thai_meaning": "ปัญญา สติปัญญา",
+    "components": [
+      {
+        "part": "Intelligence",
+        "language": "ละติน (intelligentia จาก intelligere = เข้าใจ)",
+        "meaning_thai": "ความสามารถเข้าใจ การรับรู้ ความฉลาด"
+      }
+    ],
+    "explanation_thai": "Intelligence มาจากละติน intelligentia ซึ่งหมายถึง 'ความเข้าใจ ความสามารถรับรู้' ในเกมคือสถิติที่ควบคุมความสามารถใช้กลินโตน เวทมนตร์ และผลกระทบของความต้านทานเวทมนตร์",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Faith",
+    "thai_meaning": "ศรัทธา ความเชื่อ",
+    "components": [
+      {
+        "part": "Faith",
+        "language": "อังกฤษ (จาก Old French fei และ Latin fides)",
+        "meaning_thai": "ความเชื่อ ความศรัทธา การยึดมั่น"
+      }
+    ],
+    "explanation_thai": "Faith มาจากฝรั่งเศสโบราณ fei จากละติน fides หมายถึง 'ความเชื่อ ความศรัทธา' ในเกมคือสถิติที่ควบคุมการใช้วิธีบูชาศักดิ์สิทธิ์และการป้องกันศักดิ์สิทธิ์",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Arcane",
+    "thai_meaning": "ลึกลับ มหัศจรรย์",
+    "components": [
+      {
+        "part": "Arcane",
+        "language": "ละติน (arcanus จาก arcere = ซ่อน)",
+        "meaning_thai": "สิ่งลับเร้น สิ่งที่ปิดไว้ ความมหัศจรรย์"
+      }
+    ],
+    "explanation_thai": "Arcane มาจากละติน arcanus ซึ่งมาจาก arcere แปลว่า 'ซ่อนเร้น' แสดงถึง 'สิ่งลึกลับ สิ่งลับเร้น' ในเกมควบคุมการค้นพบสิ่งของ ความต้านทานสิ่งศักดิ์สิทธิ์ และเวทมนตร์บางประเภท",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Stamina",
+    "thai_meaning": "พลังสืบอยู่ พลังต่าง",
+    "components": [
+      {
+        "part": "Stamina",
+        "language": "ละติน (stamina = เส้นด้ายของชีวิต)",
+        "meaning_thai": "เส้นด้ายแห่งชีวิต ความอุดเท่า ความสามารถทนไป"
+      }
+    ],
+    "explanation_thai": "Stamina มาจากละติน stamina ซึ่งเดิมหมายถึง 'เส้นด้ายแห่งชีวิต' จากความเชื่อโรมันเก่า ต่อมาใช้แทน 'พลังความสามารถ' ในเกมคือพลังที่ใช้ในการวิ่ง ต่อสู้ และกิจกรรมร่างกาย",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Poise",
+    "thai_meaning": "ท่าทาง ความมั่นคง ความสมดุล",
+    "components": [
+      {
+        "part": "Poise",
+        "language": "ฝรั่งเศส (pois จาก Latin pausum = พัก หยุด)",
+        "meaning_thai": "ความอยู่ในท่าทาง ความมั่นคง ความสมดุล"
+      }
+    ],
+    "explanation_thai": "Poise มาจากฝรั่งเศสโบราณ pois ซึ่งมีรากจากละติน pausum แปลว่า 'พัก หยุด' แสดงถึง 'ความมั่นคง ท่าทาง' ในเกมคือค่าที่หากมีค่าสูงจะไม่ได้รับการเคาะเบิกจากการโจมตีของศัตรู",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Critical",
+    "thai_meaning": "จุดสำคัญ การโจมตีร้ายแรง",
+    "components": [
+      {
+        "part": "Critical",
+        "language": "ละติน (criticus จาก Greek kritikos = สามารถตัดสินได้)",
+        "meaning_thai": "สิ่งที่มีความสำคัญเด็ดขาด สิ่งที่เป็นจุดตัดสินใจ"
+      }
+    ],
+    "explanation_thai": "Critical มาจากลาตินจากภาษากรีก kritikos ซึ่งแสดงถึง 'สิ่งที่สำคัญยิ่ง สิ่งที่เป็นจุดวิกฤต' ในเกมหมายถึงการโจมตีพิเศษที่เกิดจากการโจมตีในจุดอ่อน",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Discovery",
+    "thai_meaning": "การค้นพบ ความคุ้มค่า",
+    "components": [
+      {
+        "part": "Discovery",
+        "language": "ฝรั่งเศสโบราณ (discovrir จาก dis + couvrir = เปิดเผย)",
+        "meaning_thai": "การเปิดเผยสิ่งที่ซ่อนไว้ การพบเจอสิ่งใหม่"
+      }
+    ],
+    "explanation_thai": "Discovery มาจากฝรั่งเศสโบราณ discovrir ซึ่งประกอบด้วย dis (เปิดออก) และ couvrir (ปิด) หมายถึง 'การเปิดเผย การค้นพบ' ในเกมคือค่าที่บ่งบอกความสามารถในการค้นพบรายการและสิ่งห่อหมวก",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
+  },
+  {
+    "name": "Immunity",
+    "thai_meaning": "ความคุ้มครอง ความปลอดภัย",
+    "components": [
+      {
+        "part": "Immunity",
+        "language": "ละติน (immunitas จาก im- + munus = ส่วนแบ่ง)",
+        "meaning_thai": "สถานะที่ไม่มีหนี้สิน ความปลอดภัยจากอันตราย"
+      }
+    ],
+    "explanation_thai": "Immunity มาจากละติน immunitas ซึ่งประกอบด้วย im (ไม่) และ munus (หนี้สิน ข้อบังคับ) แสดงถึง 'ความปลอดจากอันตราย ความคุ้มครอง' ในเกมคือค่าต้านทานต่อสถานะเสื่อมลงเช่น โรค",
+    "source": "Carian.txt",
+    "date_added": "2026-09-18"
   }
 ]
