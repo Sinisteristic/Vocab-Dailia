@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "word": "blackguard",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "อันธพาล",
+    "modern_replacement": "villain / scoundrel",
+    "example": "Iron mask forced on convicted prisoners. / Worn by the blackguard Big Boggart.",
+    "example_thai": "หน้ากากเหล็กของนักโทษผู้ต้องโทษ / อุปกรณ์ของอันธพาลบิ๊กโบกี้",
+    "source": "elden_ring.json",
+    "date_added": "2026-09-24"
+  },
+  {
+    "word": "nigh",
+    "pos": "adverb",
+    "is_from_source": true,
+    "thai": "ใกล้จะมาถึง",
+    "modern_replacement": "near / soon",
+    "example": "For Mohg yet slumbers beside the Divinity. / Be patient. The new dynasty is nigh.",
+    "example_thai": "ท่านม็อคยังหลับใหลอยู่กับเทพเจ้า / จงรอ การเปิดศักราชราชวงศ์ใหม่",
+    "source": "elden_ring.json",
+    "date_added": "2026-09-24"
+  },
+  {
+    "word": "boughs",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "พฤกษา (กิ่งก้านของพฤกษาทอง)",
+    "modern_replacement": "branches",
+    "example": "It was once thought that the blessed sap of the Erdtree would drip from its boughs forever—but that age of plenty swiftly came to a close, and with time, the Erdtree became more an object of faith.",
+    "example_thai": "ว่ากันว่า หยาดพระพรพฤกษาทองเคยเป็นหยาดนํ้าที่ไม่หมดสิ้น / ในยุคอุดมสมบูรณ์ ทว่ายุคสมัยกลับแสนสั้น / พฤกษาทองกลายเป็นความศรัทธา",
+    "source": "elden_ring.json",
+    "date_added": "2026-09-24"
+  }
+]
