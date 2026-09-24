@@ -2,8 +2,8 @@ import json
 import os
 from datetime import datetime, timezone
 
-FILES = {"roots_voc": "roots_voc.json", "archaic_voc": "archaic_voc.json"}
-KEY_FIELD = {"roots_voc": "name", "archaic_voc": "word"}
+FILES = {"roots_voc": "roots_voc.json", "archaic_voc": "archaic_voc.json", "general_voc": "general_voc.json"}
+KEY_FIELD = {"roots_voc": "name", "archaic_voc": "word", "general_voc": "concept"}
 PENDING_FILE = "pending_new_items.json"
 
 

@@ -20,9 +20,10 @@ jobs:
       - name: Send today's words
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          # จันทร์-ศุกร์ (หรือกดรันเอง) = 2+4 / เสาร์-อาทิตย์ = 1+2
+          # จันทร์-ศุกร์ (หรือกดรันเอง) = 2+4+4 / เสาร์-อาทิตย์ = 1+2+2 (อัตราส่วน 2:1 ทุกคลัง)
           ROOTS_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '1' || '2' }}
           ARCHAIC_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '2' || '4' }}
+          GENERAL_PER_DAY: ${{ github.event.schedule == '0 10 * * 0,6' && '2' || '4' }}
         run: python3 send_daily.py
 
       - name: Commit updated progress

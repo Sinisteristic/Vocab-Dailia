@@ -5,8 +5,10 @@ import urllib.request
 
 ROOTS_PER_DAY = int(os.environ.get("ROOTS_PER_DAY", os.environ.get("NAMING_PER_DAY", "2")))
 ARCHAIC_PER_DAY = int(os.environ.get("ARCHAIC_PER_DAY", os.environ.get("OE_PER_DAY", "4")))
+GENERAL_PER_DAY = int(os.environ.get("GENERAL_PER_DAY", "4"))
 ROOTS_FILE = "roots_voc.json"
 ARCHAIC_FILE = "archaic_voc.json"
+GENERAL_FILE = "general_voc.json"
 PROGRESS_FILE = "progress.json"
 
 
@@ -63,6 +65,8 @@ def format_roots(w):
     # และยังรองรับ schema เก่าที่สุด (latin/root/naming_examples) เผื่อมีของเดิมหลงเหลืออยู่
     if "name" in w:
         lines = [f"🔸 {w['name']} — {w.get('thai_meaning', '')}"]
+        if w.get("thai_transliteration"):
+            lines.append(f"   ทับศัพท์ทางการ: {w['thai_transliteration']}")
         for comp in w.get("components", []):
             lines.append(f"   • {comp.get('part', '')} ({comp.get('language', '')}) = {comp.get('meaning_thai', '')}")
         if w.get("explanation_thai"):
@@ -105,6 +109,30 @@ def format_archaic(w):
         return "\n".join(lines)
 
 
+def format_general(w):
+    # concept ที่มี levels A1->C2 หลายคำในแนวคิดเดียวกัน
+    lines = [f"🔺 แนวคิด: {w.get('concept_thai', w.get('concept', ''))}"]
+    for lvl in w.get("levels", []):
+        lines.append(f"   [{lvl.get('cefr', '?')}] {lvl.get('word', '')} ({lvl.get('pos', '')}) — {lvl.get('thai', '')}")
+        if lvl.get("example"):
+            ex_line = f"      {lvl['example']}"
+            if lvl.get("example_thai"):
+                ex_line += f" ({lvl['example_thai']})"
+            lines.append(ex_line)
+        if lvl.get("explanation_thai"):
+            lines.append(f"      💡 {lvl['explanation_thai']}")
+        syn_en = lvl.get("synonyms_en") or []
+        syn_th = lvl.get("synonyms_thai") or []
+        if syn_en or syn_th:
+            syn_line = "      synonym:"
+            if syn_en:
+                syn_line += f" EN({', '.join(syn_en)})"
+            if syn_th:
+                syn_line += f" TH({', '.join(syn_th)})"
+            lines.append(syn_line)
+    return "\n".join(lines)
+
+
 def main():
     ntfy_topic = os.environ.get("NTFY_TOPIC")
     if not ntfy_topic:
@@ -113,8 +141,9 @@ def main():
 
     roots_vocab = load_json(ROOTS_FILE, [])
     archaic_vocab = load_json(ARCHAIC_FILE, [])
-    if not roots_vocab or not archaic_vocab:
-        print("ERROR: ไม่พบคำศัพท์ในไฟล์ roots_voc.json หรือ archaic_voc.json", file=sys.stderr)
+    general_vocab = load_json(GENERAL_FILE, [])
+    if not roots_vocab and not archaic_vocab and not general_vocab:
+        print("ERROR: ยังไม่มีคำศัพท์ในไฟล์ไหนเลย (roots/archaic/general)", file=sys.stderr)
         sys.exit(1)
 
     progress = load_json(PROGRESS_FILE, {})
@@ -128,10 +157,13 @@ def main():
     archaic_priority_cursor = progress.get(
         "archaic_priority_cursor", progress.get("oe_priority_cursor", len(archaic_vocab))
     )
+    general_cursor = progress.get("general_cursor", 0)
+    general_priority_cursor = progress.get("general_priority_cursor", len(general_vocab))
 
     # key field ของคำแต่ละรายการ: schema ใหม่ใช้ "name"/"word", เผื่อของเก่าหลงเหลือใช้ "latin"/"old_english"
     roots_key = "name" if (roots_vocab and "name" in roots_vocab[0]) else "latin"
     archaic_key = "word" if (archaic_vocab and "word" in archaic_vocab[0]) else "old_english"
+    general_key = "concept"
 
     roots_today, roots_cursor, roots_priority_cursor, roots_round = pick_words(
         roots_vocab, roots_key, roots_cursor, roots_priority_cursor, ROOTS_PER_DAY
@@ -139,22 +171,38 @@ def main():
     archaic_today, archaic_cursor, archaic_priority_cursor, archaic_round = pick_words(
         archaic_vocab, archaic_key, archaic_cursor, archaic_priority_cursor, ARCHAIC_PER_DAY
     )
+    general_today, general_cursor, general_priority_cursor, general_round = pick_words(
+        general_vocab, general_key, general_cursor, general_priority_cursor, GENERAL_PER_DAY
+    )
 
     new_progress = {
         "roots_cursor": roots_cursor,
         "roots_priority_cursor": roots_priority_cursor,
         "archaic_cursor": archaic_cursor,
         "archaic_priority_cursor": archaic_priority_cursor,
+        "general_cursor": general_cursor,
+        "general_priority_cursor": general_priority_cursor,
     }
 
-    roots_section = "📛 ที่มาของชื่อ (นิรุกติศาสตร์)\n\n" + "\n\n".join(
-        format_roots(w) for w in roots_today
-    )
-    archaic_section = "📜 คำโบราณ (Archaic Words)\n\n" + "\n\n".join(
-        format_archaic(w) for w in archaic_today
-    )
-    message = roots_section + "\n\n" + ("─" * 20) + "\n\n" + archaic_section
-    title = f"ที่มาชื่อ x คำโบราณ (รอบ {roots_round}/{archaic_round})"
+    sections = []
+    round_parts = []
+    if roots_today:
+        sections.append("📛 ที่มาของชื่อ (นิรุกติศาสตร์)\n\n" + "\n\n".join(format_roots(w) for w in roots_today))
+        round_parts.append(f"ชื่อ {roots_round}")
+    if archaic_today:
+        sections.append("📜 คำโบราณ (Archaic Words)\n\n" + "\n\n".join(format_archaic(w) for w in archaic_today))
+        round_parts.append(f"โบราณ {archaic_round}")
+    if general_today:
+        sections.append("🔤 ศัพท์ทั่วไป (CEFR A1-C2)\n\n" + "\n\n".join(format_general(w) for w in general_today))
+        round_parts.append(f"ทั่วไป {general_round}")
+
+    if not sections:
+        print("ไม่มีคำให้ส่งวันนี้ (ทุกคลังว่างเปล่า) ข้ามการส่งแจ้งเตือน")
+        save_json(PROGRESS_FILE, new_progress)
+        return
+
+    message = ("\n\n" + ("─" * 20) + "\n\n").join(sections)
+    title = f"คำศัพท์วันนี้ (รอบ {' / '.join(round_parts)})"
 
     url = f"https://ntfy.sh/{ntfy_topic}"
     req = urllib.request.Request(

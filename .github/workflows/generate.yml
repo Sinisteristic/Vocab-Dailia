@@ -10,6 +10,7 @@ on:
         options:
           - roots_voc
           - archaic_voc
+          - general_voc
       source_file:
         description: "ชื่อไฟล์ในโฟลเดอร์ sources/ เช่น novel1.txt (เว้นว่างไว้ = สุ่มไฟล์เอง)"
         required: false
@@ -40,7 +41,7 @@ jobs:
         id: plan
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            echo "targets=roots_voc:12 archaic_voc:24" >> "$GITHUB_OUTPUT"
+            echo "targets=roots_voc:12 archaic_voc:24 general_voc:24" >> "$GITHUB_OUTPUT"
             echo "source_file=" >> "$GITHUB_OUTPUT"
           else
             echo "targets=${{ inputs.target }}:${{ inputs.count }}" >> "$GITHUB_OUTPUT"
@@ -69,7 +70,7 @@ jobs:
 
               python3 merge_vocab.py
 
-              git add roots_voc.json archaic_voc.json
+              git add roots_voc.json archaic_voc.json general_voc.json
               if git diff --cached --quiet; then
                 echo "ไม่มีอะไรต้อง commit สำหรับ $TARGET"
                 break
