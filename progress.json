@@ -1,6 +1,8 @@
 {
-  "roots_cursor": 10,
-  "roots_priority_cursor": 22,
-  "archaic_cursor": 20,
-  "archaic_priority_cursor": 44
+  "roots_cursor": 0,
+ "roots_priority_cursor": 0, 
+ "archaic_cursor": 0, 
+ "archaic_priority_cursor": 0, 
+ "general_cursor": 0, 
+ "general_priority_cursor": 0
 }
