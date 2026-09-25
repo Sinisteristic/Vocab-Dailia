@@ -104,6 +104,9 @@ PROMPTS = {
 FILES = {"roots_voc": "roots_voc.json", "archaic_voc": "archaic_voc.json", "general_voc": "general_voc.json"}
 KEY_FIELD = {"roots_voc": "name", "archaic_voc": "word", "general_voc": "concept"}
 NEEDS_SOURCE = {"roots_voc": True, "archaic_voc": True, "general_voc": False}
+# จำนวนรายการสูงสุดที่ขอ Claude ต่อการเรียก 1 ครั้ง (ถ้าขอเยอะกว่านี้จะแบ่งเป็นหลายรอบเรียกภายในตัวเอง
+# กันปัญหาคำตอบยาวเกิน max_tokens จนถูกตัดกลางคัน) — general_voc schema หนักกว่า เลยตั้งเพดานต่ำกว่า
+MAX_ITEMS_PER_CALL = {"roots_voc": 15, "archaic_voc": 15, "general_voc": 8}
 
 
 def load_json(path, default):
@@ -174,7 +177,7 @@ def pick_source_text(requested_file):
 def call_claude(api_key, prompt, attempt=1, max_attempts=3):
     payload = {
         "model": ANTHROPIC_MODEL,
-        "max_tokens": 16000,
+        "max_tokens": 20000,
         "messages": [{"role": "user", "content": prompt}],
     }
     # Sonnet 5 / Opus 5.x เปิด adaptive thinking เป็นค่าเริ่มต้นเสมอ (กิน token ร่วมกับ max_tokens)
@@ -250,27 +253,50 @@ def main():
     path = FILES[target]
     key_field = KEY_FIELD[target]
     existing = load_json(path, [])
-    existing_keys = ", ".join(item[key_field] for item in existing) or "(ยังไม่มี)"
+    existing_keys_set = {item[key_field] for item in existing}
 
-    if NEEDS_SOURCE[target]:
-        filename, chunk, has_translation = pick_source_text(requested_file)
-        print(f"ใช้ไฟล์: {filename} (โหมด {'JSON คู่แปลทางการ' if has_translation else 'ข้อความดิบ .txt'}, ยาว {len(chunk)} ตัวอักษร)")
-        if target == "archaic_voc":
-            note = TRANSLATION_GROUNDING_NOTE_ARCHAIC if has_translation else ""
-        else:  # roots_voc
-            note = TRANSLATION_GROUNDING_NOTE_ROOTS if has_translation else ""
-        prompt = PROMPTS[target].format(
-            count=count, existing=existing_keys, source=chunk, filename=filename, translation_note=note
-        )
-    else:  # general_voc — ไม่ใช้ source ไฟล์ใดๆ
-        print("target=general_voc ไม่ใช้ไฟล์ source (คิดคำศัพท์เอง)")
-        prompt = PROMPTS[target].format(count=count, existing=existing_keys)
+    total_count = int(count)
+    batch_cap = MAX_ITEMS_PER_CALL[target]
+    all_new_items = []
 
-    print(f"กำลังขอคำศัพท์ {count} ชุด ({target}) จาก Claude...")
-    new_items = call_claude(api_key, prompt)
+    remaining = total_count
+    batch_num = 0
+    while remaining > 0:
+        batch_num += 1
+        this_batch = min(remaining, batch_cap)
+        existing_keys_str = ", ".join(sorted(existing_keys_set)) or "(ยังไม่มี)"
 
-    save_json(PENDING_FILE, {"target": target, "items": new_items})
-    print(f"ได้ของใหม่ {len(new_items)} ชุด บันทึกไว้ที่ {PENDING_FILE} รอ merge")
+        if NEEDS_SOURCE[target]:
+            filename, chunk, has_translation = pick_source_text(requested_file)
+            print(f"[ชุดที่ {batch_num}] ใช้ไฟล์: {filename} (โหมด {'JSON คู่แปลทางการ' if has_translation else 'ข้อความดิบ .txt'}, ยาว {len(chunk)} ตัวอักษร)")
+            if target == "archaic_voc":
+                note = TRANSLATION_GROUNDING_NOTE_ARCHAIC if has_translation else ""
+            else:  # roots_voc
+                note = TRANSLATION_GROUNDING_NOTE_ROOTS if has_translation else ""
+            prompt = PROMPTS[target].format(
+                count=this_batch, existing=existing_keys_str, source=chunk, filename=filename, translation_note=note
+            )
+        else:  # general_voc — ไม่ใช้ source ไฟล์ใดๆ
+            prompt = PROMPTS[target].format(count=this_batch, existing=existing_keys_str)
+
+        print(f"[ชุดที่ {batch_num}] กำลังขอคำศัพท์ {this_batch} ชุด ({target}) จาก Claude... (เหลืออีก {remaining} จากทั้งหมด {total_count})")
+        batch_items = call_claude(api_key, prompt)
+
+        # กันซ้ำ: ตัดรายการที่ key ซ้ำกับที่มีอยู่แล้ว หรือซ้ำกับชุดก่อนหน้าในรอบนี้เอง
+        fresh_items = []
+        for item in batch_items:
+            k = item.get(key_field)
+            if not k or k in existing_keys_set:
+                continue
+            fresh_items.append(item)
+            existing_keys_set.add(k)
+
+        print(f"[ชุดที่ {batch_num}] ได้ของใหม่จริง {len(fresh_items)}/{len(batch_items)} ชุด (ตัดรายการซ้ำออกแล้ว)")
+        all_new_items.extend(fresh_items)
+        remaining -= this_batch
+
+    save_json(PENDING_FILE, {"target": target, "items": all_new_items})
+    print(f"รวมทั้งหมด: ได้ของใหม่ {len(all_new_items)} ชุด บันทึกไว้ที่ {PENDING_FILE} รอ merge")
 
 
 if __name__ == "__main__":
