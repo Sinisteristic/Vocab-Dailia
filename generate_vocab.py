@@ -5,7 +5,7 @@ import re
 import sys
 import urllib.request
 
-ANTHROPIC_MODEL = "claude-sonnet-5"
+ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_VERSION = "2023-06-01"
 SOURCES_DIR = "sources"
@@ -129,9 +129,23 @@ def pick_source_text(requested_file):
     if not os.path.isdir(SOURCES_DIR):
         print(f"ERROR: ไม่พบโฟลเดอร์ {SOURCES_DIR}/", file=sys.stderr)
         sys.exit(1)
-    candidates = [f for f in os.listdir(SOURCES_DIR) if f.endswith(".txt") or f.endswith(".json")]
+    raw_candidates = [f for f in os.listdir(SOURCES_DIR) if f.endswith(".txt") or f.endswith(".json")]
+    candidates = []
+    for f in raw_candidates:
+        if f.endswith(".json"):
+            # กันไฟล์ .json ที่ว่างเปล่าหรือพัง ไม่ให้ถูกสุ่มไปใช้เป็นแหล่งอ้างอิง (จะได้คำ 0 คำแบบเงียบๆ)
+            try:
+                with open(os.path.join(SOURCES_DIR, f), "r", encoding="utf-8") as fh:
+                    parsed = json.load(fh)
+                if not parsed:
+                    print(f"ข้าม {f}: เป็น .json ว่างเปล่า ไม่เหมาะเป็นแหล่งอ้างอิง (เช็คว่าไฟล์นี้ควรอยู่ที่ root ไม่ใช่ sources/ หรือเปล่า)", file=sys.stderr)
+                    continue
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"ข้าม {f}: เปิด/อ่านไฟล์ไม่ได้ ({e})", file=sys.stderr)
+                continue
+        candidates.append(f)
     if not candidates:
-        print(f"ERROR: ไม่พบไฟล์ .txt หรือ .json ใน {SOURCES_DIR}/", file=sys.stderr)
+        print(f"ERROR: ไม่พบไฟล์ .txt หรือ .json ที่ใช้งานได้จริงใน {SOURCES_DIR}/", file=sys.stderr)
         sys.exit(1)
     filename = requested_file if requested_file in candidates else random.choice(candidates)
     full_path = os.path.join(SOURCES_DIR, filename)
@@ -158,11 +172,17 @@ def pick_source_text(requested_file):
 
 
 def call_claude(api_key, prompt, attempt=1, max_attempts=3):
-    body = json.dumps({
+    payload = {
         "model": ANTHROPIC_MODEL,
-        "max_tokens": 4000,
+        "max_tokens": 16000,
         "messages": [{"role": "user", "content": prompt}],
-    }).encode("utf-8")
+    }
+    # Sonnet 5 / Opus 5.x เปิด adaptive thinking เป็นค่าเริ่มต้นเสมอ (กิน token ร่วมกับ max_tokens)
+    # ส่วน Haiku 4.5 ไม่รองรับพารามิเตอร์นี้ (จะ error ถ้าส่งไป) — เช็คก่อนว่าเป็นรุ่นไหน
+    if "haiku-4-5" not in ANTHROPIC_MODEL:
+        payload["thinking"] = {"type": "adaptive"}
+        payload["output_config"] = {"effort": "low"}  # งานนี้แค่ดึง/จัดฟอร์แมตคำศัพท์ ไม่ต้องคิดหนัก
+    body = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
         ANTHROPIC_URL,
         data=body,
