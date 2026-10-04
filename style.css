@@ -1,0 +1,201 @@
+/* ===== Latinius-Dailia / Vocab-Dailia — ธีมสมุดโบราณนักปราชญ์ ===== */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Noto+Serif+Thai:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600&display=swap');
+
+:root {
+  --ink: #171310;
+  --ink-2: #1f1a15;
+  --parchment: #e8dcc0;
+  --parchment-dim: #b9ad92;
+  --brass: #c9a227;
+  --verdigris: #6f9484;
+  --wax: #9a4a3d;
+  --line: #3a322a;
+  --shadow: rgba(0,0,0,0.5);
+  --radius: 3px;
+  font-size: 16px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--ink);
+  color: var(--parchment);
+  font-family: 'Noto Sans Thai', 'IM Fell English', serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse at top, rgba(201,162,39,0.06), transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(111,148,132,0.05), transparent 55%);
+}
+
+h1, h2, h3 { font-family: 'IM Fell English', serif; font-weight: 400; letter-spacing: 0.02em; margin: 0 0 0.4em; }
+.th { font-family: 'Noto Serif Thai', serif; }
+
+header.app-header {
+  padding: 1.1rem 1.2rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+}
+header.app-header h1 {
+  font-size: 1.5rem;
+  color: var(--brass);
+}
+header.app-header .subtitle {
+  font-size: 0.8rem;
+  color: var(--parchment-dim);
+  margin-top: 0.2rem;
+}
+
+main { flex: 1; padding: 1rem; max-width: 640px; margin: 0 auto; width: 100%; }
+
+nav.tabs {
+  display: flex;
+  border-top: 1px solid var(--line);
+  background: var(--ink-2);
+  position: sticky;
+  bottom: 0;
+}
+nav.tabs button {
+  flex: 1;
+  padding: 0.7rem 0.3rem;
+  background: none;
+  border: none;
+  color: var(--parchment-dim);
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border-top: 2px solid transparent;
+}
+nav.tabs button.active {
+  color: var(--brass);
+  border-top-color: var(--brass);
+}
+
+.track-filter {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.9rem;
+  flex-wrap: wrap;
+}
+.track-chip {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--ink-2);
+  color: var(--parchment-dim);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.track-chip.active[data-track="roots"] { border-color: var(--brass); color: var(--brass); }
+.track-chip.active[data-track="archaic"] { border-color: var(--wax); color: var(--wax); }
+.track-chip.active[data-track="general"] { border-color: var(--verdigris); color: var(--verdigris); }
+
+input[type="text"], select {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  background: var(--ink-2);
+  border: 1px solid var(--line);
+  color: var(--parchment);
+  border-radius: var(--radius);
+  font-family: 'Noto Sans Thai', sans-serif;
+  margin-bottom: 0.8rem;
+}
+
+.card {
+  background: var(--ink-2);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--brass);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.7rem;
+}
+.card.archaic { border-left-color: var(--wax); }
+.card.general { border-left-color: var(--verdigris); }
+
+.card .headword { font-family: 'IM Fell English', serif; font-size: 1.15rem; color: var(--brass); }
+.card.archaic .headword { color: var(--wax); }
+.card.general .headword { color: var(--verdigris); }
+.card .meaning { color: var(--parchment); margin: 0.15rem 0; }
+.card .meta { font-size: 0.78rem; color: var(--parchment-dim); }
+.card .expl { font-size: 0.85rem; color: var(--parchment-dim); margin-top: 0.4rem; line-height: 1.5; }
+
+.level-row { border-top: 1px dashed var(--line); padding: 0.4rem 0; font-size: 0.85rem; }
+.level-row .lvl-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  border: 1px solid var(--verdigris);
+  color: var(--verdigris);
+  padding: 0.05rem 0.35rem;
+  border-radius: 999px;
+  margin-right: 0.4rem;
+}
+
+/* Flashcard */
+.flash-wrap { display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-top: 1rem; }
+.flashcard {
+  width: 100%;
+  max-width: 420px;
+  min-height: 220px;
+  perspective: 1200px;
+  cursor: pointer;
+}
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.flashcard.flipped .flashcard-inner { transform: rotateY(180deg); }
+.flashcard-face {
+  position: absolute; inset: 0;
+  backface-visibility: hidden;
+  background: var(--ink-2);
+  border: 1px solid var(--brass);
+  border-radius: var(--radius);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 1.4rem; text-align: center;
+}
+.flashcard-face.back { transform: rotateY(180deg); }
+.flashcard-face .big { font-family: 'IM Fell English', serif; font-size: 1.8rem; color: var(--brass); }
+.flash-controls { display: flex; gap: 0.6rem; }
+
+button.btn {
+  background: var(--ink-2);
+  border: 1px solid var(--brass);
+  color: var(--brass);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+button.btn:active { transform: translateY(1px); }
+
+/* Quiz */
+.quiz-progress { font-size: 0.8rem; color: var(--parchment-dim); margin-bottom: 0.5rem; }
+.quiz-q { font-size: 1.05rem; margin-bottom: 0.9rem; }
+.quiz-option {
+  display: block; width: 100%; text-align: left;
+  padding: 0.6rem 0.8rem; margin-bottom: 0.5rem;
+  background: var(--ink-2); border: 1px solid var(--line); color: var(--parchment);
+  border-radius: var(--radius); cursor: pointer;
+}
+.quiz-option.correct { border-color: var(--verdigris); color: var(--verdigris); }
+.quiz-option.wrong { border-color: var(--wax); color: var(--wax); }
+.quiz-result { text-align: center; padding: 1.5rem 0; }
+.quiz-result .score { font-family: 'IM Fell English', serif; font-size: 2.2rem; color: var(--brass); }
+
+/* Stats */
+.stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; margin-bottom: 1rem; }
+.stat-box { background: var(--ink-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 0.8rem; text-align: center; }
+.stat-box .num { font-family: 'IM Fell English', serif; font-size: 1.6rem; color: var(--brass); }
+.stat-box .label { font-size: 0.75rem; color: var(--parchment-dim); }
+
+.loading, .empty { text-align: center; color: var(--parchment-dim); padding: 2rem 0; font-size: 0.9rem; }
