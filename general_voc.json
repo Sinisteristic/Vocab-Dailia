@@ -4139,5 +4139,1831 @@
       }
     ],
     "date_added": "2026-10-02"
+  },
+  {
+    "concept": "Indifference",
+    "concept_thai": "ความไม่สนใจ",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "not care",
+        "pos": "verb phrase",
+        "thai": "ไม่สนใจ",
+        "example": "I don't care what people think about me.",
+        "example_thai": "ฉันไม่สนใจว่าคนอื่นคิดอย่างไรเกี่ยวกับฉัน",
+        "explanation_thai": "การใช้ภาษาหยาบและตรงไปตรงมา ที่ผู้เริ่มต้นใช้บ่อย เพื่อแสดงว่าไม่มีความสนใจหรือห่วงใย",
+        "synonyms_en": [
+          "not mind",
+          "not bother"
+        ],
+        "synonyms_thai": [
+          "ไม่ยุ่ง",
+          "ไม่สนใจใจ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "indifferent",
+        "pos": "adjective",
+        "thai": "ไม่สนใจ, เฉยเมย",
+        "example": "He was indifferent to the criticism.",
+        "example_thai": "เขาเฉยเมยต่อการวิจารณ์นั้น",
+        "explanation_thai": "คำคุณศัพท์ที่เป็นทางการมากขึ้น ใช้เมื่อต้องการบรรยายทัศนคติหรือลักษณะนิสัยของบุคคล",
+        "synonyms_en": [
+          "apathetic",
+          "unconcerned"
+        ],
+        "synonyms_thai": [
+          "เฉยแฉ",
+          "ไม่กระตือรือร้น"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "nonchalant",
+        "pos": "adjective",
+        "thai": "ไม่แยแส, สงบเย็น",
+        "example": "Despite the crisis, she remained nonchalant.",
+        "example_thai": "แม้จะมีวิกฤต เธอยังคงสงบเย็นไม่แยแส",
+        "explanation_thai": "ใช้เมื่อต้องการบรรยายว่าบุคคลมีท่าทีสงบและไม่ตื่นตระหนก แม้ในสถานการณ์เร่งด่วน",
+        "synonyms_en": [
+          "casual",
+          "unconcerned"
+        ],
+        "synonyms_thai": [
+          "ไม่เป็นไร",
+          "ไม่วิตกกังวล"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "dispassionate",
+        "pos": "adjective",
+        "thai": "ไร้อารมณ์, เป็นกลาง",
+        "example": "The judge gave a dispassionate analysis of the evidence.",
+        "example_thai": "ผู้พิพากษาให้การวิเคราะห์ที่เป็นกลางไร้อารมณ์ต่อหลักฐาน",
+        "explanation_thai": "ใช้ในบริบทสำคัญและเป็นทางการ เช่นการวิเคราะห์หรือการตัดสินใจที่ไม่ได้รับอิทธิพลจากความรู้สึก",
+        "synonyms_en": [
+          "impartial",
+          "objective"
+        ],
+        "synonyms_thai": [
+          "กลาง",
+          "ไม่ลำเอียง"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Prosperity",
+    "concept_thai": "ความเจริญรุ่งเรือง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "rich",
+        "pos": "adjective",
+        "thai": "รวย, มั่งคั่ง",
+        "example": "He became rich after working hard for many years.",
+        "example_thai": "เขากลายเป็นคนรวยหลังจากทำงานหนักมาหลายปี",
+        "explanation_thai": "คำง่ายๆ ที่ผู้เริ่มต้นใช้ เพื่อแสดงว่ามีเงินหรือสินค้าหลาย",
+        "synonyms_en": [
+          "wealthy",
+          "well-off"
+        ],
+        "synonyms_thai": [
+          "อุดมสมบูรณ์",
+          "เศรษฐี"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "prosperity",
+        "pos": "noun",
+        "thai": "ความเจริญรุ่งเรือง, ความเ繁่อ",
+        "example": "The nation enjoyed a period of great prosperity.",
+        "example_thai": "ประเทศนั้นประสบกับช่วงเวลาของความเจริญรุ่งเรืองที่ยิ่งใหญ่",
+        "explanation_thai": "คำนามที่ใช้เมื่อพูดถึงความเป็นสุข สำเร็จ และการเจริญเติบโตในภาพรวม ไม่ใช่แค่เงินทองเท่านั้น",
+        "synonyms_en": [
+          "success",
+          "flourishing"
+        ],
+        "synonyms_thai": [
+          "ความสำเร็จ",
+          "การเกิดใหม่"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "affluence",
+        "pos": "noun",
+        "thai": "ความร่ำรวย, ความมีชนชั้น",
+        "example": "The affluence of the wealthy neighborhood was evident in the grand houses.",
+        "example_thai": "ความร่ำรวยของย่านใจกลางชั้นสูงนั้นเห็นได้ชัดจากบ้านที่สวยงาม",
+        "explanation_thai": "ใช้เมื่อบรรยายความมีชนชั้นและสิ่งของหรูหรา ที่มักปรากฏให้เห็นเป็นสัญลักษณ์",
+        "synonyms_en": [
+          "wealth",
+          "riches"
+        ],
+        "synonyms_thai": [
+          "ความเศรษฐี",
+          "มหาศาล"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "opulence",
+        "pos": "noun",
+        "thai": "ความวิจิตรโอ่อ่า, ความสุขสมหวัง",
+        "example": "The opulence of the royal palace impressed all the visitors.",
+        "example_thai": "ความวิจิตรโอ่อ่าของพระราชวังนั้นทำให้ผู้มาเยี่ยมชมประทับใจ",
+        "explanation_thai": "คำที่ซับซ้อนและมีความเป็นทางการ ใช้เมื่อต้องการอธิบายความหรูหรา ความเดือดร้อนที่ปรากฏให้เห็น",
+        "synonyms_en": [
+          "luxury",
+          "magnificence"
+        ],
+        "synonyms_thai": [
+          "ความหรูหรา",
+          "ความโอ่อ่า"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Complexity",
+    "concept_thai": "ความซับซ้อน",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "hard",
+        "pos": "adjective",
+        "thai": "ยาก, หนัก",
+        "example": "This math problem is very hard.",
+        "example_thai": "ปัญหาคณิตศาสตร์นี้ยากมาก",
+        "explanation_thai": "คำง่ายๆ ที่ผู้เริ่มต้นใช้เพื่อบรรยายว่าบางสิ่งบางอย่างหรือปัญหาที่ไม่ง่ายต่อการแก้ไข",
+        "synonyms_en": [
+          "difficult",
+          "tough"
+        ],
+        "synonyms_thai": [
+          "ยาก",
+          "หนัก"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "complicated",
+        "pos": "adjective",
+        "thai": "ซับซ้อน, บ้วนบาด",
+        "example": "The instructions are too complicated to follow.",
+        "example_thai": "คำแนะนำนั้นซับซ้อนเกินไปที่จะปฏิบัติตาม",
+        "explanation_thai": "ใช้เมื่อมีหลายส่วนหรือขั้นตอนที่ต้องเข้าใจ เหมาะสำหรับสถานการณ์หรือกระบวนการ",
+        "synonyms_en": [
+          "intricate",
+          "convoluted"
+        ],
+        "synonyms_thai": [
+          "บ้วนบาด",
+          "เพ้ine"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "complexity",
+        "pos": "noun",
+        "thai": "ความซับซ้อน",
+        "example": "The complexity of the legal case required expert analysis.",
+        "example_thai": "ความซับซ้อนของคดีกฎหมายนั้นต้องการการวิเคราะห์จากผู้เชี่ยวชาญ",
+        "explanation_thai": "คำนามที่ใช้เมื่อพูดถึงลักษณะทั่วไปของความซับซ้อนในระบบหรือปัญหา",
+        "synonyms_en": [
+          "intricacy",
+          "complication"
+        ],
+        "synonyms_thai": [
+          "ความบ้วนบาด",
+          "ความซ่อนเร้น"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "Byzantine",
+        "pos": "adjective",
+        "thai": "ซับซ้อนอย่างมาก, เพ้าเจอะ",
+        "example": "The Byzantine bureaucracy made even simple tasks extremely difficult.",
+        "example_thai": "ระบบราชการที่ซับซ้อนอย่างมากทำให้แม้แต่งานง่ายๆ ก็เป็นไปได้อย่างยากลำบาก",
+        "explanation_thai": "ใช้เมื่อต้องการเน้นความซับซ้อนมากเกินไปจนดูเหมือนว่าไม่จำเป็น โดยอ้างอิงจากอาณาจักรไบแซนตีนเก่า",
+        "synonyms_en": [
+          "labyrinthine",
+          "convoluted"
+        ],
+        "synonyms_thai": [
+          "เพ้าเจอะ",
+          "สลับสลวยซับซ้อน"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Forgiveness",
+    "concept_thai": "การให้อภัย",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "forgive",
+        "pos": "verb",
+        "thai": "ให้อภัย, ยกโทษให้",
+        "example": "I forgive you for breaking my phone.",
+        "example_thai": "ฉันให้อภัยคุณที่ทำให้โทรศัพท์ของฉันแตก",
+        "explanation_thai": "คำกริยาง่ายๆ ที่แสดงการยกโทษและไม่ถือโทษใครต่อสิ่งที่ทำผิด",
+        "synonyms_en": [
+          "pardon",
+          "excuse"
+        ],
+        "synonyms_thai": [
+          "ยกโทษ",
+          "อนุมัติ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "forgiveness",
+        "pos": "noun",
+        "thai": "การให้อภัย, การโอนเอา",
+        "example": "Forgiveness is the first step towards healing.",
+        "example_thai": "การให้อภัยคือขั้นตอนแรกของการรักษาอารัมภ์",
+        "explanation_thai": "ใช้เมื่อพูดถึงการให้อภัยเป็นกระบวนการหรือความคุณธรรมที่สำคัญ",
+        "synonyms_en": [
+          "pardon",
+          "absolution"
+        ],
+        "synonyms_thai": [
+          "การปลด",
+          "การการขอโทษ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "clemency",
+        "pos": "noun",
+        "thai": "ความเมตตา, การลดโทษ",
+        "example": "The king showed clemency to the prisoner and commuted his sentence.",
+        "example_thai": "พระราชาทำความเมตตาต่อเชลยและลดโทษของเขา",
+        "explanation_thai": "ใช้ในบริบทอย่างเป็นทางการ โดยเฉพาะในกฎหมายหรือการปกครอง เพื่อแสดงการโปรดปรานหรือลดโทษ",
+        "synonyms_en": [
+          "mercy",
+          "leniency"
+        ],
+        "synonyms_thai": [
+          "ความเมตตา",
+          "ความอ่อนน้อม"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "absolution",
+        "pos": "noun",
+        "thai": "การปลดเปลื้องความผิด, การให้อภัยโดยสิ้นเชิง",
+        "example": "The priest offered absolution to those who repented their sins.",
+        "example_thai": "บาทหลวงนั้นให้การปลดเปลื้องความผิดแก่ผู้ที่悔心",
+        "explanation_thai": "ใช้ในบริบทศาสนาหรือที่เป็นทางการมาก เพื่อแสดงการให้อภัยอย่างสิ้นเชิงและขัดขวางจากการเรียกร้องความผิด",
+        "synonyms_en": [
+          "exoneration",
+          "acquittal"
+        ],
+        "synonyms_thai": [
+          "การป่วน",
+          "การไม่มีความผิด"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Negligence",
+    "concept_thai": "ความประมาท, การละเลย",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "careless",
+        "pos": "adjective",
+        "thai": "ประมาท, ไม่ระมัดระวัง",
+        "example": "He was careless and forgot his keys.",
+        "example_thai": "เขาประมาทและลืมกุญแจของเขา",
+        "explanation_thai": "คำคุณศัพท์ง่ายที่ใช้บรรยายคนที่ไม่ระวังหรือไม่เอาใจใส่",
+        "synonyms_en": [
+          "negligent",
+          "inattentive"
+        ],
+        "synonyms_thai": [
+          "ไม่ระมัดระวัง",
+          "ไม่ตั้งใจ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "neglect",
+        "pos": "verb/noun",
+        "thai": "ละเลย, ทิ้งไว้",
+        "example": "She neglected her responsibilities and the team suffered.",
+        "example_thai": "เธอละเลยความรับผิดชอบของเธอและทีมงานเสียหาย",
+        "explanation_thai": "ใช้เมื่อต้องการแสดงการละเลยหรือไม่ทำสิ่งที่ควรทำ โดยมีนัยว่ามีการขาดความสนใจที่ดีตั้งแต่แรก",
+        "synonyms_en": [
+          "disregard",
+          "overlook"
+        ],
+        "synonyms_thai": [
+          "ไม่สนใจ",
+          "มองข้าม"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "negligence",
+        "pos": "noun",
+        "thai": "ความประมาท, การละเลยหน้าที่",
+        "example": "The doctor was sued for medical negligence.",
+        "example_thai": "แพทย์นั้นถูกฟ้องร้องเพราะความประมาททางการแพทย์",
+        "explanation_thai": "ใช้ในบริบทกฎหมายหรือที่เป็นทางการเมื่อพูดถึงการละเลยหน้าที่หรือความรับผิดชอบ",
+        "synonyms_en": [
+          "carelessness",
+          "dereliction"
+        ],
+        "synonyms_thai": [
+          "ความประมาท",
+          "ความไม่รับผิดชอบ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "dereliction",
+        "pos": "noun",
+        "thai": "การทอดทิ้งหน้าที่, การละเลยอย่างเต็มที่",
+        "example": "The commander's dereliction of duty led to the military defeat.",
+        "example_thai": "การทอดทิ้งหน้าที่ของผู้บัญชาการนั้นนำไปสู่การพ่ายแพ้ทางทหาร",
+        "explanation_thai": "ใช้ในบริบทที่เป็นทางการและเกร็ง เพื่อแสดงการละเลยหน้าที่อย่างเต็มที่และมีความผิดหนัก",
+        "synonyms_en": [
+          "abandonment",
+          "negligence"
+        ],
+        "synonyms_thai": [
+          "การทอดทิ้ง",
+          "การขาดจากหน้าที่"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Abundance",
+    "concept_thai": "ความอุดมสมบูรณ์",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "plenty",
+        "pos": "noun",
+        "thai": "มากมาย, เพียบพร้อม",
+        "example": "We have plenty of food for the party.",
+        "example_thai": "เรามีอาหารมากมายสำหรับงานเลี้ยง",
+        "explanation_thai": "คำง่ายๆ ใช้เมื่อพูดถึงปริมาณที่เพียงพอและเพิ่มเติม",
+        "synonyms_en": [
+          "lots",
+          "masses"
+        ],
+        "synonyms_thai": [
+          "มากมาย",
+          "เพียบ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "abundant",
+        "pos": "adjective",
+        "thai": "อุดมสมบูรณ์, มากไม่มีที่สิ้นสุด",
+        "example": "The region has abundant natural resources.",
+        "example_thai": "ภูมิภาคนั้นมีทรัพยากรธรรมชาติที่อุดมสมบูรณ์",
+        "explanation_thai": "ใช้เมื่อบรรยายสิ่งที่มีในปริมาณมากและพอเพียง โดยเฉพาะทรัพยากรหรือสินค้า",
+        "synonyms_en": [
+          "plentiful",
+          "copious"
+        ],
+        "synonyms_thai": [
+          "เพียบพร้อม",
+          "มากมายมหาศาล"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "abundance",
+        "pos": "noun",
+        "thai": "ความอุดมสมบูรณ์, ความจำเริญรุ่งเรือง",
+        "example": "The abundance of opportunities allowed him to choose his path carefully.",
+        "example_thai": "ความอุดมสมบูรณ์ของโอกาสนั้นให้เขาสามารถเลือกทางของเขาได้อย่างระมัดระวัง",
+        "explanation_thai": "ใช้เมื่อพูดถึงสถานะของการมีอยู่จำนวนมากในภาพรวม",
+        "synonyms_en": [
+          "profusion",
+          "surplus"
+        ],
+        "synonyms_thai": [
+          "ความเพียบพร้อม",
+          "ความมากมาย"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "cornucopia",
+        "pos": "noun",
+        "thai": "ความเศรษฐี, ความอุดมสมบูรณ์อันไม่รู้จบ",
+        "example": "The harvest festival was a cornucopia of fresh produce and local delicacies.",
+        "example_thai": "งานเทศกาลเก็บเกี่ยวนั้นเป็นการเฉลิมฉลองความอุดมสมบูรณ์ของผลผลิตสดใหม่และของอร่อยท้องถิ่น",
+        "explanation_thai": "ใช้ในบริบทวรรณคดีหรือท่องเที่ยว โดยอ้างอิงจากตำนานกรีก เพื่อแสดงความอุดมสมบูรณ์ที่ยิ่งใหญ่และมหิมา",
+        "synonyms_en": [
+          "horn of plenty",
+          "abundance"
+        ],
+        "synonyms_thai": [
+          "ความเศรษฐี",
+          "ความอุดมสมบูรณ์"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Isolation",
+    "concept_thai": "ความเหงาเดียวดาย",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "alone",
+        "pos": "adjective/adverb",
+        "thai": "เหงา, คนเดียว",
+        "example": "She felt alone in the crowd.",
+        "example_thai": "เธอรู้สึกเหงาท่ามกลางฝูงชน",
+        "explanation_thai": "คำพื้นฐานที่ใช้เมื่อบรรยายว่าบุคคลไม่มีใครอยู่เคียงข้างหรือรู้สึกเดียวดาย",
+        "synonyms_en": [
+          "lonely",
+          "solitary"
+        ],
+        "synonyms_thai": [
+          "โดดเดี่ยว",
+          "เหงา"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "isolated",
+        "pos": "adjective",
+        "thai": "โดดเดี่ยว, แยกเป็นส่วนตัว",
+        "example": "The remote village is isolated from the rest of the country.",
+        "example_thai": "หมู่บ้านห่างไกลนั้นโดดเดี่ยวจากส่วนที่เหลือของประเทศ",
+        "explanation_thai": "ใช้เมื่อบรรยายสถานที่หรือบุคคลที่ถูกแยกออกจากอื่น ๆ ทั้งด้านกายภาพและสังคม",
+        "synonyms_en": [
+          "secluded",
+          "remote"
+        ],
+        "synonyms_thai": [
+          "ห่างไกล",
+          "แยกเป็นส่วนตัว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "seclusion",
+        "pos": "noun",
+        "thai": "การอพยพเข้าเรือน, การแยกตัวออก",
+        "example": "She chose seclusion to focus on her writing.",
+        "example_thai": "เธอเลือกการแยกตัวออกเพื่อโฟกัสในการเขียน",
+        "explanation_thai": "ใช้เมื่อพูดถึงการเลือกที่จะอยู่ห่างจากคนอื่น เพื่อวัตถุประสงค์เฉพาะ",
+        "synonyms_en": [
+          "solitude",
+          "retirement"
+        ],
+        "synonyms_thai": [
+          "ความเงียบเงิน",
+          "การเงียบสงบ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "estrangement",
+        "pos": "noun",
+        "thai": "การห่างเหินกัน, การแยกห่างลึก",
+        "example": "The estrangement between the two brothers lasted for years.",
+        "example_thai": "การห่างเหินกันระหว่างพี่น้องสองคนนั้นยาวนานหลายปี",
+        "explanation_thai": "ใช้เมื่อพูดถึงการหลุดห่างกันที่มีความลึกซึ้งทางอารมณ์หรือสัมพันธ์ โดยปกติด้วยเหตุความขัดแย้งหรือการเบิกตัวออก",
+        "synonyms_en": [
+          "alienation",
+          "separation"
+        ],
+        "synonyms_thai": [
+          "ความห่างเหินกัน",
+          "การแยกตัว"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Reluctance",
+    "concept_thai": "ความไม่เต็มใจ",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "don't want to",
+        "pos": "verb phrase",
+        "thai": "ไม่อยากจะ",
+        "example": "I don't want to go to the party tonight.",
+        "example_thai": "ฉันไม่อยากไปปาร์ตี้คืนนี้เลย",
+        "explanation_thai": "การใช้ภาษาง่ายๆ ในระดับเบื้องต้น แสดงความไม่เต็มใจอย่างตรงไปตรงมา ใช้ในสถานการณ์ประจำวัน",
+        "synonyms_en": [
+          "refuse",
+          "not feel like"
+        ],
+        "synonyms_thai": [
+          "ปฏิเสธ",
+          "ไม่มีอารมณ์ที่จะ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "reluctant",
+        "pos": "adjective",
+        "thai": "ไม่เต็มใจ, ล้ำเสบียง",
+        "example": "He was reluctant to admit his mistake.",
+        "example_thai": "เขาไม่เต็มใจที่จะยอมรับความผิดของเขา",
+        "explanation_thai": "คำคุณศัพท์ที่ใช้บรรยายสภาวะจิตใจของคนที่ต้านทาน หรือไม่อยากทำสิ่งใดสิ่งหนึ่ง มีความเป็นทางการมากกว่าระดับ A2",
+        "synonyms_en": [
+          "unwilling",
+          "disinclined"
+        ],
+        "synonyms_thai": [
+          "ไม่ยินดี",
+          "ขาดความตั้งใจ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "aversion",
+        "pos": "noun",
+        "thai": "ความเกลียด, การหนีหลบ",
+        "example": "She has a strong aversion to public speaking.",
+        "example_thai": "เธอมีความเกลียดต่อการพูดที่หน้าชุมชนอย่างรุนแรง",
+        "explanation_thai": "คำนามที่แสดงความรู้สึกหลีกเลี่ยงหรือความเกลียดชังอย่างลึกซึ้ง ใช้ในบริบทที่มีความรู้สึกที่แน่นอนและเข้มข้น",
+        "synonyms_en": [
+          "dislike",
+          "distaste"
+        ],
+        "synonyms_thai": [
+          "การไม่ชอบ",
+          "การเสียรสชาติ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "diffidence",
+        "pos": "noun",
+        "thai": "ความขาดความมั่นใจ, การสงสัยตนเอง",
+        "example": "His diffidence prevented him from pursuing his ambitions.",
+        "example_thai": "ความสงสัยตนเองของเขาทำให้เขาไม่สามารถตามหาความทะเยอทะยานของเขา",
+        "explanation_thai": "คำนามที่ใช้อธิบายความไม่เต็มใจที่เกิดจากการสงสัยตนเองและการขาดความมั่นใจ มีนัยความลึกซึ้งทางจิตใจ",
+        "synonyms_en": [
+          "self-doubt",
+          "lack of confidence"
+        ],
+        "synonyms_thai": [
+          "การสงสัยตนเอง",
+          "ความขาดความเชื่อมั่น"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "circumspection",
+        "pos": "noun",
+        "thai": "ความระมัดระวัง, การพิจารณาอย่างรอบคอบ",
+        "example": "His circumspection in the matter revealed a calculated reluctance to commit.",
+        "example_thai": "ความระมัดระวังของเขาในเรื่องนี้เปิดเผยความไม่เต็มใจที่คำนวณไว้แล้วที่จะเข้ามาร่วม",
+        "explanation_thai": "คำนามระดับสูงที่แสดงความไม่เต็มใจที่เกิดจากการพิจารณาอย่างละเอียดและระวังระวัง มีนัยปัญญาและการคำนึงถึงผลลัพธ์",
+        "synonyms_en": [
+          "caution",
+          "prudence"
+        ],
+        "synonyms_thai": [
+          "ความระมัดระวัง",
+          "ความลำมัก"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Timidity",
+    "concept_thai": "ความเขื่อขรัว",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "shy",
+        "pos": "adjective",
+        "thai": "อายุ, ขี้อาย",
+        "example": "The shy child hid behind her mother.",
+        "example_thai": "เด็กอายุ ซ่อนตัวอยู่หลังแม่ของเธอ",
+        "explanation_thai": "คำคุณศัพท์พื้นฐานที่บรรยายความไม่กล้าในสถานการณ์สังคม โดยเฉพาะเมื่อมีคนแปลกหน้าหรือคนชุมชน",
+        "synonyms_en": [
+          "timid",
+          "bashful"
+        ],
+        "synonyms_thai": [
+          "ขี้อายเขิน",
+          "อายเขิน"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "timid",
+        "pos": "adjective",
+        "thai": "เขื่อขรัว, กลัว",
+        "example": "He made a timid attempt to speak up at the meeting.",
+        "example_thai": "เขาพยายามพูดคุยอย่างเขื่อขรัวในการประชุม",
+        "explanation_thai": "คำคุณศัพท์ที่บรรยายการไม่กล้ารับมือกับสถานการณ์หรือการกระทำ ระดับความเต็มใจต่ำ",
+        "synonyms_en": [
+          "fearful",
+          "nervous"
+        ],
+        "synonyms_thai": [
+          "กลัว",
+          "วิตก"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "diffident",
+        "pos": "adjective",
+        "thai": "ขาดความมั่นใจ, สงสัยตนเอง",
+        "example": "His diffident manner made him seem less competent than he actually was.",
+        "example_thai": "ท่าทางขาดความมั่นใจของเขาทำให้เขาดูน้อยมีความสามารถกว่าที่แท้จริง",
+        "explanation_thai": "คำคุณศัพท์ที่ระบุความไม่กล้าเพราะการสงสัยตนเองและการขาดความเชื่อมั่นในความสามารถ ไม่ใช่เพราะกลัวแค่นั้น",
+        "synonyms_en": [
+          "self-doubting",
+          "lacking confidence"
+        ],
+        "synonyms_thai": [
+          "สงสัยตนเอง",
+          "ขาดเชื่อมั่น"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "trepidation",
+        "pos": "noun",
+        "thai": "ความกลัว, ความหวาดเสียว",
+        "example": "She entered the exam room with a sense of trepidation.",
+        "example_thai": "เธอเข้าห้องสอบพร้อมกับความหวาดเสียว",
+        "explanation_thai": "คำนามที่แสดงความกลัวและความวิตกกังวลเล็กน้อย ใช้เมื่อเกิดสถานการณ์ที่ไม่แน่นอนหรือท้าทาย",
+        "synonyms_en": [
+          "fear",
+          "anxiety"
+        ],
+        "synonyms_thai": [
+          "ความกลัว",
+          "ความวิตก"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "pusillanimity",
+        "pos": "noun",
+        "thai": "ความขาดความกล้า, ความนิ่มถ่อม",
+        "example": "His pusillanimity prevented him from taking any bold action.",
+        "example_thai": "ความนิ่มถ่อมของเขาป้องกันไม่ให้เขาทำการกระทำใด ๆ ที่ล้มเหลว",
+        "explanation_thai": "คำนามระดับสูงที่แสดงถึงการขาดความกล้าและความมั่นใจในระดับลึก มีนัยว่าเป็นลักษณะนิสัยขาดความกล้าหาญพื้นฐาน",
+        "synonyms_en": [
+          "cowardice",
+          "faint-heartedness"
+        ],
+        "synonyms_thai": [
+          "ความขาดความกล้า",
+          "ความขี้ขลาด"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Treachery",
+    "concept_thai": "การหักหลังหลืก",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "betray",
+        "pos": "verb",
+        "thai": "หักหลังหลืก, ทรยศ",
+        "example": "He betrayed his friend's trust by spreading secrets.",
+        "example_thai": "เขาหักหลังหลืกความเชื่อถือของเพื่อนโดยการเผยแพร่ความลับ",
+        "explanation_thai": "คำกริยาพื้นฐานที่หมายถึงการกระทำที่หักหลังหลืกความเชื่อถือหรือการทรยศ ใช้ในระดับพูดคุยทั่วไป",
+        "synonyms_en": [
+          "deceive",
+          "break trust"
+        ],
+        "synonyms_thai": [
+          "โกหก",
+          "ทำให้ผิดหวัง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "treachery",
+        "pos": "noun",
+        "thai": "การหักหลังหลืก, การทรยศ",
+        "example": "The treachery of his closest advisor shocked the king.",
+        "example_thai": "การหักหลังหลืกของที่ปรึกษาที่ใกล้ชิดที่สุดของเขาตกใจกษัตริย์",
+        "explanation_thai": "คำนามที่บรรยายการกระทำหักหลังหลืกอย่างรุนแรง และมักมีการวางแผนหรือจงใจ มีความเป็นทางการมากกว่าคำกริยา",
+        "synonyms_en": [
+          "betrayal",
+          "disloyalty"
+        ],
+        "synonyms_thai": [
+          "การหักหลัง",
+          "ความไม่ยํำรับ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "duplicity",
+        "pos": "noun",
+        "thai": "ความสองหน้า, การหลอกลวง",
+        "example": "His duplicity was revealed when both sides discovered his double-dealing.",
+        "example_thai": "ความสองหน้าของเขาถูกเปิดเผยเมื่อทั้งสองฝ่ายค้นพบการทำซ้ำของเขา",
+        "explanation_thai": "คำนามที่ระบุถึงการสองหน้าหรือการหลอกลวงอย่างระเบียบและจงใจ โดยการรักษาตัวต่างกันต่อคนต่างคนหรือกลุ่มต่างกลุ่ม",
+        "synonyms_en": [
+          "deceitfulness",
+          "dishonesty"
+        ],
+        "synonyms_thai": [
+          "ความปมคลั่ง",
+          "ความไม่สื่อ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "perfidy",
+        "pos": "noun",
+        "thai": "การหักหลังหลืกที่เจ้าชู่, การทรยศอย่างรุนแรง",
+        "example": "The general was accused of perfidy after he switched sides during the war.",
+        "example_thai": "นายพลถูกกล่าวหาว่าทรยศอย่างรุนแรงหลังจากที่เขาเปลี่ยนฝ่ายระหว่างสงคราม",
+        "explanation_thai": "คำนามระดับสูงที่แสดงถึงการหักหลังหลืกที่เจ้าชู่และเสียหายต่อชื่อเสียง มักใช้ในบริบททางการทหาร การเมือง หรือวรรณคดี",
+        "synonyms_en": [
+          "treachery",
+          "breach of faith"
+        ],
+        "synonyms_thai": [
+          "การหักหลัง",
+          "ความบาปทรยศ"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "Machiavellianism",
+        "pos": "noun",
+        "thai": "การใช้กลเม็ดและการหลอกลวงเพื่อให้บรรลุเป้าหมาย",
+        "example": "His Machiavellianism in politics earned him both respect and contempt.",
+        "example_thai": "การใช้กลเม็ดในการเมืองของเขาทำให้เขาได้รับทั้งการเคารพและการดูถูก",
+        "explanation_thai": "คำนามระดับสูงสุด ที่หมายถึงการใช้กลเม็ด การหลอกลวง และการสองหน้าเพื่อให้บรรลุความยิ่งใหญ่ อ้างอิงจากนักปรัชญา Niccolò Machiavelli",
+        "synonyms_en": [
+          "cunning",
+          "unscrupulousness"
+        ],
+        "synonyms_thai": [
+          "ความหลากหลาย",
+          "ความไม่มีศีลธรรม"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Apathy",
+    "concept_thai": "ความไม่สนใจ",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "don't care",
+        "pos": "verb phrase",
+        "thai": "ไม่สนใจ, ไม่แยแส",
+        "example": "He doesn't care about the rules.",
+        "example_thai": "เขาไม่สนใจกฎเกณฑ์",
+        "explanation_thai": "การใช้ภาษาง่ายมากที่สุดเพื่อแสดงการไม่สนใจ ใช้ในการพูดคุยประจำวันและไม่เป็นทางการ",
+        "synonyms_en": [
+          "not mind",
+          "not bother"
+        ],
+        "synonyms_thai": [
+          "ไม่เห็นว่า",
+          "ไม่ยุ่ง"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "indifference",
+        "pos": "noun",
+        "thai": "ความไม่สนใจ, ความเฉยเมิน",
+        "example": "His indifference towards politics puzzled his family.",
+        "example_thai": "ความไม่สนใจของเขาต่อการเมืองทำให้ครอบครัวของเขาสับสน",
+        "explanation_thai": "คำนามพื้นฐานระดับกลางที่แสดงสภาวะการไม่สนใจหรือการขาดความสำคัญต่อสิ่งใดสิ่งหนึ่ง",
+        "synonyms_en": [
+          "lack of interest",
+          "unconcern"
+        ],
+        "synonyms_thai": [
+          "ความขาดจิตใจ",
+          "ความไม่เกี่ยวข้อง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "apathy",
+        "pos": "noun",
+        "thai": "ความไม่สนใจ, ความไม่มีอารมณ์",
+        "example": "The widespread apathy among voters made the election results uncertain.",
+        "example_thai": "ความไม่สนใจที่แพร่หลายในหมู่ผู้ลงคะแนนทำให้ผลการเลือกตั้งไม่แน่นอน",
+        "explanation_thai": "คำนามที่ใช้อธิบายการขาดแรงบันดาลใจ ความสนใจ หรืออารมณ์ต่อสิ่งใดสิ่งหนึ่ง แสดงถึงสภาวะอารมณ์ที่ลึกซึ้ง",
+        "synonyms_en": [
+          "lack of interest",
+          "disinterest"
+        ],
+        "synonyms_thai": [
+          "ความไม่อยากเห็น",
+          "ความเฉยชาติ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "nonchalance",
+        "pos": "noun",
+        "thai": "ความเฉยเมิน, ความไม่เป็นห่วง",
+        "example": "She approached the challenge with nonchalance, as if it were trivial.",
+        "example_thai": "เธอเข้าหาความท้าทายด้วยความเฉยเมิน ราวกับมันน้อยนิด",
+        "explanation_thai": "คำนามระดับสูงที่แสดงถึงการไม่สนใจหรือการไม่เป็นห่วงอย่างมีจิตสำนึก โดยมักแสดงออกมาเป็นท่าทาง หรือการกระทำอย่างสงบ",
+        "synonyms_en": [
+          "unconcern",
+          "coolness"
+        ],
+        "synonyms_thai": [
+          "ความไม่เป็นห่วง",
+          "ความเย็นชา"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "sangfroid",
+        "pos": "noun",
+        "thai": "ความเย็นหัว, ความสงบนิ่ม",
+        "example": "He maintained his sangfroid even as the crisis unfolded around him.",
+        "example_thai": "เขาคงไว้ซึ่งความเย็นหัวแม้ว่าวิกฤตการณ์จะเกิดขึ้นรอบตัวเขา",
+        "explanation_thai": "คำนามจากภาษาฝรั่งเศสที่ใช้อธิบายความสงบนิ่มและความสามารถในการรักษาอารมณ์ที่เย็นชาในสถานการณ์ที่รุนแรง ใช้ในวรรณกรรมและการพูดระดับสูง",
+        "synonyms_en": [
+          "composure",
+          "equanimity"
+        ],
+        "synonyms_thai": [
+          "ความสงบ",
+          "ความสมดุล"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Wisdom",
+    "concept_thai": "ปัญญา",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "wise",
+        "pos": "adjective",
+        "thai": "ฉลาด, มีปัญญา",
+        "example": "The wise old man gave good advice.",
+        "example_thai": "ชายชราฉลาดให้คำแนะนำที่ดี",
+        "explanation_thai": "คำคุณศัพท์พื้นฐานที่บรรยายบุคคลที่มีความรู้และสามารถให้คำแนะนำที่ดี ใช้ในการพูดคุยประจำวัน",
+        "synonyms_en": [
+          "intelligent",
+          "sensible"
+        ],
+        "synonyms_thai": [
+          "ฉลาด",
+          "สมควร"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "wisdom",
+        "pos": "noun",
+        "thai": "ปัญญา, ความเข้าใจ",
+        "example": "Her wisdom helped solve the problem peacefully.",
+        "example_thai": "ปัญญาของเธอช่วยแก้ไขปัญหาได้อย่างสงบ",
+        "explanation_thai": "คำนามพื้นฐานที่หมายถึงความสามารถในการตัดสินใจและให้คำปรึกษาที่ดี จากประสบการณ์และความรู้",
+        "synonyms_en": [
+          "knowledge",
+          "insight"
+        ],
+        "synonyms_thai": [
+          "ความรู้",
+          "ความเข้าใจ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "sagacity",
+        "pos": "noun",
+        "thai": "ปัญญาที่เจ้าไกล, ความผ่องใจ",
+        "example": "The judge's sagacity in interpreting the law was renowned.",
+        "example_thai": "ปัญญาของผู้พิพากษาในการตีความกฎหมายนั้นเป็นที่รู้จัก",
+        "explanation_thai": "คำนามที่แสดงถึงความฉลาด ความมีปัญญา และความสามารถในการมองเห็นสิ่งต่างๆ อย่างลึกซึ้ง",
+        "synonyms_en": [
+          "discernment",
+          "insight"
+        ],
+        "synonyms_thai": [
+          "ความเข้าใจ",
+          "ความจำเพาะ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "erudition",
+        "pos": "noun",
+        "thai": "ความรู้อย่างลึก, การศึกษาที่กว้างขวาง",
+        "example": "His erudition in classical literature made him a respected scholar.",
+        "example_thai": "ความรู้อย่างลึกของเขาในวรรณคดีคลาสสิกทำให้เขากลายเป็นนักวิชาการที่มีการยกย่อง",
+        "explanation_thai": "คำนามระดับสูงที่แสดงถึงการมีความรู้กว้างและลึกทางวิชาการ มักใช้สำหรับผู้มีการศึกษาสูงและมีความเชี่ยวชาญ",
+        "synonyms_en": [
+          "learning",
+          "scholarship"
+        ],
+        "synonyms_thai": [
+          "การศึกษา",
+          "การเรียนรู้"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "perspicacity",
+        "pos": "noun",
+        "thai": "ความเข้าใจเสริมเต็ม, ความผ่องใจ",
+        "example": "Her perspicacity allowed her to recognize the underlying motives of her opponents.",
+        "example_thai": "ความผ่องใจของเธอช่วยให้เธอสามารถรับรู้แรงจูงใจที่อยู่เบื้องลึกของฝ่ายตรงข้ามของเธอ",
+        "explanation_thai": "คำนามระดับสูงสุดที่แสดงถึงความสามารถในการมองแทรกเห็นหรือเข้าใจสิ่งที่ลึกและซ่อนเร้นอย่างรอบคอบ ใช้ในบริบทวรรณคดีและปรัชญา",
+        "synonyms_en": [
+          "acuity",
+          "discernment"
+        ],
+        "synonyms_thai": [
+          "ความแหลมคม",
+          "ความเข้าใจ"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Resilience",
+    "concept_thai": "ความสามารถในการฟื้นตัว",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "strong",
+        "pos": "adjective",
+        "thai": "แข็งแรง, เข้มแข็ง",
+        "example": "She is a strong person who can handle difficulties.",
+        "example_thai": "เธอเป็นคนที่แข็งแรงและสามารถรับมือกับความยากลำบากได้",
+        "explanation_thai": "คำคุณศัพท์พื้นฐานที่บรรยายความสามารถในการทนและเผชิญหน้ากับความท้าทายอย่างง่ายๆ",
+        "synonyms_en": [
+          "tough",
+          "robust"
+        ],
+        "synonyms_thai": [
+          "เข้มแข็ง",
+          "แข็ง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "resilience",
+        "pos": "noun",
+        "thai": "ความสามารถในการฟื้นตัว, ความยืดหยุ่น",
+        "example": "The community showed great resilience after the natural disaster.",
+        "example_thai": "ชุมชนแสดงความสามารถในการฟื้นตัวที่ยิ่งใหญ่หลังจากภัยธรรมชาติ",
+        "explanation_thai": "คำนามที่แสดงถึงความสามารถในการฟื้นตัวจากความยากลำบากหรือความล้มเหลว มีความเป็นทางการและกว้างขึ้น",
+        "synonyms_en": [
+          "toughness",
+          "adaptability"
+        ],
+        "synonyms_thai": [
+          "ความแข็งแกร่ง",
+          "ความปรับตัว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "fortitude",
+        "pos": "noun",
+        "thai": "ความกล้า, ความอดทน",
+        "example": "He faced his illness with fortitude and determination.",
+        "example_thai": "เขาเผชิญหน้ากับโรคของเขาด้วยความกล้าและความมุ่งมั่น",
+        "explanation_thai": "คำนามที่หมายถึงความกล้าหาญและความอดทนในการเผชิญหน้ากับสภาวะที่ยากลำบาก มีนัยของความมีจริยธรรม",
+        "synonyms_en": [
+          "courage",
+          "strength"
+        ],
+        "synonyms_thai": [
+          "ความกล้า",
+          "ความแข็งแรง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "tenacity",
+        "pos": "noun",
+        "thai": "ความดื้อรั้ง, ความไม่ยอมแพ้",
+        "example": "His tenacity in pursuing his goals despite numerous setbacks was admirable.",
+        "example_thai": "ความไม่ยอมแพ้ของเขาในการตามหาเป้าหมายแม้ว่าจะมีการล้มเหลวหลายครั้ง",
+        "explanation_thai": "คำนามระดับสูงที่แสดงถึงความพยายามอย่างยืนหยัดและไม่ยอมแพ้ในการบรรลุเป้าหมาย แสดงถึงสติปัญญาที่ใช้เวลา",
+        "synonyms_en": [
+          "persistence",
+          "determination"
+        ],
+        "synonyms_thai": [
+          "ความมุ่งมั่น",
+          "ความสม่ำเสมอ"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "indomitability",
+        "pos": "noun",
+        "thai": "ความไม่อาจยุติได้, ความไม่อาจแพ้",
+        "example": "The indomitability of the human spirit was demonstrated in their triumphant return.",
+        "example_thai": "ความไม่อาจยุติได้ของจิตใจมนุษย์นั้นแสดงออกมาในการกลับมาอย่างชัยชนะของพวกเขา",
+        "explanation_thai": "คำนามระดับสูงสุดที่แสดงถึงความไม่อาจเอาชนะและจิตใจที่ไม่ยอมแพ้อย่างแท้จริง ใช้ในวรรณคดีและการพูดที่มีสัตยะสูง",
+        "synonyms_en": [
+          "invincibility",
+          "unconquerableness"
+        ],
+        "synonyms_thai": [
+          "ความไม่อาจเอาชนะ",
+          "ความเข้มแข็ง"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Mundanity",
+    "concept_thai": "ความธรรมดาสามัญ",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "normal",
+        "pos": "adjective",
+        "thai": "ปกติ, ธรรมดา",
+        "example": "It's just a normal day at work.",
+        "example_thai": "มันเป็นแค่วันธรรมดาในการทำงาน",
+        "explanation_thai": "คำคุณศัพท์พื้นฐานที่บรรยายสิ่งที่เป็นไปตามปกติ ไม่มีอะไรพิเศษ ใช้ในการพูดคุยประจำวัน",
+        "synonyms_en": [
+          "ordinary",
+          "usual"
+        ],
+        "synonyms_thai": [
+          "ธรรมชาติ",
+          "เคย"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "ordinary",
+        "pos": "adjective",
+        "thai": "สามัญ, ธรรมดา",
+        "example": "He was an ordinary person living an ordinary life.",
+        "example_thai": "เขาเป็นคนสามัญที่ใช้ชีวิตธรรมดา",
+        "explanation_thai": "คำคุณศัพท์ที่บรรยายสิ่งที่ไม่มีพิเศษ ไม่มีเอกลักษณ์เฉพาะตัว ใช้ในการพูดที่เป็นทางการมากขึ้น",
+        "synonyms_en": [
+          "common",
+          "unremarkable"
+        ],
+        "synonyms_thai": [
+          "ธรรมชาติ",
+          "ไม่โดดเด่น"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "mundane",
+        "pos": "adjective",
+        "thai": "โลกีย์, ธรรมดาสามัญ",
+        "example": "The mundane tasks of everyday life can be very tiring.",
+        "example_thai": "งานโลกีย์ของชีวิตประจำวันสามารถมีความเหนื่อยล้ามากได้",
+        "explanation_thai": "คำคุณศัพท์ที่บรรยายสิ่งที่ธรรมดาและซ้ำซ้อน บ่งชี้ถึงความน่าเบื่อหรือการขาดความสนใจ ใช้เมื่อต้องการแสดงเจตนารมณ์เชิงลบ",
+        "synonyms_en": [
+          "banal",
+          "dull"
+        ],
+        "synonyms_thai": [
+          "น่าเบื่อ",
+          "จืดชืด"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "banality",
+        "pos": "noun",
+        "thai": "ความโสโครกโสกร, ความธรรมดา",
+        "example": "The banality of the dialogue made the movie forgettable.",
+        "example_thai": "ความโสโครกโสกรของบทสนทนาทำให้หนังนี้ลืมเลือนไปได้",
+        "explanation_thai": "คำนามที่แสดงถึงคุณภาพของการเป็นธรรมดาและไม่มีคุณค่า มีนัยของการจำเจและไม่น่าสนใจ",
+        "synonyms_en": [
+          "triteness",
+          "staleness"
+        ],
+        "synonyms_thai": [
+          "ความทึก, ความหมองมัว"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "quotidian",
+        "pos": "adjective",
+        "thai": "เกิดขึ้นทุกวัน, ธรรมดาประจำวัน",
+        "example": "The author focuses on the quotidian struggles of ordinary people.",
+        "example_thai": "ผู้เขียนมุ่งเน้นไปที่การต่อสู้ประจำวันของคนธรรมดา",
+        "explanation_thai": "คำคุณศัพท์ระดับสูงที่ใช้ในวรรณกรรม บรรยายสิ่งที่เกิดขึ้นทุกวัน หรือเป็นของประจำวัน มีนัยของการสะท้อนชีวิตจริง",
+        "synonyms_en": [
+          "daily",
+          "everyday"
+        ],
+        "synonyms_thai": [
+          "ประจำวัน",
+          "ทุกวัน"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Magnificence",
+    "concept_thai": "ความยิ่งใหญ่",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "beautiful",
+        "pos": "adjective",
+        "thai": "สวย, งาม",
+        "example": "The sunset is beautiful.",
+        "example_thai": "พระอาทิตย์ตกงาม",
+        "explanation_thai": "คำคุณศัพท์พื้นฐานสุดที่บรรยายความสวยงาม ใช้ได้กับหลายสิ่งหลายอย่าง เป็นสากล",
+        "synonyms_en": [
+          "pretty",
+          "lovely"
+        ],
+        "synonyms_thai": [
+          "สวยงาม",
+          "น่ารัก"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "magnificent",
+        "pos": "adjective",
+        "thai": "ยิ่งใหญ่, เจริญงาม",
+        "example": "The magnificent palace impressed all the visitors.",
+        "example_thai": "พระราชวังที่ยิ่งใหญ่ทำให้ผู้มาเยี่ยมชมทั้งหมดประทับใจ",
+        "explanation_thai": "คำคุณศัพท์ที่บรรยายความยิ่งใหญ่และสมดังพร้อมในระดับที่สูง แสดงถึงความประทับใจและความยศยามาภิมาน",
+        "synonyms_en": [
+          "grand",
+          "splendid"
+        ],
+        "synonyms_thai": [
+          "ยิ่งใหญ่",
+          "งดงาม"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "grandiosity",
+        "pos": "noun",
+        "thai": "ความยิ่งใหญ่อย่างอวดอ้าง, ความวิจิตรการณ์",
+        "example": "The grandiosity of the architectural design was both impressive and overwhelming.",
+        "example_thai": "ความยิ่งใหญ่ของการออกแบบสถาปัตยกรรมนั้นยิ่งใหญ่เหลือล้นและน่ากังวล",
+        "explanation_thai": "คำนามที่บรรยายความยิ่งใหญ่ที่มักมีความโอ่อวดหรือการเกินจริง มีนัยของการแจ่มชัด แต่อาจไม่สมหวังจริง",
+        "synonyms_en": [
+          "pomposity",
+          "bombast"
+        ],
+        "synonyms_thai": [
+          "ความโอ่อวด",
+          "ความหวาดเสียว"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "resplendence",
+        "pos": "noun",
+        "thai": "ความสุกใจเสื่อม, ความแจ่มจ้า",
+        "example": "The resplendence of the ceremonial robes left everyone in awe.",
+        "example_thai": "ความแจ่มจ้าของเสื้อผ้าพิธีการทำให้ทุกคนต่างตกใจและประหนึ่งใจ",
+        "explanation_thai": "คำนามระดับสูงที่แสดงถึงความสุกใจแจ่มจ้าและแสงสว่าง มักใช้บรรยายความงดงามแบบพิธีการหรือทางวรรณกรรม",
+        "synonyms_en": [
+          "brilliance",
+          "radiance"
+        ],
+        "synonyms_thai": [
+          "ความสว่าง",
+          "ความจ้า"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "apotheosis",
+        "pos": "noun",
+        "thai": "ความสูงสุด, จุดสุดยอด",
+        "example": "The final performance was the apotheosis of her artistic career.",
+        "example_thai": "การแสดงครั้งสุดท้ายนั้นเป็นจุดสูงสุดของอาชีพศิลปะของเธอ",
+        "explanation_thai": "คำนามระดับสูงสุด ที่หมายถึงการแปลงเป็นเทพหรือถึงจุดสูงสุด ใช้ในบริบทศิลปะและวรรณกรรมระดับสูง",
+        "synonyms_en": [
+          "zenith",
+          "pinnacle"
+        ],
+        "synonyms_thai": [
+          "จุดสูงสุด",
+          "ยอดสินสุด"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Misunderstanding",
+    "concept_thai": "ความเข้าใจผิด",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "mistake",
+        "pos": "noun",
+        "thai": "ข้อผิดพลาด",
+        "example": "I made a mistake when I read the instructions.",
+        "example_thai": "ฉันทำข้อผิดพลาดเมื่ออ่านคำแนะนำ",
+        "explanation_thai": "คำทั่วไปที่ใช้บ่งบอกข้อผิดพลาดในการกระทำหรือการคิด โดยไม่จำเป็นต้องเกี่ยวกับการสื่อสาร",
+        "synonyms_en": [
+          "error",
+          "slip"
+        ],
+        "synonyms_thai": [
+          "ความผิด",
+          "พลาด"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "misunderstanding",
+        "pos": "noun",
+        "thai": "ความเข้าใจผิด",
+        "example": "There was a misunderstanding between the two friends about the meeting time.",
+        "example_thai": "มีความเข้าใจผิดระหว่างเพื่อนสองคนเกี่ยวกับเวลาการประชุม",
+        "explanation_thai": "คำที่ใช้เฉพาะเมื่อมีความไม่ตรงกันในการเข้าใจข้อมูลหรือเจตนาระหว่างคนต่างคน โดยตรงจากการสื่อสาร",
+        "synonyms_en": [
+          "miscommunication",
+          "confusion"
+        ],
+        "synonyms_thai": [
+          "ความสับสน",
+          "การไม่เข้าใจ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "misconception",
+        "pos": "noun",
+        "thai": "ความเข้าใจผิดโดยพื้นฐาน",
+        "example": "A common misconception is that vaccines are dangerous.",
+        "example_thai": "ความเข้าใจผิดทั่วไปคือวัคซีนมีความเสี่ยง",
+        "explanation_thai": "คำที่หมายถึงความเชื่อหรือความคิดที่ไม่ถูกต้องตั้งแต่ต้นเนื้อ มักเป็นเรื่องที่เกี่ยวกับแนวคิดหรือข้อเท็จจริงที่ผิดพลาดอยู่ยาวนาน",
+        "synonyms_en": [
+          "misapprehension",
+          "incorrect assumption"
+        ],
+        "synonyms_thai": [
+          "ความเชื่อผิด",
+          "สมมติฐานผิดพลาด"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "equivocation",
+        "pos": "noun",
+        "thai": "การพูดที่สอดสำหรับ/คลุมเครือ",
+        "example": "The politician's equivocation on the issue confused the voters.",
+        "example_thai": "การพูดคลุมเครือของนักการเมืองในประเด็นนี้ทำให้ผู้ลงคะแนนสับสน",
+        "explanation_thai": "คำที่หมายถึงการพูดหรือการเขียนในลักษณะที่คลุมเครือเพื่อหลีกเลี่ยงการให้คำตอบที่ชัดเจน นำไปสู่ความเข้าใจผิด",
+        "synonyms_en": [
+          "ambiguity",
+          "circumlocution"
+        ],
+        "synonyms_thai": [
+          "ความไม่ชัดเจน",
+          "พูดหักมุม"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Despair",
+    "concept_thai": "ความสิ้นหวัง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "sad",
+        "pos": "adjective",
+        "thai": "เศร้า",
+        "example": "She felt sad after hearing the bad news.",
+        "example_thai": "เธอรู้สึกเศร้าหลังจากได้ยินข่าวไม่ดี",
+        "explanation_thai": "คำที่ใช้บ่งบอกอารมณ์ลบ แต่ไม่จำเป็นต้องรุนแรงมากนัก เป็นคำทั่วไปและง่ายที่สุด",
+        "synonyms_en": [
+          "unhappy",
+          "sorrowful"
+        ],
+        "synonyms_thai": [
+          "ดีใจ",
+          "หดหู่"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "hopeless",
+        "pos": "adjective",
+        "thai": "ไร้หวัง",
+        "example": "The situation seemed hopeless when we lost the game.",
+        "example_thai": "สถานการณ์ดูเหมือนไร้หวังเมื่อเราแพ้เกม",
+        "explanation_thai": "คำที่บ่งบอกการสูญเสียความหวัง มีความรุนแรงมากขึ้น เน้นความไม่มีทางออก",
+        "synonyms_en": [
+          "desperate",
+          "futile"
+        ],
+        "synonyms_thai": [
+          "絕望",
+          "ไร้ทาง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "despair",
+        "pos": "noun",
+        "thai": "ความสิ้นหวัง",
+        "example": "He fell into despair after losing his job.",
+        "example_thai": "เขาตกอยู่ในความสิ้นหวังหลังจากสูญเสียงาน",
+        "explanation_thai": "คำนามที่แสดงสภาวะจิตใจที่ลึกซึ้งของการสูญเสียหวังอย่างสิ้นเชิง นั่นคือสภาวะของความทุกข์ทั่วแต่",
+        "synonyms_en": [
+          "hopelessness",
+          "desolation"
+        ],
+        "synonyms_thai": [
+          "ความสิ้นใจ",
+          "ความหมดหวัง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "despondency",
+        "pos": "noun",
+        "thai": "ความหดหู่ต่อสู้",
+        "example": "A wave of despondency swept through the team after their defeat.",
+        "example_thai": "ความหดหู่ปกคลุมทั้งทีมหลังจากพ่ายแพ้",
+        "explanation_thai": "คำที่หมายถึงการสูญเสียจิตใจและ ความขาดแรงจูงใจอย่างลึกซึ้ง มักใช้เมื่ออธิบายสภาวะเหล่านี้อย่างเป็นทางการหรือในเชิงวรรณกรรม",
+        "synonyms_en": [
+          "melancholy",
+          "gloom"
+        ],
+        "synonyms_thai": [
+          "ความเศร้าสลด",
+          "ความมืดมน"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Innovation",
+    "concept_thai": "นวัตกรรม",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "new",
+        "pos": "adjective",
+        "thai": "ใหม่",
+        "example": "He bought a new phone yesterday.",
+        "example_thai": "เขาซื้อโทรศัพท์ใหม่เมื่อวาน",
+        "explanation_thai": "คำที่ใช้บ่งบอกสิ่งที่ไม่เคยมีมาก่อน หรือสิ่งที่เพิ่งสร้างขึ้น เป็นคำพื้นฐานและไม่จำเป็นต้องเกี่ยวกับการเปลี่ยนแปลงหรือการพัฒนา",
+        "synonyms_en": [
+          "modern",
+          "recent"
+        ],
+        "synonyms_thai": [
+          "สมัยใหม่",
+          "ล่าสุด"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "invention",
+        "pos": "noun",
+        "thai": "การประดิษฐ์",
+        "example": "The printing press was a great invention.",
+        "example_thai": "เครื่องพิมพ์เป็นการประดิษฐ์ที่ยิ่งใหญ่",
+        "explanation_thai": "คำที่หมายถึงสิ่งที่ประดิษฐ์ขึ้นใหม่ โดยมีการคิดค้นและสร้างสรรค์ มักเป็นสิ่งวัตถุที่มีประโยชน์",
+        "synonyms_en": [
+          "creation",
+          "discovery"
+        ],
+        "synonyms_thai": [
+          "สิ่งประดิษฐ์",
+          "การสร้างสรรค์"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "innovation",
+        "pos": "noun",
+        "thai": "นวัตกรรม",
+        "example": "The company is known for its continuous innovation in technology.",
+        "example_thai": "บริษัทเป็นที่รู้จักในการนวัตกรรมอย่างต่อเนื่องด้านเทคโนโลยี",
+        "explanation_thai": "คำที่หมายถึงการนำเสนออย่างใหม่ หรือการปรับปรุงแบบใหม่ เน้นความเป็นความก้าวหน้าและการพัฒนาในธุรกิจหรือเทคโนโลยี",
+        "synonyms_en": [
+          "novel approach",
+          "advancement"
+        ],
+        "synonyms_thai": [
+          "วิธีใหม่",
+          "ความก้าวหน้า"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "paradigm shift",
+        "pos": "noun phrase",
+        "thai": "การเปลี่ยนแปลงแบบหลักการ",
+        "example": "The discovery of germs caused a paradigm shift in medicine.",
+        "example_thai": "การค้นพบเชื้อโรคทำให้เกิดการเปลี่ยนแปลงแบบหลักการในการแพทย์",
+        "explanation_thai": "คำที่ใช้เมื่อมีการเปลี่ยนแปลงพื้นฐานในวิธีการคิด หรือวิธีการทำของสาขาวิชา โดยมีความหมายที่ลึกซึ้งและครอบคลุมมากกว่า innovation",
+        "synonyms_en": [
+          "revolutionary change",
+          "fundamental shift"
+        ],
+        "synonyms_thai": [
+          "การเปลี่ยนแปลงรากฐาน",
+          "การปฏิวัติ"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Delight",
+    "concept_thai": "ความยินดี",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "happy",
+        "pos": "adjective",
+        "thai": "มีความสุข",
+        "example": "I am happy to see you.",
+        "example_thai": "ฉันยินดีที่ได้เห็นเธอ",
+        "explanation_thai": "คำที่ใช้บ่งบอกอารมณ์ที่ดี ระดับพื้นฐาน เป็นคำทั่วไปที่ใช้ได้ทั่วไป",
+        "synonyms_en": [
+          "glad",
+          "pleased"
+        ],
+        "synonyms_thai": [
+          "ดีใจ",
+          "พอใจ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "joy",
+        "pos": "noun",
+        "thai": "ความปีติยินดี",
+        "example": "The news brought joy to the entire family.",
+        "example_thai": "ข่าวนั้นนำความปีติยินดีมาให้ครอบครัวทั้งหมด",
+        "explanation_thai": "คำนามที่บ่งบอกอารมณ์ที่เข้มข้นและลึกซึ้งมากขึ้นกว่า happy มักใช้ในบริบทของช่วงเวลาที่สำคัญหรือดีใจอย่างลึกซึ้ง",
+        "synonyms_en": [
+          "elation",
+          "happiness"
+        ],
+        "synonyms_thai": [
+          "ความสุข",
+          "ความปีติ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "delight",
+        "pos": "noun",
+        "thai": "ความสุขใจ",
+        "example": "To our delight, the concert was amazing.",
+        "example_thai": "ต่อความสุขใจของเรา คอนเสิร์ตนั้นยอดเยี่ยมมาก",
+        "explanation_thai": "คำที่หมายถึงความยินดีอย่างแท้จริงและเข้มข้น มักใช้เมื่ออธิบายความรู้สึกที่ประเทิดประหนึ่ง",
+        "synonyms_en": [
+          "pleasure",
+          "satisfaction"
+        ],
+        "synonyms_thai": [
+          "ความพอใจ",
+          "ความสนุกสนาน"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "rapture",
+        "pos": "noun",
+        "thai": "ความตัวแตกตื่น",
+        "example": "She was in rapture when she heard the engagement announcement.",
+        "example_thai": "เธอตัวแตกตื่นเมื่อได้ยินประกาศหมั้น",
+        "explanation_thai": "คำที่ใช้เมื่ออธิบายความสุขที่ล้นไปจากความสามารถในการแสดงออก มีความหมายที่ลึกซึ้งและศิลปะมากกว่า delight",
+        "synonyms_en": [
+          "ecstasy",
+          "bliss"
+        ],
+        "synonyms_thai": [
+          "ความมหัศจรรย์",
+          "ความสวรรค์"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Fragility",
+    "concept_thai": "ความเปราะบาง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "weak",
+        "pos": "adjective",
+        "thai": "อ่อนแอ",
+        "example": "The glass is weak and breaks easily.",
+        "example_thai": "แก้วนี้อ่อนแอและแตกได้ง่าย",
+        "explanation_thai": "คำที่ใช้บ่งบอกสิ่งที่ไม่มีความแข็งแรง เป็นคำพื้นฐาน",
+        "synonyms_en": [
+          "fragile",
+          "delicate"
+        ],
+        "synonyms_thai": [
+          "ไม่แข็งแรง",
+          "สลัว"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "fragile",
+        "pos": "adjective",
+        "thai": "เปราะบาง",
+        "example": "Handle the antique vase with care; it is very fragile.",
+        "example_thai": "จัดการแจกันโบราณอย่างระมัดระวัง มันเปราะบางมาก",
+        "explanation_thai": "คำที่หมายถึงสิ่งที่อ่อนแอและแตกได้ง่าย มักใช้กับวัตถุ",
+        "synonyms_en": [
+          "delicate",
+          "brittle"
+        ],
+        "synonyms_thai": [
+          "บางเบา",
+          "สลัว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "vulnerability",
+        "pos": "noun",
+        "thai": "ความอ่อนไหว",
+        "example": "The vulnerability of the ecosystem to climate change is alarming.",
+        "example_thai": "ความอ่อนไหวของระบบนิเวศต่อการเปลี่ยนแปลงสภาพภูมิอากาศนั้นน่ากังวล",
+        "explanation_thai": "คำที่หมายถึงความสามารถในการได้รับความเสีย หากจากการกระทำของภายนอก มักใช้ในบริบทของระบบหรือสภาพการณ์",
+        "synonyms_en": [
+          "susceptibility",
+          "weakness"
+        ],
+        "synonyms_thai": [
+          "ความไม่ปลอดภัย",
+          "ความเสี่ยง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "precariousness",
+        "pos": "noun",
+        "thai": "ความไม่มั่นคง",
+        "example": "The precariousness of the peace agreement was evident in the ongoing tensions.",
+        "example_thai": "ความไม่มั่นคงของข้อตกลงสันติภาพนั้นชัดเจนในความตึงเครียดที่ต่อเนื่องมา",
+        "explanation_thai": "คำที่หมายถึงการขาดเสถียรภาพและอยู่ในสถานะที่อาจเปลี่ยนแปลงได้ตลอดเวลา มักใช้ในบริบทนามธรรม",
+        "synonyms_en": [
+          "instability",
+          "uncertainty"
+        ],
+        "synonyms_thai": [
+          "ความไม่แน่นอน",
+          "ความเสี่ยง"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Redemption",
+    "concept_thai": "การไถ่บาป",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "forgive",
+        "pos": "verb",
+        "thai": "ให้อภัย",
+        "example": "She decided to forgive him for his mistake.",
+        "example_thai": "เธอตัดสินใจให้อภัยเขาสำหรับความผิดของเขา",
+        "explanation_thai": "คำที่เป็นขั้นตอนแรกของการไถ่บาป หมายถึงการไม่โกรธหรือการปล่อยให้การสาป",
+        "synonyms_en": [
+          "pardon",
+          "excuse"
+        ],
+        "synonyms_thai": [
+          "ยกโทษ",
+          "อนุมัติ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "redemption",
+        "pos": "noun",
+        "thai": "การไถ่บาป",
+        "example": "The character found redemption through his good deeds after years of wrongdoing.",
+        "example_thai": "ตัวละครค้นพบการไถ่บาปผ่านการกระทำดีของเขาหลังจากทำผิดหลายปี",
+        "explanation_thai": "คำที่หมายถึงการบรรลุการไถ่บาปเต็มที่ โดยผ่านการแสดงให้เห็นว่าบุคคลได้เปลี่ยนตัวเองไป",
+        "synonyms_en": [
+          "salvation",
+          "recovery"
+        ],
+        "synonyms_thai": [
+          "การรอด",
+          "การหลุดพ้น"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "absolution",
+        "pos": "noun",
+        "thai": "การให้อภัยอย่างสิ้นเชิง",
+        "example": "He sought absolution from the priest for his sins.",
+        "example_thai": "เขาขอให้นักบวชให้อภัยอย่างสิ้นเชิงสำหรับบาปของเขา",
+        "explanation_thai": "คำที่หมายถึงการให้อภัยอย่างสิ้นเชิงและอย่างเป็นทางการ มักใช้ในบริบทศาสนา",
+        "synonyms_en": [
+          "forgiveness",
+          "pardon"
+        ],
+        "synonyms_thai": [
+          "การยกโทษ",
+          "การให้อภัย"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Commotion",
+    "concept_thai": "ความวุ่นวาย",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "noise",
+        "pos": "noun",
+        "thai": "เสียง",
+        "example": "The noise from the traffic kept me awake.",
+        "example_thai": "เสียงจากการจราจรทำให้ฉันไม่สามารถนอนหลับได้",
+        "explanation_thai": "คำพื้นฐานที่หมายถึงเสียงที่รบกวน แต่ไม่จำเป็นต้องบ่งบอกความเป็นระเบียบเรียบร้อยหรือการสับสน",
+        "synonyms_en": [
+          "sound",
+          "loud sound"
+        ],
+        "synonyms_thai": [
+          "เสียงดัง",
+          "เสียงรบกวน"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "commotion",
+        "pos": "noun",
+        "thai": "ความวุ่นวาย",
+        "example": "There was a great commotion when the famous actor arrived at the cinema.",
+        "example_thai": "มีความวุ่นวายมากขึ้นเมื่อนักแสดงฉายาดังมาถึงโรงภาพยนตร์",
+        "explanation_thai": "คำที่หมายถึงสถานการณ์ที่มีความวุ่นวายและความเตอร์เตอร์ เน้นความไม่สงบ เกี่ยวกับเหตุการณ์ที่เกี่ยวข้องกับมนุษย์",
+        "synonyms_en": [
+          "fuss",
+          "disturbance"
+        ],
+        "synonyms_thai": [
+          "การเฮือกเหยิ่ม",
+          "ความบ้ำเหลี่ยว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "pandemonium",
+        "pos": "noun",
+        "thai": "ความวุ่นวายเละเทะ",
+        "example": "When the earthquake hit, pandemonium broke out in the streets.",
+        "example_thai": "เมื่อเกิดแผ่นดินไหว ความวุ่นวายเละเทะปะทุออกมาในท้องถนน",
+        "explanation_thai": "คำที่หมายถึงความสับสน ความยุ่งเหยิง และความไม่มีระเบียบในระดับที่รุนแรง มากกว่า commotion",
+        "synonyms_en": [
+          "chaos",
+          "bedlam"
+        ],
+        "synonyms_thai": [
+          "ความวุ่นวาย",
+          "ความโกลาหล"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
+  },
+  {
+    "concept": "Compromise",
+    "concept_thai": "การประนีประนอม",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "agreement",
+        "pos": "noun",
+        "thai": "ข้อตกลง",
+        "example": "They reached an agreement on the price.",
+        "example_thai": "พวกเขาเจอกันในข้อตกลงเกี่ยวกับราคา",
+        "explanation_thai": "คำที่หมายถึงการเห็นพ้องกันในเรื่องใด โดยไม่จำเป็นต้องเป็นการสละสิ่งใดมาแล้ว",
+        "synonyms_en": [
+          "accord",
+          "settlement"
+        ],
+        "synonyms_thai": [
+          "ความเห็นพ้อง",
+          "ข้อตกลง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "compromise",
+        "pos": "noun",
+        "thai": "การประนีประนอม",
+        "example": "We found a compromise that satisfied both sides.",
+        "example_thai": "เราหาการประนีประนอมที่ทำให้ทั้งสองฝ่ายพอใจ",
+        "explanation_thai": "คำที่หมายถึงการให้ความหรือเสียสละบางส่วนจากทั้งสองฝ่าย เพื่อที่จะบรรลุข้อตกลง",
+        "synonyms_en": [
+          "concession",
+          "middle ground"
+        ],
+        "synonyms_thai": [
+          "การละทิ้ง",
+          "จุดกึ่งกลาง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "bargain",
+        "pos": "noun",
+        "thai": "การต่อรองหรือการแลกเปลี่ยน",
+        "example": "After some bargaining, they reached a deal.",
+        "example_thai": "หลังจากการต่อรองบ้าง พวกเขาตกลงกัน",
+        "explanation_thai": "คำที่หมายถึงการเจรจาต่อรองเพื่อหาข้อตกลง มักใช้เมื่อเป็นการซื้อขายหรือเจรจาการค้า",
+        "synonyms_en": [
+          "negotiation",
+          "deal"
+        ],
+        "synonyms_thai": [
+          "การต่อรอง",
+          "การสัญญา"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "conciliation",
+        "pos": "noun",
+        "thai": "การปรองดอง",
+        "example": "The conciliation process helped resolve the conflict between the neighbors.",
+        "example_thai": "กระบวนการปรองดองช่วยแก้ไขข้อขัดแย้งระหว่างเพื่อนบ้าน",
+        "explanation_thai": "คำที่หมายถึงการพยายามนำความเห็นต่างกันเข้ามาใกล้กัน โดยมีการหาวิธีจากัดความไม่พอใจ มักใช้ในบริบทการแก้ไขข้อพิพาท",
+        "synonyms_en": [
+          "mediation",
+          "reconciliation"
+        ],
+        "synonyms_thai": [
+          "การประมาณสินโทษ",
+          "การปิดกั้น"
+        ]
+      }
+    ],
+    "date_added": "2026-10-09"
   }
 ]
