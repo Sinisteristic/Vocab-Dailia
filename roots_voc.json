@@ -726,5 +726,225 @@
     "explanation_thai": "ชื่อภูมิภาคของแม่น้ำและหมอก ประกอบจาก 'Liu-' (อาจหมายถึงหมอกหรือน้ำ) และ '-rnia' (สถาน/ดินแดน) ได้ความหมายเป็น 'ดินแดนแห่งหมอกและน้ำ' สัมพันธ์กับลักษณะภูมิศาสตร์ของภูมิภาคที่เต็มไปด้วยหมอกและแม่น้ำ",
     "source": "elden_ring.json",
     "date_added": "2026-10-16"
+  },
+  {
+    "name": "Reduvia",
+    "thai_meaning": "มีดชั่วร้าย/คมดาบแห่งโลหิต",
+    "thai_transliteration": "เรดูเวีย",
+    "components": [
+      {
+        "part": "Red-",
+        "language": "English/Latin",
+        "meaning_thai": "สีแดง/โลหิต"
+      },
+      {
+        "part": "-uvia",
+        "language": "Latin",
+        "meaning_thai": "ที่เกี่ยวข้องกับการไหล/การไหลวาง (จากภาษาละตินราชาศัพท์ 'uvea' ซึ่งหมายถึงการไหล)"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้ประกอบจากคำศัพท์ที่เน้นสีแดง (โลหิต) และการไหลหรือการพ่นออกมา แสดงถึงธรรมชาติของอาวุธนี้ที่ปล่อยคราบเลือดออกมาเป็นคมดาบลอยฟ้า ชื่อนี้สะท้อนอำนาจของมัดเลือด (Blood Affinity) ที่เป็นเอกลักษณ์ของคมดาบนี้",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Andreas",
+    "thai_meaning": "ผู้อึกเอก/ผู้กล้าหาญ",
+    "thai_transliteration": "แอนเดรอัส",
+    "components": [
+      {
+        "part": "Andr-",
+        "language": "Ancient Greek",
+        "meaning_thai": "ชาย/บุรุษ (จาก ἀνήρ)"
+      },
+      {
+        "part": "-eas",
+        "language": "Greek",
+        "meaning_thai": "อึกเอก/กล้าหาญ (ลงท้ายแบบชื่อกรีก)"
+      }
+    ],
+    "explanation_thai": "ชื่อกรีกโบราณที่มาจากคำว่า 'aner' (ชาย) และมี suffix เพื่อหมายถึงความเป็นหญิง-ชาย แต่ในที่นี้ใช้แทนความกล้าหาญและความแข็งแกร่ง เหมาะสำหรับหัวหน้าทหารผู้อึกเอก ผู้สั่งการกองอัศวินดำของเมสเมอร์",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Hoslow",
+    "thai_meaning": "โล่แห่งค่ำคืน/ผู้พิทักษ์ยามค่ำ",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Hos-",
+        "language": "Old English/Germanic",
+        "meaning_thai": "สกุลครอบครัว/เรือน (เกี่ยวข้องกับ 'house')"
+      },
+      {
+        "part": "-low",
+        "language": "Old English/Germanic",
+        "meaning_thai": "ภูเขา/สูง/เนิน (จาก Old English 'hlāw' หมายถึงเนินหรือสุสาน)"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้เป็นชื่อศักดิ์ประมาณของครอบครัวขุนนาง ประกอบจากองค์ประกอบแบบเยอรมันที่บ่งบอกถึงเรือนยอดสูง อาจหมายถึง 'บ้านเนินสูง' ซึ่งสะท้อนตำแหน่งสูงส่งและเกียรติยศของครอบครัวโฮสโลว์ ดีอัลลอส เป็นสมาชิกที่อยากเนืองน้อยกว่าพี่ชายผู้มีชื่อเสียง",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Scadutree",
+    "thai_meaning": "พฤกษาเงากระเซ็น",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Scad-",
+        "language": "Old English",
+        "meaning_thai": "เงา/เสื้อหนัง (จาก Old English 'scead' หมายถึงเงา)"
+      },
+      {
+        "part": "u",
+        "language": "Old English",
+        "meaning_thai": "องค์ประกอบแทรก"
+      },
+      {
+        "part": "-tree",
+        "language": "Old English",
+        "meaning_thai": "ต้นไม้ (จาก Old English 'trēow')"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้ประกอบจากคำศัพท์เยอรมันโบราณบ่งบอกถึงเงา ความมืด และต้นไม้ สะท้อนธรรมชาติลึกลับและเฉพาะของต้นไม้นี้ที่เติบโตในโลกสำเร็จและให้รสโลหิต ชื่อนี้เน้นลักษณะมืดมิด แต่มีพลังเลือดเต่งแน่น",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Dominula",
+    "thai_meaning": "หมู่บ้านเล็ก/ดินแดนอันเล็กน้อย",
+    "thai_transliteration": "โดมินูร่า",
+    "components": [
+      {
+        "part": "Domin-",
+        "language": "Latin",
+        "meaning_thai": "ราชา/เจ้านาย/ผู้ปกครอง"
+      },
+      {
+        "part": "-ula",
+        "language": "Latin",
+        "meaning_thai": "ขนาดเล็ก/น้อย (suffix ที่ใช้ลดขนาด)"
+      }
+    ],
+    "explanation_thai": "ชื่อละตินประกอบจากรากศัพท์ 'dominus' (เจ้านาย) และคำควบคุม suffix '-ula' ที่หมายถึง 'เล็กน้อย' ส่งผลให้ความหมายกลายเป็น 'ดินแดนเล็ก' หรือ 'หมู่บ้านเล็ก' เหมาะกับวิลเลจของกังหันลมที่มีชาวบ้านน้อยจำนวน",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Radagon",
+    "thai_meaning": "ผู้ใจปรุงแรม/ผู้ประกาศสง่า",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Rad-",
+        "language": "Old English/Germanic",
+        "meaning_thai": "คำแนะนำ/การพูด (เกี่ยวข้องกับคำว่า 'rede' หมายถึงคำแนะนำ)"
+      },
+      {
+        "part": "-agon",
+        "language": "Greek/Old English",
+        "meaning_thai": "นำหน้า/ประกาศ/ผู้นำ (อาจจากภาษากรีก 'agon' หมายถึงการแข่ง/การสู้)"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้ผสมผสานองค์ประกอบแบบเยอรมันและกรีก บ่งบอกถึงผู้นำหรือผู้ประกาศที่มีคำแนะนำทางจิตใจ ตรงกับบทบาทของราดากอน ผู้ผมแดงที่เป็นวีรชนแห่งศึก และต่อมากลายเป็นครึ่งหนึ่งของมาริกา ราชินีเอลเดน",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Zamor",
+    "thai_meaning": "ผู้รักษา/สัตรูโบราณ",
+    "thai_transliteration": "ซาเมอร์",
+    "components": [
+      {
+        "part": "Za-",
+        "language": "Sanskrit/Indo-European",
+        "meaning_thai": "เพื่อ/สำหรับ (อาจมีที่มาจากราชาศัพท์โบราณ)"
+      },
+      {
+        "part": "-mor",
+        "language": "Old English/Germanic",
+        "meaning_thai": "ผู้รักษา/ตัวเลือก (เกี่ยวข้องกับ 'more' บ้านเรือน หรือ 'mor' ความตาย)"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้มีที่มาจากองค์ประกอบโบราณที่อาจสัมพันธ์กับอัศวินแบบเหนือโลก ซามอร์เป็นคนแคบน้อยแห่งการต่อสู้ต่อเนื่องในสมรภูมิโบราณ ชื่อนี้สะท้อนมรดกและเกียรติยศในฐานะหนึ่งในผู้ที่ได้รับการยกย่องในสงครามต่อยักษ์เพลิง",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Crucible",
+    "thai_meaning": "หม้อหลอม/เตาหลอมความเป็น",
+    "thai_transliteration": "พิมพ์หลอม",
+    "components": [
+      {
+        "part": "Crucible",
+        "language": "Latin",
+        "meaning_thai": "หม้อหลอมโลหะ/หลุมฉากวังศักดิ์สิทธิ์ (จาก ละติน 'crucibulum')"
+      }
+    ],
+    "explanation_thai": "คำนี้มาจากศัพท์ละตินที่เดิมหมายถึง 'หม้อหลอมโลหะที่ใช้ถลุงแร่' ในบริบทเกม Crucible หมายถึงพลังที่สร้างการเปลี่ยนแปลงและการควบรวมของสัตว์และชีวิต เสมือนหนึ่งเป็น 'หม้อหลอมแห่งการสร้างสัตว์ปีศาจ' ที่ผสมผสานสิ่งต่างๆ เข้าด้วยกัน",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Radahn",
+    "thai_meaning": "ผู้นำแห่งศึก/จอมยุทธ์",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Rad-",
+        "language": "Old English/Germanic",
+        "meaning_thai": "คำแนะนำ/ความรู้ (จาก Old English 'rede')"
+      },
+      {
+        "part": "-ahn",
+        "language": "Germanic",
+        "meaning_thai": "ผู้นำ/ฉัน (ลงท้ายแบบชื่อเทพ)"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้เป็นรูปแบบขยายของ 'Radagon' หรืออาจเกี่ยวข้องกับชื่อศักดิ์สิทธิ์แบบโบราณอื่นๆ ที่ลงท้ายด้วย '-ahn' (เช่นพื้นเพศทีวี) ตรงกับบทบาทของราดาห์น เทพจอมยุทธ์แห่งการต่อสู้และการชำนาญการเชี่ยวชาญทหาร",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Two Fingers",
+    "thai_meaning": "ทวินิ้ว/นิ้วทั้งสอง",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Two",
+        "language": "Old English",
+        "meaning_thai": "สอง (จาก Old English 'twā')"
+      },
+      {
+        "part": "Fingers",
+        "language": "Old English",
+        "meaning_thai": "นิ้ว (จาก Old English 'finger')"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้ใช้คำศัพท์ป้ายวิธีทั่วไปของวัตถุธรรมชาติ - 'นิ้ว' แต่ในบริบทเกม Two Fingers นั้นเป็นจิตรลักษณ์ที่เป็นสิ่งมีชีวิตเหนือธรรมชาติหรือเทพแฝด ชื่อนี้อาจสื่อถึงความลึกลับและลักษณ์ขาดเรื่องในพระคัมภีร์ที่ตั้งงานแห่งการปกครองโลก",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
+  },
+  {
+    "name": "Mountaintops of the Giants",
+    "thai_meaning": "เทือกเขาแห่งเหล่ายักษ์ใหญ่",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Mountaintops",
+        "language": "Old English",
+        "meaning_thai": "ยอดเขา (compound: 'mount' + 'top')"
+      },
+      {
+        "part": "of the Giants",
+        "language": "Old English",
+        "meaning_thai": "แห่งยักษ์ (จาก Old English 'giant')"
+      }
+    ],
+    "explanation_thai": "ชื่อสถานที่นี้ประกอบด้วยคำศัพท์ธรรมชาติง่ายๆ ที่บรรยายลักษณะทางภูมิศาสตร์ของสถานที่ - ยอดเขาสูงที่เป็นบ้านของยักษ์ ชื่อนี้สะท้อนความเป็นตัวตนของสถานที่ว่าเป็นดินแดนขรุขระและโหดร้ายที่อยู่เหนือเมฆ ที่ยักษ์เพลิงเลือดดำเนินอาญา",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-23"
   }
 ]
