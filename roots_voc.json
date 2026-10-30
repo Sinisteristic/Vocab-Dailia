@@ -946,5 +946,255 @@
     "explanation_thai": "ชื่อสถานที่นี้ประกอบด้วยคำศัพท์ธรรมชาติง่ายๆ ที่บรรยายลักษณะทางภูมิศาสตร์ของสถานที่ - ยอดเขาสูงที่เป็นบ้านของยักษ์ ชื่อนี้สะท้อนความเป็นตัวตนของสถานที่ว่าเป็นดินแดนขรุขระและโหดร้ายที่อยู่เหนือเมฆ ที่ยักษ์เพลิงเลือดดำเนินอาญา",
     "source": "elden_ring.json",
     "date_added": "2026-10-23"
+  },
+  {
+    "name": "Winged Misbegotten",
+    "thai_meaning": "ลูกผสมปีกที่บิดเบี้ยว",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Winged",
+        "language": "Old English / Germanic",
+        "meaning_thai": "มีปีก"
+      },
+      {
+        "part": "Misbegotten",
+        "language": "Middle English",
+        "meaning_thai": "เกิดจากการผสมพันธุ์ที่ผิดวิธี บิดเบี้ยว"
+      }
+    ],
+    "explanation_thai": "คำว่า 'misbegotten' มาจากคำว่า 'mis-' (ผิด) บวก 'begotten' (เกิด/ลูก) ซึ่งมีต้นกำเนิดจาก Old English 'beget' แสดงถึงสิ่งมีชีวิตที่เป็นผลมาจากการผสมพันธุ์ที่ผิดธรรมชาติ สมควรกับตัวละครนี้ที่เป็นสิ่งมีชีวิตประหลาดในเกม",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Perfumer",
+    "thai_meaning": "ผู้สร้างสัญญาบาล",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Perfume",
+        "language": "French / Latin",
+        "meaning_thai": "หอมน้อยหอม (จากละติน per- 'ผ่าน' + fumus 'ควัน')"
+      },
+      {
+        "part": "-er",
+        "language": "Old English / Germanic",
+        "meaning_thai": "ผู้ (ผู้ที่ทำสิ่งนั้น)"
+      }
+    ],
+    "explanation_thai": "คำว่า 'perfumer' ประกอบด้วย 'perfume' (จากละติน 'perfumare' = ทำให้มีกลิ่นหอม) บวกกับ '-er' (คำต่อท้ายแสดงผู้ทำหน้าที่) ในบริบทของเกม perfumer คือศิลปินแห่งการสร้างสัญญาบาลและอาวุธเชิงเวทย์ที่ใช้หลักการจากกลิ่นหอม",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Dryleaf Sect",
+    "thai_meaning": "นิกายสูตรแห้ง",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Dry",
+        "language": "Old English / Germanic",
+        "meaning_thai": "แห้ง ขาดความชื้น"
+      },
+      {
+        "part": "leaf",
+        "language": "Old English / Germanic",
+        "meaning_thai": "ใบไม้"
+      },
+      {
+        "part": "Sect",
+        "language": "Latin",
+        "meaning_thai": "นิกาย กลุ่มผู้ถือศรัทธา (จากละติน 'secare' = ตัด)"
+      }
+    ],
+    "explanation_thai": "ชื่อนี้ประกอบด้วยคำภาษาเยอรมัน 'dry' และ 'leaf' รวมกับ 'sect' (จากละติน) ที่หมายถึงกลุ่มปรัชญา ความรู้สึกที่แห้งกร้านของชื่อนี้สื่อถึงศาสตร์แห่งการบำเพ็ญตนและการฝึกฝนด้านการต่อสู้ที่เข้มงวดและขาดความอ่อนโยน",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Blind Swordsman",
+    "thai_meaning": "นักดาบตาบอด",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Blind",
+        "language": "Old English / Germanic",
+        "meaning_thai": "ตาบอด ไม่มีสายตา"
+      },
+      {
+        "part": "Sword",
+        "language": "Old English / Germanic",
+        "meaning_thai": "ดาบ"
+      },
+      {
+        "part": "man",
+        "language": "Old English / Germanic",
+        "meaning_thai": "ชาย บุคคล"
+      }
+    ],
+    "explanation_thai": "คำทั้งหมดมาจากภาษาเยอรมันโบราณ 'blind' ชี้ไปที่การสูญเสีย 'sword' หมายถึงอาวุธ 'man' หมายถึงบุคคล ชื่อนี้อธิบายลักษณะของตัวละครผู้ชายผู้บัญชาดาบแม้จะตาบอด แสดงถึงความทรงจำในตำนานว่าเกี่ยวกับบุคคลผู้มีอำนาจลี้ลับ",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Rot",
+    "thai_meaning": "ความเสื่อมสลาย การผุพังอนัตตา",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Rot",
+        "language": "Old English / Germanic",
+        "meaning_thai": "การผุพัง ความเสื่อมสลาย ความเน่าเสีย"
+      }
+    ],
+    "explanation_thai": "คำว่า 'rot' มาจากภาษาเยอรมันโบราณหมายถึงการผุพังและความเสื่อมสลาย ในบริบทของตำนานในเกม Rot คือสิ่งต่างศาสตร์ที่เป็นเทพเจ้าโบราณ ตัวแทนของการสลายตัว การตายและความบิดเบี้ยว",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Rakshasa",
+    "thai_meaning": "รากษส ปีศาจผู้ทำลายสังหาร",
+    "thai_transliteration": "รากษส",
+    "components": [
+      {
+        "part": "Rakshasa",
+        "language": "Sanskrit",
+        "meaning_thai": "ปีศาจ ครีเอเจอร์ที่ดุร้าย ผู้หัวร้อน"
+      }
+    ],
+    "explanation_thai": "คำว่า 'Rakshasa' มาจากสันสกฤตโบราณ (ภาษาของศาสนาฮินดู บุคคคศรรม) หมายถึงปีศาจหรือสิ่งมีชีวิตที่ชั่วร้ายในศาสตร์บัญชา ชื่อนี้สมควรกับตัวละครปีศาจหญิงที่มีความโหดร้ายและเต็มไปด้วยจิตสังหาร ตัวละครนี้แสดงถึงการแสวงหาการฆ่าฟันและการตัดสินใจที่เหมือนสัตว์ร้ายปัญญา",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Fairy",
+    "thai_meaning": "ภูต สิ่งศักดิ์สิทธิ์ลึกลับ",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Fairy",
+        "language": "Old French / Latin",
+        "meaning_thai": "ภูต ผู้หญิงวิศวการมนต์ (จากละติน 'fata' = ชะตา/การกำหนดโชคชะตา)"
+      }
+    ],
+    "explanation_thai": "คำว่า 'fairy' มาจากภาษาฝรั่งเศสโบราณ 'faerie' ซึ่งมีต้นกำเนิดจากละติน 'fata' (ชะตากรรม นางลิขิตชะตา) แม้ว่าในการใช้สมัยใหม่หมายถึงสิ่งมีชีวิตเล็กน้อยวิหควรยิ่งขึ้น แต่ในตำนานเก่าแก่กำหนดถึงผู้หญิงยักษ์ที่มีอำนาจลึกลับ ในที่นี้แสดงถึงผู้หญิงศักดิ์สิทธิ์ที่มอบดาบธารแก่นักดาบตาบอด",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Flask of Crimson Tears",
+    "thai_meaning": "จอกศักดิ์สิทธิ์หยาดนํ้าสีชาด",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Flask",
+        "language": "Old Norse / Germanic",
+        "meaning_thai": "กระติกบรรจุ"
+      },
+      {
+        "part": "Crimson",
+        "language": "Old English",
+        "meaning_thai": "สีแดงเข้ม สีเลือด"
+      },
+      {
+        "part": "Tears",
+        "language": "Old English / Germanic",
+        "meaning_thai": "หยาดน้ำ"
+      }
+    ],
+    "explanation_thai": "คำ 'flask' มาจาก Old Norse 'flaskr' 'crimson' มาจาก Old English 'crimisn' ซึ่งไปยังภาษาอังกฤษ 'tears' มาจาก Old English 'taeran' ชื่อนี้เมื่อรวมกันแสดงถึงกระติกบรรจุของเหลวสีเลือด ซึ่งแนวคิดเกี่ยวกับการฟื้นชีวิตและการรักษาบาดแผลโดยใช้โลหิต",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Site of Grace",
+    "thai_meaning": "พรมลูกปักษ์ศักดิ์สิทธิ์",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Site",
+        "language": "Latin",
+        "meaning_thai": "สถานที่ (จากละติน 'situs' = ตำแหน่ง)"
+      },
+      {
+        "part": "Grace",
+        "language": "Latin / Romance",
+        "meaning_thai": "พระคุณ ศักดิ์สิทธิ์ (จากละติน 'gratia' = ความโปรดปราน)"
+      }
+    ],
+    "explanation_thai": "คำว่า 'site' มาจากละติน 'situs' (ตำแหน่ง) 'grace' มาจากละติน 'gratia' (พระคุณ ความโปรดปราน) ชื่อนี้อธิบายสถานที่พิเศษที่พระคุณจากพฤกษาทองลงมา เป็นจุดที่ผู้มัวหมองสามารถพักผ่อนและเติมพลังได้",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Preserving Boluses",
+    "thai_meaning": "ยาตะไคร่คลายเสื่อมสลาย",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Preserving",
+        "language": "Latin / French",
+        "meaning_thai": "การคงเก็บ การปกป้อง (จากละติน 'praeservare' = ปกป้อง)"
+      },
+      {
+        "part": "Boluses",
+        "language": "Greek",
+        "meaning_thai": "เม็ดยา อาหารด่วน (จากกรีก 'bolos' = ก้อน โลก)"
+      }
+    ],
+    "explanation_thai": "คำว่า 'preserving' มาจากละติน 'praeservare' (ปกป้อง ทำให้ยั่งยืน) 'boluses' มาจากกรีก 'bolos' (ก้อน โลก) รวมกันหมายถึงยาหรือสารอาหารที่ใช้คงเก็บไว้จากเสื่อมสลาย ในบริบทของเกมนี้อธิบายเลขยาที่ใช้รักษาพิษจากความเสื่อมสลาย",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Godrick the Grafted",
+    "thai_meaning": "ก็อดดริกผู้ประกอบแต่งทำ",
+    "thai_transliteration": "ก็อดดริก",
+    "components": [
+      {
+        "part": "God",
+        "language": "Old English / Germanic",
+        "meaning_thai": "เทพเจ้า ผู้เป็นใหญ่"
+      },
+      {
+        "part": "-rick",
+        "language": "Old German / Germanic",
+        "meaning_thai": "ผู้ครอบครอง ผู้ปกครอง (จากเยอรมัน 'reich' = อาณาจักร)"
+      },
+      {
+        "part": "Grafted",
+        "language": "Old Norse / Germanic",
+        "meaning_thai": "ประกอบแต่งทำ ตัดต่อ (จาก 'graft' = การเชื่อมต่อสิ่งต่างๆ)"
+      }
+    ],
+    "explanation_thai": "ชื่อ 'Godrick' ประกอบด้วย 'God' (เทพ) และ '-rick' (ผู้ปกครอง) สื่อถึงผู้ที่ยืนยงหรือประกาศตัวเป็นเทพเจ้า 'Grafted' หมายถึงการเชื่อมต่อและประกอบแต่งสิ่งต่างๆ เข้าด้วยกัน ชื่อนี้สมควรกับตัวละครที่หลงใหลในการผ่าตัดตัวเองและผู้อื่นเพื่อเพิ่มพลังและมวลกาย",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
+  },
+  {
+    "name": "Twin Maiden Husks",
+    "thai_meaning": "หญิงชราแฝดเปลือกว่าง",
+    "thai_transliteration": "",
+    "components": [
+      {
+        "part": "Twin",
+        "language": "Old English / Germanic",
+        "meaning_thai": "แฝด คู่พี่น้อง"
+      },
+      {
+        "part": "Maiden",
+        "language": "Old English / Germanic",
+        "meaning_thai": "สาวหนุ่ม หญิงสาว (แต่ในที่นี้อาจหมายถึงหญิงสถานะ)"
+      },
+      {
+        "part": "Husks",
+        "language": "Old Norse / Germanic",
+        "meaning_thai": "เปลือกว่าง เศษสิ่งที่เหลือ"
+      }
+    ],
+    "explanation_thai": "คำว่า 'twin' มาจาก Old English 'twinn' (แฝด) 'maiden' มาจาก Old English 'mægden' (หญิงสาว) 'husks' มาจาก Old Norse 'huskr' (เปลือกว่าง) ชื่อนี้อธิบายตัวละครสองหญิงที่เป็นเปลือกว่างเพล่าที่เคยมีตัวตน บ่งบอกถึงสารถูกเรียกราคาขายสินค้าในโต๊ะกลม",
+    "source": "elden_ring.json",
+    "date_added": "2026-10-30"
   }
 ]
