@@ -8900,5 +8900,1263 @@
       }
     ],
     "date_added": "2026-10-23"
+  },
+  {
+    "concept": "Desolation",
+    "concept_thai": "ความห่างไกล ความโดดเดี่ยว",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "lonely",
+        "pos": "adjective",
+        "thai": "โดดเดี่ยว",
+        "example": "She felt lonely when her friends moved away.",
+        "example_thai": "เธอรู้สึกโดดเดี่ยวเมื่อเพื่อนๆ ของเธอย้ายไป",
+        "explanation_thai": "คำพื้นฐานที่ใช้บ่อยในการพูดเกี่ยวกับความรู้สึกของบุคคล เน้นความรู้สึกภายใน",
+        "synonyms_en": [
+          "alone",
+          "solitary"
+        ],
+        "synonyms_thai": [
+          "เก็บตัว",
+          "อยู่คนเดียว"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "barren",
+        "pos": "adjective",
+        "thai": "ว่างเปล่า หมดสิ้น",
+        "example": "The barren landscape stretched for miles.",
+        "example_thai": "ภูมิประเทศที่ว่างเปล่าขยายออกไปหลายไมล์",
+        "explanation_thai": "คำที่ใช้บรรยายสถานที่หรือสภาพแวดล้อมที่ไม่มีการตกแต่งหรือไม่มีความเป็นชีวิต",
+        "synonyms_en": [
+          "bare",
+          "desolate"
+        ],
+        "synonyms_thai": [
+          "เปลี่ยว",
+          "ห่างไกล"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "desolate",
+        "pos": "adjective",
+        "thai": "ห่างไกล โดดเดี่ยว เศร้าซึ้ง",
+        "example": "The desolate island had no inhabitants for centuries.",
+        "example_thai": "เกาะที่ห่างไกลนี้ไม่มีผู้อาศัยมาเป็นศตวรรษแล้ว",
+        "explanation_thai": "คำที่ใช้เมื่อต้องการบอกถึงความห่างไกล ความปลอดโปร่ง และความเศร้าโศกในเวลาเดียวกัน มีความรู้สึกทางอารมณ์สูง",
+        "synonyms_en": [
+          "forsaken",
+          "bleak"
+        ],
+        "synonyms_thai": [
+          "ร้างโครง",
+          "โศกเศร้า"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "desolation",
+        "pos": "noun",
+        "thai": "ความห่างไกลอันเศร้าโศก ความท้องเที่ยว",
+        "example": "The desolation of the abandoned city filled him with a sense of melancholy.",
+        "example_thai": "ความห่างไกลอันเศร้าโศกของเมืองร้างนี้ทำให้เขาเต็มไปด้วยความท้อแท้",
+        "explanation_thai": "คำนามที่ใช้ในวรรณคดีหรือการเขียนอย่างจริงจังเพื่อบรรยายสภาพความเศร้าโศกลึกซึ้งที่เกิดจากความว่างเปล่า",
+        "synonyms_en": [
+          "desolacy",
+          "barrenness"
+        ],
+        "synonyms_thai": [
+          "ความเปลี่ยว",
+          "ความปลอดโปร่ง"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Whimsy",
+    "concept_thai": "อารมณ์ตามใจปรารถนา ความขลัดขลิม",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "playful",
+        "pos": "adjective",
+        "thai": "สนุกสนาน ขี้เล่น",
+        "example": "The children had a playful mood and laughed all day.",
+        "example_thai": "เด็กๆ มีอารมณ์ขี้เล่นและหัวเราะตลอดวัน",
+        "explanation_thai": "คำพื้นฐานที่ใช้เมื่อต้องการบรรยายบุคคลหรือสภาพที่เต็มไปด้วยความสนุกสนาน",
+        "synonyms_en": [
+          "frisky",
+          "lighthearted"
+        ],
+        "synonyms_thai": [
+          "ร่าเริง",
+          "สดใส"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "whimsical",
+        "pos": "adjective",
+        "thai": "ขลัดขลิม สุดสิ่งไม่คาดฝัน ปรารถนาตามใจ",
+        "example": "The whimsical garden had unusual sculptures and unexpected paths.",
+        "example_thai": "สวนที่ขลัดขลิมนี้มีรูปปั้นแปลกตาและเส้นทางที่ไม่คาดคิด",
+        "explanation_thai": "คำที่ใช้เมื่อต้องการบรรยายสิ่งที่ดูเหมือนเกิดจากจินตนาการหรือความปรารถนาตามใจ มีลักษณะอันลึกลับและสวยงาม",
+        "synonyms_en": [
+          "fanciful",
+          "quirky"
+        ],
+        "synonyms_thai": [
+          "สุดสิ่งไม่คาดฝัน",
+          "ไม่เป็นไปตามลำดับ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "whimsy",
+        "pos": "noun",
+        "thai": "ความขลัดขลิม ความปรารถนาตามใจ ความจินตนาการ",
+        "example": "The artist's work was filled with whimsy and creative imagination.",
+        "example_thai": "ผลงานของศิลปินเต็มไปด้วยความขลัดขลิมและจินตนาการสร้างสรรค์",
+        "explanation_thai": "คำนามที่ใช้ในวรรณคดีและศิลปะเพื่อบรรยายคุณภาพของสิ่งที่แปลกใจและเต็มไปด้วยเสน่ห์อันลึกลับ",
+        "synonyms_en": [
+          "caprice",
+          "fancy"
+        ],
+        "synonyms_thai": [
+          "ความหวั่นไหว",
+          "จินตนาการ"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Reverence",
+    "concept_thai": "ความเคารพ ความบูชา",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "respect",
+        "pos": "noun",
+        "thai": "ความเคารพ",
+        "example": "Students should show respect to their teachers.",
+        "example_thai": "นักเรียนควรแสดงความเคารพต่อครูของตน",
+        "explanation_thai": "คำพื้นฐานที่ใช้ในการพูดถึงการให้เกียรติหรือการเห็นคุณค่า สามารถใช้ในบริบทต่างๆ",
+        "synonyms_en": [
+          "esteem",
+          "regard"
+        ],
+        "synonyms_thai": [
+          "การให้เกียรติ",
+          "การเห็นคุณค่า"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "admiration",
+        "pos": "noun",
+        "thai": "ความชื่นชม ความประทับใจ",
+        "example": "She looked at the painting with admiration.",
+        "example_thai": "เธอมองดูภาพวาดด้วยความชื่นชม",
+        "explanation_thai": "คำที่ใช้เมื่อต้องการบอกความรู้สึกซาบซึ้งต่อคุณธรรมหรือความสามารถของบุคคลหรือสิ่งของ",
+        "synonyms_en": [
+          "appreciation",
+          "approval"
+        ],
+        "synonyms_thai": [
+          "การชื่นชมยินดี",
+          "การเห็นชอบ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "veneration",
+        "pos": "noun",
+        "thai": "ความบูชา ความเคารพสูงสุด",
+        "example": "The statue is treated with veneration by the local community.",
+        "example_thai": "รูปปั้นนี้ได้รับการบูชาจากชุมชนท้องถิ่น",
+        "explanation_thai": "คำที่ใช้ในบริบทศาสนาหรือวัฒนธรรม เน้นถึงความเคารพที่ลึกลับและศักดิ์สิทธิ์",
+        "synonyms_en": [
+          "worship",
+          "reverence"
+        ],
+        "synonyms_thai": [
+          "การสักการบูชา",
+          "ความศรัทธา"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "reverence",
+        "pos": "noun",
+        "thai": "ความเคารพอย่างลึกซึ้ง ความศรัทธา",
+        "example": "He spoke of his mentor with profound reverence.",
+        "example_thai": "เขาพูดถึงอาจารย์ของเขาด้วยความเคารพอย่างลึกซึ้ง",
+        "explanation_thai": "คำที่ใช้ในบริบทคุณธรรมและอารมณ์สูง เน้นถึงความเคารพที่มาจากใจตรงและศรัทธาอย่างแท้จริง",
+        "synonyms_en": [
+          "veneration",
+          "awe"
+        ],
+        "synonyms_thai": [
+          "การบูชา",
+          "ความหวั่นเกรงไป"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Calamity",
+    "concept_thai": "ภัยพิบัติ การประสบเหตุร้าย",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "disaster",
+        "pos": "noun",
+        "thai": "ภัยพิบัติ",
+        "example": "The earthquake was a terrible disaster.",
+        "example_thai": "แผ่นดินไหวเป็นภัยพิบัติที่น่ากลัว",
+        "explanation_thai": "คำพื้นฐานและใช้บ่อยสำหรับเหตุการณ์ร้ายแรงที่เกิดขึ้นทันทีและก่อให้เกิดความเสียหาย",
+        "synonyms_en": [
+          "catastrophe",
+          "calamity"
+        ],
+        "synonyms_thai": [
+          "ภัยหนึ่ง",
+          "ความโชคร้าย"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "crisis",
+        "pos": "noun",
+        "thai": "สถานการณ์ฉุกเฉิน ช่วงเวลาวิกฤต",
+        "example": "The country faced an economic crisis.",
+        "example_thai": "ประเทศต้องเผชิญกับวิกฤตเศรษฐกิจ",
+        "explanation_thai": "คำที่ใช้เมื่อสถานการณ์เป็นอันตรายและจำเป็นต้องมีการตัดสินใจอย่างด่วน",
+        "synonyms_en": [
+          "emergency",
+          "predicament"
+        ],
+        "synonyms_thai": [
+          "เหตุฉุกเฉิน",
+          "ปัญหาวิกฤต"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "calamity",
+        "pos": "noun",
+        "thai": "ภัยพิบัติ สาเหตุของความเสียหาย",
+        "example": "The flood was a great calamity for the region.",
+        "example_thai": "น้ำท่วมเป็นภัยพิบัติครั้งใหญ่สำหรับภูมิภาค",
+        "explanation_thai": "คำที่ใช้ในวรรณคดีหรือการพูดอย่างจริงจัง เน้นถึงการประสบเหตุร้ายที่มีความสำคัญและผลกระทบยาวนาน",
+        "synonyms_en": [
+          "misfortune",
+          "catastrophe"
+        ],
+        "synonyms_thai": [
+          "มหาภัย",
+          "เรื่องร้าย"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "cataclysm",
+        "pos": "noun",
+        "thai": "ภัยพิบัติครั้งใหญ่ ปฏิวัติครั้งยิ่งใหญ่",
+        "example": "The revolution was a cataclysm that changed the course of history.",
+        "example_thai": "การปฏิวัติเป็นภัยพิบัติครั้งใหญ่ที่เปลี่ยนแปลงเส้นทางของประวัติศาสตร์",
+        "explanation_thai": "คำที่ใช้ในวรรณคดีและการศึกษาประวัติศาสตร์ เน้นถึงเหตุการณ์ที่มีผลกระทบอย่างรุนแรงและเปลี่ยนแปลงโลก",
+        "synonyms_en": [
+          "catastrophe",
+          "upheaval"
+        ],
+        "synonyms_thai": [
+          "ปฏิวัติ",
+          "การเปลี่ยนแปลงอันยิ่งใหญ่"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Subterfuge",
+    "concept_thai": "การแอบแฝง การหลีกเลี่ยง",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "trick",
+        "pos": "noun",
+        "thai": "อุบาย กลเม็ด",
+        "example": "He used a trick to win the game.",
+        "example_thai": "เขาใช้กลเม็ดเพื่อชนะเกม",
+        "explanation_thai": "คำพื้นฐานที่ใช้เมื่อต้องการบอกถึงวิธีการที่ลวงหรือโกง",
+        "synonyms_en": [
+          "ruse",
+          "stratagem"
+        ],
+        "synonyms_thai": [
+          "กลลวง",
+          "อุบาย"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "pretext",
+        "pos": "noun",
+        "thai": "เหตุแกน้อย ข้ออ้าง",
+        "example": "She used a false pretext to leave the meeting.",
+        "example_thai": "เธอใช้ข้ออ้างที่เท็จเพื่อออกจากการประชุม",
+        "explanation_thai": "คำที่ใช้เมื่อต้องการบอกถึงเหตุผลที่ไม่จริงใจที่ใช้ปิดบังความตั้งใจแท้จริง",
+        "synonyms_en": [
+          "excuse",
+          "guise"
+        ],
+        "synonyms_thai": [
+          "ข้ออ้าง",
+          "หน้ากาก"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "evasion",
+        "pos": "noun",
+        "thai": "การหลีกเลี่ยง การหนีไป",
+        "example": "His evasion of the question annoyed everyone.",
+        "example_thai": "การหลีกเลี่ยงของเขาต่อคำถามทำให้ทุกคนรำคาญ",
+        "explanation_thai": "คำที่ใช้เมื่อต้องการบอกถึงการหลีกเลี่ยงหรือไม่ตอบโต้โดยตรง",
+        "synonyms_en": [
+          "avoidance",
+          "dodging"
+        ],
+        "synonyms_thai": [
+          "การหนีไป",
+          "การพ้นไป"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "subterfuge",
+        "pos": "noun",
+        "thai": "การแอบแฝง การหลีกเลี่ยงอย่างลวงหลอก",
+        "example": "The spy used subterfuge to infiltrate the organization.",
+        "example_thai": "สายลับใช้การแอบแฝงเพื่อแทรกตัวเข้าไปในองค์กร",
+        "explanation_thai": "คำที่ใช้ในบริบทซอฟิสติเกต เน้นถึงการใช้วิธีการลวงหลอกหรือแอบแฝงเพื่อบรรลุเป้าหมายลับ",
+        "synonyms_en": [
+          "deception",
+          "artifice"
+        ],
+        "synonyms_thai": [
+          "กลลวง",
+          "ลวงลด"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Ephemeral",
+    "concept_thai": "ความชั่วนิรันดร์ ความไม่ยาวนาน",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "temporary",
+        "pos": "adjective",
+        "thai": "ชั่วคราว",
+        "example": "This job is only temporary.",
+        "example_thai": "งานนี้เป็นเพียงชั่วคราว",
+        "explanation_thai": "คำพื้นฐานที่ใช้สำหรับสิ่งที่ไม่ถาวร สามารถใช้ในบริบทประจำวัน",
+        "synonyms_en": [
+          "transient",
+          "short-term"
+        ],
+        "synonyms_thai": [
+          "เพียงแค่นั้น",
+          "ไม่ถาวร"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "fleeting",
+        "pos": "adjective",
+        "thai": "ผ่านไปอย่างรวดเร็ว ชั่วครู่",
+        "example": "The beauty of the sunset was fleeting.",
+        "example_thai": "ความสวยงามของการพระอาทิตย์ตกผ่านไปอย่างรวดเร็ว",
+        "explanation_thai": "คำที่ใช้เมื่อต้องการบอกถึงสิ่งที่ผ่านไปอย่างรวดเร็วและหายไปเร็ว มักใช้ในบริบททางอารมณ์",
+        "synonyms_en": [
+          "brief",
+          "momentary"
+        ],
+        "synonyms_thai": [
+          "ผ่านไป",
+          "ชั่วชั่ว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "transient",
+        "pos": "adjective",
+        "thai": "ไม่ยาวนาน ชั่วคราว",
+        "example": "The transient nature of life reminds us to value each moment.",
+        "example_thai": "ลักษณะไม่ยาวนานของชีวิตเตือนให้เราเห็นคุณค่าของแต่ละช่วงเวลา",
+        "explanation_thai": "คำที่ใช้ในการพูดที่เป็นทางการมากขึ้น เน้นถึงความชั่วคราวของสิ่งต่างๆ",
+        "synonyms_en": [
+          "fleeting",
+          "temporary"
+        ],
+        "synonyms_thai": [
+          "ผ่านไป",
+          "เปลี่ยนแปลง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "ephemeral",
+        "pos": "adjective",
+        "thai": "ชั่วนิรันดร์ ไม่ยาวนาน",
+        "example": "The ephemeral beauty of cherry blossoms makes them all the more precious.",
+        "example_thai": "ความสวยงามชั่วนิรันดร์ของดอกซากุระทำให้มันล้ำค่ายิ่งขึ้น",
+        "explanation_thai": "คำที่ใช้ในวรรณคดีและการพูดอย่างจริงจัง เน้นถึงลักษณะที่ชั่วคราวและวิจิตรวิจิตรของสิ่งต่างๆ",
+        "synonyms_en": [
+          "transitory",
+          "evanescent"
+        ],
+        "synonyms_thai": [
+          "ครั่นครวญ",
+          "ผ่านพ้นไป"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Perfidiousness",
+    "concept_thai": "ความนิสัยทรยศ การไม่ซื่อสัตย์",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "unfaithful",
+        "pos": "adjective",
+        "thai": "ไม่ซื่อสัตย์ นิสัยทรยศ",
+        "example": "He was unfaithful to his wife.",
+        "example_thai": "เขาไม่ซื่อสัตย์กับภรรยาของเขา",
+        "explanation_thai": "คำพื้นฐานที่ใช้เมื่อต้องการบอกถึงการขาดความซื่อสัตย์ หรือการทรยศในความสัมพันธ์",
+        "synonyms_en": [
+          "disloyal",
+          "false"
+        ],
+        "synonyms_thai": [
+          "นิสัยทรยศ",
+          "ไม่สัตย์ซื่อ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "deceitful",
+        "pos": "adjective",
+        "thai": "หลอกลวง เต็มไปด้วยการโกหก",
+        "example": "His deceitful nature made it hard to trust him.",
+        "example_thai": "ลักษณะการหลอกลวงของเขาทำให้เป็นการยากที่จะไว้ใจ",
+        "explanation_thai": "คำที่ใช้เมื่อต้องการบอกถึงบุคคลที่ชอบโกหกหรือหลอกลวง",
+        "synonyms_en": [
+          "dishonest",
+          "duplicitous"
+        ],
+        "synonyms_thai": [
+          "เล่นตัวซ้าย",
+          "ไม่ตรงไปตรงมา"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "duplicity",
+        "pos": "noun",
+        "thai": "ความซ้ำซ้อน การเล่นสองหน้า",
+        "example": "Her duplicity was exposed when the truth came out.",
+        "example_thai": "ความเล่นสองหน้าของเธอถูกเปิดเผยเมื่อความจริงออกมา",
+        "explanation_thai": "คำที่ใช้เมื่อต้องการบอกถึงการทำตัวเล่นสองหน้าหรือการบิดเบือนความจริง",
+        "synonyms_en": [
+          "deception",
+          "double-dealing"
+        ],
+        "synonyms_thai": [
+          "การหลอกลวง",
+          "การเล่นสองหน้า"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "perfidy",
+        "pos": "noun",
+        "thai": "ความทรยศ นิสัยหลอกลวง",
+        "example": "The general's perfidy betrayed the entire army.",
+        "example_thai": "ความทรยศของนายพลทำให้ทั้งกองทัพหมดวิตกกังวล",
+        "explanation_thai": "คำที่ใช้ในวรรณคดีและบริบทประวัติศาสตร์ เน้นถึงการทรยศที่ร้ายแรงและไม่ยุติธรรม",
+        "synonyms_en": [
+          "treachery",
+          "betrayal"
+        ],
+        "synonyms_thai": [
+          "การทรยศ",
+          "การหักหลัง"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Aridity",
+    "concept_thai": "ความแห้งแล้ง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "dry",
+        "pos": "adjective",
+        "thai": "แห้ง",
+        "example": "The desert is very dry with little rain.",
+        "example_thai": "ทะเลทรายแห้งมากมีน้ำฝนน้อยมาก",
+        "explanation_thai": "คำพื้นฐานที่ใช้บรรยายสิ่งที่ขาดความชื้นหรือน้ำ มีความหมายตรงและใช้ได้กับหลายบริบท",
+        "synonyms_en": [
+          "arid",
+          "parched"
+        ],
+        "synonyms_thai": [
+          "แห้งแล้ง",
+          "แห้งกร้าน"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "aridity",
+        "pos": "noun",
+        "thai": "ความแห้งแล้ง",
+        "example": "The aridity of the region makes farming difficult.",
+        "example_thai": "ความแห้งแล้งของภูมิภาคทำให้การเกษตรเป็นเรื่องยาก",
+        "explanation_thai": "คำนามที่อ้างอิงถึงสภาวะแห้งแล้งของพื้นที่หรือสถานการณ์ เน้นอากาศ ดินแดน หรือสภาพแวดล้อมที่ขาดน้ำและความชื้น",
+        "synonyms_en": [
+          "dryness",
+          "drought"
+        ],
+        "synonyms_thai": [
+          "ความแห้ง",
+          "ความขาดน้ำ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "desiccation",
+        "pos": "noun",
+        "thai": "การสูญเสียความชื้น, ความแห้งกร้าน",
+        "example": "The desiccation of the soil threatened agricultural productivity.",
+        "example_thai": "การสูญเสียความชื้นของดินคุกคามความเป็นผลผลิตทางการเกษตร",
+        "explanation_thai": "คำที่ใช้ในบริบทวิทยาศาสตร์ เพื่ออธิบายกระบวนการสูญเสียความชื้นไปโดยสิ้นเชิง มีความหมายเชิงเทคนิคและทางวิทยาศาสตร์มากขึ้น",
+        "synonyms_en": [
+          "dehydration",
+          "withering"
+        ],
+        "synonyms_thai": [
+          "การขาดน้ำ",
+          "การเหี่ยวไหม้"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "xerophytic",
+        "pos": "adjective",
+        "thai": "ที่ปรับตัวให้อยู่ในสภาพแห้ง",
+        "example": "Xerophytic plants have evolved special mechanisms to retain water in arid environments.",
+        "example_thai": "พืชที่ปรับตัวให้อยู่ในสภาพแห้งได้พัฒนากลไกพิเศษเพื่อเก็บน้ำในสภาพแวดล้อมแห้งแล้ง",
+        "explanation_thai": "คำวิทยาศาสตร์ขั้นสูงที่อ้างอิงถึงสิ่งมีชีวิตหรือลักษณะเฉพาะของสิ่งมีชีวิตที่ปรับตัวให้อยู่ได้ในพื้นที่แห้งแล้ง ใช้ในบริบททางชีววิทยา",
+        "synonyms_en": [
+          "drought-resistant",
+          "adapted to arid conditions"
+        ],
+        "synonyms_thai": [
+          "ทนทานต่อความแห้ง",
+          "ปรับตัวในสภาพแห้ง"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Luxury",
+    "concept_thai": "ความฟุ่มเฟือย",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "luxury",
+        "pos": "noun",
+        "thai": "ความฟุ่มเฟือย, สิ่งฟุ่มเฟือย",
+        "example": "Traveling first class is a luxury I cannot afford.",
+        "example_thai": "การเดินทางชั้นหนึ่งเป็นความฟุ่มเฟือยที่ฉันไม่สามารถจ่ายได้",
+        "explanation_thai": "คำพื้นฐานที่ใช้บรรยายสิ่งที่มีราคาแพงหรือเสียค่าใช้จ่ายมาก และมักไม่จำเป็นในการใช้ชีวิตประจำวัน",
+        "synonyms_en": [
+          "indulgence",
+          "extravagance"
+        ],
+        "synonyms_thai": [
+          "ความเพลิดเพลินสูง",
+          "ความฟุ่มเฟือย"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "opulent",
+        "pos": "adjective",
+        "thai": "หรูหรา, สุขสบาย",
+        "example": "The opulent mansion was decorated with gold and marble.",
+        "example_thai": "พระราชวังหรูหราถูกตกแต่งด้วยทองคำและหินอ่อน",
+        "explanation_thai": "คำที่ใช้บรรยายสิ่งของหรือสถานที่ที่มีความหรูหราและมั่งมีย่างเห็นได้ชัด เน้นความโอ่อ่วงและการแสดงความมั่งคั่ง",
+        "synonyms_en": [
+          "sumptuous",
+          "lavish"
+        ],
+        "synonyms_thai": [
+          "หรูหรา",
+          "ฟุ่มเฟือย"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "sybaritic",
+        "pos": "adjective",
+        "thai": "ที่ชื่นชอบความสุขสบายและความฟุ่มเฟือย",
+        "example": "His sybaritic lifestyle included frequent spa treatments and expensive wines.",
+        "example_thai": "วิถีชีวิตฟุ่มเฟือยของเขารวมถึงการรักษาสปาบ่อยครั้งและไวน์ที่แพง",
+        "explanation_thai": "คำที่ใช้บรรยายบุคคลหรือวิถีชีวิตที่เน้นความพึงพอใจส่วนตัวและการค้นหาความสุขจากสิ่งหรูหรา โดยมักมีความหมายเชิงวิจารณ์เล็กน้อย",
+        "synonyms_en": [
+          "hedonistic",
+          "self-indulgent"
+        ],
+        "synonyms_thai": [
+          "หวงแหนความสุข",
+          "เอาแต่ใจ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "profligacy",
+        "pos": "noun",
+        "thai": "การใช้จ่ายอย่างฟุ่มเฟือยมากเกินไป, การสิ้นเปลือง",
+        "example": "The government's profligacy in spending led to severe economic problems.",
+        "example_thai": "การใช้จ่ายอย่างฟุ่มเฟือยของรัฐบาลนำไปสู่ปัญหาเศรษฐกิจที่รุนแรง",
+        "explanation_thai": "คำที่อ้างอิงถึงการใช้จ่ายหรือการใช้สิ่งสุดท้ายอย่างสิ้นเปลือง โดยมักมีความหมายลบหรือวิจารณ์เกี่ยวกับการสิ้นเปลืองเกินไป",
+        "synonyms_en": [
+          "profligacy",
+          "wasteful spending"
+        ],
+        "synonyms_thai": [
+          "ความสิ้นเปลือง",
+          "การออกนอกลำนำ"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Vivacity",
+    "concept_thai": "ความชีชีวิต",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "lively",
+        "pos": "adjective",
+        "thai": "ชีชีวิต, มีชีวิตชีวา",
+        "example": "The party was lively and fun.",
+        "example_thai": "งานปาร์ตี้มีชีวิตชีวาและสนุกสนาน",
+        "explanation_thai": "คำพื้นฐานที่ใช้บรรยายบรรยากาศหรือบุคคลที่มีพลังและความสดชื่น",
+        "synonyms_en": [
+          "spirited",
+          "animated"
+        ],
+        "synonyms_thai": [
+          "ชีชีวิต",
+          "มีพลัง"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "vivacity",
+        "pos": "noun",
+        "thai": "ความชีชีวิต, ความเต็มไปด้วยชีวิต",
+        "example": "Her vivacity and enthusiasm brightened the room.",
+        "example_thai": "ความชีชีวิตและความกระตือรือร้นของเธอทำให้ห้องส่องแสงสว่าง",
+        "explanation_thai": "คำนามที่อ้างอิงถึงคุณภาพของการมีชีวิตชีวา ความสดชื่น และการแสดงออกอย่างเต็มไปด้วยพลัง",
+        "synonyms_en": [
+          "liveliness",
+          "spiritedness"
+        ],
+        "synonyms_thai": [
+          "ความเต็มไปด้วยชีวิต",
+          "ความสดชื่น"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "ebullience",
+        "pos": "noun",
+        "thai": "ความเฉิดฉายและมีความสุข, ความเพิ่มพูนด้วยความสนใจ",
+        "example": "Her ebullience was contagious and lifted everyone's spirits.",
+        "example_thai": "ความเฉิดฉายและมีความสุขของเธอติดต่อกันและยกระดับจิตใจของทุกคน",
+        "explanation_thai": "คำที่เน้นความปีติยินดีและความกระตือรือร้นที่พลุ่งพลาว มักใช้กับบุคคลที่แสดงออกซึ่งความดีใจและความตื่นเต้นในลักษณะที่เพิ่มพูน",
+        "synonyms_en": [
+          "exuberance",
+          "high spirits"
+        ],
+        "synonyms_thai": [
+          "ความปีติยินดี",
+          "ความสุขสนาน"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "effervescence",
+        "pos": "noun",
+        "thai": "ความกระชุ่มกระชวยและเต็มไปด้วยชีวิต, ความหาบระเบิด",
+        "example": "The effervescence of youth was evident in their spontaneous laughter and carefree attitude.",
+        "example_thai": "ความกระชุ่มกระชวยของวัยหนุ่มสาวเห็นได้ชัดจากการหัวเราะที่ธรรมชาติและท่าทีปราศจากความกังวล",
+        "explanation_thai": "คำที่ใช้ในบริบทวรรณกรรมหรือปรัชญาเพื่ออธิบายความมีชีวิตชีวาและความรีบเร่งของการแสดงออก โดยมักใช้อธิบายลักษณะของวัยหนุ่มหรือวัยสาว",
+        "synonyms_en": [
+          "exuberance",
+          "bubbling enthusiasm"
+        ],
+        "synonyms_thai": [
+          "ความตั้งตัวแปนท้อง",
+          "ความสดใจ"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Oscillation",
+    "concept_thai": "การแกว่ง",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "swing",
+        "pos": "verb/noun",
+        "thai": "แกว่ง, การแกว่ง",
+        "example": "The pendulum swings back and forth.",
+        "example_thai": "ลูกตุ้มแกว่งไปมา",
+        "explanation_thai": "คำพื้นฐานที่ใช้อธิบายการเคลื่อนไหวไปมาในแนวเดียวกัน มีความหมายทั่วไปและใช้ได้กับหลายบริบท",
+        "synonyms_en": [
+          "sway",
+          "rock"
+        ],
+        "synonyms_thai": [
+          "โยก",
+          "ย้ัน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "oscillate",
+        "pos": "verb",
+        "thai": "สั่น, แกว่ง",
+        "example": "The stock price oscillates between $50 and $60 each month.",
+        "example_thai": "ราคาหุ้นแกว่งระหว่าง 50 ถึง 60 ดอลลาร์ทุกเดือน",
+        "explanation_thai": "คำที่เน้นการเคลื่อนไหวไปมาอย่างสม่ำเสมอและเป็นระยะ มักใช้ในบริบทวิทยาศาสตร์ หรือการวิเคราะห์ข้อมูล",
+        "synonyms_en": [
+          "fluctuate",
+          "vary"
+        ],
+        "synonyms_thai": [
+          "ผันผวน",
+          "เปลี่ยนแปลง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "vacillate",
+        "pos": "verb",
+        "thai": "ลังเล, ความลังเลใจ",
+        "example": "She vacillated between accepting and rejecting the job offer.",
+        "example_thai": "เธอลังเลใจระหว่างการยอมรับและปฏิเสธข้อเสนองาน",
+        "explanation_thai": "คำที่ใช้บรรยายการเปลี่ยนใจหรือการมีความลังเลใจ โดยมักใช้ในบริบทการตัดสินใจหรือท่าทีของบุคคล",
+        "synonyms_en": [
+          "waver",
+          "hesitate"
+        ],
+        "synonyms_thai": [
+          "ลำเลียไลเล",
+          "สับสน"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "undulation",
+        "pos": "noun",
+        "thai": "การเลื่อนไหลเปลี่ยนแปลง, การคลื่นไหว",
+        "example": "The undulation of the sand dunes created a mesmerizing pattern.",
+        "example_thai": "การคลื่นไหวของเนินทรายสร้างรูปแบบที่น่าหลงใหล",
+        "explanation_thai": "คำที่ใช้ในบริบทวรรณกรรมหรือการอธิบายปรากฏการณ์ธรรมชาติ เพื่ออธิบายการเคลื่อนไหวที่เรียบเนียนและคลื่นไหว",
+        "synonyms_en": [
+          "wave",
+          "ripple"
+        ],
+        "synonyms_thai": [
+          "ความลูกคลื่น",
+          "การไหลริไซ"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Ascendance",
+    "concept_thai": "การเพิ่มขึ้น",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "rise",
+        "pos": "verb/noun",
+        "thai": "ขึ้น, การขึ้น",
+        "example": "The temperature rises in summer.",
+        "example_thai": "อุณหภูมิขึ้นในฤดูร้อน",
+        "explanation_thai": "คำพื้นฐานที่ใช้อธิบายการเคลื่อนที่ขึ้น หรือการเพิ่มขึ้นของสิ่งต่างๆ มีความหมายตรงและใช้ได้กับหลายบริบท",
+        "synonyms_en": [
+          "go up",
+          "increase"
+        ],
+        "synonyms_thai": [
+          "ขึ้น",
+          "เพิ่มขึ้น"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "ascend",
+        "pos": "verb",
+        "thai": "ขึ้นไป, ปีนขึ้น",
+        "example": "They ascended the mountain step by step.",
+        "example_thai": "พวกเขาปีนขึ้นภูเขาทีละขั้น",
+        "explanation_thai": "คำที่ใช้บรรยายการเดินทางหรือการเคลื่อนที่ขึ้นไปตามเส้นทาง โดยมักเกี่ยวข้องกับการเดินทางหรือการปีนขึ้น",
+        "synonyms_en": [
+          "climb",
+          "go up"
+        ],
+        "synonyms_thai": [
+          "ปีน",
+          "ไต่"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "ascendancy",
+        "pos": "noun",
+        "thai": "อำนาจสูงสุด, ความเด่นชัด",
+        "example": "The company achieved ascendancy in the market through innovation.",
+        "example_thai": "บริษัทบรรลุความเด่นชัดในตลาดผ่านนวัตกรรม",
+        "explanation_thai": "คำที่ใช้อธิบายการมีอำนาจหรือตำแหน่งที่สูงขึ้นในสังคม สถาบัน หรือบริบทอื่น โดยมักเกี่ยวข้องกับความเป็นผู้นำหรือการครอบงำ",
+        "synonyms_en": [
+          "dominance",
+          "supremacy"
+        ],
+        "synonyms_thai": [
+          "ความปกครอง",
+          "ความเหนือกว่า"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "apotheosis",
+        "pos": "noun",
+        "thai": "จุดสูงสุดของความสำเร็จ, การยกขึ้นสูง",
+        "example": "Her career reached its apotheosis when she won the prestigious international award.",
+        "example_thai": "อาชีพของเธอถึงจุดสูงสุดเมื่อเธอชนะรางวัลสากลที่มีเกียรติ",
+        "explanation_thai": "คำที่ใช้ในบริบทวรรณกรรมหรือการใช้งานอย่างเป็นทางการเพื่ออธิบายจุดสูงสุดของความสำเร็จหรือการพัฒนา",
+        "synonyms_en": [
+          "zenith",
+          "pinnacle"
+        ],
+        "synonyms_thai": [
+          "จุดยอด",
+          "บรรยอด"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Deceit",
+    "concept_thai": "การหลอกลวง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "lie",
+        "pos": "noun/verb",
+        "thai": "การโกหก โกหก",
+        "example": "He told a lie about his homework.",
+        "example_thai": "เขาโกหกเกี่ยวกับการบ้าน",
+        "explanation_thai": "คำพื้นฐานที่ใช้เรียกการพูดสิ่งที่ไม่จริง เหมาะสำหรับการสื่อสารในชีวิตประจำวัน เน้นการกล่าวอ้างที่ขัดกับความจริง",
+        "synonyms_en": [
+          "untruth",
+          "falsehood"
+        ],
+        "synonyms_thai": [
+          "ความหลอกลวง",
+          "คำโกหก"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "deception",
+        "pos": "noun",
+        "thai": "การหลอกลวง",
+        "example": "The deception was discovered when they found evidence of the fraud.",
+        "example_thai": "การหลอกลวงถูกเปิดเผยเมื่อพวกเขาพบหลักฐานของการฉ้อโกง",
+        "explanation_thai": "คำที่มีความหมายกว้างขึ้นกว่า 'lie' ซึ่งครอบคลุมการหลอกลวงในหลากหลายรูปแบบ ไม่เพียงแต่การพูดเท็จเท่านั้น",
+        "synonyms_en": [
+          "fraud",
+          "dishonesty"
+        ],
+        "synonyms_thai": [
+          "การโกหก",
+          "ความไม่สุจริต"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "duplicity",
+        "pos": "noun",
+        "thai": "ความหน้าซ้ำหลัง ความเสแสร้ง",
+        "example": "His duplicity was exposed when his two different stories contradicted each other.",
+        "example_thai": "ความหน้าซ้ำหลังของเขาถูกเปิดเผยเมื่อเรื่องราวที่แตกต่างกันสองเรื่องขัดแย้งกัน",
+        "explanation_thai": "คำที่บ่งชี้ถึงการมีพฤติกรรมที่ไม่สอดคล้อง การแสดงตัวเองสองหน้าต่างกัน มีองค์ประกอบของการเสแสร้งมากกว่าการโกหกแบบเรียบง่าย",
+        "synonyms_en": [
+          "double-dealing",
+          "two-facedness"
+        ],
+        "synonyms_thai": [
+          "ความเสแสร้ง",
+          "การแสดงตัวไม่สัตย์"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "perfidy",
+        "pos": "noun",
+        "thai": "ความทรยศ การขาดสัตยภาพ",
+        "example": "The general's perfidy led to the downfall of the entire kingdom.",
+        "example_thai": "ความทรยศของนายพลนำไปสู่การล่มสลายของอาณาจักรทั้งหมด",
+        "explanation_thai": "คำที่ระดับสูงสุด แสดงถึงการหลอกลวงที่ลึกซึ้งและร้ายแรงมาก โดยเฉพาะการที่บุคคลที่มีความไว้วางใจนำเสนอการทรยศ มีการหลอกลวงที่เกี่ยวข้องกับการละเมิดการเชื่อถือและความจงรักภักดี",
+        "synonyms_en": [
+          "treachery",
+          "betrayal"
+        ],
+        "synonyms_thai": [
+          "การทรยศ",
+          "การเสียหน้าความสัตย์"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Affection",
+    "concept_thai": "ความรักแบบอ่อนโยน",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "love",
+        "pos": "noun/verb",
+        "thai": "รัก ความรัก",
+        "example": "I love my family very much.",
+        "example_thai": "ฉันรักครอบครัวของฉันมาก",
+        "explanation_thai": "คำพื้นฐานที่เรียบง่าย ใช้เรียกความรู้สึกที่สำคัญที่สุด ครอบคลุมทุกรูปแบบของการรัก แต่ไม่มีความเฉพาะเจาะจง",
+        "synonyms_en": [
+          "care for",
+          "adore"
+        ],
+        "synonyms_thai": [
+          "หลงรัก",
+          "บูชา"
+        ]
+      },
+      {
+        "cefr": "A2",
+        "word": "like",
+        "pos": "verb",
+        "thai": "ชอบ",
+        "example": "She likes spending time with her best friend.",
+        "example_thai": "เธอชอบใช้เวลากับเพื่อสนิทของเธอ",
+        "explanation_thai": "คำที่แสดงระดับของความรู้สึกดีต่อบางสิ่งหรือบางคน ซึ่งอ่อนแอกว่า 'love' แต่ยังคงแสดงถึงความสัมพันธ์ที่ดี",
+        "synonyms_en": [
+          "enjoy",
+          "prefer"
+        ],
+        "synonyms_thai": [
+          "ชื่นชอบ",
+          "เพื่อ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "affection",
+        "pos": "noun",
+        "thai": "ความเมตตา ความรักแบบอ่อนโยน",
+        "example": "The mother showed affection to her children through gentle hugs.",
+        "example_thai": "แม่แสดงความเมตตาต่อบุตรหลานของเธอผ่านการกอดที่อ่อนโยน",
+        "explanation_thai": "คำที่สื่อถึงความรู้สึกที่อ่อนโยนและสูงขึ้นกว่า 'like' แต่มีความนุ่มนวลน้อยกว่า 'love' ใช้ได้กว้างในบริบทที่มีการแสดงความใจ",
+        "synonyms_en": [
+          "fondness",
+          "tenderness"
+        ],
+        "synonyms_thai": [
+          "ความเมตตา",
+          "ความอ่อนหวาน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "adoration",
+        "pos": "noun",
+        "thai": "การบูชา ความหลงใหล",
+        "example": "The fans showed their adoration for the famous singer by cheering loudly.",
+        "example_thai": "แฟนๆ แสดงการบูชาของพวกเขาต่อนักร้องชื่อดังโดยการเชียร์อย่างดัง",
+        "explanation_thai": "คำที่สื่อถึงการรัก การหลงใหล หรือการให้เกียรติอย่างลึกซึ้ง มักใช้เมื่อมีการแสดงความรู้สึกอย่างชัดเจนและเข้มข้น",
+        "synonyms_en": [
+          "devotion",
+          "worship"
+        ],
+        "synonyms_thai": [
+          "การหลงใหล",
+          "การให้เกียรติ"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Haste",
+    "concept_thai": "ความรีบเร่ง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "hurry",
+        "pos": "verb/noun",
+        "thai": "รีบ ความรีบเร่ง",
+        "example": "We need to hurry or we will be late.",
+        "example_thai": "เราต้องรีบหรือจะสายไป",
+        "explanation_thai": "คำพื้นฐานที่ใช้เรียกการทำสิ่งต่างๆ อย่างรวดเร็ว เหมาะสำหรับการสื่อสารในชีวิตประจำวัน",
+        "synonyms_en": [
+          "rush",
+          "move quickly"
+        ],
+        "synonyms_thai": [
+          "รีบไป",
+          "ทำให้เร็ว"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "haste",
+        "pos": "noun",
+        "thai": "ความรีบเร่ง ความพึ่งพรึ่ง",
+        "example": "In his haste to finish the project, he made many mistakes.",
+        "example_thai": "ในความรีบเร่งของเขาเพื่อให้เสร็จโครงการ เขาทำผิดพลาดมากมาย",
+        "explanation_thai": "คำที่สื่อถึงความรีบเร่งในลักษณะที่อาจนำไปสู่ผลลัพธ์ที่ไม่ดี มักใช้ในบริบทที่เป็นการวิจารณ์",
+        "synonyms_en": [
+          "hurry",
+          "rush"
+        ],
+        "synonyms_thai": [
+          "ความรีบเร็ว",
+          "ความพึ่งพรึ่ง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "precipitate",
+        "pos": "adjective/verb",
+        "thai": "รีบเร่งเกินไป ทำให้เกิดขึ้นอย่างฉับพลัน",
+        "example": "His precipitate decision to quit his job surprised everyone.",
+        "example_thai": "การตัดสินใจรีบเร่งของเขาที่ลาออกจากงานทำให้ทุกคนประหลาดใจ",
+        "explanation_thai": "คำที่บ่งชี้ถึงการกระทำที่รีบเร่งเกินไปและไม่คิดผลสืบเนื่อง ซึ่งมีองค์ประกอบของการวิจารณ์มากกว่า 'haste' ตามปกติ",
+        "synonyms_en": [
+          "hasty",
+          "rash"
+        ],
+        "synonyms_thai": [
+          "รีบเร็งเกินไป",
+          "ไม่สงสัย"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Sorrow",
+    "concept_thai": "ความโศกเศร้า",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "sad",
+        "pos": "adjective",
+        "thai": "เศร้า",
+        "example": "He was sad when his pet dog died.",
+        "example_thai": "เขาเศร้าเมื่อสุนัขเลี้ยงของเขาตาย",
+        "explanation_thai": "คำพื้นฐานที่ใช้เรียกอารมณ์ที่เศร้า ตรงไปตรงมาและใช้กันทั่วไป",
+        "synonyms_en": [
+          "unhappy",
+          "upset"
+        ],
+        "synonyms_thai": [
+          "เศร้าหมอง",
+          "ท้อแท้"
+        ]
+      },
+      {
+        "cefr": "A2",
+        "word": "cry",
+        "pos": "verb",
+        "thai": "ร้องไห้ ร่ำไห้",
+        "example": "She cried when she heard the bad news.",
+        "example_thai": "เธอร้องไห้เมื่อได้ยินข่าวร้าย",
+        "explanation_thai": "คำที่แสดงการแสดงออกทางอารมณ์โดยผ่านการไหลของน้ำตา บ่อยครั้งใช้เพื่อแสดงความเศร้าในระดับที่เข้มข้นขึ้น",
+        "synonyms_en": [
+          "weep",
+          "shed tears"
+        ],
+        "synonyms_thai": [
+          "ร้องไห้",
+          "หลั่งน้ำตา"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "sorrow",
+        "pos": "noun",
+        "thai": "ความโศกเศร้า",
+        "example": "The family was filled with sorrow after losing their home in the fire.",
+        "example_thai": "ครอบครัวเต็มไปด้วยความโศกเศร้าหลังจากสูญเสียบ้านในเพลิงไหม้",
+        "explanation_thai": "คำที่ระบุถึงความเศร้าอย่างลึกซึ้ง มักใช้ในบริบทที่เป็นทางการหรือวรรณกรรม เน้นความเศร้าที่ยาวนาน",
+        "synonyms_en": [
+          "sadness",
+          "anguish"
+        ],
+        "synonyms_thai": [
+          "ความเศร้า",
+          "ความทุกข์"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "melancholy",
+        "pos": "noun/adjective",
+        "thai": "ความซึ้ง ความหมองหมัว",
+        "example": "The poet wrote verses filled with melancholy about lost love.",
+        "example_thai": "บทกวีที่บัญชีประกอบด้วยความซึ้งเกี่ยวกับความรักที่สูญหาย",
+        "explanation_thai": "คำที่แสดงความเศร้าที่มีความสวยงามในลักษณะศิลปะ มักใช้ในบริบทวรรณกรรมหรือทางศิลปะ มีความนุ่มนวลมากกว่าความเศร้าแบบหน้าตรง",
+        "synonyms_en": [
+          "pensiveness",
+          "sadness"
+        ],
+        "synonyms_thai": [
+          "ความระค้ำ",
+          "ความเศร้าสลัด"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "lamentation",
+        "pos": "noun",
+        "thai": "การคร่ำครวญ ความเวทนา",
+        "example": "The lamentation of the bereaved family echoed through the funeral hall.",
+        "example_thai": "การคร่ำครวญของครอบครัวผู้เสียหายดังก้องอยู่ในห้องศพ",
+        "explanation_thai": "คำที่ระดับสูงซึ่งแสดงถึงการแสดงออกถึงความเศร้าอย่างเปิดเผยและอยากจะเห็นใจ บ่อยครั้งใช้ในบริบทที่ทั่วโลก หรือในการบรรยายถึงการสูญเสีย",
+        "synonyms_en": [
+          "wailing",
+          "mourning"
+        ],
+        "synonyms_thai": [
+          "การสุมหน้า",
+          "การไว้ทุกข์"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
+  },
+  {
+    "concept": "Scarcity",
+    "concept_thai": "ความขาดแคลน",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "few",
+        "pos": "adjective/determiner",
+        "thai": "น้อย",
+        "example": "There are very few apples left in the basket.",
+        "example_thai": "มีแอปเปิ้ลเหลือเพียงนิดหน่อยในตะกร้า",
+        "explanation_thai": "คำพื้นฐานที่ใช้เรียกปริมาณที่น้อย โดยตรงและใช้กันทั่วไป",
+        "synonyms_en": [
+          "little",
+          "hardly any"
+        ],
+        "synonyms_thai": [
+          "น้อยนิด",
+          "ไม่มากมาย"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "shortage",
+        "pos": "noun",
+        "thai": "ความขาดแคลน ความขาด",
+        "example": "There is a water shortage in the city due to the drought.",
+        "example_thai": "มีความขาดแคลนน้ำในเมืองเนื่องจากภาคขาดแรง",
+        "explanation_thai": "คำที่ระบุถึงสภาวะที่ขาดแคลนสิ่งสำคัญ มักใช้ในบริบทปัญหาหรือสถานการณ์ที่ยากลำบาก",
+        "synonyms_en": [
+          "deficit",
+          "lack"
+        ],
+        "synonyms_thai": [
+          "ความขาด",
+          "ความไม่เพียงพอ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "scarcity",
+        "pos": "noun",
+        "thai": "ความขาดแคลน ความหาได้ยากลำบาก",
+        "example": "The scarcity of rare resources has led to increased competition among nations.",
+        "example_thai": "ความขาดแคลนของทรัพยากรที่หายากนำไปสู่การแข่งขันที่เพิ่มขึ้นระหว่างประเทศ",
+        "explanation_thai": "คำที่ใช้ในบริบทที่เป็นทางการและเศรษฐศาสตร์ สื่อถึงสถานการณ์ที่มีปริมาณหรือปริมาณน้อยเกินไป",
+        "synonyms_en": [
+          "dearth",
+          "scarceness"
+        ],
+        "synonyms_thai": [
+          "ความหาได้ยาก",
+          "ความขาดแคลน"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "paucity",
+        "pos": "noun",
+        "thai": "ความนิด้อย ความเพิ่มหวาดกระวัด",
+        "example": "The paucity of evidence in the investigation made it difficult to reach a conclusion.",
+        "example_thai": "ความนิด้อยของหลักฐานในการสืบสวนทำให้ยากที่จะสรุปผล",
+        "explanation_thai": "คำที่ระดับสูงซึ่งสื่อถึงปริมาณที่น้อยมากอย่างไม่เพียงพอ บ่อยครั้งใช้ในบริบททางการวิทยาศาสตร์หรือการศึกษา",
+        "synonyms_en": [
+          "insufficiency",
+          "dearth"
+        ],
+        "synonyms_thai": [
+          "ความไม่เพียงพอ",
+          "ความหาได้ยาก"
+        ]
+      }
+    ],
+    "date_added": "2026-10-30"
   }
 ]
