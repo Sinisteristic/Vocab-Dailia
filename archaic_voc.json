@@ -1549,5 +1549,93 @@
     "example_thai": "สิ่งที่อยู่ใกล้เราเท่านั้น",
     "source": "elden_ring.json",
     "date_added": "2026-10-30"
+  },
+  {
+    "word": "Alas",
+    "pos": "interjection",
+    "is_from_source": true,
+    "thai": "อนิจจา",
+    "modern_replacement": "Unfortunately, sadly",
+    "example": "Alas, it no longer responds to the old woman's earnest prayer.",
+    "example_thai": "อนิจจา ไม่ตอบสนองต่อคำอธิษฐานของหญิงชราอีกต่อไป",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-06"
+  },
+  {
+    "word": "Hark",
+    "pos": "verb",
+    "is_from_source": true,
+    "thai": "ฟังเถิด",
+    "modern_replacement": "Listen, hear",
+    "example": "Hark, Tarnished! If you truly walk in faith, you must be prepared to reject all else.",
+    "example_thai": "ผู้มัวหมองเอ๋ย ฟังเถิด หากเชื่อในการชี้นำ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-06"
+  },
+  {
+    "word": "of old",
+    "pos": "adverbial phrase",
+    "is_from_source": true,
+    "thai": "ครั้งโบราณ",
+    "modern_replacement": "in ancient times, long ago",
+    "example": "In times of old, when faith and battle went hand in hand, this weapon was created.",
+    "example_thai": "เมื่อครั้งโบราณ ยามศรัทธาอยู่คู่กับการต่อสู้",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-06"
+  },
+  {
+    "word": "beseeches",
+    "pos": "verb",
+    "is_from_source": true,
+    "thai": "ขอพร",
+    "modern_replacement": "pleads, requests, implores",
+    "example": "This ceremonial garb beseeches the favor of the Warrior King who led them.",
+    "example_thai": "สวมในพิธีขอความคุ้มครองจากราชันนักรบ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-06"
+  },
+  {
+    "word": "whittled",
+    "pos": "verb (past participle)",
+    "is_from_source": true,
+    "thai": "เล่นฉลาม",
+    "modern_replacement": "carved, shaped, cut",
+    "example": "Arrow whittled from animal bones.",
+    "example_thai": "ลูกธนูทำจากกระดูกสัตว์",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-06"
+  },
+  {
+    "word": "daubed",
+    "pos": "verb (past participle)",
+    "is_from_source": true,
+    "thai": "ทา",
+    "modern_replacement": "coated, smeared, painted",
+    "example": "The tip is daubed with rot.",
+    "example_thai": "เคลือบความเสื่อมสลายตรงปลาย",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-06"
+  },
+  {
+    "word": "Fell",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "อสุรา",
+    "modern_replacement": "evil, terrible, sinister",
+    "example": "The Fell Omen and were deliverers of death for great warriors.",
+    "example_thai": "เคยติดตามอสุราต้องสาป",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-06"
+  },
+  {
+    "word": "coveted",
+    "pos": "verb (past participle/adjective)",
+    "is_from_source": false,
+    "thai": "ปรารถนา",
+    "modern_replacement": "desired, wished for, wanted",
+    "example": "The warrior coveted the blessing of ancient kings.",
+    "example_thai": "นักรบปรารถนาพรจากกษัตริย์โบราณ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-06"
   }
 ]
