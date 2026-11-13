@@ -1637,5 +1637,181 @@
     "example_thai": "นักรบปรารถนาพรจากกษัตริย์โบราณ",
     "source": "elden_ring.json",
     "date_added": "2026-11-06"
+  },
+  {
+    "word": "chastening",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ที่ลงโทษ",
+    "modern_replacement": "punishing",
+    "example": "A chastening whip strike, honed to maximize pain.",
+    "example_thai": "โจมตีด้วยแส้เพื่อสร้างความเจ็บปวดแสนสาหัส",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "facsimile",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "สำเนา",
+    "modern_replacement": "replica",
+    "example": "A talisman facsimile of a scarab, the carrier of treasures and precious things.",
+    "example_thai": "เครื่องรางรูปสคารับ / ผู้แบกสมบัติและของลํ้าค่าทั้งปวง",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "portending",
+    "pos": "verb",
+    "is_from_source": true,
+    "thai": "ลางลัก",
+    "modern_replacement": "foretelling",
+    "example": "The design is said to represent the stars of the night sky, portending fate.",
+    "example_thai": "แต่งลายดวงดาราแห่งดาราบถ แสดงถึงโชคชะตา",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "rustic",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ชนบท",
+    "modern_replacement": "simple, crude",
+    "example": "Meat suitable for a rustic feast.",
+    "example_thai": "เป็นวัตถุดิบอาหารที่ไร้การปรุงแต่ง",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "glorious",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "เกียรติยศ",
+    "modern_replacement": "honorable",
+    "example": "To them, there is no act more glorious than the subjugation of a savage beast.",
+    "example_thai": "การท้าทายสัตว์ป่าทรงพลังนับเป็นเกียรติของพวกเขา",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "indolent",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ไม่เอาอ่าว",
+    "modern_replacement": "lazy",
+    "example": "The academy does not welcome the indolent.",
+    "example_thai": "วิทยาลัยไม่ต้องการคนไม่เอาอ่าว",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "pitiably",
+    "pos": "adverb",
+    "is_from_source": true,
+    "thai": "น่าเวทนา",
+    "modern_replacement": "deplorably",
+    "example": "Vicious flies that are pitiably short-lived.",
+    "example_thai": "แมลงวันเหล่านั้นร้ายกาจ ทว่าเปราะบางอย่างน่าเวทนา",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "graced",
+    "pos": "verb (past tense)",
+    "is_from_source": true,
+    "thai": "บริวิไว",
+    "modern_replacement": "honored",
+    "example": "A sacred flask modelled after a golden holy chalice that was once graced by a tear of blessing.",
+    "example_thai": "ขวดที่สร้างเลียนแบบจอกศักดิ์สิทธิ์สีทอง / ที่ว่ากันว่าครั้งหนึ่งเคยบรรจุหยาดพระพร",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "cerulean",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "สีครามแล้ง",
+    "modern_replacement": "blue",
+    "example": "Filled with cerulean tears, this flask restores FP with use.",
+    "example_thai": "หากเติมหยาดสีครามแล้วใช้ จะฟื้นฟู FP",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "rejuvenation",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "การยืดชีพ",
+    "modern_replacement": "renewal",
+    "example": "This flask offered its gift of rejuvenation.",
+    "example_thai": "สิ่งนี้อาจเยียวยาร่างที่ถูกพัดไปเกยตื้นยังสุสาน",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "enshrouded",
+    "pos": "verb (past tense)",
+    "is_from_source": true,
+    "thai": "หุ้มห่อ",
+    "modern_replacement": "enveloped",
+    "example": "Flies enshrouded in storm winds, breaking enemy stances and guards with ease.",
+    "example_thai": "หุ้มลมวายุถลาร่อน / ทำให้ศัตรูเสียสมดุลและทลายการป้องกันได้ง่าย",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "tempered",
+    "pos": "verb (past participle)",
+    "is_from_source": true,
+    "thai": "ตีจาก",
+    "modern_replacement": "hardened, treated, shaped",
+    "example": "Said to have been tempered in lava, it boasts great resistance to fire.",
+    "example_thai": "ว่ากันว่าตีจากลาวาจึงทนไฟเป็นพิเศษ",
+    "source": "elden_ring.json [7]",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "tranquil",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "สงบ",
+    "modern_replacement": "peaceful, calm, serene",
+    "example": "A mask upon which is carved a tranquil sleeping face.",
+    "example_thai": "หน้ากากรูปใบหน้านิทราอย่างสงบ",
+    "source": "elden_ring.json [2]",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "reputed",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ล้วน",
+    "modern_replacement": "said to be, considered, regarded as",
+    "example": "General Radahn's soldiers were all reputed to be masterful warriors.",
+    "example_thai": "เหล่าทหารที่สู้ศึกเคียงคู่แม่ทัพราดาห์น ล้วนเป็นนักรบมือฉมัง",
+    "source": "elden_ring.json [28]",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "valor",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "ความกล้าหาญ",
+    "modern_replacement": "courage, bravery, heroism",
+    "example": "After witnessing Freyja's valor as a gladiator in his youth, Radahn invited her to join the ranks of his most trusted warriors.",
+    "example_thai": "ราดาห์นสมัยหนุ่มมองเห็นความกล้าหาญในตัวนาง จึงแต่งตั้งให้เป็นองครักษ์",
+    "source": "elden_ring.json [12]",
+    "date_added": "2026-11-13"
+  },
+  {
+    "word": "popularly",
+    "pos": "adverb",
+    "is_from_source": true,
+    "thai": "ดั่งคำกล่าว",
+    "modern_replacement": "commonly, generally, widely",
+    "example": "it was popularly said that the Redmanes knew no weakness.",
+    "example_thai": "ดั่งคำกล่าวที่ ราชสีห์แดงไร้ความเหลาะแหละ",
+    "source": "elden_ring.json [28]",
+    "date_added": "2026-11-13"
   }
 ]
