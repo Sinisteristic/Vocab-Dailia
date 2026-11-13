@@ -11336,5 +11336,789 @@
       }
     ],
     "date_added": "2026-11-06"
+  },
+  {
+    "concept": "Candor",
+    "concept_thai": "ความตรงไปตรงมา ความเปิดใจบอกความจริง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "honest",
+        "pos": "adjective",
+        "thai": "ซื่อสัตย์ ไม่โกหก",
+        "example": "She gave me an honest answer about my painting.",
+        "example_thai": "เธอให้คำตอบที่ซื่อสัตย์เกี่ยวกับภาพวาดของฉัน",
+        "explanation_thai": "คำพื้นฐานที่เด็กๆสามารถเข้าใจได้ เน้นการไม่โกหกและบอกความจริง ใช้ในชีวิตประจำวันทั่วไป",
+        "synonyms_en": [
+          "truthful",
+          "sincere"
+        ],
+        "synonyms_thai": [
+          "จริงใจ",
+          "พูดจริง"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "candor",
+        "pos": "noun",
+        "thai": "ความตรงไปตรงมา ความเปิดใจในการพูด",
+        "example": "With candor, I must say the project needs improvement.",
+        "example_thai": "ด้วยความตรงไปตรงมา ฉันต้องบอกว่าโครงการนี้จำเป็นต้องปรับปรุง",
+        "explanation_thai": "คำนาม ที่มีมากขึ้นเกี่ยวกับท่าทีและวิธีการพูด เน้นความกล้าพูดความจริง แม้จะเจ็บใจ มีความหนักแน่นมากกว่า honest",
+        "synonyms_en": [
+          "frankness",
+          "straightforwardness"
+        ],
+        "synonyms_thai": [
+          "ความโปร่งใส",
+          "ความตรง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "forthrightness",
+        "pos": "noun",
+        "thai": "ความหนักแน่น ความตรงไปตรงมาโดยไม่ลังเล",
+        "example": "His forthrightness in meetings sometimes offended his colleagues.",
+        "example_thai": "ความตรงไปตรงมาของเขาในการประชุมบางครั้งก็ทำให้เพื่อนร่วมงานรู้สึกไม่พอใจ",
+        "explanation_thai": "คำที่บรรยายถึงการพูดอย่างตัดสินใจและไม่ลังเล มีความสัมพันธ์กับกำลังใจและความเมืองเหมืองมากกว่า candor อาจมีบทบาทเชิงลบบ้าง",
+        "synonyms_en": [
+          "directness",
+          "bluntness"
+        ],
+        "synonyms_thai": [
+          "ความตรง",
+          "ความจัดจ้าน"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "unvarnished",
+        "pos": "adjective",
+        "thai": "ไม่ปกปิด ไม่แต่งแต้ม ความจริงแท้",
+        "example": "He presented the unvarnished truth about the company's financial situation.",
+        "example_thai": "เขานำเสนอความจริงแท้โดยไม่ปกปิดเกี่ยวกับสถานการณ์การเงินของบริษัท",
+        "explanation_thai": "คำที่ใช้เมื่อพูดถึงความจริงที่ไม่ได้มีการแต่งแต้มหรือปกปิด เชื่อมโยงกับแนวคิดของการถูกเอกลักษณ์ มักใช้ในการประเมินบริบทร้ายแรง หรือวิกฤตการณ์",
+        "synonyms_en": [
+          "naked truth",
+          "stark reality"
+        ],
+        "synonyms_thai": [
+          "ความจริงโปล่ง",
+          "ความเป็นจริงทั่วไป"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Prudishness",
+    "concept_thai": "ความเคร่งครัด การจิกจงในเรื่องศีลธรรมและสัตยะ",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "shy",
+        "pos": "adjective",
+        "thai": "ละอาย อาย",
+        "example": "She was too shy to speak in front of the large audience.",
+        "example_thai": "เธอละอายเกินไปที่จะพูดหน้าผู้ชมจำนวนมาก",
+        "explanation_thai": "คำที่บรรยายถึงการขาดความกล้าในการแสดงออกหรือการมีปฏิกิริยา เน้นอารมณ์ส่วนบุคคล ไม่ใช่ความสำคัญของศีลธรรม",
+        "synonyms_en": [
+          "timid",
+          "bashful"
+        ],
+        "synonyms_thai": [
+          "ขี้อาย",
+          "อ่อนไหว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "prudish",
+        "pos": "adjective",
+        "thai": "เคร่งครัด มีความสำคัญต่อศีลธรรม มีปฏิเสธต่อเรื่องเพศ",
+        "example": "Her prudish attitudes prevented her from enjoying modern cinema.",
+        "example_thai": "ความเคร่งครัดของเธอทำให้เธอไม่สามารถเพลิดเพลินกับภาพยนตร์สมัยใหม่",
+        "explanation_thai": "คำที่เน้นการตัดสินใจทางศีลธรรม โดยเฉพาะในเรื่องความเซ็กซี่หรือเรื่องดั้งเดิม มักมีการประเมินผลเชิงลบ",
+        "synonyms_en": [
+          "prim",
+          "strait-laced"
+        ],
+        "synonyms_thai": [
+          "เคร่งอย่างไม่ยืดหยุ่น",
+          "เข้มงวด"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "demure",
+        "pos": "adjective",
+        "thai": "สุภาพ เจ้าระเบียบ มีท่าทีสตรี",
+        "example": "The demure young woman impressed everyone at the wedding.",
+        "example_thai": "สตรีหนุ่มสุภาพนั้นทำให้สมาชิกทุกคนประทับใจในงานแต่งงาน",
+        "explanation_thai": "คำที่บรรยายถึงการแสดงออกที่สงบและสุภาพ เช่นเดียวกับ prudish แต่มีมิติของการแสดงออกทางกาย ไม่ใช่เพียงบทบาทด้านความคิด",
+        "synonyms_en": [
+          "modest",
+          "composed"
+        ],
+        "synonyms_thai": [
+          "สุขุม",
+          "สงบเสงี่ยม"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "priggishness",
+        "pos": "noun",
+        "thai": "การเสแสร้งศีลธรรม ความสำคัญต่อตัวเองเกินไป",
+        "example": "His priggishness made him unbearable to be around at social events.",
+        "example_thai": "ความสำคัญต่อตัวเองเกินไปของเขาทำให้เขาไม่ได้รับการต้อนรับในงานสังคม",
+        "explanation_thai": "คำที่บรรยายถึงความยืดเยื้อในเรื่องศีลธรรมพร้อมกับการตัดสินผู้อื่น มีความหมายเชิงลบเสมอ",
+        "synonyms_en": [
+          "sanctimoniousness",
+          "self-righteousness"
+        ],
+        "synonyms_thai": [
+          "การแสดงความบริสุทธิ์เท็จ",
+          "ความเห็นแก่ตัว"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Obfuscation",
+    "concept_thai": "การทำให้สับสน การลงเอยให้มืดมัว",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "confuse",
+        "pos": "verb",
+        "thai": "ทำให้สับสน",
+        "example": "The complicated instructions confused me.",
+        "example_thai": "คำแนะนำที่ซับซ้อนทำให้ฉันสับสน",
+        "explanation_thai": "คำกิริยาพื้นฐาน ที่บ่งบอกสภาวะจิตใจที่ไม่เข้าใจ ใช้ในบริบทประจำวันทั่วไป",
+        "synonyms_en": [
+          "mix up",
+          "perplex"
+        ],
+        "synonyms_thai": [
+          "วุ่นวาย",
+          "งง"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "obscure",
+        "pos": "verb/adjective",
+        "thai": "ปกปิด ทำให้มืดมัว ไม่ชัดเจน",
+        "example": "The politician tried to obscure the truth with vague statements.",
+        "example_thai": "นักการเมืองพยายามปกปิดความจริงด้วยคำกล่าวที่คลุมเครือ",
+        "explanation_thai": "คำที่บรรยายถึงการซ่อนหรือทำให้ไม่เห็นชัด มักเกี่ยวข้องกับการโดยสารหรือความหมาย",
+        "synonyms_en": [
+          "veil",
+          "conceal"
+        ],
+        "synonyms_thai": [
+          "บดบัง",
+          "ซ่อนเร้น"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "obfuscate",
+        "pos": "verb",
+        "thai": "ทำให้สับสน ลงเอยให้มืดมัวโดยเจตนา",
+        "example": "The lawyer obfuscated the facts to confuse the jury.",
+        "example_thai": "ทนายความนั้นลงเอยให้เจ้าหน้าที่สืบสวนสับสนด้วยการทำให้เท็จจริงมืดมัว",
+        "explanation_thai": "คำที่บรรยายถึงการทำให้สับสนโดยเจตนา มักใช้ในบริบทกฎหมายหรือการปกปิดข้อมูล",
+        "synonyms_en": [
+          "muddy",
+          "cloud"
+        ],
+        "synonyms_thai": [
+          "ทำให้ขุ่นใจ",
+          "บดบัง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "obfuscation",
+        "pos": "noun",
+        "thai": "การลงเอยให้มืดมัว การซ่อนเร้นข้อมูล",
+        "example": "The report was full of obfuscation, making it impossible to understand the real figures.",
+        "example_thai": "รายงานเต็มไปด้วยการลงเอยให้มืดมัว ทำให้เป็นไปไม่ได้ที่จะเข้าใจตัวเลขจริงๆ",
+        "explanation_thai": "คำนาม ที่บรรยายถึงกระบวนการหรือการกระทำของการทำให้สับสนหรือปกปิด มักใช้ในบริบทสถาบัน เช่น ธุรกิจ หรือการเมือง",
+        "synonyms_en": [
+          "concealment",
+          "opacity"
+        ],
+        "synonyms_thai": [
+          "การซ่อนเร้น",
+          "ความคลุมเครือ"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "equivocation",
+        "pos": "noun",
+        "thai": "การพูดที่มีความหมายคลุมเครือ การหลีกเลี่ยงความเห็นชัด",
+        "example": "The executive's equivocation during the conference call raised serious doubts about the company's stability.",
+        "example_thai": "การพูดที่คลุมเครือของผู้บริหารในการโทรประชุมทำให้เกิดข้อสงสัยอย่างรุนแรงเกี่ยวกับเสถียรภาพของบริษัท",
+        "explanation_thai": "คำที่ประณีตและเป็นทางการ ใช้เมื่อพูดถึงการพูดที่หลีกเลี่ยงความตรงไปตรงมา มักใช้ในบริบทการเมือง วรรณคดี หรือการวิจารณ์บุคลิกภาพ",
+        "synonyms_en": [
+          "ambiguity",
+          "prevarication"
+        ],
+        "synonyms_thai": [
+          "ความกำกวม",
+          "การพูดที่ไม่ชัดเจน"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Vindication",
+    "concept_thai": "การชี้แจงเพื่อให้ความยุติธรรม การพิสูจน์ว่าถูกต้อง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "prove",
+        "pos": "verb",
+        "thai": "พิสูจน์ แสดงหลักฐาน",
+        "example": "She proved that she was innocent.",
+        "example_thai": "เธอพิสูจน์ว่าตัวเองเป็นคนบริสุทธิ์",
+        "explanation_thai": "คำกิริยาพื้นฐาน ที่บรรยายถึงการแสดงหลักฐานหรือให้เห็นจริง ใช้ในบริบทเรียนและชีวิตประจำวันทั่วไป",
+        "synonyms_en": [
+          "demonstrate",
+          "show"
+        ],
+        "synonyms_thai": [
+          "แสดง",
+          "ยืนยัน"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "justify",
+        "pos": "verb",
+        "thai": "แสดงเหตุผล ชี้แจงเพื่อให้เข้าใจ",
+        "example": "The manager justified the decision to the team.",
+        "example_thai": "ผู้จัดการแสดงเหตุผลของการตัดสินใจต่อทีม",
+        "explanation_thai": "คำที่บรรยายถึงการให้เหตุผลหรือการชี้แจง มักใช้เพื่ออธิบายสาเหตุของการตัดสินใจหรือการกระทำ",
+        "synonyms_en": [
+          "explain",
+          "defend"
+        ],
+        "synonyms_thai": [
+          "อธิบาย",
+          "เบนความเห็นสนใจ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "vindicate",
+        "pos": "verb",
+        "thai": "ชี้แจงให้ความยุติธรรม พิสูจน์ว่าถูกต้อง",
+        "example": "The new evidence vindicated him of all charges.",
+        "example_thai": "หลักฐานใหม่ชี้แจงให้เขาได้รับความยุติธรรมจากข้อหาทั้งหมด",
+        "explanation_thai": "คำที่บรรยายถึงการชี้แจงอย่างสิ้นเชิง มักใช้ในบริบทกฎหมายหรือเมื่อบุคคลหนึ่งได้รับการพิสูจน์ว่าไม่มีความผิด",
+        "synonyms_en": [
+          "exonerate",
+          "clear"
+        ],
+        "synonyms_thai": [
+          "ลดหนักโทษ",
+          "ปล่อยตัว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "exonerate",
+        "pos": "verb",
+        "thai": "ปล่อยความผิด ชี้แจงให้พ้นจากข้อหา",
+        "example": "The court exonerated her completely after the investigation.",
+        "example_thai": "ศาลปล่อยความผิดของเธออย่างสมบูรณ์หลังจากสอบสวนแล้ว",
+        "explanation_thai": "คำที่ใช้ในบริบทกฎหมายโดยเฉพาะ บรรยายถึงการปล่อยตัวหรือการยกเลิกข้อหา",
+        "synonyms_en": [
+          "acquit",
+          "absolve"
+        ],
+        "synonyms_thai": [
+          "ยกเลิกข้อหา",
+          "ยกโทษ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "vindication",
+        "pos": "noun",
+        "thai": "การชี้แจงให้ความยุติธรรม ความสำเร็จในการพิสูจน์",
+        "example": "The publication of his research brought vindication after years of skepticism.",
+        "example_thai": "การเผยแพร่งานวิจัยของเขาทำให้เขาได้รับความยุติธรรมหลังจากหลายปีของความสงสัย",
+        "explanation_thai": "คำนาม ที่บรรยายถึงกระบวนการหรือผลลัพธ์ของการชี้แจง มักใช้ในบริบทส่วนตัว ประวัติศาสตร์ หรือวรรณคดี",
+        "synonyms_en": [
+          "exoneration",
+          "clearance"
+        ],
+        "synonyms_thai": [
+          "การปล่อยความผิด",
+          "ความเป็นอิสระจากข้อหา"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Duplicity",
+    "concept_thai": "ความมุสลิม การแสแสร้ง ความหลอกลวง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "lie",
+        "pos": "verb/noun",
+        "thai": "โกหก คำโกหก",
+        "example": "He told me a lie about where he was.",
+        "example_thai": "เขาโกหกฉันเกี่ยวกับตำแหน่งที่เขาอยู่",
+        "explanation_thai": "คำพื้นฐาน ที่บรรยายถึงการพูดความไม่จริง ใช้ในบริบทเด็กและชีวิตประจำวันทั่วไป",
+        "synonyms_en": [
+          "falsehood",
+          "untruth"
+        ],
+        "synonyms_thai": [
+          "การโกหก",
+          "ความเท็จ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "betray",
+        "pos": "verb",
+        "thai": "หักหลัง ทำให้ถูกหลอก",
+        "example": "She felt betrayed when she found out he was seeing someone else.",
+        "example_thai": "เธอรู้สึกถูกหักหลังเมื่อพบว่าเขาพบกับคนอื่น",
+        "explanation_thai": "คำที่บรรยายถึงการทำให้คนอื่นเสียหาย โดยมากเป็นเพราะการละเมิดความเชื่อ",
+        "synonyms_en": [
+          "deceive",
+          "double-cross"
+        ],
+        "synonyms_thai": [
+          "หลอก",
+          "ทำให้เสียหาย"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "deceit",
+        "pos": "noun",
+        "thai": "ความหลอกลวง ความมุสลิม",
+        "example": "His deceit was exposed when the truth came out.",
+        "example_thai": "ความหลอกลวงของเขาถูกเปิดเผยเมื่อความจริงออกมา",
+        "explanation_thai": "คำนาม ที่บรรยายถึงการกระทำของการหลอกลวง มีน้ำหนักมากกว่า lie เพราะเกี่ยวข้องกับการวางแผน",
+        "synonyms_en": [
+          "deception",
+          "fraud"
+        ],
+        "synonyms_thai": [
+          "การหลอก",
+          "การฉ้อโกง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "duplicity",
+        "pos": "noun",
+        "thai": "ความมุสลิม การแสแสร้ง ความหน้าซ่อนหลัง",
+        "example": "The businessman's duplicity was revealed when his secret dealings became public.",
+        "example_thai": "ความมุสลิมของนักธุรกิจถูกเปิดเผยเมื่อการค้นหาลับของเขากลายเป็นสาธารณะ",
+        "explanation_thai": "คำที่บรรยายถึงการแสแสร้งและการมีหลายใจพร้อมๆ กัน เน้นถึงการมีบุคลิกภาพคู่ขนาน ใช้ในบริบทที่เกี่ยวข้องกับการค้นหาเจตนาหรือศีลธรรม",
+        "synonyms_en": [
+          "double-dealing",
+          "hypocrisy"
+        ],
+        "synonyms_thai": [
+          "การเล่นเกมสองฝ่าย",
+          "ความสวมรอบ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "perfidiousness",
+        "pos": "noun",
+        "thai": "ความนิสัยหักหลัง ความบิดเบือนความเชื่อ",
+        "example": "The nation condemned the ally's perfidiousness in breaking the treaty.",
+        "example_thai": "ประเทศรณรงค์ต่อต้านความหักหลังของพันธมิตรที่เลิกทำสัญญา",
+        "explanation_thai": "คำที่ประณีตและเป็นทางการ บรรยายถึงการหักหลังที่มีสิ่งกั้นพวกกลุ่มหรือประเทศ ใช้ในบริบทประวัติศาสตร์หรือการเมือง",
+        "synonyms_en": [
+          "treachery",
+          "faithlessness"
+        ],
+        "synonyms_thai": [
+          "การทรยศ",
+          "ความไม่จงรักภักดี"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Melancholy",
+    "concept_thai": "ความเศร้าหมอง ความหดหู่ใจ",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "sad",
+        "pos": "adjective",
+        "thai": "เศร้า เสียใจ",
+        "example": "She felt sad after her friend moved away.",
+        "example_thai": "เธอรู้สึกเศร้าหลังจากเพื่อนของเธอย้ายไปอื่น",
+        "explanation_thai": "คำพื้นฐาน ที่บรรยายถึงอารมณ์ที่ไม่ดี ใช้ในบริบทเด็กและชีวิตประจำวันทั่วไป",
+        "synonyms_en": [
+          "unhappy",
+          "down"
+        ],
+        "synonyms_thai": [
+          "ไม่สุข",
+          "อับชื่น"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "melancholy",
+        "pos": "adjective/noun",
+        "thai": "หดหู่ใจ ความเศร้าหมอง",
+        "example": "A melancholy mood filled the room after the funeral.",
+        "example_thai": "ความเศร้าหมองเต็มไปในห้องหลังจากงานศพ",
+        "explanation_thai": "คำที่บรรยายถึงความเศร้าที่มีคุณลักษณะแบบวรรณคดี มักเกี่ยวข้องกับความเศร้ากับที่ลึกลงไปและยาวนาน",
+        "synonyms_en": [
+          "sadness",
+          "gloom"
+        ],
+        "synonyms_thai": [
+          "ความหดหู่",
+          "ความมืดมน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "despondency",
+        "pos": "noun",
+        "thai": "ความหดหู่ใจ ความสิ้นหวัง",
+        "example": "His despondency grew as he realized his efforts were in vain.",
+        "example_thai": "ความหดหู่ใจของเขาเพิ่มมากขึ้นเมื่อเขาตระหนักว่าความพยายามของเขาเป็นสิ่นเปลือง",
+        "explanation_thai": "คำที่บรรยายถึงความหดหู่ใจที่มีสาเหตุมาจากการคาดหวังที่ล้มเหลว มักเกี่ยวข้องกับการสูญเสียหวัง",
+        "synonyms_en": [
+          "dejection",
+          "despair"
+        ],
+        "synonyms_thai": [
+          "ความท้อถอย",
+          "ความสิ้นหวัง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "languor",
+        "pos": "noun",
+        "thai": "ความสิ้นเรี่ยวแรง ความอ่อนแอท้อแท้",
+        "example": "A sense of languor pervaded the hot summer afternoon.",
+        "example_thai": "ความสิ้นเรี่ยวแรงเยื้องแทรกบ่ายร้อนของฤดูร้อน",
+        "explanation_thai": "คำที่ประณีตและวรรณคดี บรรยายถึงความอ่อนแอและเหนื่อยกำลังใจในลักษณะที่เงียบขรึม มักใช้ในบริบทวรรณคดีหรือศิลปะ",
+        "synonyms_en": [
+          "lassitude",
+          "torpor"
+        ],
+        "synonyms_thai": [
+          "ความล้า",
+          "ความพิงพอ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Discrepancy",
+    "concept_thai": "ความไม่สอดคล้อง",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "difference",
+        "pos": "noun",
+        "thai": "ความแตกต่าง, ความต่าง",
+        "example": "There is a difference between the two reports.",
+        "example_thai": "มีความแตกต่างระหว่างรายงานทั้งสอง",
+        "explanation_thai": "คำพื้นฐานที่หมายถึงสิ่งที่ไม่เหมือนกัน ใช้ได้ในหลายบริบท รวมถึงเมื่อหมายถึงความไม่สอดคล้องเล็กน้อย",
+        "synonyms_en": [
+          "distinction",
+          "divergence"
+        ],
+        "synonyms_thai": [
+          "ความต่าง",
+          "ความไม่เหมือน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "discrepancy",
+        "pos": "noun",
+        "thai": "ความไม่สอดคล้อง, ความขัดแย้ง",
+        "example": "There was a discrepancy between what he said and what he did.",
+        "example_thai": "มีความไม่สอดคล้องระหว่างสิ่งที่เขาพูดและสิ่งที่เขาทำ",
+        "explanation_thai": "คำนามที่หมายถึงความแตกต่างที่น่ากังวล ความไม่สอดคล้อง หรือความขัดแย้งระหว่างสองสิ่ง โดยเฉพาะในบริบทที่ควรจะเหมือนกัน",
+        "synonyms_en": [
+          "inconsistency",
+          "contradiction"
+        ],
+        "synonyms_thai": [
+          "ความไม่สอบ",
+          "ความขัดแย้ง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "incongruity",
+        "pos": "noun",
+        "thai": "ความไม่สงบสุข, ความขัดแย้งที่ชัดเจน",
+        "example": "The incongruity between his words and actions was striking.",
+        "example_thai": "ความไม่สอดคล้องระหว่างคำพูดและการกระทำของเขาเป็นที่สังเกตได้ชัดเจน",
+        "explanation_thai": "หมายถึงความไม่เข้ากันหรือไม่สอดคล้องกันอย่างชัดเจนและน่ากังวล ใช้ในบริบทวรรณกรรมหรือการวิเคราะห์อย่างลึกซึ้ง",
+        "synonyms_en": [
+          "inconsistency",
+          "mismatch"
+        ],
+        "synonyms_thai": [
+          "ความไม่ลงรอย",
+          "ความไม่สมควร"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Resolve",
+    "concept_thai": "ความมุ่งมั่น, การตัดสินใจ",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "decide",
+        "pos": "verb",
+        "thai": "ตัดสินใจ",
+        "example": "I decided to study English.",
+        "example_thai": "ฉันตัดสินใจเรียนภาษาอังกฤษ",
+        "explanation_thai": "คำพื้นฐานที่ใช้บรรยายการเลือกหรือการตัดสินใจ โดยไม่สำคัญความมุ่งมั่นหรือความยิ่งใหญ่",
+        "synonyms_en": [
+          "choose",
+          "determine"
+        ],
+        "synonyms_thai": [
+          "เลือก",
+          "ลงสินใจ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "determination",
+        "pos": "noun",
+        "thai": "ความมุ่งมั่น, ความพยายาม",
+        "example": "Her determination to succeed was admirable.",
+        "example_thai": "ความมุ่งมั่นของเธอที่จะประสบความสำเร็จนั้นน่าเชื่อชม",
+        "explanation_thai": "ความมุ่งมั่นที่แข็งแกร่ง ความพยายาม และความตั้งใจในการทำสิ่งใดสิ่งหนึ่ง มักใช้ในบริบทความพยายามเพื่อบรรลุเป้าหมาย",
+        "synonyms_en": [
+          "resolve",
+          "perseverance"
+        ],
+        "synonyms_thai": [
+          "ความตั้งใจ",
+          "ความอุตสาหะ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "resolve",
+        "pos": "noun/verb",
+        "thai": "ความมุ่งมั่น, ตัดสินใจอย่างแน่วแน่",
+        "example": "With renewed resolve, she returned to her studies.",
+        "example_thai": "ด้วยความมุ่งมั่นที่ฟื้นขึ้นมา เธอกลับไปเรียนหนังสืออีกครั้ง",
+        "explanation_thai": "ความมุ่งมั่นที่แข็งแกร่งและมีความหมายลึก มักใช้เมื่อพูดถึงการตัดสินใจที่สำคัญหรือการเชื่อหรือโยชน์ที่ลึกซึ้ง",
+        "synonyms_en": [
+          "steadfastness",
+          "firmness"
+        ],
+        "synonyms_thai": [
+          "ความตั้งใจแข็ง",
+          "การกำหนดใจ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "steadfastness",
+        "pos": "noun",
+        "thai": "ความมั่นคง, ความไม่เปลี่ยนแปลง",
+        "example": "His steadfastness in the face of adversity inspired everyone around him.",
+        "example_thai": "ความมั่นคงของเขาเมื่อหันหน้าเข้าหากับความยากลำบากทำให้สตมีผ่อนปรนแก่บรรดาผู้คนรอบตัว",
+        "explanation_thai": "ความมุ่งมั่นที่ไม่ขยับเขยื่น ไม่เปลี่ยนแปลง และคงที่ตลอดเวลา มักใช้ในการพรรณนาลักษณะที่พึงปรารถนาในช่วงเวลากับความยากลำบาก",
+        "synonyms_en": [
+          "immovability",
+          "constancy"
+        ],
+        "synonyms_thai": [
+          "ความคงเส้นคงวา",
+          "ความสม่ำเสมอ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Movement",
+    "concept_thai": "การเคลื่อนไหว",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "move",
+        "pos": "verb",
+        "thai": "เคลื่อนไหว, ย้าย",
+        "example": "The cat moved towards the door.",
+        "example_thai": "แมวเคลื่อนไหวเข้าหาประตู",
+        "explanation_thai": "คำพื้นฐานที่ใช้บรรยายการเปลี่ยนตำแหน่งหรือสถานที่ การใช้งานทั่วไปและกว้างขวาง",
+        "synonyms_en": [
+          "go",
+          "shift"
+        ],
+        "synonyms_thai": [
+          "ไป",
+          "เปลี่ยนตำแหน่ง"
+        ]
+      },
+      {
+        "cefr": "A2",
+        "word": "walk",
+        "pos": "verb",
+        "thai": "เดิน",
+        "example": "She walks to school every day.",
+        "example_thai": "เธอเดินไปโรงเรียนทุกวัน",
+        "explanation_thai": "การเคลื่อนไหวโดยใช้ขาเท้า วิธีการที่จำเพาะและธรรมชาติที่สุด",
+        "synonyms_en": [
+          "stroll",
+          "pace"
+        ],
+        "synonyms_thai": [
+          "เดินเล่น",
+          "เดินย่างลาด"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "motion",
+        "pos": "noun",
+        "thai": "การเคลื่อนไหว, การเคลื่อนตัว",
+        "example": "The gentle motion of the boat made him sleepy.",
+        "example_thai": "การเคลื่อนไหวที่อ่อนโยนของเรือทำให้เขาง่วงนอน",
+        "explanation_thai": "ความเป็นการเคลื่อนไหวเป็นสิ่งที่เกิดขึ้นหรือที่ปรากฏให้เห็น บ่อยครั้งใช้เพื่อบรรยายการเคลื่อนไหวที่มีลักษณะเฉพาะ",
+        "synonyms_en": [
+          "movement",
+          "mobility"
+        ],
+        "synonyms_thai": [
+          "การเคลื่อนตัว",
+          "การกระตัด"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "locomotion",
+        "pos": "noun",
+        "thai": "การเคลื่อนไหว, วิธีการเดินทาง",
+        "example": "Different animals use different forms of locomotion to survive.",
+        "example_thai": "สัตว์ต่างชนิดใช้วิธีการเคลื่อนไหวที่แตกต่างกันเพื่อรอดชีวิต",
+        "explanation_thai": "การเคลื่อนไหว โดยเฉพาะอย่างยิ่งในบริบทสัตววิทยาหรือวิทยาศาสตร์ ใช้อธิบายวิธีการเคลื่อนตัวของสัตว์",
+        "synonyms_en": [
+          "movement",
+          "progression"
+        ],
+        "synonyms_thai": [
+          "การเคลื่อนตัว",
+          "ความก้าวหน้า"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "perambulation",
+        "pos": "noun",
+        "thai": "การเดินเล่น, การเดินทัศนะ",
+        "example": "His evening perambulations through the garden had become a cherished ritual.",
+        "example_thai": "การเดินเล่นตอนเย็นของเขาในสวนได้กลายเป็นพิธีกรรมที่รักษาไว้",
+        "explanation_thai": "การเดินเล่นอย่างเป็นทางการหรือวรรณคดี มักใช้เพื่ออธิบายการเดินเท่านั้นแต่มีจุดประสงค์หรือลักษณะชี้ที่กำหนด",
+        "synonyms_en": [
+          "promenade",
+          "saunter"
+        ],
+        "synonyms_thai": [
+          "การเดินเล่น",
+          "การสำเร็จการเดิน"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Degradation",
+    "concept_thai": "การเสื่อมถอย, การลดต่ำ",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "shame",
+        "pos": "noun",
+        "thai": "ความอาย, ความอับอาย",
+        "example": "He felt deep shame for his actions.",
+        "example_thai": "เขารู้สึกละอายใจลึกๆ สำหรับการกระทำของเขา",
+        "explanation_thai": "ความรู้สึกที่รู้สึกอับอาย หรือสิ้นหวัง โดยมักเกี่ยวข้องกับการกระทำของตนเองหรือบุคคลที่มีความสัมพันธ์",
+        "synonyms_en": [
+          "embarrassment",
+          "humiliation"
+        ],
+        "synonyms_thai": [
+          "การอับอาย",
+          "ความล้อม"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "degradation",
+        "pos": "noun",
+        "thai": "การลดต่ำ, การเสื่อมถอย",
+        "example": "The treatment of prisoners resulted in degradation and violation of human rights.",
+        "example_thai": "การปฏิบัติต่อนักโทษส่งผลให้เกิดการลดต่ำและละเมิดสิทธิมนุษยชน",
+        "explanation_thai": "การทำให้อำนาจหรือศักดิ์ศรีลดต่ำ โดยเป็นการลดทำให้ด้อยค่าอย่างจริงจัง มักใช้ในบริบทสังคมหรือกฎหมาย",
+        "synonyms_en": [
+          "abasement",
+          "dishonor"
+        ],
+        "synonyms_thai": [
+          "การทำให้ลดต่ำ",
+          "ความไม่เกียรติ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "abasement",
+        "pos": "noun",
+        "thai": "การถูกทำให้ลดต่ำ, ความอับอายใจ",
+        "example": "The abasement of the once-powerful figure was a shock to everyone.",
+        "example_thai": "การถูกทำให้ลดต่ำของบุคคลที่เคยมีพลังนั้นเป็นจังหวะสำหรับทุกคน",
+        "explanation_thai": "การลดต่ำหรือทำให้เสื่อมถอยอย่างมีจริยธรรมหรืออักษรศรัทธา มักใช้ในการพรรณนาบทบาทที่เปลี่ยนแปลงครั้งใหญ่",
+        "synonyms_en": [
+          "degradation",
+          "humiliation"
+        ],
+        "synonyms_thai": [
+          "การทำให้เลวลง",
+          "ความอับอาย"
+        ]
+      }
+    ],
+    "date_added": "2026-11-13"
   }
 ]
