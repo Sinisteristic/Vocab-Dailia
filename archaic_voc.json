@@ -1813,5 +1813,181 @@
     "example_thai": "ดั่งคำกล่าวที่ ราชสีห์แดงไร้ความเหลาะแหละ",
     "source": "elden_ring.json [28]",
     "date_added": "2026-11-13"
+  },
+  {
+    "word": "conspectus",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "วิชา",
+    "modern_replacement": "summary or comprehensive overview",
+    "example": "it was in fact a discovery worthy of a new conspectus of the academy",
+    "example_thai": "กลับกลายเป็นการค้นพบที่ควรค่าแก่การเปิดเป็นวิชาใหม่",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "corroded",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ผิวกร่อน",
+    "modern_replacement": "eroded or rusted",
+    "example": "A crude, corroded key.",
+    "example_thai": "กุญแจคุณภาพหยาบผิวกร่อน",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "malicious",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ประสงค์ร้าย",
+    "modern_replacement": "harmful or wicked",
+    "example": "this Albinauric hide mask is the product of malicious mockery",
+    "example_thai": "หน้ากากหนังมนุษย์เงิน เป็นผลิตผลแห่งความเย้ยหยันประสงค์ร้าย",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "pact",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "พันธสัญญา",
+    "modern_replacement": "agreement or covenant",
+    "example": "In accordance with an ancient pact with the Erdtree",
+    "example_thai": "พันธสัญญาเก่าแก่ที่ทำไว้กับพฤกษาทอง",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "rapturous",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "สุขสันต์",
+    "modern_replacement": "ecstatic or blissful",
+    "example": "A stone mask twisted into an expression of rapturous grief.",
+    "example_thai": "หน้ากากศิลารูปคนโศกสุขสันต์",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "bliss",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "ความสุข",
+    "modern_replacement": "perfect happiness or joy",
+    "example": "they viewed true bliss with deep fear",
+    "example_thai": "หวาดกลัวความสุขอย่างโง่เขลา",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "redmane",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "ราชสีห์แดง",
+    "modern_replacement": "red-maned warrior",
+    "example": "Weapon of Freyja, a Redmane.",
+    "example_thai": "อาวุธของราชสีห์แดงเฟรย่า",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "sealed",
+    "pos": "verb (past tense)",
+    "is_from_source": true,
+    "thai": "ผนึก",
+    "modern_replacement": "locked away or closed",
+    "example": "the source of their power was sealed away",
+    "example_thai": "จนถูกผนึกเอาไว้",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "inlaid",
+    "pos": "verb (past tense)",
+    "is_from_source": true,
+    "thai": "ติด",
+    "modern_replacement": "set or embedded",
+    "example": "Sacred seal of the Godskin Apostles, inlaid with obsidian.",
+    "example_thai": "ตราศักดิ์สิทธิ์ติดหินออบซิเดียน",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "dissipating",
+    "pos": "verb (present participle)",
+    "is_from_source": true,
+    "thai": "หายตัวไป",
+    "modern_replacement": "disappearing or fading away",
+    "example": "before dissipating",
+    "example_thai": "และหายตัวไปหลังโจมตีสามครั้ง",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "hornsent",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ผู้มีเขา",
+    "modern_replacement": "having horns",
+    "example": "The bell bearing of a hornsent mushroom-seller",
+    "example_thai": "ของต่างหน้าคนค้าเห็ดผู้มีเขา",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "benediction",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "พร",
+    "modern_replacement": "blessing or divine gift",
+    "example": "The Great Rune of the shardbearer Radahn, devoid of any benediction.",
+    "example_thai": "มหารูนของราดาห์น ผู้ครอบครองเศษเสี้ยว แต่สูญเสียพลังแห่งพร",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "curseborn",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ต้องสาปแต่กำเนิด",
+    "modern_replacement": "cursed from birth",
+    "example": "Doll of a curseborn bairn.",
+    "example_thai": "รูปปั้นทารกที่ต้องสาปแต่กำเนิด",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "bairn",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "ทารก",
+    "modern_replacement": "child, infant",
+    "example": "Doll of a curseborn bairn.",
+    "example_thai": "รูปปั้นทารกที่ต้องสาปแต่กำเนิด",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "fetish",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "รูปปั้น",
+    "modern_replacement": "object, figurine, effigy",
+    "example": "These fetishes are made to memorialize them.",
+    "example_thai": "นี่เป็นรูปปั้นเพื่อระลึกถึงพวกเขา",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
+  },
+  {
+    "word": "glovewort",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "ดอกใหญ่",
+    "modern_replacement": "flower, herb",
+    "example": "Since times of old, large gloveworts were used to comfort heroic spirits.",
+    "example_thai": "ดอกใหญ่ใช้ปลอบประโลมวิญญาณวีรชนแต่ครั้งโบราณ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-20"
   }
 ]
