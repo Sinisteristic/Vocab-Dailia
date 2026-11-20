@@ -12120,5 +12120,1062 @@
       }
     ],
     "date_added": "2026-11-13"
+  },
+  {
+    "concept": "Exultation",
+    "concept_thai": "ความยินดีด้วยชัยชนะ",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "happy",
+        "pos": "adjective",
+        "thai": "ยินดี, มีความสุข",
+        "example": "She was happy when she won the competition.",
+        "example_thai": "เธอยินดีเมื่อเธอชนะการแข่งขัน",
+        "explanation_thai": "คำทั่วไปที่สุด ใช้บ่อยในการพูดถึงความรู้สึกดีในชีวิตประจำวัน ครอบคลุมความรู้สึกบวกทั่วไป",
+        "synonyms_en": [
+          "glad",
+          "pleased"
+        ],
+        "synonyms_thai": [
+          "ยินดี",
+          "พอใจ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "triumphant",
+        "pos": "adjective",
+        "thai": "ชัยชนะ, ประสบความสำเร็จ",
+        "example": "The team looked triumphant after winning the championship.",
+        "example_thai": "ทีมดูเหมือนชัยชนะหลังจากชนะแชมป์ปิยอนชิป",
+        "explanation_thai": "เน้นความสำเร็จและการชนะโดยเฉพาะ มักใช้เมื่อเกิดจากการเอาชนะคู่แข่งหรือจากการผลักดันอย่างยากลำบาก",
+        "synonyms_en": [
+          "victorious",
+          "winning"
+        ],
+        "synonyms_thai": [
+          "ชนะ",
+          "ประสบชัยชนะ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "elation",
+        "pos": "noun",
+        "thai": "ความเยินยินโยใจ, ความปลีกระวิ",
+        "example": "The elation on the athletes' faces was unmistakable after they set a world record.",
+        "example_thai": "ความเยินยินโยใจบนใบหน้าของนักกีฬาค่อนข้างชัดเจนหลังจากพวกเขาสร้างสถิติโลก",
+        "explanation_thai": "คำนามที่แสดงความดีใจในระดับที่สูงและเข้มข้น มักมาจากความรู้สึกของการประสบสิ่งดีๆ ที่คาดหวังได้นาน",
+        "synonyms_en": [
+          "euphoria",
+          "exhilaration"
+        ],
+        "synonyms_thai": [
+          "ความปลีกระวิ",
+          "ความเยินยินโยใจ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "exultation",
+        "pos": "noun",
+        "thai": "ความยินดีด้วยชัยชนะ, ความปลีกระวิใจ",
+        "example": "The exultation felt throughout the stadium was palpable when the home team scored the winning goal.",
+        "example_thai": "ความยินดีด้วยชัยชนะที่รู้สึกได้ทั่วทั้งสนามกีฬานั้นชัดเจนเมื่อทีมเจ้าบ้านยิงประตูจุดชิงชัย",
+        "explanation_thai": "คำที่มีระดับสูงสุด หมายถึงความปลีกระวิใจที่มากมายจากการชนะหรือประสบการณ์ที่ยอดเยี่ยม เต็มไปด้วยความฉิฉาและการแสดงออกอย่างต่อเopenly",
+        "synonyms_en": [
+          "jubilation",
+          "triumph"
+        ],
+        "synonyms_thai": [
+          "ความปลีกระวิใจ",
+          "ความชื่นชมยินดี"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Ambivalence",
+    "concept_thai": "ความลังเล",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "unsure",
+        "pos": "adjective",
+        "thai": "ไม่แน่ใจ, ไม่มั่นใจ",
+        "example": "He was unsure about whether to accept the job offer.",
+        "example_thai": "เขาไม่แน่ใจว่าจะยอมรับข้อเสนองานหรือไม่",
+        "explanation_thai": "คำพื้นฐานที่ใช้บ่อยในการพูดถึงการไม่มั่นใจเกี่ยวกับสิ่งใดสิ่งหนึ่ง โดยไม่จำเป็นต้องมีเหตุผลที่ซับซ้อน",
+        "synonyms_en": [
+          "uncertain",
+          "doubtful"
+        ],
+        "synonyms_thai": [
+          "ไม่แน่ใจ",
+          "สงสัย"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "torn",
+        "pos": "adjective",
+        "thai": "ลังเล, หวั่นไหว",
+        "example": "She felt torn between her career ambitions and family responsibilities.",
+        "example_thai": "เธอรู้สึกลังเลระหว่างความทะเยอทะยานในสายอาชีพกับความรับผิดชอบต่อครอบครัว",
+        "explanation_thai": "ใช้เมื่อต้องเลือกระหว่างสองสิ่งที่มีค่าเท่ากันและยากต่อการตัดสินใจ บ่งบอกว่าใจถูกดึงไปในทิศทางต่างๆ",
+        "synonyms_en": [
+          "divided",
+          "conflicted"
+        ],
+        "synonyms_thai": [
+          "ถูกดึงไปในทิศทางต่างๆ",
+          "ขัดแย้งกัน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "conflicted",
+        "pos": "adjective",
+        "thai": "ทำใจไม่ได้, มีความขัดแย้งกัน",
+        "example": "He felt conflicted about moving abroad because he wanted a new experience but didn't want to leave his family.",
+        "example_thai": "เขาทำใจไม่ได้เกี่ยวกับการย้ายไปต่างประเทศเพราะเขาต้องการประสบการณ์ใหม่ แต่ไม่อยากจากครอบครัว",
+        "explanation_thai": "คล้ายกับ 'torn' แต่เน้นถึงความทะเลาะวิวาทระหว่างความรู้สึกหรือแนวคิด และมักใช้ในบริบทที่มีเหตุผลหลายประการ",
+        "synonyms_en": [
+          "ambivalent",
+          "torn"
+        ],
+        "synonyms_thai": [
+          "ลังเล",
+          "หวั่นไหว"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "ambivalence",
+        "pos": "noun",
+        "thai": "ความลังเล, ความมีความรู้สึกสองแบบพร้อมๆ กัน",
+        "example": "The ambivalence she felt toward her ex-partner made it difficult to decide whether to reconcile or move on.",
+        "example_thai": "ความลังเลที่เธอรู้สึกต่อคู่เก่าของเธอทำให้มันยากที่จะตัดสินใจว่าจะพยายามอยู่ด้วยกันใหม่หรือไปข้างหน้า",
+        "explanation_thai": "ระดับสูงสุด หมายถึงการมีความรู้สึกและทัศนคติสองแบบพร้อมๆ กันต่อบุคคลหรือสิ่งของเดียวกัน โดยทั่วไปแล้ว คำนี้มักจะใช้ในบริบทการไต่ต้นอย่างลึกซึ้ง",
+        "synonyms_en": [
+          "equivocation",
+          "indecision"
+        ],
+        "synonyms_thai": [
+          "ความคลั่งไคล้สองแบบ",
+          "การไม่สามารถตัดสินใจ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Excessiveness",
+    "concept_thai": "ความเกินไป",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "too much",
+        "pos": "phrase",
+        "thai": "เกินไป, มากเกินไป",
+        "example": "He ate too much chocolate and felt sick.",
+        "example_thai": "เขากินช็อกโกแลตเกินไปและรู้สึกป่วย",
+        "explanation_thai": "คำพื้นฐานที่ใช้สื่อความว่าปริมาณหรือระดับของบางสิ่งมากกว่าที่ควรจะเป็น ใช้ได้ทั่วไปสำหรับสิ่งต่างๆ",
+        "synonyms_en": [
+          "excessive",
+          "overabundance"
+        ],
+        "synonyms_thai": [
+          "มากเกินไป",
+          "เยอะเกินไป"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "excess",
+        "pos": "noun",
+        "thai": "ความเกินความจำเป็น, ส่วนที่เกิน",
+        "example": "The excess of sugar in this cake makes it too sweet.",
+        "example_thai": "น้ำตาลที่เกินความจำเป็นในเค้กนี้ทำให้มันหวานเกินไป",
+        "explanation_thai": "คำนามที่แสดงปริมาณหรือขอบเขตที่เกินความจำเป็นหรือเหมาะสม สามารถใช้ได้กับทั้งสิ่งของและพฤติกรรม",
+        "synonyms_en": [
+          "surplus",
+          "overabundance"
+        ],
+        "synonyms_thai": [
+          "ส่วนเกิน",
+          "มากมายเกินความจำเป็น"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "immoderation",
+        "pos": "noun",
+        "thai": "ความไม่มีสติในการใช้ความเพียง, การหลงมาตรการ",
+        "example": "His immoderation in spending money led to financial difficulties.",
+        "example_thai": "ความไม่มีสติในการใช้เงินของเขานำไปสู่ปัญหาทางการเงิน",
+        "explanation_thai": "เน้นการขาดการควบคุมหรือความตั้งใจในการไม่เจริงจังหรือเพียงพอ บ่อยครั้งใช้เมื่อพูดถึงพฤติกรรมหรือความชอบที่เกินไป",
+        "synonyms_en": [
+          "intemperance",
+          "extravagance"
+        ],
+        "synonyms_thai": [
+          "ความหลงใหลเกินไป",
+          "ความประหยัดไม่เพียงพอ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "profligacy",
+        "pos": "noun",
+        "thai": "การใช้จ่ายแบบสิ้นเปลืองไม่มีรู้สึก, ความฟุ่มเฟือย",
+        "example": "The company's profligacy during the economic boom eventually led to its downfall.",
+        "example_thai": "การใช้จ่ายแบบสิ้นเปลืองของบริษัทระหว่างความรุ่งเรืองทางเศรษฐกิจในที่สุดนำไปสู่การล่มสลาย",
+        "explanation_thai": "ระดับสูงสุด หมายถึงการใช้จ่ายหรือใช้สิ่งของอย่างบ้าคลั่งและฟุ่มเฟือย โดยไม่คำนึงถึงผลกระทบหรือความรับผิดชอบ ใช้ในบริบทที่จริงจังและวิจารณ์",
+        "synonyms_en": [
+          "wastefulness",
+          "extravagance"
+        ],
+        "synonyms_thai": [
+          "ความสิ้นเปลืองไม่มีสำนึก",
+          "ความฟุ่มเฟือย"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Volatility",
+    "concept_thai": "ความไม่เสถียร",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "change",
+        "pos": "noun",
+        "thai": "การเปลี่ยน, การเปลี่ยนแปลง",
+        "example": "There has been a change in the weather lately.",
+        "example_thai": "มีการเปลี่ยนแปลงของสภาพอากาศเมื่อเร็วๆ นี้",
+        "explanation_thai": "คำพื้นฐานที่สุด หมายถึงการเปลี่ยนแปลงจากสถานะหนึ่งไปยังอีกสถานะหนึ่งโดยไม่จำเป็นต้องรวมถึงผลกระทบหรือความไม่เสถียร",
+        "synonyms_en": [
+          "shift",
+          "variation"
+        ],
+        "synonyms_thai": [
+          "การเปลี่ยน",
+          "ความแตกต่าง"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "unstable",
+        "pos": "adjective",
+        "thai": "ไม่เสถียร, ไม่มั่นคง",
+        "example": "The economic situation is unstable, and many people are worried about their jobs.",
+        "example_thai": "สถานการณ์เศรษฐกิจไม่เสถียร และคนจำนวนมากกังวลเกี่ยวกับงานของพวกเขา",
+        "explanation_thai": "แสดงถึงสถานะที่ไม่มั่นคงและอาจเปลี่ยนแปลงไปในทิศทางต่างๆ ใช้บ่อยในการพูดถึงสถานการณ์ทั่วไป",
+        "synonyms_en": [
+          "precarious",
+          "uncertain"
+        ],
+        "synonyms_thai": [
+          "ไม่ปลอดภัย",
+          "ไม่แน่นอน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "fluctuation",
+        "pos": "noun",
+        "thai": "ความผันผวน, การแกว่งไกวกลับไปมา",
+        "example": "The stock market experienced significant fluctuations this quarter.",
+        "example_thai": "ตลาดหลักทรัพย์ประสบการณ์ความผันผวนอย่างมากในไตรมาสนี้",
+        "explanation_thai": "เน้นการเปลี่ยนแปลงที่เกิดขึ้นซ้ำๆ และปกติอย่างเป็นระเบียบบ้าง โดยทั่วไปใช้ในบริบทเศรษฐกิจหรือวิทยาศาสตร์",
+        "synonyms_en": [
+          "oscillation",
+          "variation"
+        ],
+        "synonyms_thai": [
+          "การแกว่งไกว",
+          "ความแปรปรวน"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "volatility",
+        "pos": "noun",
+        "thai": "ความไม่เสถียร, ความง่ายที่จะเปลี่ยนแปลง",
+        "example": "The high volatility of cryptocurrency makes it a risky investment for conservative investors.",
+        "example_thai": "ความไม่เสถียรของสกุลเงินดิจิตัลทำให้มันเป็นการลงทุนที่เสี่ยงสำหรับนักลงทุนแบบอนุรักษ์นิยม",
+        "explanation_thai": "ระดับสูงสุด หมายถึงคุณสมบัติที่ทำให้สิ่งใดสิ่งหนึ่งเปลี่ยนแปลงไปไม่คาดคิดและรวดเร็ว ใช้บ่อยในการพูดถึงตลาดการเงิน อารมณ์ หรือสถานการณ์ที่ไม่สามารถทำนายได้",
+        "synonyms_en": [
+          "instability",
+          "unpredictability"
+        ],
+        "synonyms_thai": [
+          "ความไม่มั่นคง",
+          "ความไม่สามารถทำนายได้"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Complacency",
+    "concept_thai": "ความพึงพอใจในตัวเอง",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "satisfied",
+        "pos": "adjective",
+        "thai": "พอใจ, มีความสุข",
+        "example": "He was satisfied with his work and decided not to make any changes.",
+        "example_thai": "เขาพอใจกับงานของเขาและตัดสินใจไม่ทำการเปลี่ยนแปลงใดๆ",
+        "explanation_thai": "คำพื้นฐาน หมายถึงการที่ใครคนหนึ่งรู้สึกพอใจกับสิ่งที่มี ไม่จำเป็นต้องมีความหมายลบ",
+        "synonyms_en": [
+          "content",
+          "pleased"
+        ],
+        "synonyms_thai": [
+          "พอใจ",
+          "ติดใจ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "complacent",
+        "pos": "adjective",
+        "thai": "พึงพอใจในตัวเอง, ตั้งใจกับตัวเอง",
+        "example": "The company became complacent after years of success and failed to innovate.",
+        "example_thai": "บริษัทกลายเป็นพึงพอใจในตัวเองหลังจากหลายปีของความสำเร็จและล้มเหลวในการสร้างสรรค์",
+        "explanation_thai": "เน้นการพึงพอใจในตัวเองที่มักนำไปสู่ผลเสีย เมื่อใครคนหนึ่งคิดว่าตัวเองดีพอและไม่จำเป็นต้องปรับปรุง",
+        "synonyms_en": [
+          "self-satisfied",
+          "smug"
+        ],
+        "synonyms_thai": [
+          "ใจดี",
+          "หยิ่ง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "complacency",
+        "pos": "noun",
+        "thai": "ความพึงพอใจในตัวเอง, การไม่สตาธีรกับความต้องการในอนาคต",
+        "example": "Complacency is often the downfall of great athletes who stop training hard after winning titles.",
+        "example_thai": "ความพึงพอใจในตัวเองมักเป็นสาเหตุของการล่มสลายของนักกีฬาผู้ยิ่งใหญ่ผู้ที่หยุดฝึกอบรมอย่างหนักหลังจากชนะแชมป์",
+        "explanation_thai": "ระดับสูงสุด หมายถึงสภาวะของการพึงพอใจในตัวเองโดยไม่ตระหนักถึงความต้องการในการปรับปรุงหรือความเสี่ยง ซึ่งมักนำไปสู่ผลเสียในระยะยาว",
+        "synonyms_en": [
+          "self-satisfaction",
+          "smugness"
+        ],
+        "synonyms_thai": [
+          "ความหยิ่ง",
+          "ความไม่สตาธีร"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Pretense",
+    "concept_thai": "ความแกล้ง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "fake",
+        "pos": "adjective",
+        "thai": "เสแสร้ง, ปลอม",
+        "example": "She wore a fake smile to hide her sadness.",
+        "example_thai": "เธอแสดงรอยยิ้มเสแสร้งเพื่อซ่อนความเศร้า",
+        "explanation_thai": "คำพื้นฐานที่สื่อถึงสิ่งที่ไม่แท้จริง ใช้ในบริบทประจำวันและคำพูดท่องธรรมชาติ",
+        "synonyms_en": [
+          "false",
+          "phony"
+        ],
+        "synonyms_thai": [
+          "ปลอม",
+          "ไม่แท้"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "pretence",
+        "pos": "noun",
+        "thai": "ความแกล้ง, การปล่อยตัวเสแสร้ง",
+        "example": "He maintained the pretence that everything was fine.",
+        "example_thai": "เขาแกล้งว่าทุกอย่างเป็นไปอย่างดี",
+        "explanation_thai": "คำที่สื่อถึงการแสดงตนเป็นเท็จเพื่อหลอกลวง ใช้ในบริบทการเล่นแสดงหรือการปิดบังจิตสำนึกที่แท้จริง",
+        "synonyms_en": [
+          "pretense",
+          "affectation"
+        ],
+        "synonyms_thai": [
+          "การเสแสร้ง",
+          "การแสดงท่าที"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "affectation",
+        "pos": "noun",
+        "thai": "การแสดงท่าที, ความเสแสร้งอย่างจงใจ",
+        "example": "Her posh accent was mere affectation; she grew up in a poor neighborhood.",
+        "example_thai": "สำเนียงมีระดับของเธออย่างเป็นแค่การแสดงท่าที เธอเติบโตขึ้นในย่านที่ยากจน",
+        "explanation_thai": "คำที่มีความทั่วไปมากขึ้น ใช้สำหรับการแสดงท่าที่โดยตั้งใจเพื่อให้ดูประณีตหรือสูงส่ง โดยมีลักษณะแสดงการวิจารณ์",
+        "synonyms_en": [
+          "pretense",
+          "artifice"
+        ],
+        "synonyms_thai": [
+          "การแกล้ง",
+          "การเสแสร้ง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "dissimulation",
+        "pos": "noun",
+        "thai": "การปกปิดจิตสำนึก, การแสดงท่าที่เพื่อให้เข้าใจผิด",
+        "example": "His dissimulation was so masterful that no one suspected his true intentions.",
+        "example_thai": "การปกปิดจิตสำนึกของเขาดีจนไม่มีใครสงสัยความตั้งใจแท้จริงของเขา",
+        "explanation_thai": "คำที่มีความเป็นวรรณคดี และมีน้ำหนักทางศีลธรรมมากขึ้น ใช้ในบริบทการวิเคราะห์ตัวละคร หรือการพูดถึงการปลอมเป็นในแง่ลึก",
+        "synonyms_en": [
+          "disguise",
+          "concealment"
+        ],
+        "synonyms_thai": [
+          "การปลอมเป็น",
+          "การปกปิด"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Paradox",
+    "concept_thai": "ความขัดแย้ง",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "contradiction",
+        "pos": "noun",
+        "thai": "ความขัดแย้ง, ความเดือดร้อน",
+        "example": "There is a contradiction between what he said and what he did.",
+        "example_thai": "มีความขัดแย้งระหว่างสิ่งที่เขากล่าวและสิ่งที่เขากระทำ",
+        "explanation_thai": "คำที่สื่อถึงการขัดแย้งโดยตรงและชัดเจน ใช้เมื่อสิ่งสองอย่างไม่สอดคล้องกัน",
+        "synonyms_en": [
+          "inconsistency",
+          "conflict"
+        ],
+        "synonyms_thai": [
+          "ความไม่สอดคล้อง",
+          "ความเสื่อม"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "paradox",
+        "pos": "noun",
+        "thai": "ความขัดแย้งที่ลึกลับ, ข้อความที่ดูเหมือนเท็จแต่กลับเป็นจริง",
+        "example": "It is a paradox that the more you try to sleep, the harder it becomes.",
+        "example_thai": "เป็นความขัดแย้งที่ยิ่งคุณพยายามนอนมากเท่าไหร่ ก็ยิ่งยากขึ้นเท่านั้น",
+        "explanation_thai": "คำที่สื่อถึงความขัดแย้งที่มีความลึกและน่าสนใจ เมื่อสิ่งสองอย่างดูเหมือนไม่สัมพันธ์กัน แต่กลับมีความสัมพันธ์อย่างลึกลับ",
+        "synonyms_en": [
+          "contradiction",
+          "inconsistency"
+        ],
+        "synonyms_thai": [
+          "ความคาดหมายผิด",
+          "ความเสื่อม"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "oxymoron",
+        "pos": "noun",
+        "thai": "ความขัดแย้งโดยใช้คำตรงข้าม, บัญชีในวาทกรรม",
+        "example": "The phrase 'deafening silence' is an oxymoron.",
+        "example_thai": "วลี 'ความเงียบที่ดังกึกก้อง' เป็นความขัดแย้งโดยใช้คำตรงข้าม",
+        "explanation_thai": "คำที่มีความเป็นวรรณคดี และเฉพาะเจาะจงกว่า สื่อถึงการรวมคำตรงข้ามเข้าด้วยกันในโครงสร้างวรรณยุกต์",
+        "synonyms_en": [
+          "contradiction in terms",
+          "paradox"
+        ],
+        "synonyms_thai": [
+          "การลดรูป",
+          "คำที่ตรงข้ามกัน"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Reticence",
+    "concept_thai": "ความเงียบและลึกลับ",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "quiet",
+        "pos": "adjective",
+        "thai": "เงียบ, สงบนิ่ม",
+        "example": "She was a quiet person who didn't talk much.",
+        "example_thai": "เธอเป็นคนเงียบที่ไม่พูดมาก",
+        "explanation_thai": "คำพื้นฐานที่สื่อถึงการไม่ส่งเสียงหรือการไม่พูด ใช้ในสถานการณ์ประจำวัน",
+        "synonyms_en": [
+          "silent",
+          "taciturn"
+        ],
+        "synonyms_thai": [
+          "เงียบ",
+          "สงบ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "reticence",
+        "pos": "noun",
+        "thai": "ความเงียบ, ความปิดบังที่มีจงใจ",
+        "example": "His reticence about his personal life was well known.",
+        "example_thai": "ความปิดบังของเขาเกี่ยวกับชีวิตส่วนตัวของเขาเป็นที่รู้จักกันดี",
+        "explanation_thai": "คำนามธรรมที่สื่อถึงการเงียบและการปฏิเสธที่จะเปิดเผยสิ่งต่างๆ โดยโดยทั่วไปเรื่องส่วนตัว",
+        "synonyms_en": [
+          "reserve",
+          "silence"
+        ],
+        "synonyms_thai": [
+          "การยับยั้ง",
+          "ความปิดบัง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "taciturnity",
+        "pos": "noun",
+        "thai": "ความค่อนข้างเงียบและแม่น้อยใจ",
+        "example": "His taciturnity made it difficult to understand his thoughts.",
+        "example_thai": "ความค่อนข้างเงียบของเขาทำให้ยากต่อการทำความเข้าใจความคิดของเขา",
+        "explanation_thai": "คำที่มีความเป็นวรรณคดี และสื่อถึงคุณลักษณะของการไม่พูดมากและเก็บเกี่ยว",
+        "synonyms_en": [
+          "reserve",
+          "reticence"
+        ],
+        "synonyms_thai": [
+          "ความเยือกเย็น",
+          "การเงียบ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Malevolence",
+    "concept_thai": "ความชั่วร้าย, จิตใจที่ต้องการเอาร้ายผู้อื่น",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "mean",
+        "pos": "adjective",
+        "thai": "ร้ายแรง, ใจเสีย, ทำให้เจ็บปวด",
+        "example": "She was mean to her classmate and wouldn't share her toys.",
+        "example_thai": "เธอใจเสียต่อเพื่อนในชั้นเรียนและไม่ยอมแบ่งของเล่นของเธอ",
+        "explanation_thai": "ใช้ในบริบทประจำวันเพื่ออธิบายการประพฤติตัวอย่างไม่ใจดี ไม่ให้ความเห็นใจ เป็นคำที่เด็กๆ ใช้บ่อย",
+        "synonyms_en": [
+          "unkind",
+          "cruel"
+        ],
+        "synonyms_thai": [
+          "ใจร้าย",
+          "โหดเหี้ยม"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "malice",
+        "pos": "noun",
+        "thai": "ความมุ่งเป้าที่จะเอาร้ายผู้อื่น, จิตใจชั่วร้าย",
+        "example": "He spread rumors out of pure malice toward his rival.",
+        "example_thai": "เขาเผยแพร่ข่าวลือจากจิตใจที่ต้องการเอาร้ายคู่แข่งอย่างแท้จริง",
+        "explanation_thai": "ใช้เมื่ออธิบายความตั้งใจที่จะทำให้ผู้อื่นได้รับความเสียหายหรือความเจ็บปวด เป็นคำที่เป็นทางการมากกว่า 'mean'",
+        "synonyms_en": [
+          "spite",
+          "ill-will"
+        ],
+        "synonyms_thai": [
+          "ความมุ่งร้าย",
+          "จิตที่ชั่วร้าย"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "malevolence",
+        "pos": "noun",
+        "thai": "ความชั่วร้าย, จิตใจที่มีความแค่นแค้นกับคนทั่วไป",
+        "example": "The malevolence in her eyes suggested she harbored deep resentment.",
+        "example_thai": "ความชั่วร้ายในดวงตาของเธออบรมด้วยความแค่นแค้นที่ลึกซึ้ง",
+        "explanation_thai": "ใช้ในบริบทที่สูงขึ้นเพื่อออกแบบเป็นลักษณะที่กว้างขวางยิ่งขึ้นหรือเป็นคุณสมบัติโดยทั่ว ต่างจาก 'malice' ที่เน้นความตั้งใจในช่วงเวลานั้นๆ",
+        "synonyms_en": [
+          "wickedness",
+          "evilness"
+        ],
+        "synonyms_thai": [
+          "ความชั่วร้ายแก่นแก้ว",
+          "ความเป็นเจ้าชั่ว"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "perniciousness",
+        "pos": "noun",
+        "thai": "ความเป็นอันตรายที่ลึกซึ้งและมีผลกระทบเสียหายต่อเนื่อง",
+        "example": "The perniciousness of his influence spread throughout the organization, corrupting its core values.",
+        "example_thai": "อิทธิพลที่เป็นอันตรายของเขาแพร่กระจายไปทั่วทั้งองค์กร ทำให้คุณค่าพื้นฐานเสื่อมสลาย",
+        "explanation_thai": "ใช้เมื่ออธิบายความชั่วร้ายที่มีผลลำเนียงรองลึกซึ้งและเรื้อรังต่อระบบหรือหลายคน ระดับนี้มีความหมายรุนแรงและกว้างขวางมากกว่า",
+        "synonyms_en": [
+          "banefullness",
+          "harmfulness"
+        ],
+        "synonyms_thai": [
+          "ความเป็นอันตรายแบบเรื้อรัง",
+          "ผลกระทบเสียหายลึกซึ้ง"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Obsequiousness",
+    "concept_thai": "การเชื่อฟังโดยต้องการให้ใจผู้อื่น, ความสำเร็จด้วยการหนุนหนาน",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "obedient",
+        "pos": "adjective",
+        "thai": "เชื่อฟัง, ยอมทำตาม",
+        "example": "The dog was obedient and followed every command without hesitation.",
+        "example_thai": "สุนัขนั้นเชื่อฟังและทำตามคำสั่งทุกอย่างโดยไม่ลังเล",
+        "explanation_thai": "ใช้เพื่ออธิบายการทำตามคำสั่งหรือการปฏิบัติตามกฎเกณฑ์ ระดับนี้ยังเป็นกลาง ไม่มีนัยเชิงลบจำเป็น",
+        "synonyms_en": [
+          "compliant",
+          "submissive"
+        ],
+        "synonyms_thai": [
+          "ยินยอม",
+          "อ่อนน้อม"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "servile",
+        "pos": "adjective",
+        "thai": "เชื่อฟังอย่างหยั่งย่ำ, ถูกกดขี่",
+        "example": "He adopted a servile manner toward those in authority, always eager to please.",
+        "example_thai": "เขาแสดงท่าทีเชื่อฟังอย่างหยั่งย่ำต่อผู้มีอำนาจ เสมอกระหายที่จะทำให้ใจผู้อื่น",
+        "explanation_thai": "ใช้เมื่ออธิบายการเชื่อฟังที่มีความรู้สึกถูกกดขี่หรือมีนัยเชิงลบ ระดับนี้มีความหมายถูกทำให้เป็นทาส",
+        "synonyms_en": [
+          "slavish",
+          "subservient"
+        ],
+        "synonyms_thai": [
+          "เป็นทาส",
+          "อ่อนเพลียต่อ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "obsequious",
+        "pos": "adjective",
+        "thai": "เชื่อฟังอย่างกระหายดีความพอใจ, ต้องการให้ใจผู้อื่นจนเกินไป",
+        "example": "His obsequious behavior toward the boss seemed false and insincere.",
+        "example_thai": "พฤติกรรมเชื่อฟังอย่างกระหายความพอใจของเขาต่อเจ้านายดูเหมือนไม่จริงใจและไม่ตรงไปตรงมา",
+        "explanation_thai": "ใช้เพื่ออธิบายการเชื่อฟังที่มีความตั้งใจลึกซึ้งคือการขอความพอใจ เป็นคำเดี่ยวที่ทำให้คนอื่นรู้สึกว่าการกระทำเป็นโมโหหรือไม่จริงใจ",
+        "synonyms_en": [
+          "fawning",
+          "sycophantic"
+        ],
+        "synonyms_thai": [
+          "ยอพิโยค",
+          "สำเร็จด้วยการหนุนหนาน"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "sycophancy",
+        "pos": "noun",
+        "thai": "การหนุนหนานอย่างไม่จริงใจ, ความทำตัวเป็นสวัสดิการของผู้มีอำนาจ",
+        "example": "The executive's inner circle was filled with sycophancy, undermining genuine business improvement.",
+        "example_thai": "วงในของผู้บริหารเต็มไปด้วยการหนุนหนาน ซึ่งทำให้การปรับปรุงธุรกิจที่แท้จริงเสื่อมลง",
+        "explanation_thai": "ใช้ในบริบทที่มีความคิดเห็นทางการมากขึ้น เพื่ออธิบายระบบหรือวัฒนธรรมที่มีคนเต็มไปด้วยการหนุนหนาน",
+        "synonyms_en": [
+          "toadyism",
+          "bootlicking"
+        ],
+        "synonyms_thai": [
+          "การเป็นสำเร็จ",
+          "การหลอมรวมอยากยืมตัว"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Propensity",
+    "concept_thai": "แนวโน้ม, ความชอบที่มีธรรมชาติ",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "tendency",
+        "pos": "noun",
+        "thai": "แนวโน้ม, ความชอบที่จะทำสิ่งใด",
+        "example": "She has a tendency to arrive late to meetings.",
+        "example_thai": "เธอมีแนวโน้มที่จะมาสายในการประชุม",
+        "explanation_thai": "ใช้ในบริบทประจำวันเพื่ออธิบายรูปแบบพฤติกรรมที่บุคคลหนึ่งทำบ่อยๆ เป็นคำที่ใช้ง่าย",
+        "synonyms_en": [
+          "inclination",
+          "habit"
+        ],
+        "synonyms_thai": [
+          "ความชอบ",
+          "นิสัย"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "propensity",
+        "pos": "noun",
+        "thai": "แนวโน้มตามธรรมชาติ, ความชอบที่เนื้อแน่นมาก",
+        "example": "He has a propensity for taking risks that often leads to unexpected success.",
+        "example_thai": "เขามีแนวโน้มตามธรรมชาติที่จะเสี่ยงซึ่งมักนำไปสู่ความสำเร็จที่ไม่คาดหวัง",
+        "explanation_thai": "ใช้เมื่ออธิบายลักษณะหรือแนวโน้มที่ลึกซึ้งกว่า 'tendency' ที่เกี่ยวข้องกับธรรมชาติหรือคุณลักษณะที่มีอยู่แต่เกิด",
+        "synonyms_en": [
+          "inclination",
+          "leaning"
+        ],
+        "synonyms_thai": [
+          "ความเอนเอียง",
+          "แนวคิด"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "proclivity",
+        "pos": "noun",
+        "thai": "แนวโน้มการทำสิ่งที่ต้องห้าม หรือถูกมองว่าไม่เหมาะสม",
+        "example": "His proclivity for dishonest dealings eventually destroyed his business reputation.",
+        "example_thai": "แนวโน้มของเขาในการทำธุรกิจที่ไม่สุจริตทำลายความเชื่อมั่นทางธุรกิจของเขาในที่สุด",
+        "explanation_thai": "ใช้เมื่ออธิบายแนวโน้มที่มักจะมีความเสี่ยง ไม่เหมาะสม หรือเป็นลบ ระดับนี้มีความน้ำหนักเชิงลบมากกว่า propensity",
+        "synonyms_en": [
+          "predilection",
+          "weakness"
+        ],
+        "synonyms_thai": [
+          "ความชอบที่ไม่เหมาะสม",
+          "จุดอ่อน"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Taciturnity",
+    "concept_thai": "ความเงียบเงิน, การพูดน้อยหรือไม่ชอบพูด",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "quiet",
+        "pos": "adjective",
+        "thai": "เงียบ, ไม่ส่งเสียง",
+        "example": "He is a quiet person who prefers to listen rather than talk.",
+        "example_thai": "เขาเป็นคนเงียบที่ชอบฟังมากกว่าพูด",
+        "explanation_thai": "ใช้ในบริบทประจำวันเพื่ออธิบายบุคคลที่ไม่ส่งเสียงดังหรือไม่พูดมาก เป็นคำพื้นฐาน",
+        "synonyms_en": [
+          "silent",
+          "reserved"
+        ],
+        "synonyms_thai": [
+          "ปิดปาก",
+          "เข้ากำบัง"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "taciturn",
+        "pos": "adjective",
+        "thai": "น้อยพูด, เงียบที่มีเหตุผล",
+        "example": "The taciturn detective revealed very little about the ongoing investigation.",
+        "example_thai": "นักสืบเงียบที่น้อยพูดเปิดเผยข้อมูลน้อยมากเกี่ยวกับการสืบสวนที่กำลังดำเนินการ",
+        "explanation_thai": "ใช้เมื่ออธิบายบุคคลที่ไม่ชอบพูดมาก มักเป็นเพราะคิดว่าการปิดปากว่างสวัสดี ระดับนี้เป็นทางการมากกว่า 'quiet'",
+        "synonyms_en": [
+          "laconic",
+          "reticent"
+        ],
+        "synonyms_thai": [
+          "ฉากจำกัด",
+          "เก็บตัว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "taciturnity",
+        "pos": "noun",
+        "thai": "นิสัยที่ไม่ชอบพูด, ความเงียบของคนที่เก็บตัว",
+        "example": "His taciturnity during the meeting suggested he disagreed with the proposal but chose not to express it.",
+        "example_thai": "ความเงียบของเขาในระหว่างการประชุมแสดงให้เห็นว่าเขาไม่เห็นด้วยกับข้อเสนอ แต่เลือกที่จะไม่เปิดเผย",
+        "explanation_thai": "ใช้ในบริบทที่สูงขึ้นเพื่ออธิบายลักษณะหรือคุณลักษณะของบุคคลที่เงียบๆ ต่างจากระดับต่ำที่เป็นการขนาดการกระทำ",
+        "synonyms_en": [
+          "laconic nature",
+          "reserve"
+        ],
+        "synonyms_thai": [
+          "การเก็บตัว",
+          "ความปิดปาก"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "muteness",
+        "pos": "noun",
+        "thai": "ความเป็นใบ้ทั้งโลก, ความไม่สามารถหรือไม่ยินยอมพูด",
+        "example": "The witness's muteness regarding the crime raised suspicions among investigators.",
+        "example_thai": "ความเป็นใบ้ของพยานเกี่ยวกับอาชญากรรมนั้นทำให้ผู้สืบสวนเกิดความสงสัย",
+        "explanation_thai": "ใช้ในบริบทที่มีความน้ำหนักมากขึ้น หมายถึงการไม่พูดอย่างสมบูรณ์ที่มีผลกระทบต่อการสื่อสารหรือการเปิดเผย",
+        "synonyms_en": [
+          "voicelessness",
+          "silence"
+        ],
+        "synonyms_thai": [
+          "ความเป็นใบ้",
+          "ความปิดทำเสียง"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Parsimony",
+    "concept_thai": "ความเก็บตัว, การใช้จ่ายน้อยอย่างเกินความจำเป็น",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "cheap",
+        "pos": "adjective",
+        "thai": "ถูก, ไม่ค่อยใช้เงินมาก",
+        "example": "He always looks for cheap options when shopping for groceries.",
+        "example_thai": "เขามองหาตัวเลือกที่ถูกเสมอเมื่อซื้อของในร้านค้า",
+        "explanation_thai": "ใช้ในบริบทประจำวันเพื่ออธิบายราคาที่ต่ำหรือการไม่ค่อยใช้จ่าย เป็นคำพื้นฐาน",
+        "synonyms_en": [
+          "inexpensive",
+          "economical"
+        ],
+        "synonyms_thai": [
+          "ไม่แพง",
+          "ประหยัด"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "frugal",
+        "pos": "adjective",
+        "thai": "ประหยัด, ใช้จ่ายน้อยอย่างสมหวัง",
+        "example": "She has a frugal lifestyle, carefully budgeting every expense.",
+        "example_thai": "เธอมีวิถีชีวิตประหยัด วางแผนงบประมาณอย่างระมัดระวัง",
+        "explanation_thai": "ใช้เมื่ออธิบายบุคคลหรือวิถีชีวิตที่ประหยัด แต่ยังคงมีเหตุผล ระดับนี้เป็นทางการมากกว่า 'cheap' และไม่มีนัยเชิงลบ",
+        "synonyms_en": [
+          "thrifty",
+          "sparing"
+        ],
+        "synonyms_thai": [
+          "ออมเงิน",
+          "ใจแข็ง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "parsimony",
+        "pos": "noun",
+        "thai": "ความเก็บตัวอย่างกะเหรี่ยงคร่ำ, ใจเสีย",
+        "example": "The company's parsimony meant employees received minimal benefits and low wages.",
+        "example_thai": "ความเก็บตัวของบริษัทหมายความว่าพนักงานได้รับสิทธิประโยชน์น้อยที่สุดและเงินเดือนต่ำ",
+        "explanation_thai": "ใช้เมื่ออธิบายการประหยัดอย่างเกินไปที่ไม่สมควรและมีผลเสียต่อผู้อื่น มีนัยเชิงลบ",
+        "synonyms_en": [
+          "stinginess",
+          "miserliness"
+        ],
+        "synonyms_thai": [
+          "ใจเก็บตัว",
+          "ตัณหาต่ำ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "niggardliness",
+        "pos": "noun",
+        "thai": "ความเก็บตัวอย่างสมบูรณ์และไม่เสียดาย, ความเห็นแก่ตัว",
+        "example": "The philanthropist criticized the government's niggardliness in allocating funds for public health.",
+        "example_thai": "นักการกุศลวิจารณ์ความเก็บตัวของรัฐบาลในการจัดสรรเงินสำหรับสาธารณสุข",
+        "explanation_thai": "ใช้ในบริบทที่มีความรุนแรงมากขึ้น หมายถึงการเก็บตัวอย่างสมบูรณ์และไม่เสียดาย ซึ่งอาจเกี่ยวข้องกับคณะหรือ องค์กร",
+        "synonyms_en": [
+          "stinginess",
+          "ungenerous nature"
+        ],
+        "synonyms_thai": [
+          "ใจเก็บตัว",
+          "ความไม่เอื้อเฟื้อ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Prestidigitation",
+    "concept_thai": "เล่นมายากล, การแสดงความเก่ง ด้วยการ 'โกหก'",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "trick",
+        "pos": "noun",
+        "thai": "เล่นเพ, การหลวงลวง",
+        "example": "The magician performed a card trick that amazed the audience.",
+        "example_thai": "นักมายากลแสดงเล่นเพไพ่ที่ทำให้ผู้ชมประหลาดใจ",
+        "explanation_thai": "ใช้ในบริบทประจำวันเพื่ออธิบายการแสดงหรือการหลอกลวง ที่สามารถทำให้คนอื่นเกิดประหลาดใจได้",
+        "synonyms_en": [
+          "illusion",
+          "sleight"
+        ],
+        "synonyms_thai": [
+          "การหลวงลวง",
+          "เล่นเพ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "sleight of hand",
+        "pos": "noun",
+        "thai": "เทคนิคการเล่นมายากลด้วยมือ, ความชำนาญมือ",
+        "example": "The pickpocket used sleight of hand to steal the wallet without anyone noticing.",
+        "example_thai": "นักเล่นการเคลื่อนไหวลักษณ์ใช้เทคนิคมือเพื่อขโมยกระเป๋าโดยไม่มีใครสังเกต",
+        "explanation_thai": "ใช้เมื่ออธิบายการแสดงหรือการกระทำที่ต้องใช้ทักษะพิเศษด้วยมือ เป็นคำที่เป็นทางการมากกว่า 'trick'",
+        "synonyms_en": [
+          "legerdemain",
+          "manual dexterity"
+        ],
+        "synonyms_thai": [
+          "การเล่นเก่ง",
+          "ความชำนาญ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "prestidigitation",
+        "pos": "noun",
+        "thai": "เล่นมายากลด้วยมือ, การแสดงความเก่งอย่างกะมัง",
+        "example": "The magician's prestidigitation left the audience confused about what actually happened.",
+        "example_thai": "การเล่นมายากลของนักมายากลทำให้ผู้ชมสับสนเกี่ยวกับสิ่งที่เกิดขึ้นจริง",
+        "explanation_thai": "ใช้เมื่ออธิบายมายากล หรือการปัดปัดมือให้มี ประสิทธิผลที่สูง โดยเฉพาะในบริบทการแสดง",
+        "synonyms_en": [
+          "legerdemain",
+          "sleight"
+        ],
+        "synonyms_thai": [
+          "การเล่นเก่ง",
+          "เล่นมายากล"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "legerdemain",
+        "pos": "noun",
+        "thai": "เล่นมายากล, การแสดงที่ประณีตและสูง ซึ่งอาจมีการหลวงลวง",
+        "example": "The government's economic report was dismissed as financial legerdemain by critics who questioned the numbers.",
+        "example_thai": "รายงานเศรษฐกิจของรัฐบาลถูกลดทอนว่าเป็นการเล่นมายากลทางการเงินโดยนักวิจารณ์ที่ตั้งคำถาม",
+        "explanation_thai": "ใช้ในบริบทที่สูงขึ้น ซึ่งมักหมายถึงการหลวงลวงที่เป็นระดับสูงหรือซับซ้อน ไม่ใช่แค่มายากลในการแสดง",
+        "synonyms_en": [
+          "sleight",
+          "artful deception"
+        ],
+        "synonyms_thai": [
+          "การหลวงลวง",
+          "การตัดสินใจอย่างเก่ง"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Loquaciousness",
+    "concept_thai": "ความพูดจามาก, ชอบพูดมาก",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "talkative",
+        "pos": "adjective",
+        "thai": "ชอบพูด, พูดจามาก",
+        "example": "She is very talkative and always has something to say at every gathering.",
+        "example_thai": "เธอชอบพูดมากและมีอะไรให้พูดในทุกครั้งที่聚集ด้วยกัน",
+        "explanation_thai": "ใช้ในบริบทประจำวันเพื่ออธิบายบุคคลที่ชอบพูดหรือพูดจามาก เป็นคำพื้นฐาน",
+        "synonyms_en": [
+          "chatty",
+          "vocal"
+        ],
+        "synonyms_thai": [
+          "พูดมาก",
+          "ร่วมพูด"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "verbose",
+        "pos": "adjective",
+        "thai": "พูดจามากเกินไป, ใช้คำมากเกิน",
+        "example": "The speaker was too verbose, taking thirty minutes to explain what could have been said in five.",
+        "example_thai": "วิทยากรพูดจามากเกินไป ใช้เวลาสามสิบนาทีในการอธิบายสิ่งที่สามารถพูดได้ในห้านาที",
+        "explanation_thai": "ใช้เมื่ออธิบายการพูดที่มีคำมากเกิน ท่าที่ไม่ประมาณ ระดับนี้มีนัยเชิงลบมากกว่า 'talkative'",
+        "synonyms_en": [
+          "wordy",
+          "long-winded"
+        ],
+        "synonyms_thai": [
+          "ยืดยาว",
+          "เว่ยวว้าว"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "loquacious",
+        "pos": "adjective",
+        "thai": "ชอบพูดมาก, ไม่เกรงใจในการพูด",
+        "example": "Despite his loquacious nature, he rarely said anything of substance or value.",
+        "example_thai": "แม้ว่าธรรมชาติของเขาชอบพูดมาก เขาหลากหลักพูดสิ่งใดที่มีความหมายหรือคุณค่า",
+        "explanation_thai": "ใช้เมื่ออธิบายลักษณะของบุคคลที่ชอบพูดมากตามธรรมชาติ เป็นคำที่เป็นทางการมากกว่า 'talkative' แต่ไม่ถึงขั้นเชิงลบอย่าง 'verbose'",
+        "synonyms_en": [
+          "talkative",
+          "garrulous"
+        ],
+        "synonyms_thai": [
+          "พูดมาก",
+          "ไม่หยุดพูด"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "garrulity",
+        "pos": "noun",
+        "thai": "นิสัยที่ชอบพูดจามากจนน่า烦",
+        "explanation": "ใช้ในบริบทที่สูงขึ้น หมายถึงนิสัยที่ชอบพูดจามากอย่างต่อเนื่องจนอาจทำให้ผู้อื่นรู้สึกอิดโรค",
+        "example": "The senator's garrulity during the debate frustrated other speakers who had little time to respond.",
+        "example_thai": "ความชอบพูดจามากของสมาชิกวุฒิสภาในระหว่างการอภิปรายทำให้สมาชิกอื่นๆ ที่มีเวลาน้อยรู้สึกหงุดหงิด",
+        "synonyms_en": [
+          "talkativeness",
+          "verbosity"
+        ],
+        "synonyms_thai": [
+          "ความพูดมาก",
+          "ความยาวยืน"
+        ]
+      }
+    ],
+    "date_added": "2026-11-20"
   }
 ]
