@@ -1989,5 +1989,181 @@
     "example_thai": "ดอกใหญ่ใช้ปลอบประโลมวิญญาณวีรชนแต่ครั้งโบราณ",
     "source": "elden_ring.json",
     "date_added": "2026-11-20"
+  },
+  {
+    "word": "immemorial",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "นับแต่โบราณ",
+    "modern_replacement": "ancient, time-honored",
+    "example": "these long-lived warriors, clad in biting, freezing winds, are said to have been the mortal enemies of the Fire Giants since time immemorial.",
+    "example_thai": "เป็นศัตรูคู่แค้นของเหล่ายักษ์เพลิงนับแต่โบราณ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "hewn",
+    "pos": "verb (past participle)",
+    "is_from_source": true,
+    "thai": "ตัดแล่น",
+    "modern_replacement": "carved, cut, shaped",
+    "example": "Signature weapon of battlemages, hewn from hard glintstone.",
+    "example_thai": "อาวุธของจอมเวทสงคราม ทำจากหินจรัสแข็ง",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "perished",
+    "pos": "verb (past tense)",
+    "is_from_source": true,
+    "thai": "สิ้นชีวิต",
+    "modern_replacement": "died, deceased, departed",
+    "example": "Sorcerer Thops's bell bearing, found upon his perished flesh.",
+    "example_thai": "กระดิ่งที่หลงเหลืออยู่ในซากศพ / ของจอมเวทโธปส์",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "revered",
+    "pos": "verb (past participle/adjective)",
+    "is_from_source": true,
+    "thai": "เคารพสักการะ",
+    "modern_replacement": "honored, respected, venerated",
+    "example": "Ashes of a hawk revered by all others as sovereign back in the days when Stormveil's winds still raged like no other.",
+    "example_thai": "ยามสตอร์มวีลเกิดพายุแท้จริง / ธุลีตนหนึ่งขึ้นปกครองในฐานะราชาแห่งผองเหยี่ยว",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "sovereign",
+    "pos": "noun/adjective",
+    "is_from_source": true,
+    "thai": "ราชา",
+    "modern_replacement": "ruler, monarch, supreme",
+    "example": "Ashes of a hawk revered by all others as sovereign back in the days when Stormveil's winds still raged like no other.",
+    "example_thai": "ธุลีตนหนึ่งขึ้นปกครองในฐานะราชาแห่งผองเหยี่ยว",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "primordial",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ยุคแรกเริ่ม",
+    "modern_replacement": "original, primitive, primal",
+    "example": "Holds the power of the crucible of life, the primordial form of the Erdtree.",
+    "example_thai": "สถิตด้วยพลังของพฤกษาทองยุคแรกเริ่ม พิมพ์หลอมแห่งชีวิต",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "moiety",
+    "pos": "noun",
+    "is_from_source": false,
+    "thai": "ส่วนหนึ่ง",
+    "modern_replacement": "portion, part, division",
+    "example": "In ages past, those who gazed upon a moiety of its radiance were blessed.",
+    "example_thai": "สมัยโบราณผู้ที่ได้ชื่นชมส่วนหนึ่งของแสงสว่างนั้นย่อมได้รับพร",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "bestrewn",
+    "pos": "verb (past participle)",
+    "is_from_source": true,
+    "thai": "ฝังแน่น, ปลูกฝัง",
+    "modern_replacement": "scattered, embedded, studded",
+    "example": "Whip bestrewn with rotting, misshapen teeth.",
+    "example_thai": "แส้ฝังซี่ฟันน่ารังเกียจ เรียงระเกะระกะ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "seething",
+    "pos": "verb (present participle/adjective)",
+    "is_from_source": true,
+    "thai": "เต่งตึง, คลอกแคล้ว, เคลือบเต็ม",
+    "modern_replacement": "teeming, swarming, infested",
+    "example": "Filthy and seething with disease, the teeth are embedded in the whip",
+    "example_thai": "เชื้อโรคทุกชนิดเคลือบบนฟันสกปรก",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "ripen",
+    "pos": "verb",
+    "is_from_source": true,
+    "thai": "บวม, เนื้อหนัง, ชุมชื้น",
+    "modern_replacement": "develop, fester, become inflamed",
+    "example": "As the wounds ripen they grow inflamed and ooze pus.",
+    "example_thai": "ในท้ายที่สุดแผลจะบวมเหวอะหวะ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "meld",
+    "pos": "verb",
+    "is_from_source": true,
+    "thai": "เข้ากลมกลืน, ผสมผสาน, หลอมรวม",
+    "modern_replacement": "blend, merge, fuse",
+    "example": "The flesh of shamans was said to meld harmoniously with others.",
+    "example_thai": "เหล่าร่างทรงกลืนเข้ากับเนื้ออื่นๆ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "forthright",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ซื่อตรง, กล้าหาญ, เปิดเผย",
+    "modern_replacement": "honest, frank, straightforward",
+    "example": "Many admire the wearer of this armor for his chivalrous and forthright spirit.",
+    "example_thai": "สัมผัสได้ถึงความกล้าหาญและซื่อตรง",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "chivalrous",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "เมตตา, ชอบธรรม, เสียสละ",
+    "modern_replacement": "noble, courteous, honorable",
+    "example": "Many admire the wearer of this armor for his chivalrous and forthright spirit.",
+    "example_thai": "คนจำนวนมากจึงหลงใหลคลั่งไคล้ผู้สวมใส่มัน",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "accoutrement",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "อุปกรณ์ทำพิธี, เครื่องใส่สวย, เสื้อผ้าและอุปกรณ์",
+    "modern_replacement": "accessory, equipment, attire",
+    "example": "Ceremonial accoutrement worn by hornsent.",
+    "example_thai": "อุปกรณ์ทำพิธีของผู้มีเขา",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "zenith",
+    "pos": "noun",
+    "is_from_source": true,
+    "thai": "จุดสูงสุด, เสน่ห์พวยพุ่ง, บริบูรณ์",
+    "modern_replacement": "peak, pinnacle, height",
+    "example": "It is said the cauldron perched atop the head was originally furnished with embers, and would surge into flames when the wearer's faith reached its zenith.",
+    "example_thai": "ว่ากันว่าเคยพ่นศรัทธาพวยพุ่ง",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
+  },
+  {
+    "word": "irrefutable",
+    "pos": "adjective",
+    "is_from_source": true,
+    "thai": "ไม่อาจโต้แย้ง, ชัดเจนดั่งวัน, แสดงชัด",
+    "modern_replacement": "indisputable, undeniable, incontrovertible",
+    "example": "Only the repeated sprouting of fresh horns can create a tangled horn, which is viewed as an irrefutable symbol of primacy.",
+    "example_thai": "ถือเป็นสัญลักษณ์แห่งผู้นำวิญญาณ",
+    "source": "elden_ring.json",
+    "date_added": "2026-11-28"
   }
 ]
