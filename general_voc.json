@@ -13177,5 +13177,1225 @@
       }
     ],
     "date_added": "2026-11-20"
+  },
+  {
+    "concept": "Circumspection",
+    "concept_thai": "ความระมัดระวัง, การเลือกถ้อยคำ",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "careful",
+        "pos": "adjective",
+        "thai": "ระมัดระวัง, ระวังให้ดี",
+        "example": "Be careful when crossing the street.",
+        "example_thai": "ระวังให้ดีเวลาข้ามถนน",
+        "explanation_thai": "คำพื้นฐานที่ใช้บ่งชี้การทำสิ่งใดสิ่งหนึ่งอย่างระมัดระวังเพื่อหลีกเลี่ยงความผิดพลาด เป็นคำทั่วไปใช้ในสถานการณ์ต่างๆ",
+        "synonyms_en": [
+          "cautious",
+          "wary"
+        ],
+        "synonyms_thai": [
+          "ระวัง, เอาไว้"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "cautious",
+        "pos": "adjective",
+        "thai": "ระมัดระวัง, หวั่นไหว",
+        "example": "She took a cautious approach to the new project.",
+        "example_thai": "เธอเลือกวิธีการระมัดระวังต่อโครงการใหม่นี้",
+        "explanation_thai": "คำที่บ่งชี้การทำสิ่งใดสิ่งหนึ่งด้วยความระมัดระวังและหวั่นไหวต่อผลเสีย ใช้มากในบริบทการวางแผนและการตัดสินใจ",
+        "synonyms_en": [
+          "wary",
+          "prudent"
+        ],
+        "synonyms_thai": [
+          "ระวัง, เรื่องระวัง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "circumspect",
+        "pos": "adjective",
+        "thai": "ระมัดระวัง, คิดให้ครอบคลุม",
+        "example": "The diplomat was circumspect in his remarks to avoid creating tensions.",
+        "example_thai": "นักการทูตคิดให้ครอบคลุมในการแสดงความเห็นเพื่อหลีกเลี่ยงความตึงเครียด",
+        "explanation_thai": "คำคุณศัพท์ที่เป็นทางการมากกว่า cautious เน้นการพิจารณาผลกระทบจากทุกด้านก่อนการกระทำ ใช้ในบริบทที่เป็นทางการและวิชาการ",
+        "synonyms_en": [
+          "prudent",
+          "discreet"
+        ],
+        "synonyms_thai": [
+          "ระมัดระวังและคิดครอบคลุม, เลือกเพ็ชรเลือกไข่"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "circumspection",
+        "pos": "noun",
+        "thai": "ความระมัดระวัง, การคิดให้ครอบคลุมและระมัดระวัง",
+        "example": "With circumspection, the CEO navigated the complex negotiations without offending any party.",
+        "example_thai": "ด้วยความระมัดระวังและการคิดให้ครอบคลุม ประธานเจ้าหน้าที่บริหารนำทางการเจรจาที่ซับซ้อนโดยไม่ไปเสียใจกับฝ่ายใดๆ",
+        "explanation_thai": "คำนามระดับสูงที่เน้นการพิจารณาอย่างรอบคอบและดี่ถี่กว่า cautious ใช้ในบริบทที่เป็นทางการและวิชาการ โดยเน้นความรอบคอบแบบครอบคลุม",
+        "synonyms_en": [
+          "discretion",
+          "prudence"
+        ],
+        "synonyms_thai": [
+          "ความรอบคอบ, การคิดให้ครบถ้วน"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Consternation",
+    "concept_thai": "ความตกใจ, การตระหนักถึงเรื่องแย่ลง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "shock",
+        "pos": "noun",
+        "thai": "สิ่งที่ทำให้ตกใจ, ความตกใจ",
+        "example": "The news of his death was a terrible shock.",
+        "example_thai": "ข่าวของการเสียชีวิตของเขาเป็นการตกใจที่ร้ายแรง",
+        "explanation_thai": "คำพื้นฐานที่ใช้บ่งชี้ความตกใจหรือการได้รับข้อมูลที่ไม่คาดคิด เป็นคำทั่วไปใช้ในสถานการณ์ต่างๆ",
+        "synonyms_en": [
+          "surprise",
+          "jolt"
+        ],
+        "synonyms_thai": [
+          "ความประหลาดใจ, การตกใจ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "alarm",
+        "pos": "noun",
+        "thai": "ความกังวล, การตั้งตรวจการณ์",
+        "example": "There was alarm among the villagers when they heard the strange noise.",
+        "example_thai": "มีความกังวลในหมู่ชาวบ้านเมื่อพวกเขาได้ยินเสียงแปลกๆ",
+        "explanation_thai": "คำนามที่เน้นความกังวลและการวิตกกังวล ใช้เมื่อพูดถึงความกัง่วลที่เพิ่มมากขึ้นจากสถานการณ์ที่เป็นอันตรายหรือไม่ทำความเข้าใจ",
+        "synonyms_en": [
+          "concern",
+          "worry"
+        ],
+        "synonyms_thai": [
+          "ความกังวล, การวิตก"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "dismay",
+        "pos": "noun",
+        "thai": "ความท้อ, ความผิดหวัง",
+        "example": "He felt dismay when he learned that his project was cancelled.",
+        "example_thai": "เขารู้สึกท้อเมื่อได้รู้ว่าโครงการของเขาถูกยกเลิก",
+        "explanation_thai": "คำนามที่เน้นความผิดหวังและท้อใจลงไปจากสิ่งที่ไม่คาดคิด ใช้เมื่อพูดถึงสถานการณ์ที่เป็นแบบแย่ลงกว่าที่คาดหวัง",
+        "synonyms_en": [
+          "disappointment",
+          "distress"
+        ],
+        "synonyms_thai": [
+          "ความผิดหวัง, ความท้อแท้"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "consternation",
+        "pos": "noun",
+        "thai": "ความตกใจและสับสน, การตระหนักถึงเรื่องแย่ลงอย่างลึกลง",
+        "example": "The sudden announcement caused consternation throughout the organization.",
+        "example_thai": "ประกาศอย่างกระทันหันสาเหตุความตกใจและสับสนทั่วองค์กร",
+        "explanation_thai": "คำนามระดับสูงที่เน้นการรู้สึกตกใจ สับสน และวิตกกังวลในเวลาเดียวกัน ใช้ในบริบทที่เป็นทางการและวรรณกรรม เน้นการรู้สึกลึกลงและรุนแรงกว่า dismay",
+        "synonyms_en": [
+          "dismay",
+          "alarm"
+        ],
+        "synonyms_thai": [
+          "ความตกใจและสับสน, การวิตกกังวล"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Fecundity",
+    "concept_thai": "ความอุดมสมบูรณ์, การเจริญพันธุ์",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "fertile",
+        "pos": "adjective",
+        "thai": "อุดมสมบูรณ์, ร่มรื่น",
+        "example": "The fertile soil in the valley produces abundant crops.",
+        "example_thai": "ดินอุดมสมบูรณ์ในหุบเขาผลิตพืชที่มากมาย",
+        "explanation_thai": "คำคุณศัพท์ที่ใช้บ่งชี้ความอุดมสมบูรณ์ของดินหรือพื้นที่ ใช้ในบริบทการเกษตรและธรรมชาติ",
+        "synonyms_en": [
+          "productive",
+          "fruitful"
+        ],
+        "synonyms_thai": [
+          "อุดม, ร่มรื่น"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "prolific",
+        "pos": "adjective",
+        "thai": "เจริญเติบโตเร็ว, ผลิตได้มาก",
+        "example": "She is a prolific writer who produces multiple books every year.",
+        "example_thai": "เธอเป็นนักเขียนที่เจริญเติบโตเร็วที่ผลิตหนังสือหลายเล่มต่อปี",
+        "explanation_thai": "คำคุณศัพท์ที่เน้นการผลิตหรือการสร้างสรรค์ในปริมาณมาก ใช้ในบริบทศิลปะ วรรณกรรม หรือการสร้างสรรค์",
+        "synonyms_en": [
+          "productive",
+          "fertile"
+        ],
+        "synonyms_thai": [
+          "ผลิตออกมามากมายเทพไหม",
+          "อุดมสมบูรณ์ทางทำนายการ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "fecundity",
+        "pos": "noun",
+        "thai": "ความอุดมสมบูรณ์, ความเจริญพันธุ์",
+        "example": "The fecundity of the river delta supports a diverse ecosystem.",
+        "example_thai": "ความอุดมสมบูรณ์ของเดลต้าแม่น้ำสนับสนุนระบบนิเวศที่หลากหลาย",
+        "explanation_thai": "คำนามระดับสูงที่เน้นการมีความสามารถในการผลิตผลหรือการเจริญพันธุ์ที่มากมาย ใช้ในบริบทวิทยาศาสตร์ ชีววิทยา หรือวรรณกรรม",
+        "synonyms_en": [
+          "fertility",
+          "productivity"
+        ],
+        "synonyms_thai": [
+          "ความอุดม, ความเจริญงอก"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Propinquity",
+    "concept_thai": "ความใกล้ชิด, การเป็นเพื่อนบ้าน",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "close",
+        "pos": "adjective",
+        "thai": "ใกล้, เสมอกัน",
+        "example": "My house is close to the school.",
+        "example_thai": "บ้านของฉันใกล้โรงเรียน",
+        "explanation_thai": "คำพื้นฐานที่ใช้บ่งชี้ระยะห่างที่ไม่ไกล เป็นคำทั่วไปใช้ในสถานการณ์ต่างๆ",
+        "synonyms_en": [
+          "near",
+          "nearby"
+        ],
+        "synonyms_thai": [
+          "ใกล้, เชื่อม"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "proximity",
+        "pos": "noun",
+        "thai": "ความใกล้, การเป็นเพื่อนบ้าน",
+        "example": "The proximity of the two cities makes it easy to travel between them.",
+        "example_thai": "ความใกล้ชิดของเมืองทั้งสองทำให้สะดวกในการเดินทางไปมา",
+        "explanation_thai": "คำนามที่เน้นระยะห่าง หรือความสัมพันธ์ในเชิงของการอยู่ใกล้กัน ใช้ในบริบทที่เป็นทางการมากกว่า close",
+        "synonyms_en": [
+          "nearness",
+          "closeness"
+        ],
+        "synonyms_thai": [
+          "ความเสมอกัน, การเป็นเพื่อนบ้าน"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "propinquity",
+        "pos": "noun",
+        "thai": "ความใกล้ชิด, การเป็นเพื่อนบ้านอย่างสนิท",
+        "example": "The propinquity of their families led to a lifelong friendship.",
+        "example_thai": "ความใกล้ชิดของครอบครัวของพวกเขานำไปสู่มิตรภาพตลอดชีวิต",
+        "explanation_thai": "คำนามระดับสูงที่เน้นความสัมพันธ์ใกล้ชิด ไม่เพียงแค่ระยะห่างเท่านั้น แต่เน้นความเชื่อมโยงทางสังคมและอารมณ์ด้วย ใช้ในบริบทวรรณกรรมและวิชาการ",
+        "synonyms_en": [
+          "proximity",
+          "closeness"
+        ],
+        "synonyms_thai": [
+          "ความเสมอกันด้วยจิตใจ, การใกล้ชิดทางอารมณ์"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Enfranchisement",
+    "concept_thai": "การให้สิทธิเลือกตั้ง, การปลดปล่อยทาส",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "free",
+        "pos": "adjective",
+        "thai": "เสรี, อิสระ",
+        "example": "He is now free from prison.",
+        "example_thai": "เขาปัจจุบันเสรีจากเรือนจำ",
+        "explanation_thai": "คำพื้นฐานที่ใช้บ่งชี้สถานะการไม่เป็นทาสหรือเป็นอิสระ เป็นคำทั่วไปใช้ในสถานการณ์ต่างๆ",
+        "synonyms_en": [
+          "liberated",
+          "released"
+        ],
+        "synonyms_thai": [
+          "ปลดปล่อย, ไม่ถูกจำกัด"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "emancipation",
+        "pos": "noun",
+        "thai": "การปลดปล่อย, การเอาอำนาจออกไป",
+        "example": "The emancipation of slaves was a major event in American history.",
+        "example_thai": "การปลดปล่อยทาสเป็นเหตุการณ์สำคัญในประวัติศาสตร์อเมริกา",
+        "explanation_thai": "คำนามที่ใช้บ่งชี้การปลดปล่อยหรือเอาสิทธิ์ในการทำตัวเป็นอิสระ ใช้ในบริบทอิสระทางกฎหมาย",
+        "synonyms_en": [
+          "liberation",
+          "freedom"
+        ],
+        "synonyms_thai": [
+          "การเสรีภาพ, การอิสระ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "franchise",
+        "pos": "noun",
+        "thai": "สิทธิเลือกตั้ง, สิทธิในการโหวต",
+        "example": "Women fought for the right to franchise in the early 20th century.",
+        "example_thai": "สตรีต่อสู้เพื่อสิทธิเลือกตั้งในช่วงต้นศตวรรษที่ยี่สิบ",
+        "explanation_thai": "คำนามที่ใช้บ่งชี้สิทธิในการเลือกตั้งและการมีส่วนร่วมทางการเมือง ใช้ในบริบทประวัติศาสตร์และการเมือง",
+        "synonyms_en": [
+          "suffrage",
+          "voting right"
+        ],
+        "synonyms_thai": [
+          "สิทธิจำกำหนด, สิทธิโหวต"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "enfranchisement",
+        "pos": "noun",
+        "thai": "การให้สิทธิเลือกตั้ง, การปลดปล่อยและให้เสรีภาพ",
+        "example": "The enfranchisement of marginalized groups has been a long struggle in democratic societies.",
+        "example_thai": "การให้สิทธิเลือกตั้งแก่กลุ่มส่วนน้อยเป็นการต่อสู้ที่ยาวนานในสังคมประชาธิปไตย",
+        "explanation_thai": "คำนามระดับสูงที่เน้นการให้สิทธิในการเลือกตั้งและการตัดสินใจในเรื่องการเมือง โดยอาจรวมถึงการปลดปล่อยทาสด้วย ใช้ในบริบทประวัติศาสตร์ และการเมือง",
+        "synonyms_en": [
+          "franchise",
+          "suffrage"
+        ],
+        "synonyms_thai": [
+          "การให้เสรีภาพและสิทธิเลือกตั้ง, การมอบสิทธิ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Lassitude",
+    "concept_thai": "ความเหนื่อยล้า, ความหดหู่",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "tired",
+        "pos": "adjective",
+        "thai": "เหนื่อย, ร้อน",
+        "example": "I am tired after working all day.",
+        "example_thai": "ฉันเหนื่อยหลังจากทำงานตลอดวัน",
+        "explanation_thai": "คำพื้นฐานที่ใช้บ่งชี้สภาพร่างกายหรือจิตใจที่เหนื่อย เป็นคำทั่วไปใช้ในสถานการณ์ต่างๆ",
+        "synonyms_en": [
+          "exhausted",
+          "weary"
+        ],
+        "synonyms_thai": [
+          "พิ่นเพ็บ, เหนื่อยหัวใจ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "fatigue",
+        "pos": "noun",
+        "thai": "ความเหนื่อยล้า, ความอ่อนแรง",
+        "example": "The fatigue from the long journey made me sleep immediately.",
+        "example_thai": "ความเหนื่อยล้าจากการเดินทางไกลทำให้ฉันหลับลงทันที",
+        "explanation_thai": "คำนามที่เน้นความเหนื่อยล้าทั้งทางกายและใจ ใช้ในบริบทการทำงาน และการเดินทาง",
+        "synonyms_en": [
+          "exhaustion",
+          "weariness"
+        ],
+        "synonyms_thai": [
+          "ความหดหู่, ความอ่อนแรง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "enervation",
+        "pos": "noun",
+        "thai": "ความอ่อนไหว, การสูญเสียพลัง",
+        "example": "The enervation caused by the illness made it difficult for him to get out of bed.",
+        "example_thai": "การสูญเสียพลังจากโรคทำให้เขาลำบากในการลุกออกจากเตียง",
+        "explanation_thai": "คำนามที่เน้นการสูญเสียพลังและความอ่อนแรง อาจมาจากการเจ็บป่วยหรือภาวะจิตใจ ใช้ในบริบทที่เป็นทางการมากกว่า fatigue",
+        "synonyms_en": [
+          "debilitation",
+          "weakness"
+        ],
+        "synonyms_thai": [
+          "ความเสื่อม, การสูญเสียแรง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "lassitude",
+        "pos": "noun",
+        "thai": "ความเหนื่อยล้าลงลึก, ความหดหู่และเซื่องซ่า",
+        "example": "A sense of lassitude pervaded the organization after the failed merger.",
+        "example_thai": "ความเหนื่อยล้าและหดหู่ครอบคลุมองค์กรหลังจากการควบรวมกิจการที่ล้มเหลว",
+        "explanation_thai": "คำนามระดับสูงที่เน้นความเหนื่อยล้าในระดับลึกลง รวมถึงความหดหู่และการสูญเสียแรงจูงใจ ใช้ในบริบทวรรณกรรมและการวิเคราะห์อารมณ์",
+        "synonyms_en": [
+          "languor",
+          "listlessness"
+        ],
+        "synonyms_thai": [
+          "ความหดหู่เซื่องซ่า, การสูญเสียสัตยา"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Indignation",
+    "concept_thai": "ความโกรธจากการไม่ยุติธรรม",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "angry",
+        "pos": "adjective",
+        "thai": "โกรธ, ห怒",
+        "example": "She was angry when he lied to her.",
+        "example_thai": "เธอโกรธเมื่อเขาโกหกเธอ",
+        "explanation_thai": "คำขั้นพื้นฐานที่แสดงความรู้สึกโกรธทั่วไป ใช้สำหรับทุกสถานการณ์ที่เรารู้สึกไม่พอใจ",
+        "synonyms_en": [
+          "mad",
+          "upset"
+        ],
+        "synonyms_thai": [
+          "กำลังจะพุ่งออกมา",
+          "ไม่พอใจ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "resentment",
+        "pos": "noun",
+        "thai": "ความขุ่นเคืองจากการถูกปฏิบัติไม่ยุติธรรม",
+        "example": "He felt resentment towards his boss for the unfair promotion decision.",
+        "example_thai": "เขารู้สึกขุ่นเคืองต่อเจ้านายของเขาเพราะการตัดสินใจเลื่อนตำแหน่งที่ไม่ยุติธรรม",
+        "explanation_thai": "คำนี้เน้นความรู้สึกขุ่นเคืองที่ตัวตนถูกปฏิบัติไม่เป็นธรรม มีลักษณะลึกซึ้งและหนาแน่นกว่า angry",
+        "synonyms_en": [
+          "bitterness",
+          "grievance"
+        ],
+        "synonyms_thai": [
+          "ความขมขื่น",
+          "ความไม่พอใจที่ยั่งยืน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "indignation",
+        "pos": "noun",
+        "thai": "ความโกรธจากการถูกดูหมิ่น/ไม่ยุติธรรม",
+        "example": "The public expressed their indignation at the government's corruption.",
+        "example_thai": "สาธารณชนแสดงความโกรธจากการทุจริตของรัฐบาล",
+        "explanation_thai": "คำนี้หมายถึงความโกรธที่เกิดจากการถูกดูหมิ่นหรือจากความไม่ยุติธรรมที่ชัดเจน มีน้ำหนักทางศีลธรรมที่สำคัญ",
+        "synonyms_en": [
+          "righteous anger",
+          "displeasure"
+        ],
+        "synonyms_thai": [
+          "ความโกรธที่ชอบธรรม",
+          "ความไม่เห็นด้วยอย่างสุดซึ้ง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "umbrage",
+        "pos": "noun",
+        "thai": "ความรู้สึกถูกดูหมิ่นหรือสงสัยท่าทีคนอื่น",
+        "example": "He took umbrage at her casual remark about his appearance.",
+        "example_thai": "เขารู้สึกถูกดูหมิ่นจากความเห็นเพียงเท่านั้นของเธอเกี่ยวกับรูปลักษณ์ของเขา",
+        "explanation_thai": "คำนี้ใช้สำหรับความรู้สึกถูกดูหมิ่นที่มักจะรู้สึกว่าการกระทำเป็นการไม่ให้ความเคารพ แม้ว่าอาจไม่ได้มีจริงก็ตาม เป็นคำที่ใช้ในบริบทราชการหรือการปกครอง",
+        "synonyms_en": [
+          "offense",
+          "affront"
+        ],
+        "synonyms_thai": [
+          "การดูหมิ่น",
+          "การไม่ให้ความเคารพ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Hesitation",
+    "concept_thai": "การลังเล",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "doubt",
+        "pos": "noun",
+        "thai": "ความสงสัย, การไม่แน่ใจ",
+        "example": "I have doubt about whether he will come or not.",
+        "example_thai": "ฉันสงสัยว่าเขาจะมาหรือไม่",
+        "explanation_thai": "คำพื้นฐานที่แสดงความไม่มั่นใจ หรือความรู้สึกว่าบางสิ่งอาจไม่เป็นจริง",
+        "synonyms_en": [
+          "uncertainty",
+          "question"
+        ],
+        "synonyms_thai": [
+          "ความไม่แน่นอน",
+          "ความสงสัย"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "hesitate",
+        "pos": "verb",
+        "thai": "ลังเล, หยุดชั่ว ก่อนทำสิ่งใดสิ่งหนึ่ง",
+        "example": "She hesitated before answering the difficult question.",
+        "example_thai": "เธอลังเลก่อนที่จะตอบคำถามที่ยาก",
+        "explanation_thai": "คำนี้หมายถึงการหยุดชั่วคราวเพราะความไม่แน่ใจหรือความกลัว มีความหมายแบบพฤติกรรมที่สามารถสังเกตได้",
+        "synonyms_en": [
+          "pause",
+          "waver"
+        ],
+        "synonyms_thai": [
+          "พักไว้",
+          "เสียท่าทาง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "reluctance",
+        "pos": "noun",
+        "thai": "ความไม่เต็มใจ, ความไม่ชอบที่จะทำสิ่งใดสิ่งหนึ่ง",
+        "example": "Despite her reluctance, she agreed to attend the meeting.",
+        "example_thai": "แม้จะไม่เต็มใจ แต่เธอยอมรับที่จะเข้าร่วมการประชุม",
+        "explanation_thai": "คำนี้หมายถึงความไม่อยากทำบางสิ่ง มีความเกี่ยวข้องกับความรู้สึกติดขัดระหว่างสิ่งที่ต้องทำกับสิ่งที่ไม่อยากทำ",
+        "synonyms_en": [
+          "unwillingness",
+          "disinclination"
+        ],
+        "synonyms_thai": [
+          "ความไม่ประสงค์",
+          "ความไม่สมัครใจ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "vacillation",
+        "pos": "noun",
+        "thai": "การลังเลโลเล, การเปลี่ยนใจบ่อยครั้ง",
+        "example": "His constant vacillation between two job offers frustrated his family.",
+        "example_thai": "การลังเลโลเลของเขาระหว่างสองข้อเสนอตำแหน่งทำให้ครอบครัวของเขาหงุดหงิด",
+        "explanation_thai": "คำนี้หมายถึงการลังเลเพื่อเปลี่ยนใจซ้ำแล้วซ้ำเล่า แสดงถึงความไม่สามารถตัดสินใจได้อย่างแก่นแท้",
+        "synonyms_en": [
+          "wavering",
+          "indecisiveness"
+        ],
+        "synonyms_thai": [
+          "การเปลี่ยนมติ",
+          "ความลังเลเพลิงแพลง"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Cleverness",
+    "concept_thai": "ความชาญฉลาด",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "smart",
+        "pos": "adjective",
+        "thai": "ฉลาด, ชาญฉลาด",
+        "example": "He is a smart student who always gets good grades.",
+        "example_thai": "เขาเป็นนักเรียนที่ฉลาดและได้เกรดดีเสมอ",
+        "explanation_thai": "คำพื้นฐานที่แสดงความสามารถทางปัญญาในระดับทั่วไป ใช้ได้กับทั้งเด็กและผู้ใหญ่",
+        "synonyms_en": [
+          "intelligent",
+          "clever"
+        ],
+        "synonyms_thai": [
+          "อัจฉริยะ",
+          "เฉลียวฉลาด"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "cunning",
+        "pos": "adjective",
+        "thai": "ฉลาด (ในการหลอก), เจ้าเล่ห์",
+        "example": "The cunning fox managed to escape from the hunter.",
+        "example_thai": "สุนัขจิ้งจอกที่เจ้าเล่หซึ่งสามารถหลบหนีจากผู้ล่าได้",
+        "explanation_thai": "คำนี้หมายถึงความชาญฉลาดในการหลอกหรือทำให้ใครตกใจ มีลักษณะที่ไม่ค่อยจริงใจ",
+        "synonyms_en": [
+          "sly",
+          "crafty"
+        ],
+        "synonyms_thai": [
+          "พิศวาส",
+          "เจ้าเล่ห์ประเสาะ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "astute",
+        "pos": "adjective",
+        "thai": "ฉลาด (ในการตัดสินใจ), เฉียบแหลม",
+        "example": "The astute businessman made a profitable investment decision.",
+        "example_thai": "นักธุรกิจที่เฉียบแหลมได้ตัดสินใจลงทุนอย่างมีกำไร",
+        "explanation_thai": "คำนี้หมายถึงความชาญฉลาดในการให้คำปรึกษาหรือการตัดสินใจ โดยมีการวิเคราะห์อย่างลึกซึ้ง",
+        "synonyms_en": [
+          "shrewd",
+          "perceptive"
+        ],
+        "synonyms_thai": [
+          "ไหวพริบ",
+          "ทำความเข้าใจแบบลึก"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "sagacity",
+        "pos": "noun",
+        "thai": "ความชาญฉลาดและสามารถจำแนกได้",
+        "example": "Her sagacity in solving complex problems was widely recognized.",
+        "example_thai": "ความชาญฉลาดของเธอในการแก้ปัญหาที่ซับซ้อนได้รับการยอมรับอย่างกว้างขวาง",
+        "explanation_thai": "คำนี้หมายถึงความชาญฉลาดที่เกี่ยวข้องกับสติปัญญาเชิงลึก ความรู้ และประสบการณ์ที่ใช้ในการตัดสินใจที่ดี",
+        "synonyms_en": [
+          "wisdom",
+          "discernment"
+        ],
+        "synonyms_thai": [
+          "ปัญญา",
+          "การแยกแยะได้ดี"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Communication",
+    "concept_thai": "การสื่อสาร",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "talk",
+        "pos": "verb",
+        "thai": "พูด, คุยกัน",
+        "example": "They talk every day on the phone.",
+        "example_thai": "พวกเขาพูดคุยกันทุกวันทางโทรศัพท์",
+        "explanation_thai": "คำพื้นฐานที่หมายถึงการใช้คำพูดเพื่อสื่อสาร ใช้ในบริบทประจำวัน",
+        "synonyms_en": [
+          "speak",
+          "chat"
+        ],
+        "synonyms_thai": [
+          "พูดคุย",
+          "คุยกัน"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "communicate",
+        "pos": "verb",
+        "thai": "สื่อสาร, ถ่ายทอด",
+        "example": "It's important to communicate your ideas clearly.",
+        "example_thai": "สิ่งสำคัญคือการสื่อสารแนวคิดของคุณอย่างชัดเจน",
+        "explanation_thai": "คำนี้หมายถึงการส่งหรือรับข้อมูล ความคิด หรือความรู้สึกระหว่างคนสองคนหรือมากกว่า",
+        "synonyms_en": [
+          "convey",
+          "share"
+        ],
+        "synonyms_thai": [
+          "ถ่ายทอด",
+          "แบ่งปัน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "discourse",
+        "pos": "noun",
+        "thai": "การสนทนา, บทสัมภาษณ์อย่างเป็นทางการ",
+        "example": "The two scholars engaged in an intellectual discourse about philosophy.",
+        "example_thai": "นักวิชาการทั้งสองคนเข้าร่วมการสนทนาทางปัญญาเกี่ยวกับปรัชญา",
+        "explanation_thai": "คำนี้หมายถึงการสนทนาหรือการแลกเปลี่ยนความคิดในลักษณะเป็นทางการ มักใช้ในบริบททางวิชาการหรือทางการ",
+        "synonyms_en": [
+          "dialogue",
+          "discussion"
+        ],
+        "synonyms_thai": [
+          "สนทนา",
+          "การอภิปราย"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "elocution",
+        "pos": "noun",
+        "thai": "ศิลปะการพูด, การวิทยาบรรยาย",
+        "example": "His elocution was so compelling that the entire audience sat in silence.",
+        "example_thai": "ศิลปะการพูดของเขาน่าสนใจจนผู้ชมทั้งหมดนั่งอย่างเงียบสงบ",
+        "explanation_thai": "คำนี้หมายถึงความสามารถในการพูดอย่างมีระเบียบ ชัดเจน และน่าสนใจ เน้นทั้งเทคนิคและศิลปะของการพูด",
+        "synonyms_en": [
+          "oratory",
+          "rhetoric"
+        ],
+        "synonyms_thai": [
+          "การวิทยาบรรยาย",
+          "การใช้คำพูดชวนใจ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Accuracy",
+    "concept_thai": "ความถูกต้อง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "right",
+        "pos": "adjective",
+        "thai": "ถูกต้อง, เที่ยง",
+        "example": "She gave the right answer to the question.",
+        "example_thai": "เธอให้คำตอบที่ถูกต้องสำหรับคำถาม",
+        "explanation_thai": "คำพื้นฐานที่แสดงว่าบางสิ่งเป็นไปตามที่ถูกต้องหรือสม่ำเสมอกับความเป็นจริง",
+        "synonyms_en": [
+          "correct",
+          "true"
+        ],
+        "synonyms_thai": [
+          "เที่ยง",
+          "เป็นความจริง"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "accurate",
+        "pos": "adjective",
+        "thai": "ถูกต้องแม่นยำ, เที่ยงตรง",
+        "example": "The report contains accurate information about the incident.",
+        "example_thai": "รายงานมีข้อมูลที่ถูกต้องแม่นยำเกี่ยวกับเหตุการณ์",
+        "explanation_thai": "คำนี้หมายถึงความสอดคล้องอย่างแนบเนียนกับความเป็นจริง โดยลดความคลาดเคลื่อนและข้อผิดพลาด",
+        "synonyms_en": [
+          "precise",
+          "exact"
+        ],
+        "synonyms_thai": [
+          "แม่นยำ",
+          "ตรงกัน"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "precision",
+        "pos": "noun",
+        "thai": "ความแม่นยำ, ความเที่ยงตรง",
+        "example": "The surgeon performed the operation with great precision.",
+        "example_thai": "ศัลยแพทย์ทำการผ่าตัดด้วยความแม่นยำสูง",
+        "explanation_thai": "คำนี้หมายถึงความแม่นยำ ซึ่งเน้นถึงระดับของความถูกต้องและการลดข้อผิดพลาด มักใช้ในบริบทเทคนิคหรือวิทยาศาสตร์",
+        "synonyms_en": [
+          "accuracy",
+          "exactitude"
+        ],
+        "synonyms_thai": [
+          "ความถูกต้อง",
+          "ความเที่ยง"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "fidelity",
+        "pos": "noun",
+        "thai": "ความซื่อสัตย์ต่อต้นฉบับ, ความถูกต้องตามที่เป็นจริง",
+        "example": "The translation maintains fidelity to the original text.",
+        "example_thai": "การแปลรักษาความถูกต้องตามต้นฉบับ",
+        "explanation_thai": "คำนี้หมายถึงการรักษาความถูกต้องและความสอดคล้องกับต้นฉบับหรือความเป็นจริง โดยเฉพาะในการแปล การส่งสาร หรือการวิทยาศาสตร์",
+        "synonyms_en": [
+          "accuracy",
+          "faithfulness"
+        ],
+        "synonyms_thai": [
+          "ความเที่ยง",
+          "ความซื่อสัตย์"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Disturbance",
+    "concept_thai": "การรบกวน",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "noise",
+        "pos": "noun",
+        "thai": "เสียง, เสียงรบกวน",
+        "example": "The noise from the construction is very loud.",
+        "example_thai": "เสียงจากการก่อสร้างดังมากเลย",
+        "explanation_thai": "คำพื้นฐานที่หมายถึงเสียงที่ไม่พึงประสงค์หรือเสียงดัง ใช้ได้ทั่วไป",
+        "synonyms_en": [
+          "sound",
+          "racket"
+        ],
+        "synonyms_thai": [
+          "เสียงดัง",
+          "เสียงรบกวน"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "disturbance",
+        "pos": "noun",
+        "thai": "การรบกวน, ความวุ่นวายที่เกิดขึ้น",
+        "example": "There was a disturbance at the concert last night.",
+        "example_thai": "มีการรบกวนในการแสดงดนตรีเมื่อคืนที่ผ่านมา",
+        "explanation_thai": "คำนี้หมายถึงการรบกวนหรือการวุ่นวายที่อาจเกี่ยวข้องกับพฤติกรรมของคน หรือเหตุการณ์ที่ไม่คาดคิด",
+        "synonyms_en": [
+          "disruption",
+          "commotion"
+        ],
+        "synonyms_thai": [
+          "ความวุ่นวาย",
+          "การขัดจังหวะ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "perturbation",
+        "pos": "noun",
+        "thai": "ความวุ่นวาย, ความถูกรบกวนจิตใจ",
+        "example": "The sudden announcement caused great perturbation among the staff.",
+        "example_thai": "ประกาศเฉพาะหน้าทำให้พนักงานรู้สึกวุ่นวายอย่างมาก",
+        "explanation_thai": "คำนี้หมายถึงความวุ่นวายหรือความกระสับกระส่ายของจิตใจ โดยมีส่วนเกี่ยวข้องกับการเปลี่ยนแปลงหรือความไม่ชัดเจน",
+        "synonyms_en": [
+          "disruption",
+          "agitation"
+        ],
+        "synonyms_thai": [
+          "ความกระสับกระส่าย",
+          "ความวุ่นวาย"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "turbulence",
+        "pos": "noun",
+        "thai": "ความวุ่นวาย, ความไม่สงบ, ความกระเทือน",
+        "example": "The economic turbulence affected the stock market significantly.",
+        "example_thai": "ความไม่สงบทางเศรษฐกิจส่งผลกระทบต่อตลาดหุ้นอย่างมีนัยสำคัญ",
+        "explanation_thai": "คำนี้หมายถึงสภาวะที่ไม่สงบ ไม่เสถียร หรือเต็มไปด้วยการเปลี่ยนแปลง มักใช้ในบริบทเศรษฐกิจ การบิน หรือเหตุการณ์ต่างๆ",
+        "synonyms_en": [
+          "turbidity",
+          "disruption"
+        ],
+        "synonyms_thai": [
+          "ความไม่สงบ",
+          "ความวุ่นวาย"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Accumulation",
+    "concept_thai": "การสะสม",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "collect",
+        "pos": "verb",
+        "thai": "เก็บรวม, รวบรวม",
+        "example": "She collects stamps as a hobby.",
+        "example_thai": "เธอเก็บแสตมป์เป็นงานอดิเรก",
+        "explanation_thai": "คำพื้นฐานที่หมายถึงการนำสิ่งของมารวมกัน มักใช้สำหรับการรวบรวมของที่ชื่นชอบ",
+        "synonyms_en": [
+          "gather",
+          "assemble"
+        ],
+        "synonyms_thai": [
+          "รวม",
+          "ประกอบ"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "accumulate",
+        "pos": "verb",
+        "thai": "สะสม, สั่งสม",
+        "example": "Dust accumulated on the shelves over time.",
+        "example_thai": "ฝุ่นสะสมบนชั้นวางเมื่อเวลาผ่านไป",
+        "explanation_thai": "การสะสมที่ค่อยเป็นไปตามธรรมชาติหรือเพื่อเพิ่มจำนวน มากขึ้น ใช้ได้ทั้งสิ่งที่เป็นรูปธรรมและนามธรรม",
+        "synonyms_en": [
+          "build up",
+          "pile up"
+        ],
+        "synonyms_thai": [
+          "สั่งสม",
+          "เพิ่มมากขึ้น"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "amass",
+        "pos": "verb",
+        "thai": "สะสมเป็นจำนวนมาก, เก็บสะสม",
+        "example": "He amassed a fortune through years of hard work.",
+        "example_thai": "เขาสะสมสมบัติจากการทำงานหนักมาหลายปี",
+        "explanation_thai": "การสะสมในปริมาณมากพอสมควร โดยเฉพาะเมื่อพูดถึงความมั่งคั่งหรือความรู้ เป็นคำที่เป็นทางการกว่า accumulate",
+        "synonyms_en": [
+          "hoard",
+          "stockpile"
+        ],
+        "synonyms_thai": [
+          "สะสม",
+          "เก็บไว้"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "agglomerate",
+        "pos": "verb",
+        "thai": "รวมกลุ่มกันเป็นมวลเดียว, เชื่อมรวมกัน",
+        "example": "Various small companies agglomerated to form a larger corporation.",
+        "example_thai": "บริษัทเล็กๆ หลายแห่งรวมกลุ่มกันเพื่อสร้างบริษัทขนาดใหญ่",
+        "explanation_thai": "การรวมตัวกันเป็นมวลเดียวหรือกลุ่ม มักใช้ในบริบทที่เป็นทางการและวิทยาศาสตร์ ระดับความเป็นทางการสูงที่สุด",
+        "synonyms_en": [
+          "conglomerate",
+          "consolidate"
+        ],
+        "synonyms_thai": [
+          "รวมตัว",
+          "รวมวง"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Exhaustion",
+    "concept_thai": "ความเหนื่อยล้า",
+    "levels": [
+      {
+        "cefr": "A1",
+        "word": "tired",
+        "pos": "adjective",
+        "thai": "เหนื่อย, อ่อนเพลีย",
+        "example": "I am very tired after a long day at work.",
+        "example_thai": "ฉันเหนื่อยมากหลังจากวันทำงานที่ยาว",
+        "explanation_thai": "ความเหนื่อยและสภาวะอ่อนแรงพื้นฐาน ใช้บ่อยในการสื่อสารประจำวัน",
+        "synonyms_en": [
+          "weary",
+          "fatigued"
+        ],
+        "synonyms_thai": [
+          "อ่อนเพลีย",
+          "เม็ดหนึ่ง"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "exhausted",
+        "pos": "adjective",
+        "thai": "ล้มเหลว, หมดแรง, หมดสิ้น",
+        "example": "He was completely exhausted after running a marathon.",
+        "example_thai": "เขาหมดแรงไปเสียแล้วหลังจากวิ่งมาราธอน",
+        "explanation_thai": "ความเหนื่อยล้าที่รุนแรง สมบูรณ์และให้ผลกระทบต่อการทำงาน",
+        "synonyms_en": [
+          "drained",
+          "spent"
+        ],
+        "synonyms_thai": [
+          "หมดแรง",
+          "ไม่มีกำลัง"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "enervation",
+        "pos": "noun",
+        "thai": "ความอ่อนแรง, ความหลอมเหลว",
+        "example": "The enervation caused by the illness prevented him from working.",
+        "example_thai": "ความอ่อนแรงที่เกิดจากโรคป้องกันไม่ให้เขาทำงาน",
+        "explanation_thai": "ความเหนื่อยล้าที่เรื้อรังและลึกซึ้ง มักเกี่ยวข้องกับการเจ็บป่วยหรือสภาวะทางกายภาพ",
+        "synonyms_en": [
+          "debilitation",
+          "weakness"
+        ],
+        "synonyms_thai": [
+          "ความอ่อนไม่",
+          "ความวินัยพินาศ"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "lassitude",
+        "pos": "noun",
+        "thai": "ความเหนื่อยล้า, ความชักช้า, ความเมื่อยหนายจิตใจ",
+        "example": "A profound lassitude had settled over the country after years of war.",
+        "example_thai": "ความเหนื่อยล้าลึกซึ้งครอบงำประเทศหลังจากสงครามมาหลายปี",
+        "explanation_thai": "ความเหนื่อยล้าและความไม่มีแรงจูงใจที่ลึกซึ้งทั้งทางร่างกายและจิตใจ มักใช้ในบริบทที่เป็นทางการและวรรณกรรม",
+        "synonyms_en": [
+          "languor",
+          "listlessness"
+        ],
+        "synonyms_thai": [
+          "ความเกียจคร้าน",
+          "ความไม่สนใจ"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Concealment",
+    "concept_thai": "การซ่อนเซน",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "hide",
+        "pos": "verb",
+        "thai": "ซ่อน, เสพ, บัง",
+        "example": "The child hid his toy under the bed.",
+        "example_thai": "เด็กคนนั้นซ่อนของเล่นของเขาไว้ใต้เตียง",
+        "explanation_thai": "คำพื้นฐานสำหรับการซ่อนสิ่งของหรือบ่อนสิ่งที่มองเห็น ใช้ได้กับการซ่อนสิ่งของจริงหรือนามธรรม",
+        "synonyms_en": [
+          "conceal",
+          "cover up"
+        ],
+        "synonyms_thai": [
+          "บัง",
+          "ปกปิด"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "conceal",
+        "pos": "verb",
+        "thai": "ปกปิด, ซ่อนเร้น",
+        "example": "She tried to conceal her anger but failed.",
+        "example_thai": "เธอพยายามปกปิดความโกรธของเธอ แต่ไม่สำเร็จ",
+        "explanation_thai": "การซ่อนหรือปกปิดที่มีเจตนาและเป็นเรื่องตั้งใจ มักใช้กับความรู้สึกหรือข้อมูล",
+        "synonyms_en": [
+          "hide",
+          "suppress"
+        ],
+        "synonyms_thai": [
+          "ซ่อน",
+          "กดทับ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "secrecy",
+        "pos": "noun",
+        "thai": "ความลับ, การเก็บความลับ",
+        "example": "The project was developed in strict secrecy.",
+        "example_thai": "โครงการนั้นถูกพัฒนาด้วยการเก็บความลับอย่างเข้มงวด",
+        "explanation_thai": "สภาวะของการปกปิดหรือความลับ ไม่เพียงแต่การกระทำของการซ่อนเพียงอย่างเดียว แต่เป็นการรักษาสภาวะของการเก็บความลับ",
+        "synonyms_en": [
+          "confidentiality",
+          "privacy"
+        ],
+        "synonyms_thai": [
+          "ความเป็นส่วนตัว",
+          "ความลับราคะ"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "obfuscation",
+        "pos": "noun",
+        "thai": "การทำให้คลุมเครือ, การปกปิดให้ซับซ้อน",
+        "example": "The deliberate obfuscation of facts led to widespread confusion.",
+        "example_thai": "การทำให้ข้อเท็จจริงคลุมเครือโดยเจตนาทำให้เกิดความสับสนอย่างแพร่หลาย",
+        "explanation_thai": "การซ่อนหรือปกปิดข้อมูลโดยการทำให้มันสับสนหรือซับซ้อน เป็นการซ่อนแบบมีกลวิธี ใช้ในบริบทที่เป็นทางการและโลกการเมือง",
+        "synonyms_en": [
+          "mystification",
+          "obumbration"
+        ],
+        "synonyms_thai": [
+          "การทำให้ลึกลับ",
+          "การทำให้มืด"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Sophistication",
+    "concept_thai": "ความเซียน, ความวิวัฒนา",
+    "levels": [
+      {
+        "cefr": "B1",
+        "word": "sophisticated",
+        "pos": "adjective",
+        "thai": "เซียน, ซับซ้อน, หลักแหลม",
+        "example": "She has sophisticated taste in art and music.",
+        "example_thai": "เธอมีรสนิยมที่เซียนในงานศิลป์และดนตรี",
+        "explanation_thai": "คุณสมบัติของการมีความรู้และรสนิยมที่สูง มักใช้บ่อยในระดับ B ขึ้นไป",
+        "synonyms_en": [
+          "refined",
+          "cultured"
+        ],
+        "synonyms_thai": [
+          "สูงมีระดับ",
+          "มีวัฒนะ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "nuance",
+        "pos": "noun",
+        "thai": "เนื้องแน้น, ความหลากหลายละเอียด",
+        "example": "The novel is filled with nuance and complexity.",
+        "example_thai": "นวนิยายเต็มไปด้วยเนื้องแน้นและความซับซ้อน",
+        "explanation_thai": "ความอ่อนไหว, ความละเอียด และการเข้าใจรายละเอียดที่ซ่อนอยู่ ปกติมีความสัมพันธ์กับการแสดงออกหรือความหมาย",
+        "synonyms_en": [
+          "subtlety",
+          "shade"
+        ],
+        "synonyms_thai": [
+          "ความไหวพริบ",
+          "ความละเอียดอ่อน"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "erudition",
+        "pos": "noun",
+        "thai": "ความรู้ลึก, ความปราชญ์",
+        "example": "His erudition in classical literature was widely respected.",
+        "example_thai": "ความรู้ลึกของเขาในวรรณกรรมคลาสสิกได้รับการเคารพอย่างแพร่หลาย",
+        "explanation_thai": "ความรู้ที่กว้างขวางและลึกซึ้ง โดยเฉพาะด้านการศึกษาและการเรียนรู้ ใช้ในบริบทเชิงวิชาการ",
+        "synonyms_en": [
+          "scholarship",
+          "learning"
+        ],
+        "synonyms_thai": [
+          "ปราชญ์",
+          "การศึกษา"
+        ]
+      },
+      {
+        "cefr": "C2",
+        "word": "perspicacity",
+        "pos": "noun",
+        "thai": "ความฉลาด, ความเข้าใจแยบคายในการตัดสินใจ",
+        "example": "Her perspicacity in business matters earned her a prominent position.",
+        "example_thai": "ความฉลาดเข้าใจแยบคายของเธอในเรื่องธุรกิจทำให้เธอได้ตำแหน่งที่เด่นชัด",
+        "explanation_thai": "ความสามารถในการมองเห็นอย่างชาญฉลาดและเข้าใจได้ลึกซึ้ง มักใช้สำหรับคุณสมบัติของคน ที่มีความเฉียบแหลม",
+        "synonyms_en": [
+          "acuity",
+          "insight"
+        ],
+        "synonyms_thai": [
+          "ไหวพริบ",
+          "ความเข้าใจลึก"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
+  },
+  {
+    "concept": "Authenticity",
+    "concept_thai": "ความแท้จริง",
+    "levels": [
+      {
+        "cefr": "A2",
+        "word": "real",
+        "pos": "adjective",
+        "thai": "แท้จริง, ของจริง",
+        "example": "Is this a real diamond or a fake one?",
+        "example_thai": "นี่เป็นเพชรของจริงหรือเพชรปลอม?",
+        "explanation_thai": "คำพื้นฐานสำหรับการบ่งชี้ว่าสิ่งของนั้นเป็นของจริงไม่ใช่ของปลอม",
+        "synonyms_en": [
+          "genuine",
+          "authentic"
+        ],
+        "synonyms_thai": [
+          "ของจริง",
+          "แท้"
+        ]
+      },
+      {
+        "cefr": "B1",
+        "word": "genuine",
+        "pos": "adjective",
+        "thai": "แท้จริง, ของแท้",
+        "example": "This is a genuine Rolex watch, not a counterfeit.",
+        "example_thai": "นี่คือนาฬิกา Rolex ของแท้ไม่ใช่สินค้าปลอม",
+        "explanation_thai": "คำที่บ่งชี้ความแท้จริงโดยเฉพาะ มักใช้กับสินค้า วัตถุ หรือความรู้สึก",
+        "synonyms_en": [
+          "authentic",
+          "real"
+        ],
+        "synonyms_thai": [
+          "ของแท้",
+          "จริงใจ"
+        ]
+      },
+      {
+        "cefr": "B2",
+        "word": "authenticity",
+        "pos": "noun",
+        "thai": "ความแท้จริง, ความของแท้",
+        "example": "The authenticity of the manuscript was questioned by scholars.",
+        "example_thai": "ความแท้จริงของต้นฉบับถูกตั้งคำถามโดยนักวิชาการ",
+        "explanation_thai": "คุณสมบัติของการเป็นแท้จริง มักใช้ในบริบทที่สำคัญเช่นศิลปะ, วรรณกรรม, หรือเอกสารประวัติศาสตร์",
+        "synonyms_en": [
+          "genuineness",
+          "verity"
+        ],
+        "synonyms_thai": [
+          "ของแท้",
+          "ความจริงแท้"
+        ]
+      },
+      {
+        "cefr": "C1",
+        "word": "veracity",
+        "pos": "noun",
+        "thai": "ความจริงใจ, ความถูกต้องในการพูด",
+        "example": "The veracity of his testimony was crucial to the case.",
+        "example_thai": "ความจริงใจของการให้การของเขามีความสำคัญต่อคดีนี้",
+        "explanation_thai": "คุณสมบัติของการพูดความจริงและความแม่นยำ มักใช้ในบริบทกฎหมายหรือจริยธรรม",
+        "synonyms_en": [
+          "truthfulness",
+          "accuracy"
+        ],
+        "synonyms_thai": [
+          "ความจริงใจ",
+          "ความถูกต้อง"
+        ]
+      }
+    ],
+    "date_added": "2026-11-28"
   }
 ]
